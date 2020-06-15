@@ -4,6 +4,14 @@
 
 [Chat on Discord](https://discord.gg/CG8HwGv)
 
+## Progress
+
+Has not been playtested yet.
+
+Only some technique types have content, and even then, they do not have content for extra-long campaigns.
+
+No enemy stats yet.
+
 ## Technical Details
 
 The text is stored in [core.md](/core.md), which is intended to be converted to other formats through [pandoc](https://pandoc.org/). It is possible to read [core.md](/core.md) as-is.
