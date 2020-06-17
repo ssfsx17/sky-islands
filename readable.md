@@ -1,189 +1,180 @@
----
-author:
-- by XcessiveNinja17
-date: '[Official Discord space](https://discord.gg/CG8HwGv)'
-title: Sky Islands
----
-
--   [1. Introduction](#introduction)
-    -   [Group Organization](#group-organization)
-    -   [The World](#the-world)
-    -   [The Empire](#the-empire)
-    -   [The Blended Realm](#the-blended-realm)
--   [2. Your Island](#your-island)
-    -   [Creation of the Island](#creation-of-the-island)
-        -   [Island Statistics](#island-statistics)
-        -   [Island Government](#island-government)
--   [3. Player Characters](#player-characters)
-    -   [Traits](#traits)
-    -   [Defining Yourself In Terms Of Your
+  - [1. Introduction](#introduction)
+      - [Group Organization](#group-organization)
+      - [The World](#the-world)
+      - [The Empire](#the-empire)
+      - [The Blended Realm](#the-blended-realm)
+  - [2. Your Island](#your-island)
+      - [Creation of the Island](#creation-of-the-island)
+          - [Island Statistics](#island-statistics)
+          - [Island Government](#island-government)
+  - [3. Player Characters](#player-characters)
+      - [Traits](#traits)
+      - [Defining Yourself In Terms Of Your
         Island](#defining-yourself-in-terms-of-your-island)
-    -   [The Empire Fails To Define
+      - [The Empire Fails To Define
         You](#the-empire-fails-to-define-you)
-    -   [Stats](#stats)
-        -   [Where are Strength, Intelligence,
+      - [Stats](#stats)
+          - [Where are Strength, Intelligence,
             etc.?](#where-are-strength-intelligence-etc.)
-    -   [Skills](#skills)
-    -   [Combat Gear](#combat-gear)
-    -   [Power Levels](#power-levels)
--   [4. Character Skills](#character-skills)
-    -   [Skill Categories & Skill
+      - [Skills](#skills)
+      - [Combat Gear](#combat-gear)
+      - [Power Levels](#power-levels)
+  - [4. Character Skills](#character-skills)
+      - [Skill Categories & Skill
         Descriptions](#skill-categories-skill-descriptions)
-    -   [Armor Training Group](#armor-training-group)
-        -   [Unarmored](#unarmored)
-            -   [Rating 1](#rating-1)
-            -   [Rating 20](#rating-20)
-            -   [Rating 40](#rating-40)
-            -   [Rating 60](#rating-60)
-        -   [Shields](#shields)
-        -   [Light Armor](#light-armor)
-        -   [Heavy Armor](#heavy-armor)
-        -   [Magic Armor](#magic-armor)
-    -   [Weapon Training Group](#weapon-training-group)
-        -   [Barehanded](#barehanded)
-        -   [One-Handed Melee Weapons](#one-handed-melee-weapons)
-        -   [Two-Handed Melee Weapons](#two-handed-melee-weapons)
-        -   [One-Handed Reach Weapons](#one-handed-reach-weapons)
-        -   [Two-Handed Reach Weapons](#two-handed-reach-weapons)
-        -   [One-Handed Ranged Weapons](#one-handed-ranged-weapons)
-        -   [Two-Handed Ranged Weapons](#two-handed-ranged-weapons)
-    -   [Magical Techniques Group](#magical-techniques-group)
-        -   [Alchemy Techs](#alchemy-techs)
-            -   [Rating 1](#rating-1-1)
-            -   [Rating 5](#rating-5)
-            -   [Rating 10](#rating-10)
-            -   [Rating 15](#rating-15)
-            -   [Rating 20](#rating-20-1)
-            -   [Rating 25](#rating-25)
-            -   [Rating 35](#rating-35)
-        -   [Elemental Techs](#elemental-techs)
-            -   [Rating 1](#rating-1-2)
-            -   [Rating 5](#rating-5-1)
-            -   [Rating 10](#rating-10-1)
-            -   [Rating 15](#rating-15-1)
-            -   [Rating 20](#rating-20-2)
-            -   [Rating 25](#rating-25-1)
-            -   [Rating 30](#rating-30)
-            -   [Rating 35](#rating-35-1)
-        -   [Hexenkraft Techs](#hexenkraft-techs)
-            -   [Rating 1](#rating-1-3)
-            -   [Rating 5](#rating-5-2)
-            -   [Rating 10](#rating-10-2)
-            -   [Rating 15](#rating-15-2)
-            -   [Rating 20](#rating-20-3)
-        -   [Martial Techs](#martial-techs)
-            -   [Rating 1](#rating-1-4)
-            -   [Rating 5](#rating-5-3)
-            -   [Rating 10](#rating-10-3)
-            -   [Rating 15](#rating-15-3)
-            -   [Rating 20](#rating-20-4)
-        -   [Summoning Techs](#summoning-techs)
-            -   [Rating 1](#rating-1-5)
-        -   [Weapon Melee Techs](#weapon-melee-techs)
-            -   [Rating 1](#rating-1-6)
-            -   [Rating 5](#rating-5-4)
-            -   [Rating 10](#rating-10-4)
-            -   [Rating 15](#rating-15-4)
-            -   [Rating 20](#rating-20-5)
-        -   [Weapon Ranged Techs](#weapon-ranged-techs)
-            -   [Rating 1](#rating-1-7)
-            -   [Rating 5](#rating-5-5)
-            -   [Rating 10](#rating-10-5)
-            -   [Rating 15](#rating-15-5)
-    -   [Linear Tactics Group](#linear-tactics-group)
-        -   [Rampart Aura](#rampart-aura)
-            -   [Rating 1](#rating-1-8)
-            -   [Rating 20](#rating-20-6)
-            -   [Rating 40](#rating-40-1)
-            -   [Rating 60](#rating-60-1)
-        -   [Shield Wall](#shield-wall)
-            -   [Rating 1](#rating-1-9)
-            -   [Rating 20](#rating-20-7)
-            -   [Rating 40](#rating-40-2)
-            -   [Rating 60](#rating-60-2)
-        -   [Siegebreaker](#siegebreaker)
-            -   [Rating 1](#rating-1-10)
-            -   [Rating 20](#rating-20-8)
-            -   [Rating 40](#rating-40-3)
-            -   [Rating 60](#rating-60-3)
-        -   [Spear Wall](#spear-wall)
-            -   [Rating 1](#rating-1-11)
-            -   [Rating 20](#rating-20-9)
-            -   [Rating 40](#rating-40-4)
-            -   [Rating 60](#rating-60-4)
-    -   [Zone Tactics Group](#zone-tactics-group)
--   [5. Dramatic Scenes](#dramatic-scenes)
-    -   [Dramatic Chances](#dramatic-chances)
-        -   [Skills Giving Extra Chances](#skills-giving-extra-chances)
-        -   [Increased Difficulty](#increased-difficulty)
--   [6. Island Rules](#island-rules)
-    -   [Island Stats](#island-stats)
-        -   [Inhabitants](#inhabitants)
-        -   [Systems](#systems)
-        -   [Special Constructs](#special-constructs)
-            -   [Example Special
+      - [Armor Training Group](#armor-training-group)
+          - [Unarmored](#unarmored)
+              - [Rating 1](#rating-1)
+              - [Rating 20](#rating-20)
+              - [Rating 40](#rating-40)
+              - [Rating 60](#rating-60)
+          - [Shields](#shields)
+          - [Light Armor](#light-armor)
+          - [Heavy Armor](#heavy-armor)
+          - [Magic Armor](#magic-armor)
+      - [Weapon Training Group](#weapon-training-group)
+          - [Barehanded](#barehanded)
+          - [One-Handed Melee Weapons](#one-handed-melee-weapons)
+          - [Two-Handed Melee Weapons](#two-handed-melee-weapons)
+          - [One-Handed Reach Weapons](#one-handed-reach-weapons)
+          - [Two-Handed Reach Weapons](#two-handed-reach-weapons)
+          - [One-Handed Ranged Weapons](#one-handed-ranged-weapons)
+          - [Two-Handed Ranged Weapons](#two-handed-ranged-weapons)
+      - [Magical Techniques Group](#magical-techniques-group)
+          - [Alchemy Techs](#alchemy-techs)
+              - [Rating 1](#rating-1-1)
+              - [Rating 5](#rating-5)
+              - [Rating 10](#rating-10)
+              - [Rating 15](#rating-15)
+              - [Rating 20](#rating-20-1)
+              - [Rating 25](#rating-25)
+              - [Rating 35](#rating-35)
+          - [Elemental Techs](#elemental-techs)
+              - [Rating 1](#rating-1-2)
+              - [Rating 5](#rating-5-1)
+              - [Rating 10](#rating-10-1)
+              - [Rating 15](#rating-15-1)
+              - [Rating 20](#rating-20-2)
+              - [Rating 25](#rating-25-1)
+              - [Rating 30](#rating-30)
+              - [Rating 35](#rating-35-1)
+          - [Hexenkraft Techs](#hexenkraft-techs)
+              - [Rating 1](#rating-1-3)
+              - [Rating 5](#rating-5-2)
+              - [Rating 10](#rating-10-2)
+              - [Rating 15](#rating-15-2)
+              - [Rating 20](#rating-20-3)
+          - [Martial Techs](#martial-techs)
+              - [Rating 1](#rating-1-4)
+              - [Rating 5](#rating-5-3)
+              - [Rating 10](#rating-10-3)
+              - [Rating 15](#rating-15-3)
+              - [Rating 20](#rating-20-4)
+          - [Summoning Techs](#summoning-techs)
+              - [Rating 1](#rating-1-5)
+          - [Weapon Melee Techs](#weapon-melee-techs)
+              - [Rating 1](#rating-1-6)
+              - [Rating 5](#rating-5-4)
+              - [Rating 10](#rating-10-4)
+              - [Rating 15](#rating-15-4)
+              - [Rating 20](#rating-20-5)
+          - [Weapon Ranged Techs](#weapon-ranged-techs)
+              - [Rating 1](#rating-1-7)
+              - [Rating 5](#rating-5-5)
+              - [Rating 10](#rating-10-5)
+              - [Rating 15](#rating-15-5)
+      - [Linear Tactics Group](#linear-tactics-group)
+          - [Rampart Aura](#rampart-aura)
+              - [Rating 1](#rating-1-8)
+              - [Rating 20](#rating-20-6)
+              - [Rating 40](#rating-40-1)
+              - [Rating 60](#rating-60-1)
+          - [Shield Wall](#shield-wall)
+              - [Rating 1](#rating-1-9)
+              - [Rating 20](#rating-20-7)
+              - [Rating 40](#rating-40-2)
+              - [Rating 60](#rating-60-2)
+          - [Siegebreaker](#siegebreaker)
+              - [Rating 1](#rating-1-10)
+              - [Rating 20](#rating-20-8)
+              - [Rating 40](#rating-40-3)
+              - [Rating 60](#rating-60-3)
+          - [Spear Wall](#spear-wall)
+              - [Rating 1](#rating-1-11)
+              - [Rating 20](#rating-20-9)
+              - [Rating 40](#rating-40-4)
+              - [Rating 60](#rating-60-4)
+      - [Zone Tactics Group](#zone-tactics-group)
+  - [5. Dramatic Scenes](#dramatic-scenes)
+      - [Dramatic Chances](#dramatic-chances)
+          - [Skills Giving Extra Chances](#skills-giving-extra-chances)
+          - [Increased Difficulty](#increased-difficulty)
+  - [6. Island Rules](#island-rules)
+      - [Island Stats](#island-stats)
+          - [Inhabitants](#inhabitants)
+          - [Systems](#systems)
+          - [Special Constructs](#special-constructs)
+              - [Example Special
                 Constructs](#example-special-constructs)
-    -   [Strategic Turns](#strategic-turns)
-        -   [Calculation Phase](#calculation-phase)
-            -   [1. Island Health](#island-health)
-            -   [2. Water System](#water-system)
-            -   [3. Food System](#food-system)
-            -   [4. Shelter](#shelter)
-            -   [5. Materials System](#materials-system)
-            -   [6. Knowledge Permanency](#knowledge-permanency)
-            -   [7. Automation](#automation)
-            -   [8. Fortification](#fortification)
-        -   [Island Events Phase](#island-events-phase)
-        -   [Imperial Actions Phase](#imperial-actions-phase)
-        -   [Island Actions Phase](#island-actions-phase)
-            -   [External](#external)
-            -   [System Power Action](#system-power-action)
-                -   [Materials Power Actions](#materials-power-actions)
-                -   [Knowledge Power Actions](#knowledge-power-actions)
-                -   [Automation Power
+      - [Strategic Turns](#strategic-turns)
+          - [Calculation Phase](#calculation-phase)
+              - [1. Island Health](#island-health)
+              - [2. Water System](#water-system)
+              - [3. Food System](#food-system)
+              - [4. Shelter](#shelter)
+              - [5. Materials System](#materials-system)
+              - [6. Knowledge Permanency](#knowledge-permanency)
+              - [7. Automation](#automation)
+              - [8. Fortification](#fortification)
+          - [Island Events Phase](#island-events-phase)
+          - [Imperial Actions Phase](#imperial-actions-phase)
+          - [Island Actions Phase](#island-actions-phase)
+              - [External](#external)
+              - [System Power Action](#system-power-action)
+                  - [Materials Power Actions](#materials-power-actions)
+                  - [Knowledge Power Actions](#knowledge-power-actions)
+                  - [Automation Power
                     Actions](#automation-power-actions)
-            -   [Island Development
+              - [Island Development
                 Actions](#island-development-actions)
-                -   [Inhabitants](#inhabitants-1)
-                -   [Environment](#environment)
-                -   [Water System](#water-system-1)
-                -   [Food System](#food-system-1)
-                -   [Shelter](#shelter-1)
-                -   [Materials System](#materials-system-1)
-                -   [Infrastructure](#infrastructure)
-                -   [Knowledge Permanency](#knowledge-permanency-1)
-                -   [Automation](#automation-1)
-                -   [Fortifications](#fortifications)
-                -   [Neighboring Islands](#neighboring-islands)
--   [7. Combat](#combat)
-    -   [Battle Escalation and Energy](#battle-escalation-and-energy)
-    -   [Turn Order](#turn-order)
-    -   [Actions](#actions)
-        -   [Attack](#attack)
-        -   [Charge Energy](#charge-energy)
-        -   [Defend](#defend)
-        -   [Move](#move)
-        -   [Perform Technique](#perform-technique)
-        -   [Use Item](#use-item)
-    -   [Movement Modifiers](#movement-modifiers)
-    -   [Status Conditions](#status-conditions)
--   [8. World Details](#world-details)
-    -   [Temporary Allies](#temporary-allies)
-        -   [Unpaid Legions](#unpaid-legions)
-        -   [Exoticist Senators](#exoticist-senators)
-        -   [Other Superpowers](#other-superpowers)
-    -   [The Imperial Adtextus](#the-imperial-adtextus)
-    -   [Intentionally Unanswered
+                  - [Inhabitants](#inhabitants-1)
+                  - [Environment](#environment)
+                  - [Water System](#water-system-1)
+                  - [Food System](#food-system-1)
+                  - [Shelter](#shelter-1)
+                  - [Materials System](#materials-system-1)
+                  - [Infrastructure](#infrastructure)
+                  - [Knowledge Permanency](#knowledge-permanency-1)
+                  - [Automation](#automation-1)
+                  - [Fortifications](#fortifications)
+                  - [Neighboring Islands](#neighboring-islands)
+  - [7. Combat](#combat)
+      - [Battle Escalation and Energy](#battle-escalation-and-energy)
+      - [Turn Order](#turn-order)
+      - [Actions](#actions)
+          - [Attack](#attack)
+          - [Charge Energy](#charge-energy)
+          - [Defend](#defend)
+          - [Move](#move)
+          - [Perform Technique](#perform-technique)
+          - [Use Item](#use-item)
+      - [Movement Modifiers](#movement-modifiers)
+      - [Status Conditions](#status-conditions)
+  - [8. World Details](#world-details)
+      - [Temporary Allies](#temporary-allies)
+          - [Unpaid Legions](#unpaid-legions)
+          - [Exoticist Senators](#exoticist-senators)
+          - [Other Superpowers](#other-superpowers)
+      - [The Imperial Adtextus](#the-imperial-adtextus)
+      - [Intentionally Unanswered
         Questions](#intentionally-unanswered-questions)
 
-1. Introduction
-===============
+# 1\. Introduction
 
 The Empire hungers for the life force of your flying island in the sky,
 and will also enslave everyone on it, including you. Now what?
 
-Group Organization
-------------------
+## Group Organization
 
 The game group for **Sky Islands** is organized around a single island.
 Each Island is a full character unto itself, and is capable of
@@ -225,13 +216,12 @@ more effective than a mob of individuals doing their own thing, but
 every single **Player** must be given space and trust to make their own
 decisions, and practice a bit of creativity.
 
-The World
----------
+## The World
 
-The World's name, in the language of your Island, is something you need
+The World’s name, in the language of your Island, is something you need
 to figure out. Its surface is full of turbulent oceans, jagged crags,
 opaque fogs, active volcanoes, and shifting deserts. The reasons why so
-much of the World is this way are deep in your Island's memory, and it
+much of the World is this way are deep in your Island’s memory, and it
 teaches you and your people to never repeat the same mistakes that
 caused this situation.
 
@@ -246,11 +236,10 @@ They are exactly what your Island warned you about.
 It is up to the Sky Islands to practice the growth of life, and the
 expansion of life-bearing capacity. But they can only fly so quickly.
 Your Island is too close to the nation you call The Empire, and that
-Empire's military forces creep forward faster than your Island can
+Empire’s military forces creep forward faster than your Island can
 escape.
 
-The Empire
-----------
+## The Empire
 
 The Empire uses its magical word system, the Imperial Adtextus, to
 control life energy flows. It is designed to be overly simplistic, to
@@ -281,8 +270,7 @@ zombie state. If left alone then it will surely collapse in on itself,
 but it keeps on finding new ways to reach other islands and wage war
 against them.
 
-The Blended Realm
------------------
+## The Blended Realm
 
 The Blended Realm is so-named because it looks like large swathes of
 solid colors, which blend together at special edges to create chaotic
@@ -321,11 +309,9 @@ spirits who are bound to it.
 The Blended Realm also connects to other planes of existence, which have
 their own challenges.
 
-2. Your Island
-==============
+# 2\. Your Island
 
-Creation of the Island
-----------------------
+## Creation of the Island
 
 ### Island Statistics
 
@@ -342,7 +328,7 @@ Knowledge Permanency - Materials System - Shelter - Water System
 ### Island Government
 
 The best island governments have traits such as: - Inclusion of the
-Island's voice as being equal to or greater than the voices of those who
+Island’s voice as being equal to or greater than the voices of those who
 live on it. - Understanding all life forms on the Island as being part
 of a holistic ecosystem, so that no species is ever allowed to control
 any other. - Caring for those who are unable to work, ensuring they have
@@ -363,11 +349,9 @@ the life-draining power of the Imperial Adtextus planted on it.
 Whatever form the government begins in, the Player-Characters definitely
 do not start out in charge of it.
 
-3. Player Characters
-====================
+# 3\. Player Characters
 
-Traits
-------
+## Traits
 
 Choose zero, one, two, three, or four traits. Of course, choosing four
 is the most powerful in game terms.
@@ -376,96 +360,95 @@ You can also save trait choices for later. In fact, if this is your
 first time creating a character, then you should reserve all four trait
 choices for later.
 
--   **Abiotic** - You do not need water, food, or sleep. You only need
+  - **Abiotic** - You do not need water, food, or sleep. You only need
     maintenance and recharging, both of which can be done while you are
     awake.
--   **Amorphous** - Your natural form is a something like gelatin, ooze,
+  - **Amorphous** - Your natural form is a something like gelatin, ooze,
     slime, or good-quality refrigerated broth. You can use this form to
     slide down slopes, down drains, into pipes, etc. However, this
     causes all of your combat gear to fall off, and you also cannot
     perform combat actions in that form.
--   **Antigrav** - You always have Hover I. This improves to Hover II at
+  - **Antigrav** - You always have Hover I. This improves to Hover II at
     Power Level 20, Hover III at Power Level 40, and Hover IV at Power
     Level 60.
--   **Aquatic** - You always have Swimming I. This improves to Swimming
+  - **Aquatic** - You always have Swimming I. This improves to Swimming
     II at Power Level 20, Swimming III at Power Level 40, and Swimming
     IV at Power Level 60.
--   **Claws / Fangs / Horns / Spikes** - You always have Ironfist I.
+  - **Claws / Fangs / Horns / Spikes** - You always have Ironfist I.
     This improves to Ironfist II at Power Level 20, Ironfist III at
     Power Level 40, and Ironfist IV at Power Level 60.
--   **Constrictor** - Your accuracy for grapples is increased by an
+  - **Constrictor** - Your accuracy for grapples is increased by an
     amount equal to half your Power Level.
--   **Echolocation** - Status conditions that decrease accuracy, do not
+  - **Echolocation** - Status conditions that decrease accuracy, do not
     alter your accuracy.
--   **Elemental Breath: Specific Element** - You must choose one element
+  - **Elemental Breath: Specific Element** - You must choose one element
     for this physical feature. That element is locked-in for life. You
     can spend 2 action points to do the Elemental Breath technique
     without an energy cost.
--   **Energy Being** - Your Charge actions restore double Energy to
+  - **Energy Being** - Your Charge actions restore double Energy to
     yourself.
--   **Fur / Scales / Thick Hide** - You have a natural body covering
+  - **Fur / Scales / Thick Hide** - You have a natural body covering
     that insulates you from some types of environmental conditions. You
     gain two extra chances for Dramatic Chances that involve spending
     long periods of time in hot or cold environments.
--   **Hermaphrodite** - You can morph your sexual characteristics by
+  - **Hermaphrodite** - You can morph your sexual characteristics by
     concentrating on them for several minutes in a safe area.
--   **Imperial Body Shape** - If you wrap yourself in heavy clothing,
+  - **Imperial Body Shape** - If you wrap yourself in heavy clothing,
     then you look like an Imperial from a distance, thus avoiding
     immediate attack if you are travelling by yourself.
--   **Long Lived** - You are able to stay young for thousands of years.
+  - **Long Lived** - You are able to stay young for thousands of years.
     You gain 5 extra skill points every Power Level, as well as at
     character creation, for skills in the Artistic, Physicality, Science
     and Tradeskills groups. You must still follow the limit of skill
     ratings being capped by your Power Level.
--   **Multi Armed** - You are able to use a two-handed weapon and one
+  - **Multi Armed** - You are able to use a two-handed weapon and one
     shield, at the same time.
--   **Multi Colored** - You gain 2 extra skill points every Power Level,
+  - **Multi Colored** - You gain 2 extra skill points every Power Level,
     as well as at character creation, which can be spent on skills in
     the Magical Elements group. You must still follow the limit of skill
     ratings being capped by your Power Level.
--   **Necropower** - When you do a killing attack or technique, you get
+  - **Necropower** - When you do a killing attack or technique, you get
     one free Charge action.
--   **Phasing** - You always have Teleport I. This improves to Teleport
+  - **Phasing** - You always have Teleport I. This improves to Teleport
     II at Power Level 20, Teleport III at Power Level 40, and Teleport
     IV at Power Level 60.
--   **Power-Jumping** - You always have Jump I. This improves to Jump II
+  - **Power-Jumping** - You always have Jump I. This improves to Jump II
     at Power Level 20, Jump III at Power Level 40, and Jump IV at Power
     Level 60.
--   **Quadruped** - You always have Swiftfoot I. This improves to
+  - **Quadruped** - You always have Swiftfoot I. This improves to
     Swiftfoot II at Power Level 20, Swiftfoot III at Power Level 40, and
     Swiftfoot IV at Power Level 60.
--   **Regeneration** - You heal 1 Health in each Status Phase. You
+  - **Regeneration** - You heal 1 Health in each Status Phase. You
     always fully-heal outside of combat.
--   **Reincarnation** - You remember past lives. You gain 5 extra skill
+  - **Reincarnation** - You remember past lives. You gain 5 extra skill
     points every Power Level, as well as at character creation, for
     skills in the Artistic, Physicality, Science and Tradeskills groups.
     You must still follow the limit of skill ratings being capped by
     your Power Level.
--   **Shifter** - You can spend 4 AP to shift into the Blended Realm.
+  - **Shifter** - You can spend 4 AP to shift into the Blended Realm.
     Getting back is rather difficult, especially without others from
     your Island to help connect you and guide you back home. The amount
     of time it takes to shift back alone is most likely an entire
     Strategic Turn.
--   **Symbiote** - You have another organism inside of you, who can keep
+  - **Symbiote** - You have another organism inside of you, who can keep
     you alive and revive you. This process takes a whole day, and can be
     interrupted by additional damage to your body, e.g. enemy soldiers
     stabbing corpses to make sure they stay down.
--   **Venomous Claws / Fangs / Stinger** - Your unarmed attacks which do
+  - **Venomous Claws / Fangs / Stinger** - Your unarmed attacks which do
     more than 1 damage also cause one stack of the Venom status
     condition.
--   **Venomous Skin** - Anyone who does an unarmed attack to you, or
+  - **Venomous Skin** - Anyone who does an unarmed attack to you, or
     attempts to grapple you, immediately receives one stack of the Venom
     status condition.
--   **Weaponmaster** - You gain 2 extra skill points every Power Level,
+  - **Weaponmaster** - You gain 2 extra skill points every Power Level,
     as well as at character creation, which can be spent on skills in
     the Weapon Training group. You must still follow the limit of skill
     ratings being capped by your Power Level.
--   **Wings** - You always have Winged I. This improves to Winged II at
+  - **Wings** - You always have Winged I. This improves to Winged II at
     Power Level 20, Winged III at Power Level 40, and Winged IV at Power
     Level 60.
 
-Defining Yourself In Terms Of Your Island
------------------------------------------
+## Defining Yourself In Terms Of Your Island
 
 Answer at least one of the following questions, or as many more as you
 like. - What kinds of conversations have you had with your Island? -
@@ -477,55 +460,53 @@ Island, how did you come to it? - If you were born on the Island, what
 did the Island do to note the occasion? - What is the representation of
 your connection to the Island when you travel to the Blended Realm?
 
-The Empire Fails To Define You
-------------------------------
+## The Empire Fails To Define You
 
 Choose one or more of the following ways in which the Imperial Adtextus
 rejects your existence. And make no mistake - anyone who tries to
-assimilate into the Empire will be "rewarded" by their soul being
+assimilate into the Empire will be “rewarded” by their soul being
 drained to transfer the energy to an unsustainable system. The best that
 one can aspire to is to have their soul drained the most slowly, as even
 Emperors succumb to dementia more quickly than your own people do.
 
--   **Disabled** - Your tools and work methods are not allowed by the
+  - **Disabled** - Your tools and work methods are not allowed by the
     Imperial Adtextus. Consequently, it claims that it is actually you
     who are unable to do anything useful. This is despite the fact that
     you get more stuff done than the average Imperial.
--   **Disloyal** - You have worked more than one job in your life, or
+  - **Disloyal** - You have worked more than one job in your life, or
     have tried more than one way of doing things. You think about
     different ways to solve a problem. The Adtextus defines such a life
-    as a "disloyal" one.
--   **Misgendered** - The Imperial Adtextus' strict binary system cannot
+    as a “disloyal” one.
+  - **Misgendered** - The Imperial Adtextus’ strict binary system cannot
     possibly encompass you. Or, perhaps you have committed the
     anti-Imperial crime of not wanting to get pregnant at age 12.
--   **Nonlinear** - You do not speak in the manner of Imperial
+  - **Nonlinear** - You do not speak in the manner of Imperial
     philosophers or senators. You could actually be more logical,
     systematic, and thorough than any of them, but because the Adtextus
-    does not say to talk like that, they call you "Nonlinear".
--   **Primitive** - Your food, water, and shelter systems do not look
+    does not say to talk like that, they call you “Nonlinear”.
+  - **Primitive** - Your food, water, and shelter systems do not look
     like the approved patterns of the Adtextus.
--   **Savage** - Imperials cannot comprehend your practices or
+  - **Savage** - Imperials cannot comprehend your practices or
     traditions, nor does the Adtextus explain them, so they call you
-    "Savage".
--   **Weak** - You do not think that you should attack first and talk
-    later. Therefore, the Adtextus calls you "Weak". You are most likely
+    “Savage”.
+  - **Weak** - You do not think that you should attack first and talk
+    later. Therefore, the Adtextus calls you “Weak”. You are most likely
     stronger than the average Legion soldier, too.
 
-Stats
------
+## Stats
 
 The Stats are:
 
--   Maximum Health
--   Maximum Energy
--   Physical Accuracy
--   Physical Evasion
--   Physical Power
--   Physical Armor
--   Magical Accuracy
--   Magical Evasion
--   Magical Power
--   Magical Armor
+  - Maximum Health
+  - Maximum Energy
+  - Physical Accuracy
+  - Physical Evasion
+  - Physical Power
+  - Physical Armor
+  - Magical Accuracy
+  - Magical Evasion
+  - Magical Power
+  - Magical Armor
 
 Choose four stats to start with a rating of 10, four stats to start with
 a rating of 15, and two stats to start with a rating of 20.
@@ -535,13 +516,13 @@ Then, increase the Maximum Health rating by 20 more.
 ### Where are Strength, Intelligence, etc.?
 
 There is intentionally no relationship between stats, and traits which
-may be described as being anything like "strength", "intelligence", etc.
+may be described as being anything like “strength”, “intelligence”, etc.
 For example, Physical Power does not indicate muscle size, although you
 may choose to describe your character thusly. In fact, it is possible
 for any or all stats to be entirely supernatural in nature.
 
 For example, an incorporeal being inhabiting a suit of armor can
-represent "Physical Power" as their ability to put fighting intent into
+represent “Physical Power” as their ability to put fighting intent into
 their techniques, as they have no muscles or bones whatsoever.
 
 Another example is a bodybuilder who chooses to start with a Physical
@@ -549,8 +530,7 @@ Power of 10 rather than 20. This person may have a fear of hitting
 things hard, or may just lack explosiveness due to hating plyometric
 training.
 
-Skills
-------
+## Skills
 
 Choose one **Skill** from each of the **Skill Groups**. Then choose ten
 other skills. These twenty skills all start with a rating of 1.
@@ -558,16 +538,14 @@ other skills. These twenty skills all start with a rating of 1.
 The **Skills** and **Skill Groups** themselves are described in much
 more detail in [Chapter 4: Character Skills](#character-skills).
 
-Combat Gear
------------
+## Combat Gear
 
 You start with **Item Level** 1 combat gear for all of your starting
 skills. For example, if you chose both One-Handed Melee Weapons and
 One-Handed Ranged Weapons as starting skills, then you will start with
 one of each of those types of weapons at Item Level 1.
 
-Power Levels
-------------
+## Power Levels
 
 Characters start at **Power Level** 1.
 
@@ -581,151 +559,148 @@ choose ten other skills. These twenty skills all have their rating
 increased by 1. If the skill started at 0, then there must be some
 explanation of how it was learned, trained, and practiced.
 
-4. Character Skills
-===================
+# 4\. Character Skills
 
 To repeat from the [Player Characters](#player-characters) chapter:
 
--   For new characters: Choose one skill from each of the Skill Groups.
+  - For new characters: Choose one skill from each of the Skill Groups.
     Then choose ten other skills. These twenty skills all start with a
     rating of 1.
--   Upon increasing **Power Level**: Choose one skill from each of the
+  - Upon increasing **Power Level**: Choose one skill from each of the
     Skill Groups. Then choose ten other skills. These twenty skills all
     have their rating increased by 1. If the skill started at 0, then
     there must be some explanation of how it was learned, trained, and
     practiced.
 
-Skill Categories & Skill Descriptions
--------------------------------------
+## Skill Categories & Skill Descriptions
 
--   **Armor Training Group**
-    -   **Unarmored** - Always have some basic protection, even while
+  - **Armor Training Group**
+      - **Unarmored** - Always have some basic protection, even while
         naked. However, you cannot gain the benefit of any magic that
         enhances armor or shields.
-    -   **Shields** - Use one hand to focus on protecting yourself.
-    -   **Light Armor**
-    -   **Heavy Armor**
-    -   **Magic Armor**
--   **Weapon Training Group**
-    -   **Barehanded** - You always have some basic attack power, but
+      - **Shields** - Use one hand to focus on protecting yourself.
+      - **Light Armor**
+      - **Heavy Armor**
+      - **Magic Armor**
+  - **Weapon Training Group**
+      - **Barehanded** - You always have some basic attack power, but
         you also gain no benefits from anything that affects weapons,
         nor can you use weapon-based techniques. You end up relying on
         other kinds of techniques to get things done.
-    -   **One-Handed Melee Weapons**
-    -   **Two-Handed Melee Weapons**
-    -   **One-Handed Reach Weapons**
-    -   **Two-Handed Reach Weapons**
-    -   **One-Handed Ranged Weapons**
-    -   **Two-Handed Ranged Weapons**
--   **Magical Elements Group** - Used in combination with skills of the
+      - **One-Handed Melee Weapons**
+      - **Two-Handed Melee Weapons**
+      - **One-Handed Reach Weapons**
+      - **Two-Handed Reach Weapons**
+      - **One-Handed Ranged Weapons**
+      - **Two-Handed Ranged Weapons**
+  - **Magical Elements Group** - Used in combination with skills of the
     Magical Techniques Group. Dark and Light have no relation to good
     and evil - except in the Imperial Adtextus. Some of the most
     trustworthy, honest, and generous people are specialists of the
     Dark. Some of the worst people are specialists of the Light.
     Creatures of opposite elements do not necessarily hate each other.
     In fact they sometimes form symbiotic relationships.
-    -   **Air** - opposite of Earth
-    -   **Crystal** - not opposite to any other element
-    -   **Dark** - opposite of Light
-    -   **Earth** - opposite of Air
-    -   **Fire** - opposite of Water
-    -   **Light** - opposite of Dark
-    -   **Moon** - opposite of Wood
-    -   **Water** - opposite of Fire
-    -   **Wood** - opposite of Moon
--   **Magical Techniques Group** - Used in combination with skills of
+      - **Air** - opposite of Earth
+      - **Crystal** - not opposite to any other element
+      - **Dark** - opposite of Light
+      - **Earth** - opposite of Air
+      - **Fire** - opposite of Water
+      - **Light** - opposite of Dark
+      - **Moon** - opposite of Wood
+      - **Water** - opposite of Fire
+      - **Wood** - opposite of Moon
+  - **Magical Techniques Group** - Used in combination with skills of
     the Magical Elements Groups. All magical techniques must be used in
     association with one specific element. Available techniques are
     determined by the lowest of the element and technique skill. For
     example, one of the techniques from Elemental Techs rating 5 is
     Elemental Spark. Elemental Spark can only be used with elements if
     your skill in those elements is also at rating 5.
-    -   **Alchemy Techs** - Preparation and expert usage of items.
+      - **Alchemy Techs** - Preparation and expert usage of items.
         However, you can only have a certain number of items prepared at
         a time, and when they all get used up, you must spend a
         **Strategic Turn** to prepare more.
-    -   **Cooking Techs** - Keeping people well-fed and giving them
+      - **Cooking Techs** - Keeping people well-fed and giving them
         constant bonuses as a result of their diet. However, this set of
         techniques is not as interesting as the other technique skills
         during combat, instead being more of a source of passive
         bonuses.
-    -   **Elemental Techs** - Pure elemental power from the Blended
+      - **Elemental Techs** - Pure elemental power from the Blended
         Realm. These techniques can be energy and time intensive, but
         they also build up to great power.
-    -   **Hexenkraft Techs** - Magic pulled directly into people's
+      - **Hexenkraft Techs** - Magic pulled directly into people’s
         bodies, weapons, and armor. This is most often associated with
         immediate healing, but also has deeper intricacies and
         complexities.
-    -   **Martial Techs** - Channeling magic through one's own body to
+      - **Martial Techs** - Channeling magic through one’s own body to
         create powerful fighting techniques. If you are both unarmed and
         unarmored, you will likely rely on Martial Techs heavily in
         combat.
-    -   **Musical Techs** - Reserves action points in order to create
+      - **Musical Techs** - Reserves action points in order to create
         constant effects around yourself.
-    -   **Summoning Techs** - Temporary contracts with creatures from
+      - **Summoning Techs** - Temporary contracts with creatures from
         the Blended Realm.
-    -   **Weapon Melee Techs** - Forming magical power within one's
+      - **Weapon Melee Techs** - Forming magical power within one’s
         weapon.
-    -   **Weapon Ranged Techs** - Focusing magical power into
+      - **Weapon Ranged Techs** - Focusing magical power into
         projectiles.
--   **Artistic Group**
-    -   **Architecture: `<Specific Style>`{=html}**
-    -   **Dance Style: `<Specific Style>`{=html}**
-    -   **Drawing and Painting Style: `<Specific Style>`{=html}**
-    -   **Food Presentation: `<Specific Cuisine>`{=html}**
-    -   **Musical Instrument: `<Specific Instrument>`{=html}**
-    -   **Sculpting and Modeling: `<Specific Subject Type>`{=html}**
-    -   **Singing: `<Specific Genre>`{=html}**
--   **Physicality Group**
-    -   **Acrobatics**
-    -   **Impersonation**
-    -   **Powerfeats**
-    -   **Sleight of Hand**
-    -   **Sneaking**
-    -   **Traversal**
--   **Science Group**
-    -   **Astronomy**
-    -   **Biology**
-    -   **Chemistry**
-    -   **Logic Systems**
-    -   **Mathematics**
-    -   **Physics**
-    -   **Planes of Existence**
-    -   **Sociology**
--   **Tradeskills Group**
-    -   **Animals**
-    -   **Bureaucratic**
-    -   **Crafting**
-    -   **Locks**
-    -   **Metalworking**
-    -   **Nautical**
-    -   **Plants**
-    -   **Traps**
--   **Linear Tactics Group** - This group is based on forming straight
+  - **Artistic Group**
+      - **Architecture: <Specific Style>**
+      - **Dance Style: <Specific Style>**
+      - **Drawing and Painting Style: <Specific Style>**
+      - **Food Presentation: <Specific Cuisine>**
+      - **Musical Instrument: <Specific Instrument>**
+      - **Sculpting and Modeling: <Specific Subject Type>**
+      - **Singing: <Specific Genre>**
+  - **Physicality Group**
+      - **Acrobatics**
+      - **Impersonation**
+      - **Powerfeats**
+      - **Sleight of Hand**
+      - **Sneaking**
+      - **Traversal**
+  - **Science Group**
+      - **Astronomy**
+      - **Biology**
+      - **Chemistry**
+      - **Logic Systems**
+      - **Mathematics**
+      - **Physics**
+      - **Planes of Existence**
+      - **Sociology**
+  - **Tradeskills Group**
+      - **Animals**
+      - **Bureaucratic**
+      - **Crafting**
+      - **Locks**
+      - **Metalworking**
+      - **Nautical**
+      - **Plants**
+      - **Traps**
+  - **Linear Tactics Group** - This group is based on forming straight
     battle lines. With these tactics, it is recommended to use least two
     lines: a front line for soaking damage and picking apart anyone who
     comes too close, and a rear line for damage output and support. This
     skill group is not contradictory with the **Zone Tactics Group**,
     and can in fact go well together, especially at higher skill
     ratings.
-    -   **Rampart Aura** - Blocking enemies from moving past you.
+      - **Rampart Aura** - Blocking enemies from moving past you.
         Important for anyone who must hold the edge of a battle line.
-    -   **Shield Wall**
-    -   **Siegebreaker**
-    -   **Spear Wall**
-    -   **Volley Fire**
--   **Zone Tactics Group** - This group is based on forming separate
+      - **Shield Wall**
+      - **Siegebreaker**
+      - **Spear Wall**
+      - **Volley Fire**
+  - **Zone Tactics Group** - This group is based on forming separate
     circular battle groups who quickly move together and seek out weak
     enemy groups to break through. This skill group is not contradictory
     with the **Linear Tactics Group**, and can in fact go well together,
     especially at higher skill ratings.
-    -   **Beastspeaker Aura**
-    -   **Regeneration Aura**
-    -   **Sanctuary Aura**
-    -   **Terror Aura**
+      - **Beastspeaker Aura**
+      - **Regeneration Aura**
+      - **Sanctuary Aura**
+      - **Terror Aura**
 
-Armor Training Group
---------------------
+## Armor Training Group
 
 ### Unarmored
 
@@ -788,8 +763,7 @@ Evasion - Skill Rating gained as Magical Armor
 
 For a minimum of 1 point gained to each stat.
 
-Weapon Training Group
----------------------
+## Weapon Training Group
 
 ### Barehanded
 
@@ -863,8 +837,7 @@ that.
 Weapon Damage is Physical Power + 0.75x Skill Rating, for a minimum of 1
 added damage.
 
-Magical Techniques Group
-------------------------
+## Magical Techniques Group
 
 ### Alchemy Techs
 
@@ -954,7 +927,7 @@ the ground, in the same 5-foot square as the placer. The landmine
 remains active for up to an hour after placement. The landmine triggers
 when someone is touching its 5-foot square during the status phase. It
 does an amount of elemental damage to whoever is in the trigger area
-equal to the preparer's Magic Damage + Alchemy Techs rating.
+equal to the preparer’s Magic Damage + Alchemy Techs rating.
 
 **Expert Placement of Elemental Landmine** - Type: Throw Object - Range:
 30 feet - Target: One 5-foot square - Places the elemental landmine in
@@ -1010,7 +983,7 @@ be placed on the ground, in the same 5-foot square as the placer. The
 trap remains active for up to an hour after placement. The trap triggers
 when anyone is touching its 5-foot square, or any side-adjacent
 5-foot-square, during the status phase. It does an amount of elemental
-damage to everyone in the trigger area equal to the preparer's Magic
+damage to everyone in the trigger area equal to the preparer’s Magic
 Damage + Alchemy Techs rating.
 
 **Expert Placement of Elemental Explosive Trap** - Type: Throw Object -
@@ -1071,7 +1044,7 @@ are mixed into.
 **Elemental Shot** - 2 energy - Type: Straight Projectile - Range: 30
 feet - Target: Single - Creates a projectile of elemental energy, then
 launches it at the target. Uses your magical stats and is opposed by
-magical stats. If your Magical Accuracy is more than 1.5x the target's
+magical stats. If your Magical Accuracy is more than 1.5x the target’s
 Magical Evasion, then you cause an additional effect based on the
 element used. - Air: Adds the Shocked status to the target. - Crystal:
 Adds the Bleeding status to the target. - Dark: Adds the Mindmaze status
@@ -1099,14 +1072,14 @@ elemental energy in front of you, which then expands outwards. It
 targets the 5-foot square in front of you, then the side-adjacent and
 two corner-adjacent 5-foot squares further away from you. Uses your
 magical stats and is opposed by magical stats. If your Magical Accuracy
-is more than 1.5x a target's Magical Evasion, then you cause an
+is more than 1.5x a target’s Magical Evasion, then you cause an
 additional effect based on the element used. Refer to *Elemental Shot*
 for the additional effect.
 
 **Elemental Spark** - 3 energy - Type: Line-of-Sight - Range: 30 feet -
 Target: Single - Creates a spark of elemental energy directly in the
 face of the target. Uses your magical stats and is opposed by magical
-stats. If your Magical Accuracy is more than 1.5x the target's Magical
+stats. If your Magical Accuracy is more than 1.5x the target’s Magical
 Evasion, then you cause an additional effect based on the element used.
 Refer to *Elemental Shot* for the additional effect.
 
@@ -1118,11 +1091,11 @@ require any corresponding Magical Elements skills. Instead, it requires
 that you are holding elemental charges. - 3 energy - Type: Straight
 Projectile - Range: 30 feet - Target: Single - Converts your elemental
 charges into a single shot. Uses your magical stats and is opposed by
-magical stats. The shot's damage is equal to Magical Power \* 0.5 \* the
+magical stats. The shot’s damage is equal to Magical Power \* 0.5 \* the
 number of charges. If your Magical Accuracy is more than 1.5x the
-target's Magical Evasion, then you cause additional effects based on the
-elements of the charges used. Refer to Elemental Shot for the additional
-effects.
+target’s Magical Evasion, then you cause additional effects based on
+the elements of the charges used. Refer to Elemental Shot for the
+additional effects.
 
 **Elemental Eyes** - 4 energy - 2 Action Points - Target: Self -
 Transforms your eyes so that you perceive the linked element, even being
@@ -1169,7 +1142,7 @@ from line-of-sight. The Water Force Object can also be turned sideways
 to pour water, at a rate of a number of cubic meters per turn equal to
 your Elemental Techs Rating. - Wood: You can spend 1 Action Point to
 permanently affix the Wood Force Object to the ground. This will
-transplant a whole tree from the Blended Realm. The tree's trunk is
+transplant a whole tree from the Blended Realm. The tree’s trunk is
 thick enough to completely block movement and visibility through a
 5-foot square, and has a height equal to Elemental Techs Rating \* 20
 meters.
@@ -1202,7 +1175,7 @@ of horizontal movement to traverse the 5 feet of wooden ground.
 **Elemental Lance** - 6 energy - 2 Action Points - Type: Line - Range:
 30 feet - Target: All in the 30-foot line - Creates a spike of elemental
 energy in a straight line. Uses your magical stats and is opposed by
-magical stats. If your Magical Accuracy is more than 1.5x a target's
+magical stats. If your Magical Accuracy is more than 1.5x a target’s
 Magical Evasion, then you cause an additional effect based on the
 element used. Refer to *Elemental Shot* for the additional effect.
 
@@ -1215,7 +1188,7 @@ When the ball hits anything or arrives at its destination, whichever
 happens first, it explodes and targets the 5-foot square, as well as all
 side-adjacent and corner-adjacent 5-foot squares. Uses your magical
 stats and is opposed by magical stats. If your Magical Accuracy is more
-than 1.5x a target's Magical Evasion, then you cause an additional
+than 1.5x a target’s Magical Evasion, then you cause an additional
 effect based on the element used. Refer to Elemental Shot for the
 additional effect.
 
@@ -1236,7 +1209,7 @@ elemental charges to the target.
 Storm - Range: 15 feet - Target: All enemies within the 15-foot radius -
 Calls down elemental energy to strike all enemies within range. Uses
 your magical stats and is opposed by magical stats. If your Magical
-Accuracy is more than 1.5x a target's Magical Evasion, then you cause an
+Accuracy is more than 1.5x a target’s Magical Evasion, then you cause an
 additional effect based on the element used. Refer to *Elemental Shot*
 for the additional effect.
 
@@ -1275,7 +1248,7 @@ week. The liquid has a magical elemental taste.
 **Magic Hormone Replacement** - 1 energy - You infuse a shotglass-volume
 amount of liquid with the magical property of replacing or enhancing
 hormones for one whole day, to the type that is most strongly aligned
-with the drinker's true nature. The liquid has a magical emental taste.
+with the drinker’s true nature. The liquid has a magical emental taste.
 
 **Heal Touch** - 1 energy - Type: Touch - Range: 5 feet - Target: Single
 - Restore an amount of health to the target equal to your Hexenkraft
@@ -1309,7 +1282,7 @@ to the target. Crystal element cannot be used for this technique.
 condition to the target.
 
 **Elemental Weakness** - 2 energy - Type: Line-of-sight - Range: 30 feet
-- Target: Single - If your Magic Accuracy is higher than the target's
+- Target: Single - If your Magic Accuracy is higher than the target’s
 Magic Evasion, then add the Elemental Weakness status condition to the
 target for the chosen element. Crystal element cannot be used for this
 technique.
@@ -1321,7 +1294,7 @@ Target: Single - Remove all status conditions of your choice from the
 target that are associated with the chosen element.
 
 **Elemental Hexing** - 5 energy - Type: Line-of-sight - Range: 30 feet -
-Target: Single - If your Magic Accuracy is higher than the target's
+Target: Single - If your Magic Accuracy is higher than the target’s
 Magic Evasion, then add the Elemental Charge Feedback status condition
 to the target for the chosen element. Crystal element cannot be used for
 this technique.
@@ -1345,7 +1318,7 @@ One target at 0 Health - Revive the target at 1 Health.
 **Elemental Dooming** - 20 energy - Type: Straight-line projectile -
 Range: 30 feet - Target: Single - Magical projectile attack, whose
 damage is based on the element used. Furthermore, if your Magic Accuracy
-is higher than the target's Magic Evasion, then add a status condition
+is higher than the target’s Magic Evasion, then add a status condition
 to the target, based on the element used. - Air: Suffocation - Crystal:
 Fragility - Dark: Forgetfulness - Earth: Entombed - Fire: Melting -
 Light: Babbling - Moon: Moon Madness - Water: Dehydration - Wood: Blood
@@ -1357,14 +1330,14 @@ Poisoning
 
 **Flying Jump Kick** - 2 Action Points - Type: Move & Melee - Target:
 Single - Perform a move action ending in at least 10 feet of straight
-line, then do a melee attack against one target. The attack's accuracy
+line, then do a melee attack against one target. The attack’s accuracy
 is doubled.
 
 **Random Punches** - 2 Action Points - Type: Melee - Range: 5 feet -
 Target: Single - Roll a six-sided die (cube shape). On a roll of 1 or 2,
 you do an unarmed attack with half damage. On a roll of 3 or 4, you do a
 normal unarmed attack. On a roll of 5 or 6, you do double damage, and
-the target's physical armor is halved against the attack. The damage
+the target’s physical armor is halved against the attack. The damage
 type is set to the element used.
 
 **Spinning Clothesline** - 2 Action Points - Type: Melee - Range: 5 feet
@@ -1387,7 +1360,7 @@ attack against all targets who are touching the ground within the line.
 
 **Pressure Point Strike** - 2 Action Points - Type: Melee - Range: 5
 feet - Target: Single - You do an unarmed attack. The damage type is set
-to the element used. If your magical accuracy is 1.5x the target's
+to the element used. If your magical accuracy is 1.5x the target’s
 magical evasion, then you also cause an additional effect based on the
 element used. - Air: The target flies 50 feet straight up into the air.
 If the target has no means of mitigating the fall, then their armor is
@@ -1400,7 +1373,7 @@ result, then their armor is halved against the attack. - Fire: The
 target gets four stacks of the Overheat status condition. - Light: 10%
 of the damage is additionally drained as Energy from the target to
 yourself. - Moon: The target gets two stacks of the Stunned status
-condition. - Water: Half of the target's Physical Power is added to the
+condition. - Water: Half of the target’s Physical Power is added to the
 damage. - Wood: The target gets four stacks of the Thorns status
 condition.
 
@@ -1473,22 +1446,22 @@ does more than 1 damage, then it also pushes the target back by 5 feet.
 
 **Elemental Melee Spike** - 3 energy - Type: Line - Range: 15 feet - Do
 a melee weapon attack in a 15-foot straight line, using yourself as the
-origin point. The attack targets all enemies in that line. The attack's
+origin point. The attack targets all enemies in that line. The attack’s
 damage type is changed to be of the linked element.
 
 **Elemental Melee Wide Strike** - Type: Wide Swing - Range: Weapon - 3
 energy - Do a melee weapon attack against the first enemy in front of
 you, as well as two enemies standing to the sides of the first one who
-are also within weapon range of you. The attack's damage type is changed
+are also within weapon range of you. The attack’s damage type is changed
 to be of the linked element.
 
 #### Rating 10
 
 **Elemental Melee Blasting Strike** - 5 energy - Type: Blast - Range:
-Weapon - Do a melee weapon attack at the ground within your weapon's
+Weapon - Do a melee weapon attack at the ground within your weapon’s
 range. It must be possible for you to stand on or inside the targeted
 spot, for it to be valid for this technique. The attack targets all
-enemies within a 5-foot radius of that spot. The attack's damage type is
+enemies within a 5-foot radius of that spot. The attack’s damage type is
 changed to be of the linked element.
 
 **Elemental Melee Wave Slash** - 5 energy - Type: Line-of-sight - Range:
@@ -1572,7 +1545,7 @@ changed to be of the linked element.
 #### Rating 10
 
 **Armor-Piercing Shot** - 10 energy - Do a ranged weapon attack,
-ignoring the target's Physical Armor. Its damage type is changed to be
+ignoring the target’s Physical Armor. Its damage type is changed to be
 of the linked element.
 
 **High-Power Shot** - 10 energy - Do a ranged weapon attack, adding your
@@ -1593,8 +1566,7 @@ target. The attack additionally does physical elemental damage for each
 elemental charge, equal to Physical Power \* 0.5 per charge. This extra
 damage ignores armor.
 
-Linear Tactics Group
---------------------
+## Linear Tactics Group
 
 ### Rampart Aura
 
@@ -1719,14 +1691,11 @@ reach weapon. You automatically attack enemies who move into both of the
 amount equal to your Power Level against enemies in the two 5-foot
 squares to your front.
 
-Zone Tactics Group
-------------------
+## Zone Tactics Group
 
-5. Dramatic Scenes
-==================
+# 5\. Dramatic Scenes
 
-Dramatic Chances
-----------------
+## Dramatic Chances
 
 There are two options - the slow but steady way, or the risky way. The
 slow and steady way is always guaranteed to accomplish anything that is
@@ -1747,7 +1716,7 @@ cooperate to ensure that a variety of angles of attack are used to gain
 extra chances.
 
 Example: - Jane wants to sneak into a mansion. - John points out that
-Jane's skillset includes a lot of Wood-based magic. Therefore she should
+Jane’s skillset includes a lot of Wood-based magic. Therefore she should
 try making the mansion itself open up to her. - Jane checks to see if
 the mansion is actually made of wood, by knocking on it, examining it
 with her Wood Magic, and other such actions. - The Game Master confirms
@@ -1791,11 +1760,9 @@ darkness traps. Perhaps the Traps skill, under the Adventuring Group,
 can help here. - Jack must succeed in unlocking the safe. Perhaps the
 Locks skill, under the Adventuring Group, can help here.
 
-6. Island Rules
-===============
+# 6\. Island Rules
 
-Island Stats
-------------
+## Island Stats
 
 ### Inhabitants
 
@@ -1858,15 +1825,15 @@ character of the Island.
 
 #### Example Special Constructs
 
--   **Cycle of Fire** - +20 Shelter. Every 10 years, a village must
+  - **Cycle of Fire** - +20 Shelter. Every 10 years, a village must
     spend one year living completely without heating, and learn how to
     endure the cold. After this year of cold, an enemy person or
     building is set on fire to renew the cycle.
--   **Legend of the Peacemaker** - +20 Knowledge Permanency. The People
+  - **Legend of the Peacemaker** - +20 Knowledge Permanency. The People
     of the Island were unified by someone who pacified and organized the
     tribal warlords, replacing their hatred and feuds with constructive
     social mechanisms.
--   **The Dangerous Dress Time** - +20 Fortifications. All People must
+  - **The Dangerous Dress Time** - +20 Fortifications. All People must
     spend some portion of their childhood guarding the edges of the
     Island, keeping watch for danger. During this time, they must also
     try out a variety of dresses, wigs, and other stylings which are
@@ -1874,8 +1841,7 @@ character of the Island.
     this process are considered to be more powerful, due to being
     on-edge and forgoing the comforts of even their own genders.
 
-Strategic Turns
----------------
+## Strategic Turns
 
 1.  Calculation Phase
 2.  Island Events Phase
@@ -1884,21 +1850,21 @@ Strategic Turns
 
 ### Calculation Phase
 
-#### 1. Island Health
+#### 1\. Island Health
 
 Sick Animals and Sick People above the Island Health number are killed.
 
 Healthy Animals and Healthy People above the Island Health number are
 turned Sick.
 
-#### 2. Water System
+#### 2\. Water System
 
 Sick Animals and Sick People above the Water System number are killed.
 
 Healthy Animals and Healthy People above the Water System rating are
 turned Sick.
 
-#### 3. Food System
+#### 3\. Food System
 
 Every 5 Healthy Animals provide 1 Food point during this phase.
 
@@ -1907,27 +1873,27 @@ Sick Animals and Sick People above the Food System number are killed.
 Healthy Animals and Healthy People above the Food System number are
 turned Sick.
 
-#### 4. Shelter
+#### 4\. Shelter
 
 Healthy Animals and Healthy People above the Shelter rating are turned
 Sick.
 
-#### 5. Materials System
+#### 5\. Materials System
 
 Every 100 Materials System matching to 100 Healthy People provides 1
 Materials Power Action.
 
-#### 6. Knowledge Permanency
+#### 6\. Knowledge Permanency
 
 Every 100 Knowledge Permanency matching to 100 Healthy People provides 1
 Knowledge Power Action.
 
-#### 7. Automation
+#### 7\. Automation
 
 Every 100 Automation matching to 100 Healthy People provides 1
 Automation Power Action.
 
-#### 8. Fortification
+#### 8\. Fortification
 
 Record the number of Animals and People who are not covered by
 Fortification. These Animal and People can be enslaved or murdered by
@@ -1937,7 +1903,7 @@ the Empire before you are able to respond.
 
 ### Imperial Actions Phase
 
-Possible Imperial actions should make sense based on your island's
+Possible Imperial actions should make sense based on your island’s
 starting situation, and everything you have done which the imperials
 were able to identify as coming from your island. If your island has
 sufficient Fortifications, then the effectiveness of Imperial Actions
@@ -2005,7 +1971,7 @@ harvesting, cooking, weaving, sewing, crafting, etc.
 
 #### External
 
-"External" covers all actions such as visiting distant islands,
+“External” covers all actions such as visiting distant islands,
 infiltrating the Empire, doing battle against the Empire, doing anything
 the island would not approve of, seeking out lost knowledge and wisdom,
 shifting into the Blended Realm without the rest of the island, etc. If
@@ -2148,8 +2114,7 @@ Trade Automation Techniques - +5 Automation to both islands
 
 Trade Anti-Imperial Tactics - +5 Fortifications to both islands
 
-7. Combat
-=========
+# 7\. Combat
 
 Combat has no random elements except for: - Turn Order - Techniques that
 explicitly have a random component
@@ -2157,17 +2122,15 @@ explicitly have a random component
 So, once turn order is resolved, you should be able to calculate how one
 entire combat round should go.
 
-Battle Escalation and Energy
-----------------------------
+## Battle Escalation and Energy
 
 Battle Escalation starts at 0. Then at the beginning of each combat
 round, it increases by 1.
 
-Every combatant's Energy starts at 0. It can be recharged through the
+Every combatant’s Energy starts at 0. It can be recharged through the
 Charge Energy action, as well as through other specific means.
 
-Turn Order
-----------
+## Turn Order
 
 Each combatant rolls three ten-sided dice and orders them in hundreds
 place, then tens place, then ones place. If using an electronic system
@@ -2179,28 +2142,27 @@ In the case of a tie, the combatant with the higher Level goes first.
 
 This is one of the only times that dice are ever used in the game.
 
-Actions
--------
+## Actions
 
 Each combatant gets four action points. The possible actions are:
 
--   Attack
--   Charge Energy
--   Defend
--   Move
--   Perform Technique
--   Use Item
+  - Attack
+  - Charge Energy
+  - Defend
+  - Move
+  - Perform Technique
+  - Use Item
 
 ### Attack
 
-If the attacker's accuracy is less than the target's evasion, then the
-target's armor is applied a second time.
+If the attacker’s accuracy is less than the target’s evasion, then the
+target’s armor is applied a second time.
 
-If the attacker's accuracy is less than half of the target's evasion,
+If the attacker’s accuracy is less than half of the target’s evasion,
 then the attack or technique misses.
 
-If the attacker's accuracy is double or higher than the target's
-evasion, then the target's armor is not applied, and the target is
+If the attacker’s accuracy is double or higher than the target’s
+evasion, then the target’s armor is not applied, and the target is
 knocked back by 5 feet.
 
 ### Charge Energy
@@ -2232,8 +2194,7 @@ considered to be 5 feet of horizontal movement.
 
 ### Use Item
 
-Movement Modifiers
-------------------
+## Movement Modifiers
 
 **Foot** - The base movement type. 20 feet of horizontal movement per
 Move Action. Maximum upwards jump is 2 feet. Maximum horizontal jump is
@@ -2304,8 +2265,7 @@ used at the same time as any other movement type. - **Teleport IV** -
 Falling damage is halved. You can move to any position you see within 30
 feet. Cannot be used at the same time as any other movement type.
 
-Status Conditions
------------------
+## Status Conditions
 
 Airyspeedy - Horizontal movement speed increased by 10 feet. Add half
 your Power Level to your Physical Evasion.
@@ -2343,51 +2303,49 @@ to get the Bleeding status. Add your Level to your Physical Armor.
 Dehydration - Physical Power is zero. Removed whenever you take Water
 elemental damage.
 
-Elemental Armor Coating: `<Specific>`{=html} - Requires that you use
-armor and/or a shield. Incoming damage from the specified element is
-halved. The most recent application of this status removes all previous
+Elemental Armor Coating: <Specific> - Requires that you use armor and/or
+a shield. Incoming damage from the specified element is halved. The most
+recent application of this status removes all previous applications.
+
+Elemental Armor Resin: <Specific> - Requires that you use armor and/or a
+shield. Incoming damage from the specified element is nullified. If this
+occurs, then this status is also removed during the status phase. The
+most recent application of this status removes all previous
 applications.
 
-Elemental Armor Resin: `<Specific>`{=html} - Requires that you use armor
-and/or a shield. Incoming damage from the specified element is
-nullified. If this occurs, then this status is also removed during the
-status phase. The most recent application of this status removes all
-previous applications.
-
-Elemental Charge Feedback: `<Specific>`{=html} - All element charges of
-the specified element instead cause you to lose health, then the charges
+Elemental Charge Feedback: <Specific> - All element charges of the
+specified element instead cause you to lose health, then the charges
 disappear. The amount is 10% of your Maximum Health for each charge.
 This includes all charges you have when the status is first caused, and
 all charges you gain while having this status. The most recent
 application of this status removes all previous applications.
 
-Elemental Resistance: `<Specific>`{=html} - Incoming damage from the
-specified element is halved, after taking armor into account. For
-example, if you have the Elemental Resistance: Fire status, you take 30
-physical Fire damage, and you have 20 Physical Armor, then you take 5
-damage to your Health. The most recent application of this status
-removes all previous applications. Note that Elemental Armor Coating
-applies before subtracting armor from the damage, while Elemental
-Resistance applies after, so having both statuses at the same time is a
-good combination if the enemy is only capable of one type of elemental
-damage.
+Elemental Resistance: <Specific> - Incoming damage from the specified
+element is halved, after taking armor into account. For example, if you
+have the Elemental Resistance: Fire status, you take 30 physical Fire
+damage, and you have 20 Physical Armor, then you take 5 damage to your
+Health. The most recent application of this status removes all previous
+applications. Note that Elemental Armor Coating applies before
+subtracting armor from the damage, while Elemental Resistance applies
+after, so having both statuses at the same time is a good combination if
+the enemy is only capable of one type of elemental damage.
 
-Elemental Sticky Bomb: `<Specific>`{=html} - You take 1 elemental damage
-of the specific element, per status phase. Multiple sticky bombs can
-stack. Thankfully they have finite durations.
+Elemental Sticky Bomb: <Specific> - You take 1 elemental damage of the
+specific element, per status phase. Multiple sticky bombs can stack.
+Thankfully they have finite durations.
 
-Elemental Weakness: `<Specific>`{=html} - Incoming damage from the
-specified element bypasses your armor. The most recent application of
-this status removes all previous applications.
+Elemental Weakness: <Specific> - Incoming damage from the specified
+element bypasses your armor. The most recent application of this status
+removes all previous applications.
 
-Elemental Weapon Coating: `<Specific>`{=html} - All of your weapons have
-their damage type changed to be of the specified element. The most
-recent application of this status removes all previous applications.
+Elemental Weapon Coating: <Specific> - All of your weapons have their
+damage type changed to be of the specified element. The most recent
+application of this status removes all previous applications.
 
-Elemental Weapon Resin: `<Specific>`{=html} - All of your weapons have
-their damage type changed to be of the specified element. They also your
-Power Level to the damage. If the damage boost occurs, then this status
-is removed during the status phase. The most recent application of this
+Elemental Weapon Resin: <Specific> - All of your weapons have their
+damage type changed to be of the specified element. They also your Power
+Level to the damage. If the damage boost occurs, then this status is
+removed during the status phase. The most recent application of this
 status removes all previous applications. If you have both Elemental
 Weapon Coating and Elemental Weapon Resin statuses, then the Resin
 effect supercedes the Coating effect until the Resin wears off, after
@@ -2463,13 +2421,11 @@ Venom - Lose an amount of Health equal to 5% of your Maximum Health per
 status phase. Lose an amount of Energy equal to 5% of your Maximum
 Energy per status phase.
 
-8. World Details
-================
+# 8\. World Details
 
-Temporary Allies
-----------------
+## Temporary Allies
 
-All possible allies described here are explicitly "temporary". They will
+All possible allies described here are explicitly “temporary”. They will
 inevitably find excuses to cease helping you for some reason or another.
 
 ### Unpaid Legions
@@ -2496,10 +2452,10 @@ Density Camps to be gawked at.
 They will give you Imperial food and money to entertain them, or even
 small pieces of land on their continent, but nothing else. They
 especially will not play their power games to advance your interests, as
-that would be "uncivil", despite the fact that they already play their
+that would be “uncivil”, despite the fact that they already play their
 power games all the time to enrich themselves in other ways. If you tell
 them that perhaps they should think of you as thinking living beings,
-then they will get angry and call you "ungrateful".
+then they will get angry and call you “ungrateful”.
 
 ### Other Superpowers
 
@@ -2513,8 +2469,7 @@ might allow Islands to retain their culture, but the Islands are
 obligated to give their most strong and beautiful people to suffer
 indignities until they die of pain and despair.
 
-The Imperial Adtextus
----------------------
+## The Imperial Adtextus
 
 The Imperial Adtextus has been engineered over time to maintain a strict
 and inflexible hierarchical structure. Its driving principles are
@@ -2535,30 +2490,30 @@ as great philosophers, although still mortal.
 
 It is spread through the following means:
 
--   Monuments to the Empire, with portions of the Adtextus written upon
+  - Monuments to the Empire, with portions of the Adtextus written upon
     them. These monuments are activated with religious rituals.
--   Orators constantly reciting the Adtextus in public. Their own life
+  - Orators constantly reciting the Adtextus in public. Their own life
     force is burned in order to perform energy transfers on all who can
     hear them.
--   Slaves having their hearts ripped out in religious rituals. Their
+  - Slaves having their hearts ripped out in religious rituals. Their
     life force is transferred to the shared energy field of the
     Adtextus.
--   Patricians organizing their estates in accordance with the Adtextus.
+  - Patricians organizing their estates in accordance with the Adtextus.
     The Adtextus then shoots magical effects at the estates to
     accelerate the energy transfers.
 
 Examples of the Adtextus:
 
--   Correct Order - Something must always be on top, taking from
+  - Correct Order - Something must always be on top, taking from
     everything under it. Any surplus must be used to reinforce and
     expand this hierarchy. This is the foundational principle of the
     Adtextus, which all other Imperial magic relies on. If this
     principle were altered or removed, then all current Imperial magic
     would cease to function.
--   Center of the Universe - The Imperial Palace, which the Emperor is
+  - Center of the Universe - The Imperial Palace, which the Emperor is
     required to administrate from. Before the Adtextus was established,
-    it was called the "Middle House".
--   Bio Cutting Resource - Person in the military. It is expected that
+    it was called the “Middle House”.
+  - Bio Cutting Resource - Person in the military. It is expected that
     all people gendered male who are ages 15 to 35 will serve in the
     military. Those who do not are considered weak, and relegated to the
     lowest work possible. Those who prove themselves may have a chance
@@ -2569,7 +2524,7 @@ Examples of the Adtextus:
     unpaid, and consequently would consider desertion or even rebellion,
     although the schemes of the Patricians may exploit such disgruntled
     Legions.
--   Dirt Cutting Resource - Person who works outside the house and is
+  - Dirt Cutting Resource - Person who works outside the house and is
     not in the military. All people gendered male who are age 36 or
     older are expected to work until death. Those who were not fortunate
     enough to be a Legionary and/or get paid must wander around,
@@ -2577,15 +2532,15 @@ Examples of the Adtextus:
     to twist their minds towards volunteering for slavery, making them
     believe that at least then they would have consistent food and
     drink.
--   Bio Assembly Resource - A person gendered woman who conforms to
+  - Bio Assembly Resource - A person gendered woman who conforms to
     precise standards of appearance, and who has been proven to have
     birthed children. Women are legally owned by their fathers until
     they are sold to their husbands. Violence against women is only
-    considered harmful so far as it affects the man's property. A few
+    considered harmful so far as it affects the man’s property. A few
     women have played the power games at the Patrician level, although
     the Adtextus ensures they are perceived as evil witches and rewrites
     all imperial records of their deeds.
--   Bio Consumption Resources - A narrowly-defined set of plants,
+  - Bio Consumption Resources - A narrowly-defined set of plants,
     animals, and drinks that are considered high-class imperial food.
     All other food is defined as unclean and disgusting. Of course, the
     plants and animals only thrive within specific regions, and do
@@ -2596,15 +2551,15 @@ Examples of the Adtextus:
     produce grain and wine today because of life energy drained from
     slaves - and it takes the lives of more and more slaves each year to
     maintain the current mode of production.
--   Unweighted Warrior - A term that was added by Emperor Decimus, in an
-    effort to prevent the Adtextus from killing the St'los Tribe. So,
+  - Unweighted Warrior - A term that was added by Emperor Decimus, in an
+    effort to prevent the Adtextus from killing the St’los Tribe. So,
     instead of killing the tribe, it just mutated them into their
     current infamous forms. Emperor Decimus had to issue proclamations
-    that the St'los Tribe was always that way, and that it was a mistake
+    that the St’los Tribe was always that way, and that it was a mistake
     to take them on as military auxiliaries in the first place. Then he
     ordered the tribe to be decimated, for their failure to live up to
     expectations.
--   Deep Grass - A term that was added by Emperor Livius, in an effort
+  - Deep Grass - A term that was added by Emperor Livius, in an effort
     to allow crops that would grow in Yurk Province without destroying
     the topsoil. But, due to the way the Adtextus was designed, it
     changed the grass itself to deplete the soil rather than replenish
@@ -2613,8 +2568,7 @@ Examples of the Adtextus:
     his scholars publicly-executed for their failure, because the
     Adtextus only allows punishment to flow downwards.
 
-Intentionally Unanswered Questions
-----------------------------------
+## Intentionally Unanswered Questions
 
 Who is the current Emperor? Is this person putting any effort whatsoever
 into reforming the Empire or modifying the Adtextus? But even if they
@@ -2624,8 +2578,8 @@ processes. Any Emperor who would destroy the Adtextus must accept that
 unless the Imperials themselves switch to a different way of life, they
 will surely die from the removal of the Adtextus.
 
-Who are the St'los Tribe? What horrific fate befell them as a result of
-being classified as "Unweighted Warriors"? Are they anywhere near your
+Who are the St’los Tribe? What horrific fate befell them as a result of
+being classified as “Unweighted Warriors”? Are they anywhere near your
 Island?
 
 What is Yurk Province? How is it doing after the failed experiment with

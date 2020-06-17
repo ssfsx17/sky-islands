@@ -17,5 +17,5 @@ No enemy stats yet.
 The text is stored in [core.md](/core.md), which is intended to be converted to other formats through [pandoc](https://pandoc.org/). It is possible to read [core.md](/core.md) as-is.
 
 How to generate the outputs:
-- Markdown but with stuff added: `pandoc --toc --toc-depth=5 --standalone core.md -o readable.md`
-- HTML: `pandoc --toc --toc-depth=5 --standalone core.md -o index.html`
+- Markdown but with stuff added: `pandoc --toc --toc-depth=5 --standalone core.md --from=markdown --to=gfm -o readable.md`
+- HTML: `pandoc --toc --toc-depth=5 --standalone core.md --from=markdown -o index.html`
