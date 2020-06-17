@@ -52,6 +52,8 @@ The Blended Realm also connects to other planes of existence, which have their o
 
 # 2. Your Island
 
+The game group revolves around the Island. It is inevitable that players need to join or leave the group for various reasons, especially schedule and life maintenance. But the Island is always the center, and any new players must still become a part of it somehow.
+
 ## Creation of the Island
 
 ### Island Statistics
@@ -276,10 +278,11 @@ To repeat from the [Player Characters](#player-characters) chapter:
   - **Spear Wall**
   - **Volley Fire**
 - **Zone Tactics Group** - This group is based on forming separate circular battle groups who quickly move together and seek out weak enemy groups to break through. This skill group is not contradictory with the **Linear Tactics Group**, and can in fact go well together, especially at higher skill ratings.
-  - **Beastspeaker Aura**
-  - **Regeneration Aura**
-  - **Sanctuary Aura**
-  - **Terror Aura**
+  - **Animal Speaker Aura** - Communicate defensive maneuvers to allied animals.
+  - **Barrier Aura** - Project a constant barrier to block physical attacks.
+  - **Regeneration Aura** - Constantly regenerate health.
+  - **Sanctuary Aura** - Prevent the usage and targeting of Imperial Undeath Techniques.
+  - **Terror Aura** - Instill physical fear into enemies.
 
 ## Armor Training Group
 
@@ -1248,6 +1251,116 @@ Weapon Damage is Physical Power + 0.75x Skill Rating, for a minimum of 1 added d
 - Supercedes Spear Wall I, II and III if you are linked with an ally who also has Spear Wall IV and is equipped with a reach weapon. You automatically attack enemies who move into both of the 5-foot squares to your front. Your Physical Evasion is increased by an amount equal to your Power Level against enemies in the two 5-foot squares to your front.
 
 ## Zone Tactics Group
+
+### Animal Speaker Aura
+
+#### Rating 1
+
+**Animal Speaker I**
+- All allied animals within a radius of 5 feet gain a bonus to Physical Evasion, Physical Armor, Magic Evasion, and Magic Armor, equal to 1/4th of your Animal Speaker Aura skill rating, for a minimum of 1 point gained..
+
+#### Rating 20
+
+**Animal Speaker II**
+- Supercedes and replaces Animal Speaker I. The radius is now 10 feet. The stat mod is now equal to 1/2 of your Animal Speaker Aura rating.
+
+#### Rating 40
+
+**Animal Speaker III**
+- Supercedes and replaces Animal Speaker I and II. The radius is now 15 feet. The stat mod is now equal to 3/4 of your Animal Speaker Aura rating.
+
+#### Rating 60
+
+**Animal Speaker IV**
+- Supercedes and replaces Animal Speaker I, II and III. The radius is now 20 feet. The stat mod is now equal to your Animal Speaker Aura rating.
+
+### Barrier Aura
+
+#### Rating 1
+
+**Barrier I**
+- Both yourself and all alies within a radius of 5 feet gain a bonus to Physical Evasion and Physical Armor, equal to 1/4th of your Barrier Aura skill rating, for a minimum of 1 point gained.
+
+#### Rating 20
+
+**Barrier II**
+- Supercedes and replaces Barrier I. The radius is now 10 feet. The stat gain is now equal to 1/2 of your Barrier Aura skill rating.
+
+#### Rating 40
+
+**Barrier III**
+- Supercedes and replaces Barrier I and II. The radius is now 15 feet. The stat gain is now equal to 3/4 of your Barrier Aura skill rating.
+
+#### Rating 60
+
+**Barrier IV**
+- Supercedes and replaces Barrier I, II and III. The radius is now 20 feet. The stat gain is now equal to your Barrier Aura skill rating.
+
+### Regeneration Aura
+
+#### Rating 1
+
+**Regeneration I**
+- Both yourself and all allies within a radius of 5 feet regain 1 Health during the status phase.
+
+#### Rating 20
+
+**Regeneration II**
+- Supercedes and replaces Regeneration I. The radius is now 10 feet. The amount healed is now 5 Health.
+
+#### Rating 40
+
+**Regeneration III**
+- Supercedes and replaces Regeneration I and II. The radius is now 15 feet. The amount healed is now 10 Health.
+
+#### Rating 60
+
+**Regeneration IV**
+- Supercedes and replaces Regeneration I, II and III. The radius is now 20 feet. The amount healed is now 25 Health.
+
+### Sanctuary Aura
+
+#### Rating 1
+
+**Sanctuary I**
+- Within a radius of 5 feet, including the 5-foot square you are in, you prevent Imperial Undeath Techniques from being performed and targeted.
+
+#### Rating 20
+
+**Sanctuary II**
+- Supercedes and replaces Sanctuary I. The radius is now 10 feet.
+
+#### Rating 40
+
+**Sanctuary III**
+- Supercedes and replaces Sanctuary I and II. The radius is now 15 feet.
+
+#### Rating 60
+
+**Sanctuary IV**
+- Supercedes and replaces Sanctuary I, II and III. The radius is now 20 feet.
+
+### Terror Aura
+
+#### Rating 1
+
+**Terror I**
+- Within a radius of 5 feet, you cause enemy Physical Evasion and Physical Armor to be decreased by 1/4th your Terror Aura skill rating, for a minimum of 1 point of penalty.
+
+#### Rating 20
+
+**Terror II**
+- Supercedes and replaces Terror I. The radius is now 10 feet. The stat decrease is now equal to 1/2 your Terror Aura skill rating.
+
+#### Rating 40
+
+**Terror III**
+- Supercedes and replaces Terror I and II. The radius is now 15 feet. The stat decrease is now equal to 3/4ths your Terror Aura skill rating.
+
+#### Rating 60
+
+**Terror IV**
+- Supercedes and replaces Terror I, II and III. The radius is now 20 feet. The stat decrease is now equal to your Terror Aura skill rating.
 
 # 5. Dramatic Scenes
 
