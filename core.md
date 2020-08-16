@@ -97,15 +97,21 @@ Choose zero, one, two, three, or four traits. Of course, choosing four is the mo
 You can also save trait choices for later. In fact, if this is your first time creating a character, then you should reserve all four trait choices for later.
 
 - **Abiotic** - You do not need water, food, or sleep. You only need maintenance and recharging, both of which can be done while you are awake.
+- **Acid Blood** - Whenever you take more than 1 damage, you cause 1/4th of the damage to all enemies within 5 feet, for a minimum of 1 damage dealt. You can also use your blood to melt through solid objects given enough time and enough blood to spare.
 - **Amorphous** - Your natural form is a something like gelatin, ooze, slime, or good-quality refrigerated broth. You can use this form to slide down slopes, down drains, into pipes, etc. However, this causes all of your combat gear to fall off, and you also cannot perform combat actions in that form.
 - **Antigrav** - You always have Hover I. This improves to Hover II at Power Level 20, Hover III at Power Level 40, and Hover IV at Power Level 60.
-- **Aquatic** - You always have Swimming I. This improves to Swimming II at Power Level 20, Swimming III at Power Level 40, and Swimming IV at Power Level 60.
+- **Aquatic** - You always have Swimming I. This improves to Swimming II at Power Level 20, Swimming III at Power Level 40, and Swimming IV at Power Level 60. You can also hold your breath for long periods of time underwater.
+- **Bouncy Body** - Your Grapple actions move enemies by 10 feet rather than 5 feet.
 - **Claws / Fangs / Horns / Spikes** - You always have Ironfist I. This improves to Ironfist II at Power Level 20, Ironfist III at Power Level 40, and Ironfist IV at Power Level 60.
+- **Cold Blooded** - Health loss during the status phase is halved.
 - **Constrictor** - Your accuracy for grapples is increased by an amount equal to half your Power Level.
 - **Echolocation** - Status conditions that decrease accuracy, do not alter your accuracy.
 - **Elemental Breath: Specific Element** - You must choose one element for this physical feature. That element is locked-in for life. You can spend 2 action points to do the Elemental Breath technique without an energy cost.
 - **Energy Being** - Your Charge actions restore double Energy to yourself.
+- **External Digestion** - Your Grapple actions do double damage.
 - **Fur / Scales / Thick Hide** - You have a natural body covering that insulates you from some types of environmental conditions. You gain two extra chances for Dramatic Chances that involve spending long periods of time in hot or cold environments.
+- **Gills** - You are able to breathe while submerged.
+- **Heavy Body** - Grapple actions against you do not move you.
 - **Hermaphrodite** - You can morph your sexual characteristics by concentrating on them for several minutes in a safe area.
 - **Imperial Body Shape** - If you wrap yourself in heavy clothing, then you look like an Imperial from a distance, thus avoiding immediate attack if you are travelling by yourself.
 - **Long Lived** - You are able to stay young for thousands of years. You gain 5 extra skill points every Power Level, as well as at character creation, for skills in the Artistic, Physicality, Science and Tradeskills groups. You must still follow the limit of skill ratings being capped by your Power Level.
@@ -119,8 +125,10 @@ You can also save trait choices for later. In fact, if this is your first time c
 - **Reincarnation** - You remember past lives. You gain 5 extra skill points every Power Level, as well as at character creation, for skills in the Artistic, Physicality, Science and Tradeskills groups. You must still follow the limit of skill ratings being capped by your Power Level.
 - **Shifter** - You can spend 4 AP to shift into the Blended Realm. Getting back is rather difficult, especially without others from your Island to help connect you and guide you back home. The amount of time it takes to shift back alone is most likely an entire Strategic Turn.
 - **Symbiote** - You have another organism inside of you, who can keep you alive and revive you. This process takes a whole day, and can be interrupted by additional damage to your body, e.g. enemy soldiers stabbing corpses to make sure they stay down.
+- **Undead** - Any effect that would drain your Health and give it to someone else is reversed, so that instead, you drain that other person's Health. Any effect done by someone other than you that would normally restore your Health instead causes damage to you, ignoring Armor. Thus you rely on yourself to keep your Health up. When you die, you pop back up after 4 status phases at 1 Health.
 - **Venomous Claws / Fangs / Stinger** - Your unarmed attacks which do more than 1 damage also cause one stack of the Venom status condition.
-- **Venomous Skin** - Anyone who does an unarmed attack to you, or attempts to grapple you, immediately receives one stack of the Venom status condition.
+- **Venomous Skin / Spines** - Anyone who does an unarmed attack to you, or attempts to grapple you, immediately receives one stack of the Venom status condition.
+- **Venomous Spit / Eye Blood** - You can do a ranged attack that does exactly 2 points of damage, ignoring Physical Armor, which adds one stack of the Venom status condition to the target.
 - **Weaponmaster** - You gain 2 extra skill points every Power Level, as well as at character creation, which can be spent on skills in the Weapon Training group. You must still follow the limit of skill ratings being capped by your Power Level.
 - **Wings** - You always have Winged I. This improves to Winged II at Power Level 20, Winged III at Power Level 40, and Winged IV at Power Level 60.
 
@@ -167,7 +175,7 @@ Choose four stats to start with a rating of 10, four stats to start with a ratin
 
 Then, increase the Maximum Health rating by 20 more.
 
-### Where are Strength, Intelligence, etc.?
+### Where are Strength, Intelligence, etc?
 
 There is intentionally no relationship between stats, and traits which may be described as being anything like "strength", "intelligence", etc. For example, Physical Power does not indicate muscle size, although you may choose to describe your character thusly. In fact, it is possible for any or all stats to be entirely supernatural in nature.
 
@@ -588,6 +596,8 @@ Weapon Damage is Physical Power + 0.75x Skill Rating, for a minimum of 1 added d
 
 **Expert Usage of Energy Potion** - Restores 60 Energy to the target.
 
+### Cooking Techs
+
 ### Elemental Techs
 
 #### Rating 1
@@ -705,7 +715,7 @@ Weapon Damage is Physical Power + 0.75x Skill Rating, for a minimum of 1 added d
 - Transforms part of the terrain - or part of thin air that is connected to the terrain - into a magical elemental form, depending on the element used. The magical terrain has a depth of 2 feet.
   - Air: Turns the terrain (or terrain-connected air) into a cloud. You and your team can walk on top of the cloud. If there was nothing under the terrain, then enemies will fall through if they try to walk on it.
   - Crystal: Turns the terrain (or terrain-connected air) into transparent crystal.
-  - Dark: Turns the terrain (or terrain_connected air) into opaque obsidian. It also projects a 10-foot-tall field that blocks all light, thus blocking vision.
+  - Dark: Turns the terrain (or terrain-connected air) into opaque obsidian. It also projects a 10-foot-tall field that blocks all light and sound, thus blocking vision and echolocation.
   - Earth: Turns the terrain (or terrain-connected air) into solid rock.
   - Fire: Turns the terrain (or terrain-connected air) into hot molten stone. Anyone who steps on the terrain takes 1 damage, and if their Magical Evasion is less than your Magical Accuracy, then they also get the Burning status condition.
   - Light: Turns the terrain (or terrain-connected air) into a shiny reflective metal. During the status phase, whoever is standing on the terrain regains 1 energy.
@@ -808,6 +818,13 @@ Weapon Damage is Physical Power + 0.75x Skill Rating, for a minimum of 1 added d
 - Target: Single
 - Restore an amount of health to the target equal to your Hexenkraft Techs skill rating. The visual effect is derived from the element used.
 
+**Resuscitate**
+- 10 energy
+- Type: Touch
+- Range: 5 feet
+- Target: Single
+- Add three stacks of the Resuscitate status to the target. This applies even if the target is dead.
+
 **Elemental Hex Needle**
 - 1 energy
 - Type: Line-of-sight
@@ -909,7 +926,7 @@ Weapon Damage is Physical Power + 0.75x Skill Rating, for a minimum of 1 added d
 - 2 Action Points
 - Type: Move & Melee
 - Target: Single
-- Perform a move action ending in at least 10 feet of straight line, then do a melee attack against one target. The attack's accuracy is doubled.
+- Perform a move action ending in at least 10 feet of straight line, then do a melee attack against one target at the end of the movement. The attack's Physical Accuracy is doubled.
 
 **Random Punches**
 - 2 Action Points
@@ -918,12 +935,26 @@ Weapon Damage is Physical Power + 0.75x Skill Rating, for a minimum of 1 added d
 - Target: Single
 - Roll a six-sided die (cube shape). On a roll of 1 or 2, you do an unarmed attack with half damage. On a roll of 3 or 4, you do a normal unarmed attack. On a roll of 5 or 6, you do double damage, and the target's physical armor is halved against the attack. The damage type is set to the element used.
 
+**Shoulder Check**
+- 2 Action Points
+- Type: Melee
+- Range: 5 feet
+- Target: Single
+- Perform an unarmed attack, and knock the target back by 5 feet.
+
 **Spinning Clothesline**
 - 2 Action Points
 - Type: Melee
 - Range: 5 feet
 - Target: Everyone in range
 - You spin around and perform an unarmed attack against everyone in range, both friend and foe. Your physical accuracy is halved for this attack. The damage type is set to the element used.
+
+**Trip And Punch**
+- 3 Action Points
+- Type: Melee
+- Range: 5 feet
+- Target: Single
+- Perform a grapple action, which is then followed up with an unarmed attack that adds your Power Level to the damage.
 
 #### Rating 5
 
@@ -941,7 +972,28 @@ Weapon Damage is Physical Power + 0.75x Skill Rating, for a minimum of 1 added d
 - Target: All in the ground line
 - You do an unarmed attack against all targets who are touching the ground within the line.
 
+**Sharp Knuckle Punch**
+- 2 Action Points
+- Type: Melee
+- Range: 5 feet
+- Target: Single
+- Perform an unarmed attack. The target's Physical Armor is cut to 1/4th against the attack, but the final damage the target takes is also halved.
+
+**Suplex**
+- 3 Action Points
+- Type: Grapple
+- Range: 5 feet
+- Target: Single
+- Perform a grapple. The target is moved to the 5-foot square behind you.
+
 #### Rating 10
+
+**Aura Imbued Fist**
+- 2 Action Points
+- Type: Melee
+- Range: 5 feet
+- Target: Single
+- You do an unarmed attack, except the stats used are Magical rather than Physical. You also gain an amount of Magical Accuracy equal to your Power Level for this technique.
 
 **Pressure Point Strike**
 - 2 Action Points
@@ -968,7 +1020,7 @@ Weapon Damage is Physical Power + 0.75x Skill Rating, for a minimum of 1 added d
 
 **Heart Resonance Press**
 - 2 Action Points
-- Type: Melee
+- Type: Touch
 - Range: 5 feet
 - Target: Single
 - Revive one ally at 1 Health.
@@ -979,6 +1031,39 @@ Weapon Damage is Physical Power + 0.75x Skill Rating, for a minimum of 1 added d
 - You regain an amount of health equal to 1/4th of your Martial Techs skill rating, and remove one negative status condition of your choice, as long as it is not one that blocks your ability to use this technique.
 
 #### Rating 20
+
+### Musical Techs
+
+#### Rating 1
+
+**Music Maintenance**
+- Each song requires 1 AP at all times while it is active. You activate or deactivate songs at the beginning of your own turn. This means you can maintain up to 4 songs at once.
+- You can only activate at most one instance of each song. For example, if you activate Song of Energy, you cannot have a second Song of Energy active at the same time. If you want a lot of the same Song active at once, you will need allies who also have the Musical Techs skill to cooperate. Then you and your allies together can really start stacking a lot of musical effects.
+
+**Song of Energy**
+- Affects yourself and all allies.
+- Charge Actions will consume one Elemental Charge, of the same element as was chosen for this song, to double the energy gained.
+- If a person does not have any Elemental Charges, of the same element as was chosen for this song, then they do not gain any benefits.
+
+**Song of Marching**
+- Affects yourself and all allies.
+- Affected people under the effect of Shield Wall or Spear Wall gain 5 additional feet of horizontal movement per Move Action.
+
+**Song of Perception**
+- Affects yourself and all allies.
+- Adds 1/4th of your Power Level to Magical Accuracy, for a minimum of 1 point added.
+
+**Song of Protection**
+- Affects yourself and all allies.
+- Adds 1/4th of your Power Level to Magical Evasion, for a minimum of 1 point added.
+
+**Song of Rage**
+- Affects yourself and all allies.
+- Adds 1/4th of your Power Level to Magical Power, for a minimum of 1 point added.
+
+**Song of Safety**
+- Affects yourself and all allies.
+- Adds 1/4th of your Power Level to Magical Armor, for a minimum of 1 point added.
 
 ### Summoning Techs
 
@@ -1257,7 +1342,7 @@ Weapon Damage is Physical Power + 0.75x Skill Rating, for a minimum of 1 added d
 #### Rating 1
 
 **Animal Speaker I**
-- All allied animals within a radius of 5 feet gain a bonus to Physical Evasion, Physical Armor, Magic Evasion, and Magic Armor, equal to 1/4th of your Animal Speaker Aura skill rating, for a minimum of 1 point gained..
+- All allied animals within a radius of 5 feet gain a bonus to Physical Evasion, Physical Armor, Magic Evasion, and Magic Armor, equal to 1/4th of your Animal Speaker Aura skill rating, for a minimum of 1 point gained. Enemy animals within the same radius receive a penalty instead, due to the counteraction of brainwashing causing them to also forget the associated combat training.
 
 #### Rating 20
 
@@ -1442,6 +1527,7 @@ Every Island should have at least a few. The process of writing them should be c
 - **Cycle of Fire** - +20 Shelter. Every 10 years, a village must spend one year living completely without heating, and learn how to endure the cold. After this year of cold, an enemy person or building is set on fire to renew the cycle.
 - **Legend of the Peacemaker** - +20 Knowledge Permanency. The People of the Island were unified by someone who pacified and organized the tribal warlords, replacing their hatred and feuds with constructive social mechanisms.
 - **The Dangerous Dress Time** - +20 Fortifications. All People must spend some portion of their childhood guarding the edges of the Island, keeping watch for danger. During this time, they must also try out a variety of dresses, wigs, and other stylings which are normally associated with specific genders. The People undergoing this process are considered to be more powerful, due to being on-edge and forgoing the comforts of even their own genders.
+- **Wedding Warriors** - +20 Fortifications. During every ceremony of marriage between two people, warriors from each family must fight each other (with nonlethal weapons). Challengers may also come and challenge anyone. Stabbing is not allowed unless a blood feud between two warriors is recognized.
 
 ## Strategic Turns
 
@@ -1683,7 +1769,7 @@ Combat has no random elements except for:
 - Turn Order
 - Techniques that explicitly have a random component
 
-So, once turn order is resolved, you should be able to calculate how one entire combat round should go.
+So, once turn order is resolved, you should be able to calculate how the rest of the entire combat round could go.
 
 ## Battle Escalation and Energy
 
@@ -1703,12 +1789,15 @@ This is one of the only times that dice are ever used in the game.
 
 Each combatant gets four action points. The possible actions are:
 
-- Attack
-- Charge Energy
-- Defend
-- Move
-- Perform Technique
-- Use Item
+- Attack - 1 AP
+- Change Armor - 4 AP
+- Change Weapon - 2 AP
+- Charge Energy - 1 AP
+- Defend - 1 AP
+- Grapple - 2 AP
+- Move - 1 AP
+- Perform Technique - 1 AP (some techniques have different AP costs)
+- Use Item - 1 AP
 
 ### Attack
 
@@ -1718,13 +1807,29 @@ If the attacker's accuracy is less than half of the target's evasion, then the a
 
 If the attacker's accuracy is double or higher than the target's evasion, then the target's armor is not applied, and the target is knocked back by 5 feet.
 
+### Change Armor
+
+Changes which type of armor you are using.
+
+### Change Weapon
+
+Changes what you have in your hands.
+
 ### Charge Energy
 
 The Charge Energy action restores Energy to yourself, equal to the Battle Escalation number.
 
 ### Defend
 
-The Defend action multiplies your evasion and armor by 1.5x for the rest of the combat round. Multiple Defend actions have no additional effect.
+The Defend action keeps your Physical Evasion, Magical Evasion and Magical Armor up. Without at least one Defend action, these stats fall down to equalling your Power Level instead.
+
+Additional Defend actions in one round will each add an amount to your Physical Evasion, Physical Armor, Magical Evasion, and Magical Armor equal to half of their respective base ratings, until your next turn.
+
+### Grapple
+
+Similar to Attack, except the range is always 5 feet, the amount of damage is always equal to 1/10th of the target's Maximum Health, and a successful action results in the target being moved 5 feet back. The damage ignores Physical Armor.
+
+Consequently, even the most well-armored soldiers must beware grapplers.
 
 ### Move
 
@@ -1736,7 +1841,11 @@ Vertical jumps do not count against horizontal movement. For example, moving int
 
 ### Perform Technique
 
+Most techniques only take 1 AP, and have other costs or limitations to compensate. Some techniques, however, explicitly state that they take 2 or more AP, or otherwise reserve AP.
+
 ### Use Item
+
+Item usage generally has a range of five feet.
 
 ## Movement Modifiers
 
@@ -1776,81 +1885,89 @@ Vertical jumps do not count against horizontal movement. For example, moving int
 - **Teleport III** - Falling damage is halved. You can move to any position you see within 20 feet. Cannot be used at the same time as any other movement type.
 - **Teleport IV** - Falling damage is halved. You can move to any position you see within 30 feet. Cannot be used at the same time as any other movement type.
 
+## Special Circumstances
+
+Falling damage is equal to 2 points for each foot beyond your maximum downwards jump distance. Falling off the edge of a flying Island is quite a lot of damage. Note that various movement types also state that they halve falling damage. With multiple such movement types, each one further halves the remaining falling damage, so it can be cut to 1/4th, 1/8th, 1/16th, and so on.
+
+**Example 1:** A combatant is pushed by 5 feet, and ends up falling 20 feet. Their maximum downwards jump is 4 feet. So they take 16 * 2, or 32, points of falling damage. This is lethal to Power Level 1 combatants without some way to halve it, and still hurts quite a lot to more powerful combatants.
+
 ## Status Conditions
 
-Airyspeedy - Horizontal movement speed increased by 10 feet. Add half your Power Level to your Physical Evasion.
+**Airyspeedy** - Horizontal movement speed increased by 10 feet. Add half your Power Level to your Physical Evasion.
 
-Babbling - Unable to do actions that require speaking, or spending Energy. Removed whenever you take Dark elemental damage.
+**Babbling** - Unable to do actions that require speaking, or spending Energy. Removed whenever you take Dark elemental damage.
 
-Bleeding - Lose an amount of Health equal to 10% of your Maximum Health per status phase. Removed whenever you gain Health.
+**Bleeding** - Lose an amount of Health equal to 10% of your Maximum Health per status phase. Removed whenever you gain Health.
 
-Blinded - Physical Accuracy and Physical Evasion are halved. Cannot do anything requiring line-of-sight. Removed whenever you take Dark elemental damage. Can be removed by spending all action points to wipe your eyes.
+**Blinded** - Physical Accuracy and Physical Evasion are halved. Cannot do anything requiring line-of-sight. Removed whenever you take Dark elemental damage. Can be removed by spending all action points to wipe your eyes.
 
-Blood Poisoning - Lose an amount of Health equal to 25% of your Maximum Health per status phase. Removed whenever you take Moon elemental damage.
+**Blood Poisoning** - Lose an amount of Health equal to 25% of your Maximum Health per status phase. Removed whenever you take Moon elemental damage.
 
-Buried - Physical Evasion and Physical Power are halved. Horizontal movement is halved. Removed whenever you take Air elemental damage. Can be removed by spending all action points to dig yourself out.
+**Buried** - Physical Evasion and Physical Power are halved. Horizontal movement is halved. Removed whenever you take Air elemental damage. Can be removed by spending all action points to dig yourself out.
 
-Burning - Lose an amount of Health equal to 10% of your Maximum Health per status phase. Removed whenever you take Water elemental damage. Can be removed by spending all action points to stop, drop, and roll.
+**Burning** - Lose an amount of Health equal to 10% of your Maximum Health per status phase. Removed whenever you take Water elemental damage. Can be removed by spending all action points to stop, drop, and roll.
 
-Chilled - Physical Armor and Magical Armor are halved. Cannot jump. Removed whenever you take Fire elemental damage. Can be removed by spending all action points to jump up and down and warm yourself up.
+**Chilled** - Physical Armor and Magical Armor are halved. Cannot jump. Removed whenever you take Fire elemental damage. Can be removed by spending all action points to jump up and down and warm yourself up.
 
-Crystalbarrier - All melee attacks aimed at you will cause the attacker to get the Bleeding status. Add your Level to your Physical Armor.
+**Crystalbarrier** - All melee attacks aimed at you will cause the attacker to get the Bleeding status. Add your Level to your Physical Armor.
 
-Dehydration - Physical Power is zero. Removed whenever you take Water elemental damage.
+**Dehydration** - Physical Power is zero. Removed whenever you take Water elemental damage.
 
-Elemental Armor Coating: <Specific> - Requires that you use armor and/or a shield. Incoming damage from the specified element is halved. The most recent application of this status removes all previous applications.
+**Elemental Armor Coating: <Specific>** - Requires that you use armor and/or a shield. Incoming damage from the specified element is halved. The most recent application of this status removes all previous applications.
 
-Elemental Armor Resin: <Specific> - Requires that you use armor and/or a shield. Incoming damage from the specified element is nullified. If this occurs, then this status is also removed during the status phase. The most recent application of this status removes all previous applications.
+**Elemental Armor Resin: <Specific>** - Requires that you use armor and/or a shield. Incoming damage from the specified element is nullified. If this occurs, then one stack of this status is also removed during the status phase. The most recent application of this status removes all previous applications.
 
-Elemental Charge Feedback: <Specific> - All element charges of the specified element instead cause you to lose health, then the charges disappear. The amount is 10% of your Maximum Health for each charge. This includes all charges you have when the status is first caused, and all charges you gain while having this status. The most recent application of this status removes all previous applications.
+**Elemental Charge Feedback: <Specific>** - All element charges of the specified element instead cause you to lose health, then the charges disappear. The amount is 10% of your Maximum Health for each charge. This includes all charges you have when the status is first caused, and all charges you gain while having this status. The most recent application of this status removes all previous applications.
 
-Elemental Resistance: <Specific> - Incoming damage from the specified element is halved, after taking armor into account. For example, if you have the Elemental Resistance: Fire status, you take 30 physical Fire damage, and you have 20 Physical Armor, then you take 5 damage to your Health. The most recent application of this status removes all previous applications. Note that Elemental Armor Coating applies before subtracting armor from the damage, while Elemental Resistance applies after, so having both statuses at the same time is a good combination if the enemy is only capable of one type of elemental damage.
+**Elemental Resistance: <Specific>** - Incoming damage from the specified element is halved, after taking armor into account. For example, if you have the Elemental Resistance: Fire status, you take 30 physical Fire damage, and you have 20 Physical Armor, then you take 5 damage to your Health. The most recent application of this status removes all previous applications. Note that Elemental Armor Coating applies before subtracting armor from the damage, while Elemental Resistance applies after, so having both statuses at the same time is a good combination if the enemy is only capable of one type of elemental damage.
 
-Elemental Sticky Bomb: <Specific> - You take 1 elemental damage of the specific element, per status phase. Multiple sticky bombs can stack. Thankfully they have finite durations.
+**Elemental Sticky Bomb: <Specific>** - You take 1 elemental damage of the specific element, per status phase. Multiple sticky bombs can stack. Thankfully they have finite durations.
 
-Elemental Weakness: <Specific> - Incoming damage from the specified element bypasses your armor. The most recent application of this status removes all previous applications.
+**Elemental Weakness: <Specific>** - Incoming damage from the specified element bypasses your armor. The most recent application of this status removes all previous applications.
 
-Elemental Weapon Coating: <Specific> - All of your weapons have their damage type changed to be of the specified element. The most recent application of this status removes all previous applications.
+**Elemental Weapon Coating: <Specific>** - All of your weapons have their damage type changed to be of the specified element. The most recent application of this status removes all previous applications.
 
-Elemental Weapon Resin: <Specific> - All of your weapons have their damage type changed to be of the specified element. They also your Power Level to the damage. If the damage boost occurs, then this status is removed during the status phase. The most recent application of this status removes all previous applications. If you have both Elemental Weapon Coating and Elemental Weapon Resin statuses, then the Resin effect supercedes the Coating effect until the Resin wears off, after which the Coating will take over.
+**Elemental Weapon Resin: <Specific>** - All of your weapons have their damage type changed to be of the specified element. They also your Power Level to the damage. If the damage boost occurs, then one stack of this status is removed during the status phase. The most recent application of this status removes all previous applications. If you have both Elemental Weapon Coating and Elemental Weapon Resin statuses, then the Resin effect supercedes the Coating effect until the Resin wears off, after which the Coating will take over.
 
-Entombed - Unable to move. Physical Evasion is zero. Removed whenever you take Air elemental damage.
+**Entombed** - Unable to move. Physical Evasion is zero. Removed whenever you take Air elemental damage.
 
-Fireaura - You cause fire damage to all adjacent enemies during the status phase, as if it had been done by the Burning status. Add your Power Level to your Magical Armor.
+**Fireaura** - You cause fire damage to all adjacent enemies during the status phase, as if it had been done by the Burning status. Add your Power Level to your Magical Armor.
 
-Fluidmotion - You move through liquids as if it were normal ground. Maximum downwards jump distance is increased by 20 feet. You can move upwards through liquids, such as waterfalls, without using up any upwards jump.
+**Fluidmotion** - You move through liquids as if it were normal ground. Maximum downwards jump distance is increased by 20 feet. You can move upwards through liquids, such as waterfalls, without using up any upwards jump.
 
-Forgetfulness - Lose an amount of Energy equal to 25% of your Maximum Energy per status phase. Removed whenever you take Light elemental damage.
+**Forgetfulness** - Lose an amount of Energy equal to 25% of your Maximum Energy per status phase. Removed whenever you take Light elemental damage.
 
-Fragility - Physical Armor is zero. Removed whenever you take magical damage. Can be removed by spending all action points to recollect yourself.
+**Fragility** - Physical Armor is zero. Removed whenever you take magical damage. Can be removed by spending all action points to recollect yourself.
 
-Melting - Lose an amount of Health equal to 10% of your Maximum Health per status phase. Physical Armor and Magical Armor are halved. Removed whenever you take Water elemental damage.
+**Melting** - Lose an amount of Health equal to 10% of your Maximum Health per status phase. Physical Armor and Magical Armor are halved. Removed whenever you take Water elemental damage.
 
-Mindmaze - Magical Accuracy and Magical Evasion are halved. Can be removed by spending all action points to clear your mind.
+**Mindmaze** - Magical Accuracy and Magical Evasion are halved. Can be removed by spending all action points to clear your mind.
 
-Moon Madness - You are only able to do unarmed attacks and techniques. Removed whenever you take Wood elemental damage.
+**Moon Madness** - You are only able to do unarmed attacks and techniques. Removed whenever you take Wood elemental damage.
 
-Overheat - You take an amount of damage equal to 10% of your Maximum Health for each Action Point you use. When you do a Charge action, you furthermore take damage equal to the amount of Energy you gained. One stack of Overheat is removed during the status phase.
+**Overheat** - You take an amount of damage equal to 10% of your Maximum Health for each Action Point you use. When you do a Charge action, you furthermore take damage equal to double the amount of Energy you gained. One stack of Overheat is removed during the status phase.
 
-Preserving Compress - You do not take damage from status conditions.
+**Preserving Compress** - You do not take damage from status conditions.
 
-Recharging - Regain an amount of Energy equal to 10% of your Maximum Energy per status phase.
+**Recharging** - Regain an amount of Energy equal to 10% of your Maximum Energy per status phase.
 
-Shadowconcealed - Add your Level to your Physical Evasion and Magical Evasion.
+**Resuscitate** - Remove one stack of Resuscitate during the status phase. When the final stack of the Resuscitate status is removed, you are revived with 1 Health.
 
-Shattered - All Armor is halved. Multiple stacks of Shattered do not cause additional effects. One stack of Shattered is removed during the status phase.
+**Shadowconcealed** - Add your Level to your Physical Evasion and Magical Evasion.
 
-Shininghead - Add your Level to your Evasion and Armor against all line-of-sight and ranged techniques.
+**Shattered** - All Armor is halved. Multiple stacks of Shattered do not cause additional effects. One stack of Shattered is removed during the status phase.
 
-Shocked - Magical Power and Magical Armor are halved. Removed whenever you take Earth elemental damage. Can be removed by spending all action points to breathe and calm down from the shock.
+**Shininghead** - Add your Power Level to your Evasion and Armor against all line-of-sight and ranged techniques.
 
-Stunned - All Accuracy and Evasion are halved. Multiple stacks of Stunned do not cause additional effects. One stack of Stunned is removed during the status phase.
+**Shocked** - Magical Power and Magical Armor are halved. Removed whenever you take Earth elemental damage. Can be removed by spending all action points to breathe and calm down from the shock.
 
-Suffocation - Lose an amount of Health equal to 10% of your Maximum Health per status phase. Horizontal movement is limited to 5 feet. Removed whenever you take Earth elemental damage.
+**Stunned** - All Accuracy and Evasion are halved. Multiple stacks of Stunned do not cause additional effects. One stack of Stunned is removed during the status phase.
 
-Thorns - Whenever you do damage, you lose an amount of Health equal to 10% of your Maximum Health. One stack of Thorns is removed during the status phase.
+**Suffocation** - Lose an amount of Health equal to 10% of your Maximum Health per status phase. Horizontal movement is limited to 5 feet. Removed whenever you take Earth elemental damage.
 
-Venom - Lose an amount of Health equal to 5% of your Maximum Health per status phase. Lose an amount of Energy equal to 5% of your Maximum Energy per status phase.
+**Thorns** - Whenever you do damage, you lose an amount of Health equal to 10% of your Maximum Health. One stack of Thorns is removed during the status phase.
+
+**Venom** - Lose an amount of Health equal to 5% of your Maximum Health per status phase. Lose an amount of Energy equal to 5% of your Maximum Energy per status phase.
 
 # 8. World Details
 
@@ -1907,3 +2024,93 @@ What is Yurk Province? How is it doing after the failed experiment with Deep Gra
 Is there any kind of grand civilization in the Blended Realm? If so, then what would be their aims towards the solid world?
 
 Is the Empire actually close to division and collapse? If so, then are the other Islands looking to conquer yours? Will they establish an Adtextus of their own to just make another evil regime with their own special characteristics? Perhaps the dreaded Savage Wolf Tribe could be the one to overthrow the Empire, and replace it with raw violence all the time?
+
+# 9. Pre-Made Enemies
+
+## T1: Recruit
+
+### Gladiator Initiate
+
+- Person
+- Maximum Health = 30 + (Power Level * 4)
+- Maximum Energy = 10 + Power Level
+- Physical Accuracy = 20 + (Power Level * 2)
+- Physical Evasion = 20 + (Power Level * 2)
+- Physical Power = 20 + (Power Level * 2)
+- Physical Armor = 10 + Power Level
+- Magical Accuracy = 10 + Power Level
+- Magical Evasion = 10 + Power Level
+- Magical Power = 10 + Power Level
+- Magical Armor = 10 + Power Level
+- Flashy Strike - 4 energy - Melee attack with half Physical Accuracy but double damage.
+- Shoulder Check - 4 energy - Melee attack with double Physical Accuracy but half damage.
+
+### Misanthrope Initiate
+
+- Person
+- Maximum Health = 20 + (Power Level * 2)
+- Maximum Energy = 20 + (Power Level * 2)
+- Physical Accuracy = 10 + Power Level
+- Physical Evasion = 10 + Power Level
+- Physical Power = 10 + Power Level
+- Physical Armor = 10 + Power Level
+- Magical Accuracy = 20 + (Power Level * 2)
+- Magical Evasion = 20 + (Power Level * 2)
+- Magical Power = 20 + (Power Level * 2)
+- Magical Armor = 10 + Power Level
+- Random Element Specialization
+- Elemental Techs
+
+### Recruit
+
+- Person
+- Maximum Health = 20 + (Power Level * 2)
+- Maximum Energy = 10 + Power Level
+- Physical Accuracy = 10 + Power Level
+- Physical Evasion = 10 + Power Level
+- Physical Power = 10 + Power Level
+- Physical Armor = 10 + Power Level
+- Magical Accuracy = 10 + Power Level
+- Magical Evasion = 10 + Power Level
+- Magical Power = 10 + Power Level
+- Magical Armor = 10 + Power Level
+- Shield Wall I
+- Slingshot - 2 energy - Ranged attack with double Physical Accuracy
+
+### Starved Rooster
+
+- Animal
+- Maximum Health = 20 + (Power Level * 2)
+- Maximum Energy = 10 + Power Level
+- Physical Accuracy = 20 + (Power Level * 2)
+- Physical Evasion = 20 + (Power Level * 2)
+- Physical Power = 10 + Power Level
+- Physical Armor = 10 + Power Level
+- Magical Accuracy = 10 + Power Level
+- Magical Evasion = 20 + (Power Level * 2)
+- Magical Power = 10 + Power Level
+- Magical Armor = 10 + Power Level
+- Swiftfoot I
+- Winged I
+- Chicken Scratch - 5 energy - Melee attack two times
+
+## T2: Scout
+
+Imperial Scout:
+- Person
+- Maximum Health = 20 + (Power Level * 2)
+- Maximum Energy = 20 + (Power Level * 2)
+- Physical Accuracy = 20 + (Power Level * 2)
+- Physical Evasion = 20 + (Power Level * 2)
+- Physical Power = 10 + Power Level
+- Physical Armor = 10 + Power Level
+- Magical Accuracy = 10 + Power Level
+- Magical Evasion = 20 + (Power Level * 2)
+- Magical Power = 10 + Power Level
+- Magical Armor = 10 + Power Level
+
+## T3: Auxilia
+
+## T4: Equestrian
+
+## T5: Legion
