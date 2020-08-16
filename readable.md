@@ -20,14 +20,10 @@
       - [Combat Gear](#combat-gear)
       - [Power Levels](#power-levels)
   - [4. Character Skills](#character-skills)
-      - [Skill Categories & Skill
-        Descriptions](#skill-categories-skill-descriptions)
+      - [Skill Categories and Skill
+        Descriptions](#skill-categories-and-skill-descriptions)
       - [Armor Training Group](#armor-training-group)
           - [Unarmored](#unarmored)
-              - [Rating 1](#rating-1)
-              - [Rating 20](#rating-20)
-              - [Rating 40](#rating-40)
-              - [Rating 60](#rating-60)
           - [Shields](#shields)
           - [Light Armor](#light-armor)
           - [Heavy Armor](#heavy-armor)
@@ -42,97 +38,61 @@
           - [Two-Handed Ranged Weapons](#two-handed-ranged-weapons)
       - [Magical Techniques Group](#magical-techniques-group)
           - [Alchemy Techs](#alchemy-techs)
-              - [Rating 1](#rating-1-1)
+              - [Rating 1](#rating-1)
               - [Rating 5](#rating-5)
               - [Rating 10](#rating-10)
               - [Rating 15](#rating-15)
-              - [Rating 20](#rating-20-1)
+              - [Rating 20](#rating-20)
               - [Rating 25](#rating-25)
               - [Rating 35](#rating-35)
           - [Cooking Techs](#cooking-techs)
           - [Elemental Techs](#elemental-techs)
-              - [Rating 1](#rating-1-2)
+              - [Rating 1](#rating-1-1)
               - [Rating 5](#rating-5-1)
               - [Rating 10](#rating-10-1)
               - [Rating 15](#rating-15-1)
-              - [Rating 20](#rating-20-2)
+              - [Rating 20](#rating-20-1)
               - [Rating 25](#rating-25-1)
               - [Rating 30](#rating-30)
               - [Rating 35](#rating-35-1)
           - [Hexenkraft Techs](#hexenkraft-techs)
-              - [Rating 1](#rating-1-3)
+              - [Rating 1](#rating-1-2)
               - [Rating 5](#rating-5-2)
               - [Rating 10](#rating-10-2)
               - [Rating 15](#rating-15-2)
-              - [Rating 20](#rating-20-3)
+              - [Rating 20](#rating-20-2)
           - [Martial Techs](#martial-techs)
-              - [Rating 1](#rating-1-4)
+              - [Rating 1](#rating-1-3)
               - [Rating 5](#rating-5-3)
               - [Rating 10](#rating-10-3)
               - [Rating 15](#rating-15-3)
-              - [Rating 20](#rating-20-4)
+              - [Rating 20](#rating-20-3)
           - [Musical Techs](#musical-techs)
-              - [Rating 1](#rating-1-5)
+              - [Rating 1](#rating-1-4)
           - [Summoning Techs](#summoning-techs)
-              - [Rating 1](#rating-1-6)
+              - [Rating 1](#rating-1-5)
           - [Weapon Melee Techs](#weapon-melee-techs)
-              - [Rating 1](#rating-1-7)
+              - [Rating 1](#rating-1-6)
               - [Rating 5](#rating-5-4)
               - [Rating 10](#rating-10-4)
               - [Rating 15](#rating-15-4)
-              - [Rating 20](#rating-20-5)
+              - [Rating 20](#rating-20-4)
           - [Weapon Ranged Techs](#weapon-ranged-techs)
-              - [Rating 1](#rating-1-8)
+              - [Rating 1](#rating-1-7)
               - [Rating 5](#rating-5-5)
               - [Rating 10](#rating-10-5)
               - [Rating 15](#rating-15-5)
       - [Linear Tactics Group](#linear-tactics-group)
           - [Rampart Aura](#rampart-aura)
-              - [Rating 1](#rating-1-9)
-              - [Rating 20](#rating-20-6)
-              - [Rating 40](#rating-40-1)
-              - [Rating 60](#rating-60-1)
           - [Shield Wall](#shield-wall)
-              - [Rating 1](#rating-1-10)
-              - [Rating 20](#rating-20-7)
-              - [Rating 40](#rating-40-2)
-              - [Rating 60](#rating-60-2)
           - [Siegebreaker](#siegebreaker)
-              - [Rating 1](#rating-1-11)
-              - [Rating 20](#rating-20-8)
-              - [Rating 40](#rating-40-3)
-              - [Rating 60](#rating-60-3)
           - [Spear Wall](#spear-wall)
-              - [Rating 1](#rating-1-12)
-              - [Rating 20](#rating-20-9)
-              - [Rating 40](#rating-40-4)
-              - [Rating 60](#rating-60-4)
       - [Zone Tactics Group](#zone-tactics-group)
           - [Animal Speaker Aura](#animal-speaker-aura)
-              - [Rating 1](#rating-1-13)
-              - [Rating 20](#rating-20-10)
-              - [Rating 40](#rating-40-5)
-              - [Rating 60](#rating-60-5)
           - [Barrier Aura](#barrier-aura)
-              - [Rating 1](#rating-1-14)
-              - [Rating 20](#rating-20-11)
-              - [Rating 40](#rating-40-6)
-              - [Rating 60](#rating-60-6)
           - [Regeneration Aura](#regeneration-aura)
-              - [Rating 1](#rating-1-15)
-              - [Rating 20](#rating-20-12)
-              - [Rating 40](#rating-40-7)
-              - [Rating 60](#rating-60-7)
           - [Sanctuary Aura](#sanctuary-aura)
-              - [Rating 1](#rating-1-16)
-              - [Rating 20](#rating-20-13)
-              - [Rating 40](#rating-40-8)
-              - [Rating 60](#rating-60-8)
           - [Terror Aura](#terror-aura)
-              - [Rating 1](#rating-1-17)
-              - [Rating 20](#rating-20-14)
-              - [Rating 40](#rating-40-9)
-              - [Rating 60](#rating-60-9)
   - [5. Dramatic Scenes](#dramatic-scenes)
       - [Dramatic Chances](#dramatic-chances)
           - [Skills Giving Extra Chances](#skills-giving-extra-chances)
@@ -366,28 +326,42 @@ For each of the following, roll 10 dice and multiply by 10. This is a
 total of 10 times that you roll the dice. This will result in excesses
 or deficits that you must deal with the consequences of.
 
-Inhabitants - Animals - divide in half, round down - People - divide in
-half, round down
+Inhabitants:
 
-Systems - Automation - Food System - Fortifications - Island Health -
-Knowledge Permanency - Materials System - Shelter - Water System
+  - Animals - divide in half, round down
+  - People - divide in half, round down
+
+Systems:
+
+  - Automation
+  - Food System
+  - Fortifications
+  - Island Health
+  - Knowledge Permanency
+  - Materials System
+  - Shelter
+  - Water System
 
 ### Island Government
 
-The best island governments have traits such as: - Inclusion of the
-Island’s voice as being equal to or greater than the voices of those who
-live on it. - Understanding all life forms on the Island as being part
-of a holistic ecosystem, so that no species is ever allowed to control
-any other. - Caring for those who are unable to work, ensuring they have
-water, food, shelter, and companionship. - Positive recognition and
-celebration of special mental traits. - Positive recognition and
-celebration of gender transition, for anyone who discovers that they
-need such transformation to become their true selves. - Recallable
-politicians, who will surely be recalled or even punished if they do
-something other than what they say. Better yet would be a system of
-recallable delegates who are sent to councils for the purpose of sharing
-information and connecting people together, and have no power to compel
-anyone else to do anything.
+The best island governments have traits such as:
+
+  - Inclusion of the Island’s voice as being equal to or greater than
+    the voices of those who live on it.
+  - Understanding all life forms on the Island as being part of a
+    holistic ecosystem, so that no species is ever allowed to control
+    any other.
+  - Caring for those who are unable to work, ensuring they have water,
+    food, shelter, and companionship.
+  - Positive recognition and celebration of special mental traits.
+  - Positive recognition and celebration of gender transition, for
+    anyone who discovers that they need such transformation to become
+    their true selves.
+  - Recallable politicians, who will surely be recalled or even punished
+    if they do something other than what they say. Better yet would be a
+    system of recallable delegates who are sent to councils for the
+    purpose of sharing information and connecting people together, and
+    have no power to compel anyone else to do anything.
 
 Island governments that do not have such traits are likely to be making
 evil deals with the Empire, or may even be occupied by the Empire, with
@@ -518,14 +492,19 @@ choices for later.
 ## Defining Yourself In Terms Of Your Island
 
 Answer at least one of the following questions, or as many more as you
-like. - What kinds of conversations have you had with your Island? -
-What is a special place you share on the Island with someone else? -
-What is one example of you taking something from the Island, then giving
-back something else? - Who is your family on the Island? - Who are you
-specially-bonded with on the Island? - If you were not born with the
-Island, how did you come to it? - If you were born on the Island, what
-did the Island do to note the occasion? - What is the representation of
-your connection to the Island when you travel to the Blended Realm?
+like:
+
+  - What kinds of conversations have you had with your Island?
+  - What is a special place you share on the Island with someone else?
+  - What is one example of you taking something from the Island, then
+    giving back something else?
+  - Who is your family on the Island?
+  - Who are you specially-bonded with on the Island?
+  - If you were not born with the Island, how did you come to it?
+  - If you were born on the Island, what did the Island do to note the
+    occasion?
+  - What is the representation of your connection to the Island when you
+    travel to the Blended Realm?
 
 ## The Empire Fails To Define You
 
@@ -617,14 +596,16 @@ one of each of those types of weapons at Item Level 1.
 Characters start at **Power Level** 1.
 
 Whenever **Power Level** is increased (usually at the end of each
-gameplay session), characters improve as follows: - All stats have their
-rating increased by 1. - Then, the rating for Maximum Health is
-increased by 1 more. - Choose five stats to have their rating increased
-by 1 more. If Maximum Health is chosen, then it is increased by 2
-instead of 1. - Choose one skill from each of the Skill Groups. Then
-choose ten other skills. These twenty skills all have their rating
-increased by 1. If the skill started at 0, then there must be some
-explanation of how it was learned, trained, and practiced.
+gameplay session), characters improve as follows:
+
+  - All stats have their rating increased by 1.
+  - Then, the rating for Maximum Health is increased by 1 more.
+  - Choose five stats to have their rating increased by 1 more. If
+    Maximum Health is chosen, then it is increased by 2 instead of 1.
+  - Choose one skill from each of the Skill Groups. Then choose ten
+    other skills. These twenty skills all have their rating increased by
+    1. If the skill started at 0, then there must be some explanation of
+    how it was learned, trained, and practiced.
 
 # 4\. Character Skills
 
@@ -639,7 +620,7 @@ To repeat from the [Player Characters](#player-characters) chapter:
     there must be some explanation of how it was learned, trained, and
     practiced.
 
-## Skill Categories & Skill Descriptions
+## Skill Categories and Skill Descriptions
 
   - **Armor Training Group**
       - **Unarmored** - Always have some basic protection, even while
@@ -778,59 +759,60 @@ To repeat from the [Player Characters](#player-characters) chapter:
 While not wearing any armor or shields, your Unarmored skill rating is
 added to Physical Evasion.
 
-#### Rating 1
+Rating 1 - **Ironbody I** - Add 2 to your physical armor and magical
+armor while not wearing any armor or shields.
 
-**Ironbody I** - Add 2 to your physical armor and magical armor while
+Rating 20 - **Ironbody II** - Supercedes and replaces Ironbody I. Add
+1/4th of your Power Level to your physical armor and magical armor while
 not wearing any armor or shields.
 
-#### Rating 20
+Rating 40 - **Ironbody III** - Supercedes and replaces Ironbody I and
+II. Add half of your Power Level to your physical evasion and physical
+armor ratings while not wearing any armor or shields.
 
-**Ironbody II** - Supercedes and replaces Ironbody I. Add 1/4th of your
-Power Level to your physical armor and magical armor while not wearing
-any armor or shields.
-
-#### Rating 40
-
-**Ironbody III** - Supercedes and replaces Ironbody I and II. Add half
-of your Power Level to your physical evasion and physical armor ratings
-while not wearing any armor or shields.
-
-#### Rating 60
-
-**Ironbody IV** - Supercedes and replaces Ironbody I, II, and III. Add
-your Power Level to your physical evasion and physical armor armor
-ratings while not wearing any armor or shields.
+Rating 60 - **Ironbody IV** - Supercedes and replaces Ironbody I, II,
+and III. Add your Power Level to your physical evasion and physical
+armor armor ratings while not wearing any armor or shields.
 
 ### Shields
 
 One shield takes up one hand. Therefore, they cannot be used with
 two-handed weapons.
 
-Shields provide the following: - Half Skill Rating gained as Physical
-Evasion - Half Skill Rating gained as Physical Armor - Half Skill Rating
-gained as Magical Evasion - Half Skill Rating gained as Magical Armor
+Shields provide the following:
+
+  - Half Skill Rating gained as Physical Evasion
+  - Half Skill Rating gained as Physical Armor
+  - Half Skill Rating gained as Magical Evasion
+  - Half Skill Rating gained as Magical Armor
 
 For a minimum of 1 point gained to each stat.
 
 ### Light Armor
 
-Light Armor provides the following: - Half Skill Rating gained as
-Physical Evasion - Half Skill Rating gained as Physical Armor - Half
-Skill Rating gained as Magical Evasion
+Light Armor provides the following:
+
+  - Half Skill Rating gained as Physical Evasion
+  - Half Skill Rating gained as Physical Armor
+  - Half Skill Rating gained as Magical Evasion
 
 For a minimum of 1 point gained to each stat.
 
 ### Heavy Armor
 
-Heavy Armor provides the following: - Skill Rating gained as Physical
-Armor - Half Skill Rating gained as Magical Armor
+Heavy Armor provides the following:
+
+  - Skill Rating gained as Physical Armor
+  - Half Skill Rating gained as Magical Armor
 
 For a minimum of 1 point gained to each stat.
 
 ### Magic Armor
 
-Magic Armor provides the following: - Skill Rating gained as Magical
-Evasion - Skill Rating gained as Magical Armor
+Magic Armor provides the following:
+
+  - Skill Rating gained as Magical Evasion
+  - Skill Rating gained as Magical Armor
 
 For a minimum of 1 point gained to each stat.
 
@@ -841,17 +823,17 @@ For a minimum of 1 point gained to each stat.
 Added to your Physical Accuracy when attacking without any gear held in
 your hands.
 
-Barehanded rating 1 - Ironfist I - Add 2 to your unarmed damage.
+Barehanded rating 1 - **Ironfist I** - Add 2 to your unarmed damage.
 
-Barehanded rating 20 - Ironfist II - This supercedes and replaces
+Barehanded rating 20 - **Ironfist II** - This supercedes and replaces
 Ironfist I. Add 1/4th of your Power Level to your unarmed damage, for a
 minimum of 2 added damage.
 
-Barehanded rating 40 - Ironfist III - This supercedes and replaces
+Barehanded rating 40 - **Ironfist III** - This supercedes and replaces
 Ironfist I and II. Add half of your Power Level to your unarmed damage,
 for a minimum of 2 added damage.
 
-Barehanded rating 60 - Ironfist IV - This supercedes and replaces
+Barehanded rating 60 - **Ironfist IV** - This supercedes and replaces
 Ironfist I, II, and III. Add your Power Level to your unarmed damage.
 
 ### One-Handed Melee Weapons
@@ -914,161 +896,254 @@ added damage.
 
 #### Rating 1
 
-**Alchemical Preparation** - You can maintain the existence of a number
-of alchemical items equal to your Alchemy Techs rating. This may be all
-of one type, or split among different types that you know how to
-prepare. The except is Alchemical Tablets, for which each unit of
-tablets lasts for six months. - All alchemical preparations can be done
-together within the span of one Strategic Turn.
+**Alchemical Preparation**:
 
-**Alchemical Expert Usage** - You must have the requisite **Magical
-Element** and/or **Alchemy Techs** skill ratings in order to perform the
-**Expert Usage** abilities.
+  - You can maintain the existence of a number of alchemical items equal
+    to your Alchemy Techs rating. This may be all of one type, or split
+    among different types that you know how to prepare. The exception is
+    **Alchemical Tablets**, for which each unit of tablets lasts for six
+    months.
+  - All alchemical preparations can be done together within the span of
+    one Strategic Turn.
 
-**Prepare Alchemical Hormone Suppressant Fluid** - A unit of alchemical
-hormone suppressant fluid can be injected for effects that last up to
-one week.
+**Alchemical Expert Usage**:
 
-**Prepare Alchemical Hormone Suppressant Tablets** - A unit of
-alchemical hormone suppressant tablets will stay good for up to six
-months, and when taken, cause effects that last for one day.
+  - You must have the requisite **Magical Element** and/or **Alchemy
+    Techs** skill ratings in order to perform the **Expert Usage**
+    abilities.
 
-**Prepare Alchemical Hormone Fluid** - A unit of alchemical hormone
-fluid can be injected for effects that last up to one week.
+**Prepare Alchemical Hormone Suppressant Fluid**:
 
-**Prepare Alchemical Hormone Tablets** - A unit of alchemical hormone
-tablets will stay good for up to six months, and when taken, cause
-effects that last for one day.
+  - A unit of alchemical hormone suppressant fluid can be injected for
+    effects that last up to one week.
 
-**Prepare Mental Focus Fluid** - A unit of mental focus fluid can be
-injected to alleviate focus and reading problems in the subject. The
-effects of the injection last for up to one week.
+**Prepare Alchemical Hormone Suppressant Tablets**:
 
-**Prepare Mental Focus Tablets** - A unit of mental focus tablets will
-stay good for up to six months, and when taken, cause effects that last
-for one day.
+  - A unit of alchemical hormone suppressant tablets will stay good for
+    up to six months, and when taken, cause effects that last for one
+    day.
 
-**Prepare Healing Leaf** - A healing leaf restores 10 Health to the
-target.
+**Prepare Alchemical Hormone Fluid**:
 
-**Expert Application of Healing Leaf** - Type: Throw Object - Range: 30
-feet - Target: Single - Restores 25 Health to the target.
+  - A unit of alchemical hormone fluid can be injected for effects that
+    last up to one week.
 
-**Prepare Energy Twig** - An energy twig restores 3 energy to the
-target.
+**Prepare Alchemical Hormone Tablets**:
 
-**Expert Application of Energy Twig** - Type: Throw Object - Range: 30
-feet - Target: Single - Restores 10 Energy to the target.
+  - A unit of alchemical hormone tablets will stay good for up to six
+    months, and when taken, cause effects that last for one day.
 
-**Prepare Elemental Firecracker** - An elemental firecracker can be
-thrown up to 30 feet away to cause 1 point of elemental damage, ignoring
-both Physical Evasion and Physical Armor.
+**Prepare Mental Focus Fluid**:
 
-**Expert Packing of Elemental Firecracker** - Type: Throw Object -
-Range: 30 feet - Target: Single - Causes an amount of elemental damage
-equal to one-fourth of your Alchemy Techs skill rating, for a minimum of
-1 damage. Ignores both Physical Evasion and Physical Armor.
+  - A unit of mental focus fluid can be injected to alleviate focus and
+    reading problems in the subject. The effects of the injection last
+    for up to one week.
+
+**Prepare Mental Focus Tablets**:
+
+  - A unit of mental focus tablets will stay good for up to six months,
+    and when taken, cause effects that last for one day.
+
+**Prepare Healing Leaf**:
+
+  - A healing leaf restores 10 Health to the target.
+
+**Expert Application of Healing Leaf**:
+
+  - Type: Throw Object
+  - Range: 30 feet
+  - Target: Single
+  - Restores 25 Health to the target.
+
+**Prepare Energy Twig**:
+
+  - An energy twig restores 3 energy to the target.
+
+**Expert Application of Energy Twig**:
+
+  - Type: Throw Object
+  - Range: 30 feet
+  - Target: Single
+  - Restores 10 Energy to the target.
+
+**Prepare Elemental Firecracker**:
+
+  - An elemental firecracker can be thrown up to 30 feet away to cause 1
+    point of elemental damage, ignoring both Physical Evasion and
+    Physical Armor.
+
+**Expert Packing of Elemental Firecracker**:
+
+  - Type: Throw Object
+  - Range: 30 feet
+  - Target: Single
+  - Causes an amount of elemental damage equal to one-fourth of your
+    Alchemy Techs skill rating, for a minimum of 1 damage. Ignores both
+    Physical Evasion and Physical Armor.
 
 #### Rating 5
 
-**Prepare Detox Solution** - A detox solution purges a person of all
-unwanted alcohol and other long-term poisonous substances.
+**Prepare Detox Solution**:
 
-**Prepare Detox Tablets** - A unit of detox tablets will stay good for
-up to six months, and when taken, will cause the body to slowly expel
-unwanted alcohol and other long-term poisonous substances over one week.
+  - A detox solution purges a person of all unwanted alcohol and other
+    long-term poisonous substances.
 
-**Prepare Curing Bandage** - A curing bandage removes 1 harmful status
-condition of your choice from the target.
+**Prepare Detox Tablets**:
 
-**Expert Application of Curing Bandage** - Type: Throw Object - Range:
-30 feet - Target: Single - Removes 2 harmful status conditions of your
-choice from the target.
+  - A unit of detox tablets will stay good for up to six months, and
+    when taken, will cause the body to slowly expel unwanted alcohol and
+    other long-term poisonous substances over one week.
 
-**Prepare Elemental Sticky Vial** - An elemental sticky vial can be
-thrown up to 30 feet away to add 1 stack of Elemental Sticky Bomb
-status, ignoring Physical Evasion.
+**Prepare Curing Bandage**:
 
-**Expert Packing of Elemental Sticky Vial** - Type: Throw Object -
-Range: 30 feet - Target: Single - Adds two stacks of Elemental Sticky
-Bomb status, ignoring Physical Evasion.
+  - A curing bandage removes 1 harmful status condition of your choice
+    from the target.
 
-**Prepare Elemental Landmine** - An elemental landmine can be placed on
-the ground, in the same 5-foot square as the placer. The landmine
-remains active for up to an hour after placement. The landmine triggers
-when someone is touching its 5-foot square during the status phase. It
-does an amount of elemental damage to whoever is in the trigger area
-equal to the preparer’s Magic Damage + Alchemy Techs rating.
+**Expert Application of Curing Bandage**:
 
-**Expert Placement of Elemental Landmine** - Type: Throw Object - Range:
-30 feet - Target: One 5-foot square - Places the elemental landmine in
-the targeted square.
+  - Type: Throw Object
+  - Range: 30 feet
+  - Target: Single
+  - Removes 2 harmful status conditions of your choice from the target.
+
+**Prepare Elemental Sticky Vial**:
+
+  - An elemental sticky vial can be thrown up to 30 feet away to add 1
+    stack of Elemental Sticky Bomb status, ignoring Physical Evasion.
+
+**Expert Packing of Elemental Sticky Vial**:
+
+  - Type: Throw Object
+  - Range: 30 feet
+  - Target: Single
+  - Adds two stacks of Elemental Sticky Bomb status, ignoring Physical
+    Evasion.
+
+**Prepare Elemental Landmine**:
+
+  - An elemental landmine can be placed on the ground, in the same
+    5-foot square as the placer. The landmine remains active for up to
+    an hour after placement. The landmine triggers when someone is
+    touching its 5-foot square during the status phase. It does an
+    amount of elemental damage to whoever is in the trigger area equal
+    to the preparer’s Magic Damage + Alchemy Techs rating.
+
+**Expert Placement of Elemental Landmine**:
+
+  - Type: Throw Object
+  - Range: 30 feet
+  - Target: One 5-foot square
+  - Places the elemental landmine in the targeted square.
 
 #### Rating 10
 
-**Prepare Preserving Compress** - A preserving compress adds the
-Preserving Compress status condition for 4 status phases.
+**Prepare Preserving Compress**:
 
-**Expert Application of Preserving Compress** - Type: Throw Object -
-Range: 30 feet - Target: Single - Applies the Preserving Compress status
-condition for 8 status phases.
+  - A preserving compress adds the Preserving Compress status condition
+    for 4 status phases.
 
-**Prepare Poisongas Neutralizer** - A Poisongas Neutralizer removes
-Imperial Poison Gas from the 5-foot square that the user is standing in.
+**Expert Application of Preserving Compress**:
 
-**Expert Dispersal of Poisongas Neutralizer** - Type: Throw Object -
-Range: 30 feet - Target: One 5-foot square - Removes Imperial Poison Gas
-from the targeted 5-foot square, as well as all side-adjacent and
-corner-adjacent 5-foot squares.
+  - Type: Throw Object
+  - Range: 30 feet
+  - Target: Single
+  - Applies the Preserving Compress status condition for 8 status
+    phases.
 
-**Prepare Elemental Weapon Resin** - A resin applies the Elemental
-Weapon Resin status condition for 4 status phases.
+**Prepare Poisongas Neutralizer**:
 
-**Expert Application of Elemental Weapon Resin** - Type: Throw Object -
-Range: 30 feet - Target: Single - Applies the Elemental Weapon Resin
-status condition for 8 status phases.
+  - A Poisongas Neutralizer removes Imperial Poison Gas from the 5-foot
+    square that the user is standing in.
 
-**Prepare Elemental Armor Resin** - A resin applies the Elemental Armor
-Resin status condition for 4 status phases.
+**Expert Dispersal of Poisongas Neutralizer**:
 
-**Expert Application of Elemental Armor Resin** - Type: Throw Object -
-Range: 30 feet - Target: Single - Applies the Elemental Armor Resin
-status condition for 8 status phases.
+  - Type: Throw Object
+  - Range: 30 feet
+  - Target: One 5-foot square
+  - Removes Imperial Poison Gas from the targeted 5-foot square, as well
+    as all side-adjacent and corner-adjacent 5-foot squares.
+
+**Prepare Elemental Weapon Resin**:
+
+  - A resin applies the Elemental Weapon Resin status condition for 4
+    status phases.
+
+**Expert Application of Elemental Weapon Resin**:
+
+  - Type: Throw Object
+  - Range: 30 feet
+  - Target: Single
+  - Applies the Elemental Weapon Resin status condition for 8 status
+    phases.
+
+**Prepare Elemental Armor Resin**:
+
+  - A resin applies the Elemental Armor Resin status condition for 4
+    status phases.
+
+**Expert Application of Elemental Armor Resin**:
+
+  - Type: Throw Object
+  - Range: 30 feet
+  - Target: Single
+  - Applies the Elemental Armor Resin status condition for 8 status
+    phases.
 
 #### Rating 15
 
-**Prepare Healing Fruit** - A healing fruit restores 20 Health to the
-target.
+**Prepare Healing Fruit**:
 
-**Expert Usage of Healing Fruit** - Type: Throw Object - Range: 30 feet
-- Target: Single - Restores 50 Health to the target.
+  - A healing fruit restores 20 Health to the target.
 
-**Prepare Energy Berry** - An energy berry restores 8 Energy to the
-target.
+**Expert Usage of Healing Fruit**:
 
-**Expert Usage of Energy Berry** - Type: Throw Object - Range: 30 feet -
-Target: Single - Restores 20 Energy to the target.
+  - Type: Throw Object
+  - Range: 30 feet
+  - Target: Single
+  - Restores 50 Health to the target.
 
-**Prepare Elemental Explosive Trap** - An elemental explosive trap can
-be placed on the ground, in the same 5-foot square as the placer. The
-trap remains active for up to an hour after placement. The trap triggers
-when anyone is touching its 5-foot square, or any side-adjacent
-5-foot-square, during the status phase. It does an amount of elemental
-damage to everyone in the trigger area equal to the preparer’s Magic
-Damage + Alchemy Techs rating.
+**Prepare Energy Berry**:
 
-**Expert Placement of Elemental Explosive Trap** - Type: Throw Object -
-Range: 30 feet - Target: One 5-foot square - Places the elemental
-explosive trap in the targeted square.
+  - An energy berry restores 8 Energy to the target.
+
+**Expert Usage of Energy Berry**:
+
+  - Type: Throw Object
+  - Range: 30 feet
+  - Target: Single
+  - Restores 20 Energy to the target.
+
+**Prepare Elemental Explosive Trap**:
+
+  - An elemental explosive trap can be placed on the ground, in the same
+    5-foot square as the placer. The trap remains active for up to an
+    hour after placement. The trap triggers when anyone is touching its
+    5-foot square, or any side-adjacent 5-foot-square, during the status
+    phase. It does an amount of elemental damage to everyone in the
+    trigger area equal to the preparer’s Magic Damage + Alchemy Techs
+    rating.
+
+**Expert Placement of Elemental Explosive Trap**:
+
+  - Type: Throw Object
+  - Range: 30 feet
+  - Target: One 5-foot square
+  - Places the elemental explosive trap in the targeted square.
 
 #### Rating 20
 
-**Prepare Reviving Needle** - A reviving needle can be used on a
-combatant at 0 or less Health to revive at 1 Health.
+**Prepare Reviving Needle**:
 
-**Expert Usage of Reviving Needle** - Type: Throw Object - Range: 30
-feet - Target: Single - Revives the target at an amount of Health equal
-to 1/4th of their Maximum Health.
+  - A reviving needle can be used on a combatant at 0 or less Health to
+    revive at 1 Health.
+
+**Expert Usage of Reviving Needle**:
+
+  - Type: Throw Object
+  - Range: 30 feet
+  - Target: Single
+  - Revives the target at an amount of Health equal to 1/4th of their
+    Maximum Health.
 
 #### Rating 25
 
@@ -1096,204 +1171,309 @@ to 1/4th of their Maximum Health.
 
 #### Rating 1
 
-**Elemental Hand Trick** - 1 energy - Pulls a small amount of pure
-elemental power into your hand for a whole day. It is sufficient for one
-small action that does at most 1 point of damage, or any other effect of
-equivalent power. Here are some examples depending on the element used.
-- Air: Blow a marble away. - Crystal: Temporarily form a glass lens, as
-large as a monocle. - Dark: Hold your hand up to cover your eyes and
-completely block out light. - Earth: Form a fragile rock that can be
-thrown at something. - Fire: Set sufficiently-flammable material (such
-as prepared kindling, or fuel-soaked wood) on fire. - Light: Create a
-bright flash that forces one target to look away for one second. - Moon:
-Make your beard grow longer. Make your eyes temporarily look like cat
-eyes. - Water: Rinse your hair. Fill a shotglass. - Wood: Make a flower
-bloom faster. Make a vine grow a thorn.
+**Elemental Hand Trick**:
 
-**Elemental Food Flavoring** - 1 energy - Creates a handful of elemental
-edible substances that will strongly affect the flavor of whatever they
-are mixed into.
+  - 1 energy
+  - Pulls a small amount of pure elemental power into your hand for a
+    whole day. It is sufficient for one small action that does at most 1
+    point of damage, or any other effect of equivalent power. Here are
+    some examples depending on the element used.
+      - Air: Blow a marble away.
+      - Crystal: Temporarily form a glass lens, as large as a monocle.
+      - Dark: Hold your hand up to cover your eyes and completely block
+        out light.
+      - Earth: Form a fragile rock that can be thrown at something.
+      - Fire: Set sufficiently-flammable material (such as prepared
+        kindling, or fuel-soaked wood) on fire.
+      - Light: Create a bright flash that forces one target to look away
+        for one second.
+      - Moon: Make your beard grow longer. Make your eyes temporarily
+        look like cat eyes.
+      - Water: Rinse your hair. Fill a shotglass.
+      - Wood: Make a flower bloom faster. Make a vine grow a thorn.
 
-**Elemental Shot** - 2 energy - Type: Straight Projectile - Range: 30
-feet - Target: Single - Creates a projectile of elemental energy, then
-launches it at the target. Uses your magical stats and is opposed by
-magical stats. If your Magical Accuracy is more than 1.5x the target’s
-Magical Evasion, then you cause an additional effect based on the
-element used. - Air: Adds the Shocked status to the target. - Crystal:
-Adds the Bleeding status to the target. - Dark: Adds the Mindmaze status
-to the target. - Earth: Adds the Buried status to the target. - Fire:
-Adds the Burning status to the target. - Light: Adds the Blinded status
-to the target. - Moon: The final damage is halved, and dealt to Energy
-rather than Health. You gain half that much damage (i.e. 1/4th of the
-initial) as Energy. - Water: Adds the Chilled status to the target. -
-Wood: The final damage is halved. You gain that much damage as Health.
+**Elemental Food Flavoring**:
 
-**Elemental Charge** - 2 energy - Type: Line-of-sight - Range: 30 feet -
-Target: Self or Single - Gives one elemental charge to the target.
+  - 1 energy
+  - Creates a handful of elemental edible substances that will strongly
+    affect the flavor of whatever they are mixed into.
 
-**Transfer Charges** - Discharging: This technique does not require any
-corresponding Magical Elements skills. Instead, it requires that you are
-holding elemental charges. - 2 energy - Type: Line-of-sight - Range: 30
-feet - Target: Single - Transfers all elemental charges on yourself to
-the target.
+**Elemental Shot**:
+
+  - 2 energy
+  - Type: Straight Projectile
+  - Range: 30 feet
+  - Target: Single
+  - Creates a projectile of elemental energy, then launches it at the
+    target. Uses your magical stats and is opposed by magical stats. If
+    your Magical Accuracy is more than 1.5x the target’s Magical
+    Evasion, then you cause an additional effect based on the element
+    used.
+      - Air: Adds the Shocked status to the target.
+      - Crystal: Adds the Bleeding status to the target.
+      - Dark: Adds the Mindmaze status to the target.
+      - Earth: Adds the Buried status to the target.
+      - Fire: Adds the Burning status to the target.
+      - Light: Adds the Blinded status to the target.
+      - Moon: The final damage is halved, and dealt to Energy rather
+        than Health. You gain half that much damage (i.e. 1/4th of the
+        initial) as Energy.
+      - Water: Adds the Chilled status to the target.
+      - Wood: The final damage is halved. You gain that much damage as
+        Health.
+
+**Elemental Charge**:
+
+  - 2 energy
+  - Type: Line-of-sight
+  - Range: 30 feet
+  - Target: Self or Single
+  - Gives one elemental charge to the target.
+
+**Transfer Charges**:
+
+  - Discharging: This technique does not require any corresponding
+    Magical Elements skills. Instead, it requires that you are holding
+    elemental charges.
+  - 2 energy
+  - Type: Line-of-sight
+  - Range: 30 feet
+  - Target: Single
+  - Transfers all elemental charges on yourself to the target.
 
 #### Rating 5
 
-**Elemental Breath** - 5 energy - 2 Action Points - Type: Magic Breath -
-Range: 5 feet - Target: All in the area - Launches a large burst of
-elemental energy in front of you, which then expands outwards. It
-targets the 5-foot square in front of you, then the side-adjacent and
-two corner-adjacent 5-foot squares further away from you. Uses your
-magical stats and is opposed by magical stats. If your Magical Accuracy
-is more than 1.5x a target’s Magical Evasion, then you cause an
-additional effect based on the element used. Refer to *Elemental Shot*
-for the additional effect.
+**Elemental Breath**:
 
-**Elemental Spark** - 3 energy - Type: Line-of-Sight - Range: 30 feet -
-Target: Single - Creates a spark of elemental energy directly in the
-face of the target. Uses your magical stats and is opposed by magical
-stats. If your Magical Accuracy is more than 1.5x the target’s Magical
-Evasion, then you cause an additional effect based on the element used.
-Refer to *Elemental Shot* for the additional effect.
+  - 5 energy
+  - 2 Action Points
+  - Type: Magic Breath
+  - Range: 5 feet
+  - Target: All in the area
+  - Launches a large burst of elemental energy in front of you, which
+    then expands outwards. It targets the 5-foot square in front of you,
+    then the side-adjacent and two corner-adjacent 5-foot squares
+    further away from you. Uses your magical stats and is opposed by
+    magical stats. If your Magical Accuracy is more than 1.5x a target’s
+    Magical Evasion, then you cause an additional effect based on the
+    element used. Refer to *Elemental Shot* for the additional effect.
 
-**Charging Elemental Shot** - 4 energy - As Elemental Shot, except as
-noted here. You also gain an Elemental Charge based on the element used.
+**Elemental Spark**:
 
-**Discharging Elemental Shot** - Discharging: This technique does not
-require any corresponding Magical Elements skills. Instead, it requires
-that you are holding elemental charges. - 3 energy - Type: Straight
-Projectile - Range: 30 feet - Target: Single - Converts your elemental
-charges into a single shot. Uses your magical stats and is opposed by
-magical stats. The shot’s damage is equal to Magical Power \* 0.5 \* the
-number of charges. If your Magical Accuracy is more than 1.5x the
-target’s Magical Evasion, then you cause additional effects based on
-the elements of the charges used. Refer to Elemental Shot for the
-additional effects.
+  - 3 energy
+  - Type: Line-of-Sight
+  - Range: 30 feet
+  - Target: Single
+  - Creates a spark of elemental energy directly in the face of the
+    target. Uses your magical stats and is opposed by magical stats. If
+    your Magical Accuracy is more than 1.5x the target’s Magical
+    Evasion, then you cause an additional effect based on the element
+    used. Refer to *Elemental Shot* for the additional effect.
 
-**Elemental Eyes** - 4 energy - 2 Action Points - Target: Self -
-Transforms your eyes so that you perceive the linked element, even being
-able to see it through other solid objects and through the ground. The
-visual range for this effect is a maximum of Elemental Techs Rating \*
-50 meters.
+**Charging Elemental Shot**:
+
+  - 4 energy
+  - As Elemental Shot, except as noted here. You also gain an Elemental
+    Charge based on the element used.
+
+**Discharging Elemental Shot**:
+
+  - Discharging: This technique does not require any corresponding
+    Magical Elements skills. Instead, it requires that you are holding
+    elemental charges.
+  - 3 energy
+  - Type: Straight Projectile
+  - Range: 30 feet
+  - Target: Single
+  - Converts your elemental charges into a single shot. Uses your
+    magical stats and is opposed by magical stats. The shot’s damage is
+    equal to Magical Power \* 0.5 \* the number of charges. If your
+    Magical Accuracy is more than 1.5x the target’s Magical Evasion,
+    then you cause additional effects based on the elements of the
+    charges used. Refer to Elemental Shot for the additional effects.
+
+**Elemental Eyes**:
+
+  - 4 energy
+  - 2 Action Points
+  - Target: Self
+  - Transforms your eyes so that you perceive the linked element, even
+    being able to see it through other solid objects and through the
+    ground. The visual range for this effect is a maximum of Elemental
+    Techs Rating \* 50 meters.
 
 #### Rating 10
 
-**Elemental Charge Absorption** - Discharging: This technique does not
-require any corresponding Magical Elements skills. Instead, it requires
-that you are holding elemental charges. - Converts all elemental charges
-on you into Energy for yourself. You gain 2 Energy per charge on you
-converted.
+**Elemental Charge Absorption**:
 
-**Elemental Force Object** - 4 energy - 2 Action Points - Duration:
-Elemental Techs Rating in Minutes - Pulls an elemental object from the
-Blended Realm into the same 5-foot square that you are standing in. The
-object hovers in air and can bear some weight on top of it, equal to
-your Elemental Techs rating \* 10 kilograms. The object follows you
-around within the limitations of having the Hover IV movement type. If
-it cannot follow you then it will get stuck, then stay in place until
-you give it a better route. You can maintain at most one Elemental Force
-Object of each element. - Air: An ally can jump onto the object and get
-launched 20 feet upwards, then fall back down without taking damage.
-This allows them to make movements that would otherwise not be possible
-with their movement type. - Crystal: The next weapon attack against you
-will hit the Crystal Force Object instead, destroying it. - Dark: You
-can spend 1 Action Point to teleport an object on the Dark Force Object
-to a different Elemental Force Object that you or an ally controls. -
-Earth: The Earth Force Object can be directed to roll down a slope until
-it hits a level surface, knocking into all enemies in the path. This
-acts as if targeting the enemies with *Elemental Shot*. - Fire: Can be
-used for cooking and boiling, with different temperatures on the same
-object. The level of precision for the temperature is 0.1 degrees
-celsius, and the level of precision for different temperatures per area
-is 1 micron. - Light: Can be used to view from any angle extending from
-the Light Force Object, as well as any other Elemental Force Objects
-controlled by yourself or any ally. - Moon: During the status phase, the
-Moon Force Object restores 1 Energy to yourself and all allies within 5
-feet of the object. - Water: People and objects can hide inside the
-Water Force Object to the point of complete submergence and avoidance
-from line-of-sight. The Water Force Object can also be turned sideways
-to pour water, at a rate of a number of cubic meters per turn equal to
-your Elemental Techs Rating. - Wood: You can spend 1 Action Point to
-permanently affix the Wood Force Object to the ground. This will
-transplant a whole tree from the Blended Realm. The tree’s trunk is
-thick enough to completely block movement and visibility through a
-5-foot square, and has a height equal to Elemental Techs Rating \* 20
-meters.
+  - Discharging: This technique does not require any corresponding
+    Magical Elements skills. Instead, it requires that you are holding
+    elemental charges.
+  - Converts all elemental charges on you into Energy for yourself. You
+    gain 2 Energy per charge on you converted.
 
-**Elemental Ground** - 3 energy - 2 Action Points - Type: Area - Range:
-Line-of-Sight - Target: 5-foot-diameter ground area - Transforms part of
-the terrain - or part of thin air that is connected to the terrain -
-into a magical elemental form, depending on the element used. The
-magical terrain has a depth of 2 feet. - Air: Turns the terrain (or
-terrain-connected air) into a cloud. You and your team can walk on top
-of the cloud. If there was nothing under the terrain, then enemies will
-fall through if they try to walk on it. - Crystal: Turns the terrain (or
-terrain-connected air) into transparent crystal. - Dark: Turns the
-terrain (or terrain-connected air) into opaque obsidian. It also
-projects a 10-foot-tall field that blocks all light and sound, thus
-blocking vision and echolocation. - Earth: Turns the terrain (or
-terrain-connected air) into solid rock. - Fire: Turns the terrain (or
-terrain-connected air) into hot molten stone. Anyone who steps on the
-terrain takes 1 damage, and if their Magical Evasion is less than your
-Magical Accuracy, then they also get the Burning status condition. -
-Light: Turns the terrain (or terrain-connected air) into a shiny
-reflective metal. During the status phase, whoever is standing on the
-terrain regains 1 energy. - Moon: Turns the terrain (or
-terrain-connected air) into barren lunar rock. - Water: Turns the
-terrain (or terrain-connected air) into a pool of water. If it was
-already water then it becomes 2 feet deeper. - Wood: Turns the terrain
-(or terrain-connected air) into wood and vines that you and your team
-can walk through normally. Enemies must spend 10 feet of horizontal
-movement to traverse the 5 feet of wooden ground.
+**Elemental Force Object**:
 
-**Elemental Lance** - 6 energy - 2 Action Points - Type: Line - Range:
-30 feet - Target: All in the 30-foot line - Creates a spike of elemental
-energy in a straight line. Uses your magical stats and is opposed by
-magical stats. If your Magical Accuracy is more than 1.5x a target’s
-Magical Evasion, then you cause an additional effect based on the
-element used. Refer to *Elemental Shot* for the additional effect.
+  - 4 energy
+  - 2 Action Points
+  - Duration: Elemental Techs Rating in Minutes
+  - Pulls an elemental object from the Blended Realm into the same
+    5-foot square that you are standing in. The object hovers in air and
+    can bear some weight on top of it, equal to your Elemental Techs
+    rating \* 10 kilograms. The object follows you around within the
+    limitations of having the Hover IV movement type. If it cannot
+    follow you then it will get stuck, then stay in place until you give
+    it a better route. You can maintain at most one Elemental Force
+    Object of each element.
+      - Air: An ally can jump onto the object and get launched 20 feet
+        upwards, then fall back down without taking damage. This allows
+        them to make movements that would otherwise not be possible with
+        their movement type.
+      - Crystal: The next weapon attack against you will hit the Crystal
+        Force Object instead, destroying it.
+      - Dark: You can spend 1 Action Point to teleport an object on the
+        Dark Force Object to a different Elemental Force Object that you
+        or an ally controls.
+      - Earth: The Earth Force Object can be directed to roll down a
+        slope until it hits a level surface, knocking into all enemies
+        in the path. This acts as if targeting the enemies with
+        *Elemental Shot*.
+      - Fire: Can be used for cooking and boiling, with different
+        temperatures on the same object. The level of precision for the
+        temperature is 0.1 degrees celsius, and the level of precision
+        for different temperatures per area is 1 micron.
+      - Light: Can be used to view from any angle extending from the
+        Light Force Object, as well as any other Elemental Force Objects
+        controlled by yourself or any ally.
+      - Moon: During the status phase, the Moon Force Object restores 1
+        Energy to yourself and all allies within 5 feet of the object.
+      - Water: People and objects can hide inside the Water Force Object
+        to the point of complete submergence and avoidance from
+        line-of-sight. The Water Force Object can also be turned
+        sideways to pour water, at a rate of a number of cubic meters
+        per turn equal to your Elemental Techs Rating.
+      - Wood: You can spend 1 Action Point to permanently affix the Wood
+        Force Object to the ground. This will transplant a whole tree
+        from the Blended Realm. The tree’s trunk is thick enough to
+        completely block movement and visibility through a 5-foot
+        square, and has a height equal to Elemental Techs Rating \* 20
+        meters.
+
+**Elemental Ground**:
+
+  - 3 energy
+  - 2 Action Points
+  - Type: Area
+  - Range: Line-of-Sight
+  - Target: 5-foot-diameter ground area
+  - Transforms part of the terrain - or part of thin air that is
+    connected to the terrain - into a magical elemental form, depending
+    on the element used. The magical terrain has a depth of 2 feet.
+      - Air: Turns the terrain (or terrain-connected air) into a cloud.
+        You and your team can walk on top of the cloud. If there was
+        nothing under the terrain, then enemies will fall through if
+        they try to walk on it.
+      - Crystal: Turns the terrain (or terrain-connected air) into
+        transparent crystal.
+      - Dark: Turns the terrain (or terrain-connected air) into opaque
+        obsidian. It also projects a 10-foot-tall field that blocks all
+        light and sound, thus blocking vision and echolocation.
+      - Earth: Turns the terrain (or terrain-connected air) into solid
+        rock.
+      - Fire: Turns the terrain (or terrain-connected air) into hot
+        molten stone. Anyone who steps on the terrain takes 1 damage,
+        and if their Magical Evasion is less than your Magical Accuracy,
+        then they also get the Burning status condition.
+      - Light: Turns the terrain (or terrain-connected air) into a shiny
+        reflective metal. During the status phase, whoever is standing
+        on the terrain regains 1 energy.
+      - Moon: Turns the terrain (or terrain-connected air) into barren
+        lunar rock.
+      - Water: Turns the terrain (or terrain-connected air) into a pool
+        of water. If it was already water then it becomes 2 feet deeper.
+      - Wood: Turns the terrain (or terrain-connected air) into wood and
+        vines that you and your team can walk through normally. Enemies
+        must spend 10 feet of horizontal movement to traverse the 5 feet
+        of wooden ground.
+
+**Elemental Lance**:
+
+  - 6 energy
+  - 2 Action Points
+  - Type: Line
+  - Range: 30 feet
+  - Target: All in the 30-foot line
+  - Creates a spike of elemental energy in a straight line. Uses your
+    magical stats and is opposed by magical stats. If your Magical
+    Accuracy is more than 1.5x a target’s Magical Evasion, then you
+    cause an additional effect based on the element used. Refer to
+    *Elemental Shot* for the additional effect.
 
 #### Rating 15
 
-**Elemental Ball** - 8 energy - 2 Action Points - Type: Straight
-Projectile Explosive - Range: 30 feet - Target: One 5-foot square -
-Creates a ball of elemental energy, then launches it at the destination.
-When the ball hits anything or arrives at its destination, whichever
-happens first, it explodes and targets the 5-foot square, as well as all
-side-adjacent and corner-adjacent 5-foot squares. Uses your magical
-stats and is opposed by magical stats. If your Magical Accuracy is more
-than 1.5x a target’s Magical Evasion, then you cause an additional
-effect based on the element used. Refer to Elemental Shot for the
-additional effect.
+**Elemental Ball**:
 
-**Elemental Chain** - 8 energy - 2 Action Points - Type: Line-of-Sight -
-Range: 30 feet - Target: Single - As *Elemental Shot*, except as noted
-here. If this technique causes more than 1 damage to the target, then it
-chains to another target within line-of-sight of the first one and
-within 30 feet. The chains continue until this technique either does 1
-or less damage, or has hit 5 targets, whichever comes first.
+  - 8 energy
+  - 2 Action Points
+  - Type: Straight Projectile Explosive
+  - Range: 30 feet
+  - Target: One 5-foot square
+  - Creates a ball of elemental energy, then launches it at the
+    destination. When the ball hits anything or arrives at its
+    destination, whichever happens first, it explodes and targets the
+    5-foot square, as well as all side-adjacent and corner-adjacent
+    5-foot squares. Uses your magical stats and is opposed by magical
+    stats. If your Magical Accuracy is more than 1.5x a target’s Magical
+    Evasion, then you cause an additional effect based on the element
+    used. Refer to Elemental Shot for the additional effect.
 
-**Great Elemental Charge** - 8 energy - 2 Action Points - Type:
-Line-of-sight - Range: 30 feet - Target: Self or Single - Gives three
-elemental charges to the target.
+**Elemental Chain**:
+
+  - 8 energy
+  - 2 Action Points
+  - Type: Line-of-Sight
+  - Range: 30 feet
+  - Target: Single
+  - As *Elemental Shot*, except as noted here. If this technique causes
+    more than 1 damage to the target, then it chains to another target
+    within line-of-sight of the first one and within 30 feet. The chains
+    continue until this technique either does 1 or less damage, or has
+    hit 5 targets, whichever comes first.
+
+**Great Elemental Charge**:
+
+  - 8 energy
+  - 2 Action Points
+  - Type: Line-of-sight
+  - Range: 30 feet
+  - Target: Self or Single
+  - Gives three elemental charges to the target.
 
 #### Rating 20
 
-**Elemental Storm** - 10 energy - 2 Action Points - Type: Auto-targeting
-Storm - Range: 15 feet - Target: All enemies within the 15-foot radius -
-Calls down elemental energy to strike all enemies within range. Uses
-your magical stats and is opposed by magical stats. If your Magical
-Accuracy is more than 1.5x a target’s Magical Evasion, then you cause an
-additional effect based on the element used. Refer to *Elemental Shot*
-for the additional effect.
+**Elemental Storm**:
+
+  - 10 energy
+  - 2 Action Points
+  - Type: Auto-targeting Storm
+  - Range: 15 feet
+  - Target: All enemies within the 15-foot radius
+  - Calls down elemental energy to strike all enemies within range. Uses
+    your magical stats and is opposed by magical stats. If your Magical
+    Accuracy is more than 1.5x a target’s Magical Evasion, then you
+    cause an additional effect based on the element used. Refer to
+    *Elemental Shot* for the additional effect.
 
 #### Rating 25
 
-**Great Elemental Ground** - 8 energy - 2 Action Points - Type: 5
-side-connected pieces of 5-foot-square ground areas - As Elemental
-Ground, except as noted here. If the first piece of elemental ground is
-in thin air attached to ground, then the other four pieces can extend
-therefrom.
+**Great Elemental Ground**:
+
+  - 8 energy
+  - 2 Action Points
+  - Type: 5 side-connected pieces of 5-foot-square ground areas
+  - As Elemental Ground, except as noted here. If the first piece of
+    elemental ground is in thin air attached to ground, then the other
+    four pieces can extend therefrom.
 
 **Discharging Elemental Rapid-Fire**
 
@@ -1303,192 +1483,348 @@ therefrom.
 
 #### Rating 35
 
-**Charged Elemental Storm** - 15 energy - 2 Action Points - As Elemental
-Storm, except as noted here. You gain an elemental charge for each enemy
-whom you caused more than 1 damage to.
+**Charged Elemental Storm**:
+
+  - 15 energy
+  - 2 Action Points
+  - As Elemental Storm, except as noted here. You gain an elemental
+    charge for each enemy whom you caused more than 1 damage to.
 
 ### Hexenkraft Techs
 
 #### Rating 1
 
-**Elemental Soup** - 1 energy - You infuse a cauldron-volume amount of
-soup with magical elemental taste. This may also result in elemental
-ingredients visibly entering the soup.
+**Elemental Soup**:
 
-**Magic Contraceptive** - 1 energy - You infuse a bottle-volume amount
-of liquid with the magical property of suppressing fertility for one
-week. The liquid has a magical elemental taste.
+  - 1 energy
+  - You infuse a cauldron-volume amount of soup with magical elemental
+    taste. This may also result in elemental ingredients visibly
+    entering the soup.
 
-**Magic Hormone Replacement** - 1 energy - You infuse a shotglass-volume
-amount of liquid with the magical property of replacing or enhancing
-hormones for one whole day, to the type that is most strongly aligned
-with the drinker’s true nature. The liquid has a magical emental taste.
+**Magic Contraceptive**:
 
-**Heal Touch** - 1 energy - Type: Touch - Range: 5 feet - Target: Single
-- Restore an amount of health to the target equal to your Hexenkraft
-Techs skill rating. The visual effect is derived from the element used.
+  - 1 energy
+  - You infuse a bottle-volume amount of liquid with the magical
+    property of suppressing fertility for one week. The liquid has a
+    magical elemental taste.
 
-**Heal Ray** - 5 energy - Type: Line-of-sight - Range: 30 feet - Target:
-Single - Restore an amount of health to the target equal to your
-Hexenkraft Techs skill rating. The visual effect is derived from the
-element used.
+**Magic Hormone Replacement**:
 
-**Resuscitate** - 10 energy - Type: Touch - Range: 5 feet - Target:
-Single - Add three stacks of the Resuscitate status to the target. This
-applies even if the target is dead.
+  - 1 energy
+  - You infuse a shotglass-volume amount of liquid with the magical
+    property of replacing or enhancing hormones for one whole day, to
+    the type that is most strongly aligned with the drinker’s true
+    nature. The liquid has a magical emental taste.
 
-**Elemental Hex Needle** - 1 energy - Type: Line-of-sight - Range: 30
-feet - Target: Single - Produces a needle that then launches at the
-target instantly. Uses your magical stats and is opposed by magical
-stats.
+**Heal Touch**:
+
+  - 1 energy
+  - Type: Touch
+  - Range: 5 feet
+  - Target: Single
+  - Restore an amount of health to the target equal to your Hexenkraft
+    Techs skill rating. The visual effect is derived from the element
+    used.
+
+**Heal Ray**:
+
+  - 5 energy
+  - Type: Line-of-sight
+  - Range: 30 feet
+  - Target: Single
+  - Restore an amount of health to the target equal to your Hexenkraft
+    Techs skill rating. The visual effect is derived from the element
+    used.
+
+**Resuscitate**:
+
+  - 10 energy
+  - Type: Touch
+  - Range: 5 feet
+  - Target: Single
+  - Add three stacks of the Resuscitate status to the target. This
+    applies even if the target is dead.
+
+**Elemental Hex Needle**:
+
+  - 1 energy
+  - Type: Line-of-sight
+  - Range: 30 feet
+  - Target: Single
+  - Produces a needle that then launches at the target instantly. Uses
+    your magical stats and is opposed by magical stats.
 
 #### Rating 5
 
-**Elemental Brain Swap** - 5 energy - Type: Touch - Target: Single - If
-the target is willing, then half of their brain is swapped with that of
-a pure-elemental creature for a whole day. This experience wildly
-varies. Some report that they gain a greater understanding of the
-universe and their place in it. Others get the most negative parts of
-their personalities infused with elemental beastiality.
+**Elemental Brain Swap**:
 
-**Elemental Armor Coating** - 2 energy - Type: Line-of-sight - Range: 30
-feet - Target: Single - Add the Elemental Armor Coating status condition
-to the target. Crystal element cannot be used for this technique.
+  - 5 energy
+  - Type: Touch
+  - Target: Single
+  - If the target is willing, then half of their brain is swapped with
+    that of a pure-elemental creature for a whole day. This experience
+    wildly varies. Some report that they gain a greater understanding of
+    the universe and their place in it. Others get the most negative
+    parts of their personalities infused with elemental beastiality.
 
-**Elemental Weapon Coating** - 2 energy - Type: Line-of-sight - Range:
-30 feet - Target: Single - Add the Elemental Weapon Coating status
-condition to the target.
+**Elemental Armor Coating**:
 
-**Elemental Weakness** - 2 energy - Type: Line-of-sight - Range: 30 feet
-- Target: Single - If your Magic Accuracy is higher than the target’s
-Magic Evasion, then add the Elemental Weakness status condition to the
-target for the chosen element. Crystal element cannot be used for this
-technique.
+  - 2 energy
+  - Type: Line-of-sight
+  - Range: 30 feet
+  - Target: Single
+  - Add the Elemental Armor Coating status condition to the target.
+    Crystal element cannot be used for this technique.
+
+**Elemental Weapon Coating**:
+
+  - 2 energy
+  - Type: Line-of-sight
+  - Range: 30 feet
+  - Target: Single
+  - Add the Elemental Weapon Coating status condition to the target.
+
+**Elemental Weakness**:
+
+  - 2 energy
+  - Type: Line-of-sight
+  - Range: 30 feet
+  - Target: Single
+  - If your Magic Accuracy is higher than the target’s Magic Evasion,
+    then add the Elemental Weakness status condition to the target for
+    the chosen element. Crystal element cannot be used for this
+    technique.
 
 #### Rating 10
 
-**Elemental Heresy** - 5 energy - Type: Line-of-sight - Range: 30 feet -
-Target: Single - Remove all status conditions of your choice from the
-target that are associated with the chosen element.
+**Elemental Heresy**:
 
-**Elemental Hexing** - 5 energy - Type: Line-of-sight - Range: 30 feet -
-Target: Single - If your Magic Accuracy is higher than the target’s
-Magic Evasion, then add the Elemental Charge Feedback status condition
-to the target for the chosen element. Crystal element cannot be used for
-this technique.
+  - 5 energy
+  - Type: Line-of-sight
+  - Range: 30 feet
+  - Target: Single
+  - Remove all status conditions of your choice from the target that are
+    associated with the chosen element.
 
-**Elemental Resistance** - 5 energy - Type: Line-of-sight - Range: 30
-feet - Target: Single - Add the Elemental Resistance status condition to
-the target.
+**Elemental Hexing**:
+
+  - 5 energy
+  - Type: Line-of-sight
+  - Range: 30 feet
+  - Target: Single
+  - If your Magic Accuracy is higher than the target’s Magic Evasion,
+    then add the Elemental Charge Feedback status condition to the
+    target for the chosen element. Crystal element cannot be used for
+    this technique.
+
+**Elemental Resistance**:
+
+  - 5 energy
+  - Type: Line-of-sight
+  - Range: 30 feet
+  - Target: Single
+  - Add the Elemental Resistance status condition to the target.
 
 #### Rating 15
 
-**Heal Burst** - 10 energy - Type: Sphere centered on self - Range: 10
-feet - Target: Self and all allies in range - Restore an amount of
-health to the targets equal to your Hexenkraft Techs skill rating. The
-visual effect is derived from the element used.
+**Heal Burst**:
 
-**Revive** - 15 energy - Type: Line-of-sight - Range: 30 feet - Target:
-One target at 0 Health - Revive the target at 1 Health.
+  - 10 energy
+  - Type: Sphere centered on self
+  - Range: 10 feet
+  - Target: Self and all allies in range
+  - Restore an amount of health to the targets equal to your Hexenkraft
+    Techs skill rating. The visual effect is derived from the element
+    used.
+
+**Revive**:
+
+  - 15 energy
+  - Type: Line-of-sight
+  - Range: 30 feet
+  - Target: One target at 0 Health
+  - Revive the target at 1 Health.
 
 #### Rating 20
 
-**Elemental Dooming** - 20 energy - Type: Straight-line projectile -
-Range: 30 feet - Target: Single - Magical projectile attack, whose
-damage is based on the element used. Furthermore, if your Magic Accuracy
-is higher than the target’s Magic Evasion, then add a status condition
-to the target, based on the element used. - Air: Suffocation - Crystal:
-Fragility - Dark: Forgetfulness - Earth: Entombed - Fire: Melting -
-Light: Babbling - Moon: Moon Madness - Water: Dehydration - Wood: Blood
-Poisoning
+**Elemental Dooming**:
+
+  - 20 energy
+  - Type: Straight-line projectile
+  - Range: 30 feet
+  - Target: Single
+  - Magical projectile attack, whose damage is based on the element
+    used. Furthermore, if your Magic Accuracy is higher than the
+    target’s Magic Evasion, then add a status condition to the target,
+    based on the element used.
+      - Air: Suffocation
+      - Crystal: Fragility
+      - Dark: Forgetfulness
+      - Earth: Entombed
+      - Fire: Melting
+      - Light: Babbling
+      - Moon: Moon Madness
+      - Water: Dehydration
+      - Wood: Blood Poisoning
 
 ### Martial Techs
 
 #### Rating 1
 
-**Flying Jump Kick** - 2 Action Points - Type: Move & Melee - Target:
-Single - Perform a move action ending in at least 10 feet of straight
-line, then do a melee attack against one target at the end of the
-movement. The attack’s Physical Accuracy is doubled.
+**Flying Jump Kick**:
 
-**Random Punches** - 2 Action Points - Type: Melee - Range: 5 feet -
-Target: Single - Roll a six-sided die (cube shape). On a roll of 1 or 2,
-you do an unarmed attack with half damage. On a roll of 3 or 4, you do a
-normal unarmed attack. On a roll of 5 or 6, you do double damage, and
-the target’s physical armor is halved against the attack. The damage
-type is set to the element used.
+  - 2 Action Points
+  - Type: Move & Melee
+  - Target: Single
+  - Perform a move action ending in at least 10 feet of straight line,
+    then do a melee attack against one target at the end of the
+    movement. The attack’s Physical Accuracy is doubled.
 
-**Shoulder Check** - 2 Action Points - Type: Melee - Range: 5 feet -
-Target: Single - Perform an unarmed attack, and knock the target back by
-5 feet.
+**Random Punches**:
 
-**Spinning Clothesline** - 2 Action Points - Type: Melee - Range: 5 feet
-- Target: Everyone in range - You spin around and perform an unarmed
-attack against everyone in range, both friend and foe. Your physical
-accuracy is halved for this attack. The damage type is set to the
-element used.
+  - 2 Action Points
+  - Type: Melee
+  - Range: 5 feet
+  - Target: Single
+  - Roll a six-sided die (cube shape). On a roll of 1 or 2, you do an
+    unarmed attack with half damage. On a roll of 3 or 4, you do a
+    normal unarmed attack. On a roll of 5 or 6, you do double damage,
+    and the target’s physical armor is halved against the attack. The
+    damage type is set to the element used.
 
-**Trip And Punch** - 3 Action Points - Type: Melee - Range: 5 feet -
-Target: Single - Perform a grapple action, which is then followed up
-with an unarmed attack that adds your Power Level to the damage.
+**Shoulder Check**:
+
+  - 2 Action Points
+  - Type: Melee
+  - Range: 5 feet
+  - Target: Single
+  - Perform an unarmed attack, and knock the target back by 5 feet.
+
+**Spinning Clothesline**:
+
+  - 2 Action Points
+  - Type: Melee
+  - Range: 5 feet
+  - Target: Everyone in range
+  - You spin around and perform an unarmed attack against everyone in
+    range, both friend and foe. Your physical accuracy is halved for
+    this attack. The damage type is set to the element used.
+
+**Trip And Punch**:
+
+  - 3 Action Points
+  - Type: Melee
+  - Range: 5 feet
+  - Target: Single
+  - Perform a grapple action, which is then followed up with an unarmed
+    attack that adds your Power Level to the damage.
 
 #### Rating 5
 
-**Candle Extinguishing Fist** - 2 Action Points - Type: Line-of-sight -
-Range: 30 feet - Target: Single - You do an unarmed attack against one
-target within range. The damage type is set to the element used.
+**Candle Extinguishing Fist**:
 
-**Ground Shockwave Smash** - 2 Action Points - Type: Ground Line -
-Range: 15 feet - Target: All in the ground line - You do an unarmed
-attack against all targets who are touching the ground within the line.
+  - 2 Action Points
+  - Type: Line-of-sight
+  - Range: 30 feet
+  - Target: Single
+  - You do an unarmed attack against one target within range. The damage
+    type is set to the element used.
 
-**Sharp Knuckle Punch** - 2 Action Points - Type: Melee - Range: 5 feet
-- Target: Single - Perform an unarmed attack. The target’s Physical
-Armor is cut to 1/4th against the attack, but the final damage the
-target takes is also halved.
+**Ground Shockwave Smash**:
 
-**Suplex** - 3 Action Points - Type: Grapple - Range: 5 feet - Target:
-Single - Perform a grapple. The target is moved to the 5-foot square
-behind you.
+  - 2 Action Points
+  - Type: Ground Line
+  - Range: 15 feet
+  - Target: All in the ground line
+  - You do an unarmed attack against all targets who are touching the
+    ground within the line.
+
+**Sharp Knuckle Punch**:
+
+  - 2 Action Points
+  - Type: Melee
+  - Range: 5 feet
+  - Target: Single
+  - Perform an unarmed attack. The target’s Physical Armor is cut to
+    1/4th against the attack, but the final damage the target takes is
+    also halved.
+
+**Suplex**:
+
+  - 3 Action Points
+  - Type: Grapple
+  - Range: 5 feet
+  - Target: Single
+  - Perform a grapple. The target is moved to the 5-foot square behind
+    you.
 
 #### Rating 10
 
-**Aura Imbued Fist** - 2 Action Points - Type: Melee - Range: 5 feet -
-Target: Single - You do an unarmed attack, except the stats used are
-Magical rather than Physical. You also gain an amount of Magical
-Accuracy equal to your Power Level for this technique.
+**Aura Imbued Fist**:
 
-**Pressure Point Strike** - 2 Action Points - Type: Melee - Range: 5
-feet - Target: Single - You do an unarmed attack. The damage type is set
-to the element used. If your magical accuracy is 1.5x the target’s
-magical evasion, then you also cause an additional effect based on the
-element used. - Air: The target flies 50 feet straight up into the air.
-If the target has no means of mitigating the fall, then their armor is
-halved against the attack. - Crystal: The target gets two stacks of the
-Shattered status condition. - Dark: The attack cannot be evaded, and
-does not trigger any reactions. The attack does not trigger any status
-conditions that say they do anything to the attacker. - Earth: The
-target is knocked back by 15 feet. If the target hits a wall as a
-result, then their armor is halved against the attack. - Fire: The
-target gets four stacks of the Overheat status condition. - Light: 10%
-of the damage is additionally drained as Energy from the target to
-yourself. - Moon: The target gets two stacks of the Stunned status
-condition. - Water: Half of the target’s Physical Power is added to the
-damage. - Wood: The target gets four stacks of the Thorns status
-condition.
+  - 2 Action Points
+  - Type: Melee
+  - Range: 5 feet
+  - Target: Single
+  - You do an unarmed attack, except the stats used are Magical rather
+    than Physical. You also gain an amount of Magical Accuracy equal to
+    your Power Level for this technique.
 
-**Self Pressure Point Cleansing** - 2 Action Points - Target: Self only
-- Remove 4 status conditions of your choice.
+**Pressure Point Strike**:
+
+  - 2 Action Points
+  - Type: Melee
+  - Range: 5 feet
+  - Target: Single
+  - You do an unarmed attack. The damage type is set to the element
+    used. If your magical accuracy is 1.5x the target’s magical evasion,
+    then you also cause an additional effect based on the element used.
+      - Air: The target flies 50 feet straight up into the air. If the
+        target has no means of mitigating the fall, then their armor is
+        halved against the attack.
+      - Crystal: The target gets two stacks of the Shattered status
+        condition.
+      - Dark: The attack cannot be evaded, and does not trigger any
+        reactions. The attack does not trigger any status conditions
+        that say they do anything to the attacker.
+      - Earth: The target is knocked back by 15 feet. If the target hits
+        a wall as a result, then their armor is halved against the
+        attack.
+      - Fire: The target gets four stacks of the Overheat status
+        condition.
+      - Light: 10% of the damage is additionally drained as Energy from
+        the target to yourself.
+      - Moon: The target gets two stacks of the Stunned status
+        condition.
+      - Water: Half of the target’s Physical Power is added to the
+        damage.
+      - Wood: The target gets four stacks of the Thorns status
+        condition.
+
+**Self Pressure Point Cleansing**:
+
+  - 2 Action Points
+  - Target: Self only
+  - Remove 4 status conditions of your choice.
 
 #### Rating 15
 
-**Heart Resonance Press** - 2 Action Points - Type: Touch - Range: 5
-feet - Target: Single - Revive one ally at 1 Health.
+**Heart Resonance Press**:
 
-**Life Energy Resonance** - 2 Action Points - Target: Self - You regain
-an amount of health equal to 1/4th of your Martial Techs skill rating,
-and remove one negative status condition of your choice, as long as it
-is not one that blocks your ability to use this technique.
+  - 2 Action Points
+  - Type: Touch
+  - Range: 5 feet
+  - Target: Single
+  - Revive one ally at 1 Health.
+
+**Life Energy Resonance**:
+
+  - 2 Action Points
+  - Target: Self
+  - You regain an amount of health equal to 1/4th of your Martial Techs
+    skill rating, and remove one negative status condition of your
+    choice, as long as it is not one that blocks your ability to use
+    this technique.
 
 #### Rating 20
 
@@ -1496,464 +1832,512 @@ is not one that blocks your ability to use this technique.
 
 #### Rating 1
 
-**Music Maintenance** - Each song requires 1 AP at all times while it is
-active. You activate or deactivate songs at the beginning of your own
-turn. This means you can maintain up to 4 songs at once. - You can only
-activate at most one instance of each song. For example, if you activate
-Song of Energy, you cannot have a second Song of Energy active at the
-same time. If you want a lot of the same Song active at once, you will
-need allies who also have the Musical Techs skill to cooperate. Then you
-and your allies together can really start stacking a lot of musical
-effects.
+**Music Maintenance**:
 
-**Song of Energy** - Affects yourself and all allies. - Charge Actions
-will consume one Elemental Charge, of the same element as was chosen for
-this song, to double the energy gained. - If a person does not have any
-Elemental Charges, of the same element as was chosen for this song, then
-they do not gain any benefits.
+  - Each song requires 1 AP at all times while it is active. You
+    activate or deactivate songs at the beginning of your own turn. This
+    means you can maintain up to 4 songs at once.
+  - You can only activate at most one instance of each song. For
+    example, if you activate Song of Energy, you cannot have a second
+    Song of Energy active at the same time. If you want a lot of the
+    same Song active at once, you will need allies who also have the
+    Musical Techs skill to cooperate. Then you and your allies together
+    can really start stacking a lot of musical effects.
 
-**Song of Marching** - Affects yourself and all allies. - Affected
-people under the effect of Shield Wall or Spear Wall gain 5 additional
-feet of horizontal movement per Move Action.
+**Song of Energy**:
 
-**Song of Perception** - Affects yourself and all allies. - Adds 1/4th
-of your Power Level to Magical Accuracy, for a minimum of 1 point added.
+  - Affects yourself and all allies.
+  - Charge Actions will consume one Elemental Charge, of the same
+    element as was chosen for this song, to double the energy gained.
+  - If a person does not have any Elemental Charges, of the same element
+    as was chosen for this song, then they do not gain any benefits.
 
-**Song of Protection** - Affects yourself and all allies. - Adds 1/4th
-of your Power Level to Magical Evasion, for a minimum of 1 point added.
+**Song of Marching**:
 
-**Song of Rage** - Affects yourself and all allies. - Adds 1/4th of your
-Power Level to Magical Power, for a minimum of 1 point added.
+  - Affects yourself and all allies.
+  - Affected people under the effect of Shield Wall or Spear Wall gain 5
+    additional feet of horizontal movement per Move Action.
 
-**Song of Safety** - Affects yourself and all allies. - Adds 1/4th of
-your Power Level to Magical Armor, for a minimum of 1 point added.
+**Song of Perception**:
+
+  - Affects yourself and all allies.
+  - Adds 1/4th of your Power Level to Magical Accuracy, for a minimum of
+    1 point added.
+
+**Song of Protection**:
+
+  - Affects yourself and all allies.
+  - Adds 1/4th of your Power Level to Magical Evasion, for a minimum of
+    1 point added.
+
+**Song of Rage**:
+
+  - Affects yourself and all allies.
+  - Adds 1/4th of your Power Level to Magical Power, for a minimum of 1
+    point added.
+
+**Song of Safety**:
+
+  - Affects yourself and all allies.
+  - Adds 1/4th of your Power Level to Magical Armor, for a minimum of 1
+    point added.
 
 ### Summoning Techs
 
 #### Rating 1
 
-**Summon Elemental Form** - 4 Action Points - Type: Summon - Range: 5
-feet - Target: Unoccupied 5-foot square - You form a contract with an
-Elemental Form from the Blended Realm. It then appears in the targeted
-5-foot square, and fights for you and your allies until the end of
-combat. Even if you are killed, as long as your allies continue to honor
-the contract, the Elemental Form will continue to help them. You can
-maintain a maximum of one Elemental Form at a time. - The stats of the
-Elemental Form depend on the specific form you choose, which are shown
-as different techniques of the Summoning Techs skill.
+**Summon Elemental Form**:
 
-**Fundamental Elemental Form** - All stats are equal to 10 + your
-effective Summoning Techs skill rating. Except for Maximum Health, which
-is equal to 20 + double your effective Summoning Techs skill rating. -
-The Fundamental Elemental Form takes double damage from its opposite
-element, but half damage from its same element.
+  - 4 Action Points
+  - Type: Summon
+  - Range: 5 feet
+  - Target: Unoccupied 5-foot square
+  - You form a contract with an Elemental Form from the Blended Realm.
+    It then appears in the targeted 5-foot square, and fights for you
+    and your allies until the end of combat. Even if you are killed, as
+    long as your allies continue to honor the contract, the Elemental
+    Form will continue to help them. You can maintain a maximum of one
+    Elemental Form at a time.
+  - The stats of the Elemental Form depend on the specific form you
+    choose, which are shown as different techniques of the Summoning
+    Techs skill.
+
+**Fundamental Elemental Form**:
+
+  - All stats are equal to 10 + your effective Summoning Techs skill
+    rating. Except for Maximum Health, which is equal to 20 + double
+    your effective Summoning Techs skill rating.
+  - The Fundamental Elemental Form takes double damage from its opposite
+    element, but half damage from its same element.
 
 ### Weapon Melee Techs
 
 #### Rating 1
 
-**Elemental Melee Weapon Visual Effect** - 0 energy - You charge your
-melee weapon with visible elemental energy for as long as you stay
-awake.
+**Elemental Melee Weapon Visual Effect**:
 
-**Elemental Melee Strike** - 1 energy - Do a melee weapon attack. Its
-damage type is changed to be of the linked element.
+  - 0 energy
+  - You charge your melee weapon with visible elemental energy for as
+    long as you stay awake.
 
-**Charging Melee Strike** - 3 energy - Do a melee weapon attack. If you
-do more than 1 damage, then you also gain an elemental charge.
+**Elemental Melee Strike**:
 
-**Cross Strike** - 8 energy - Requires: Two One-Handed Melee or Reach
-Weapons - You attack with both weapons.
+  - 1 energy
+  - Do a melee weapon attack. Its damage type is changed to be of the
+    linked element.
 
-**Discharging Melee Strike** - Discharging: This technique does not
-require any corresponding Magical Elements skills. Instead, it requires
-that you are holding elemental charges. - 1 energy - Do a melee weapon
-attack. It additionally does physical elemental damage for each
-elemental charge, equal to Physical Power \* 0.25 per charge. This extra
-damage ignores armor.
+**Charging Melee Strike**:
 
-**Power Strike** - 10 energy - You attack, and add your Power Level to
-the damage.
+  - 3 energy
+  - Do a melee weapon attack. If you do more than 1 damage, then you
+    also gain an elemental charge.
+
+**Cross Strike**:
+
+  - 8 energy
+  - Requires: Two One-Handed Melee or Reach Weapons
+  - You attack with both weapons.
+
+**Discharging Melee Strike**:
+
+  - Discharging: This technique does not require any corresponding
+    Magical Elements skills. Instead, it requires that you are holding
+    elemental charges.
+  - 1 energy
+  - Do a melee weapon attack. It additionally does physical elemental
+    damage for each elemental charge, equal to Physical Power \* 0.25
+    per charge. This extra damage ignores armor.
+
+**Power Strike**:
+
+  - 10 energy
+  - You attack, and add your Power Level to the damage.
 
 #### Rating 5
 
-**Elemental Melee Force** - 3 energy - Do a melee weapon attack. If it
-does more than 1 damage, then it also pushes the target back by 5 feet.
+**Elemental Melee Force**:
 
-**Elemental Melee Spike** - 3 energy - Type: Line - Range: 15 feet - Do
-a melee weapon attack in a 15-foot straight line, using yourself as the
-origin point. The attack targets all enemies in that line. The attack’s
-damage type is changed to be of the linked element.
+  - 3 energy
+  - Do a melee weapon attack. If it does more than 1 damage, then it
+    also pushes the target back by 5 feet.
 
-**Elemental Melee Wide Strike** - Type: Wide Swing - Range: Weapon - 3
-energy - Do a melee weapon attack against the first enemy in front of
-you, as well as two enemies standing to the sides of the first one who
-are also within weapon range of you. The attack’s damage type is changed
-to be of the linked element.
+**Elemental Melee Spike**:
+
+  - 3 energy
+  - Type: Line
+  - Range: 15 feet
+  - Do a melee weapon attack in a 15-foot straight line, using yourself
+    as the origin point. The attack targets all enemies in that line.
+    The attack’s damage type is changed to be of the linked element.
+
+**Elemental Melee Wide Strike**:
+
+  - Type: Wide Swing
+  - Range: Weapon
+  - 3 energy
+  - Do a melee weapon attack against the first enemy in front of you, as
+    well as two enemies standing to the sides of the first one who are
+    also within weapon range of you. The attack’s damage type is changed
+    to be of the linked element.
 
 #### Rating 10
 
-**Elemental Melee Blasting Strike** - 5 energy - Type: Blast - Range:
-Weapon - Do a melee weapon attack at the ground within your weapon’s
-range. It must be possible for you to stand on or inside the targeted
-spot, for it to be valid for this technique. The attack targets all
-enemies within a 5-foot radius of that spot. The attack’s damage type is
-changed to be of the linked element.
+**Elemental Melee Blasting Strike**:
 
-**Elemental Melee Wave Slash** - 5 energy - Type: Line-of-sight - Range:
-30 feet - Target: Single - Do a melee weapon attack against an enemy
-within the range.
+  - 5 energy
+  - Type: Blast
+  - Range: Weapon
+  - Do a melee weapon attack at the ground within your weapon’s range.
+    It must be possible for you to stand on or inside the targeted spot,
+    for it to be valid for this technique. The attack targets all
+    enemies within a 5-foot radius of that spot. The attack’s damage
+    type is changed to be of the linked element.
 
-**Elemental Melee Guarding Strike** - 5 energy - Do a melee weapon
-attack. Gain a status condition based on the element used. - Air: Gain
-the Airyspeedy status. - Dark: Gain the Shadowconcealed status. -
-Crystal: Gain the Crystalbarrier status. - Earth: Gain the Stonehide
-status. - Fire: Gain the Fireaura status. - Light: Gain the Shininghead
-status. - Moon: Gain the Recharging status. - Water: Gain the
-Fluidmotion status. - Wood: Gain the Regenerating status.
+**Elemental Melee Wave Slash**:
+
+  - 5 energy
+  - Type: Line-of-sight
+  - Range: 30 feet
+  - Target: Single
+  - Do a melee weapon attack against an enemy within the range.
+
+**Elemental Melee Guarding Strike**:
+
+  - 5 energy
+  - Do a melee weapon attack. Gain a status condition based on the
+    element used.
+      - Air: Gain the Airyspeedy status.
+      - Dark: Gain the Shadowconcealed status.
+      - Crystal: Gain the Crystalbarrier status.
+      - Earth: Gain the Stonehide status.
+      - Fire: Gain the Fireaura status.
+      - Light: Gain the Shininghead status.
+      - Moon: Gain the Recharging status.
+      - Water: Gain the Fluidmotion status.
+      - Wood: Gain the Regenerating status.
 
 #### Rating 15
 
-**Charging Melee Dual Strike** - 8 energy - Do two melee weapon attacks
-against one target. For each attack, if you do more than 1 damage, then
-you also gain an elemental charge.
+**Charging Melee Dual Strike**:
 
-**Elemental Melee Pillar Strike** - 8 energy - Do a melee weapon attack
-at all enemies within an adjacent 3-foot-radius area, reaching up to
-30,000 feet upwards and downwards until hitting terrain or clouds. Its
-damage type is changed to be of the linked element. Note that attacking
-something like a dragon or airship from 30,000 feet away could be quite
-difficult due to the required horizontal positioning, but still has a
-non-zero chance of success.
+  - 8 energy
+  - Do two melee weapon attacks against one target. For each attack, if
+    you do more than 1 damage, then you also gain an elemental charge.
 
-**Crippling Melee Strike** - 8 energy - Do a melee weapon attack. Its
-damage type is changed to be of the linked element. It also adds a
-status condition to the enemy based on the element used. - Air: Adds the
-Shocked status to the target. - Crystal: Adds the Bleeding status to the
-target. - Dark: Adds the Mindmaze status to the target. - Earth: Adds
-the Buried status to the target. - Fire: Adds the Burning status to the
-target. - Light: Adds the Blinded status to the target. - Moon: The
-final damage is halved, and dealt to Energy rather than Health. You gain
-half that much damage (i.e. 1/4th of the initial) as Energy. - Water:
-Adds the Chilled status to the target. - Wood: The final damage is
-halved. You gain that much damage as Health.
+**Elemental Melee Pillar Strike**:
+
+  - 8 energy
+  - Do a melee weapon attack at all enemies within an adjacent
+    3-foot-radius area, reaching up to 30,000 feet upwards and downwards
+    until hitting terrain or clouds. Its damage type is changed to be of
+    the linked element. Note that attacking something like a dragon or
+    airship from 30,000 feet away could be quite difficult due to the
+    required horizontal positioning, but still has a non-zero chance of
+    success.
+
+**Crippling Melee Strike**:
+
+  - 8 energy
+  - Do a melee weapon attack. Its damage type is changed to be of the
+    linked element. It also adds a status condition to the enemy based
+    on the element used.
+      - Air: Adds the Shocked status to the target.
+      - Crystal: Adds the Bleeding status to the target.
+      - Dark: Adds the Mindmaze status to the target.
+      - Earth: Adds the Buried status to the target.
+      - Fire: Adds the Burning status to the target.
+      - Light: Adds the Blinded status to the target.
+      - Moon: The final damage is halved, and dealt to Energy rather
+        than Health. You gain half that much damage (i.e. 1/4th of the
+        initial) as Energy.
+      - Water: Adds the Chilled status to the target.
+      - Wood: The final damage is halved. You gain that much damage as
+        Health.
 
 #### Rating 20
 
-**Spinning Melee Strike** - 10 energy - Do a melee weapon attack at all
-enemies within weapon range. Its damage type is changed to be of the
-linked element.
+**Spinning Melee Strike**:
 
-**Discharging Melee Blast** - Discharging: This technique does not
-require any corresponding Magical Elements skills. Instead, it requires
-that you are holding elemental charges. - 10 energy - Do a melee weapon
-attack against three different enemies in weapon range. It additionally
-does physical elemental damage for each elemental charge, equal to
-Physical Power \* 0.50 per charge. This extra damage ignores armor.
+  - 10 energy
+  - Do a melee weapon attack at all enemies within weapon range. Its
+    damage type is changed to be of the linked element.
+
+**Discharging Melee Blast**:
+
+  - Discharging: This technique does not require any corresponding
+    Magical Elements skills. Instead, it requires that you are holding
+    elemental charges.
+  - 10 energy
+  - Do a melee weapon attack against three different enemies in weapon
+    range. It additionally does physical elemental damage for each
+    elemental charge, equal to Physical Power \* 0.50 per charge. This
+    extra damage ignores armor.
 
 ### Weapon Ranged Techs
 
 #### Rating 1
 
-**Elemental Shot** - 2 energy - Do a ranged weapon attack. Its damage
-type is changed to be of the linked element.
+**Elemental Shot**:
 
-**Charging Shot** - 5 energy - Do a ranged weapon attack. If you do more
-than 1 damage, then you also gain an elemental charge.
+  - 2 energy
+  - Do a ranged weapon attack. Its damage type is changed to be of the
+    linked element.
 
-**Falling Shot** - 2 energy - Type: Line-of-sight - Range: 60 feet -
-Target: Single - Do a ranged weapon attack. Its damage type is changed
-to be of the linked element.
+**Charging Shot**:
 
-**Power Shot** - 13 energy - You attack, and add your Power Level to the
-damage.
+  - 5 energy
+  - Do a ranged weapon attack. If you do more than 1 damage, then you
+    also gain an elemental charge.
+
+**Falling Shot**:
+
+  - 2 energy
+  - Type: Line-of-sight
+  - Range: 60 feet
+  - Target: Single
+  - Do a ranged weapon attack. Its damage type is changed to be of the
+    linked element.
+
+**Power Shot**:
+
+  - 13 energy
+  - You attack, and add your Power Level to the damage.
 
 #### Rating 5
 
-**Bouncing Shot** - 5 energy - Do a ranged weapon attack against two
-targets who are within 5 feet of each other. Its damage type is changed
-to be of the linked element.
+**Bouncing Shot**:
 
-**Guided Shot** - 5 energy - Do a ranged weapon attack, adding your
-Weapon Ranged Techs rating to your Physical Accuracy. Its damage type is
-changed to be of the linked element.
+  - 5 energy
+  - Do a ranged weapon attack against two targets who are within 5 feet
+    of each other. Its damage type is changed to be of the linked
+    element.
+
+**Guided Shot**:
+
+  - 5 energy
+  - Do a ranged weapon attack, adding your Weapon Ranged Techs rating to
+    your Physical Accuracy. Its damage type is changed to be of the
+    linked element.
 
 #### Rating 10
 
-**Armor-Piercing Shot** - 10 energy - Do a ranged weapon attack,
-ignoring the target’s Physical Armor. Its damage type is changed to be
-of the linked element.
+**Armor-Piercing Shot**:
 
-**High-Power Shot** - 10 energy - Do a ranged weapon attack, adding your
-Weapon Ranged Techs rating to your Physical Power. Its damage type is
-changed to be of the linked element.
+  - 10 energy
+  - Do a ranged weapon attack, ignoring the target’s Physical Armor. Its
+    damage type is changed to be of the linked element.
+
+**High-Power Shot**:
+
+  - 10 energy
+  - Do a ranged weapon attack, adding your Weapon Ranged Techs rating to
+    your Physical Power. Its damage type is changed to be of the linked
+    element.
 
 #### Rating 15
 
-**Beam Shot** - 15 energy - Do a ranged weapon attack against all
-enemies in a line, up to the maximum range of your weapon. Its damage
-type is changed to be of the linked element.
+**Beam Shot**:
 
-**Discharging Exploding Shot** - Discharging: This technique does not
-require any corresponding Magical Elements skills. Instead, it requires
-that you are holding elemental charges. - 5 energy - Do a ranged weapon
-attack against one target, as well as all enemies within 5 feet of that
-target. The attack additionally does physical elemental damage for each
-elemental charge, equal to Physical Power \* 0.5 per charge. This extra
-damage ignores armor.
+  - 15 energy
+  - Do a ranged weapon attack against all enemies in a line, up to the
+    maximum range of your weapon. Its damage type is changed to be of
+    the linked element.
+
+**Discharging Exploding Shot**:
+
+  - Discharging: This technique does not require any corresponding
+    Magical Elements skills. Instead, it requires that you are holding
+    elemental charges.
+  - 5 energy
+  - Do a ranged weapon attack against one target, as well as all enemies
+    within 5 feet of that target. The attack additionally does physical
+    elemental damage for each elemental charge, equal to Physical Power
+    \* 0.5 per charge. This extra damage ignores armor.
 
 ## Linear Tactics Group
 
 ### Rampart Aura
 
-#### Rating 1
+Rating 1 - **Rampart Aura I** - You project a Rampart Aura five feet to
+your sides. When an enemy enters a Rampart Aura, they must stop
+horizontal movement. When an enemy moves entirely within the Rampart
+Aura, their horizontal movement is limited to 5 feet. When an enemy
+exits a Rampart Aura, they can move normally.
 
-**Rampart Aura I** - You project a Rampart Aura five feet to your sides.
-When an enemy enters a Rampart Aura, they must stop horizontal movement.
-When an enemy moves entirely within the Rampart Aura, their horizontal
-movement is limited to 5 feet. When an enemy exits a Rampart Aura, they
-can move normally.
+Rating 20 - **Rampart Aura II** - Supercedes Rampart Aura I. You project
+a Rampart Aura ten feet to your sides.
 
-#### Rating 20
+Rating 40 - **Rampart Aura III** - Supercedes Rampart Aura I and II. You
+project a Rampart Aura ten feet to your sides, and five feet to your
+front and back.
 
-**Rampart Aura II** - Supercedes Rampart Aura I. You project a Rampart
-Aura ten feet to your sides.
-
-#### Rating 40
-
-**Rampart Aura III** - Supercedes Rampart Aura I and II. You project a
-Rampart Aura ten feet to your sides, and five feet to your front and
-back.
-
-#### Rating 60
-
-**Rampart Aura IV** - Supercedes Rampart Aura I, II, and III. You
-project a Rampart Aura fifteen feet to your sides, ten feet to your
-front and back, and five feet in diagonal directions.
+Rating 60 - **Rampart Aura IV** - Supercedes Rampart Aura I, II, and
+III. You project a Rampart Aura fifteen feet to your sides, ten feet to
+your front and back, and five feet in diagonal directions.
 
 ### Shield Wall
 
-#### Rating 1
-
-**Shield Wall I** - This technique is in effect when you are
+Rating 1 - **Shield Wall I** - This technique is in effect when you are
 side-to-side with at least one other ally who also has Shield Wall I and
 is equipped with a shield. Your Physical Armor is increased by 1/4th of
 your Power Level, for a minimum of 1 point increase, against all damage
 coming from your front. This protection extends to any ally who is in
 the 5-foot square behind you.
 
-#### Rating 20
+Rating 20 - **Shield Wall II** - Supercedes Shield Wall I if you are
+linked with an ally who also has Shield Wall II and is equipped with a
+shield. Your Physical Armor increase is 1/2 of your Power Level.
 
-**Shield Wall II** - Supercedes Shield Wall I if you are linked with an
-ally who also has Shield Wall II and is equipped with a shield. Your
-Physical Armor increase is 1/2 of your Power Level.
+Rating 40 - **Shield Wall III** - Supercedes Shiel Wall I and II if you
+are linked with an ally who also has Shield Wall III and is equipped
+with a shield. Your Physical Armor increase is 3/4 of your Power Level.
 
-#### Rating 40
-
-**Shield Wall III** - Supercedes Shiel Wall I and II if you are linked
-with an ally who also has Shield Wall III and is equipped with a shield.
-Your Physical Armor increase is 3/4 of your Power Level.
-
-#### Rating 60
-
-**Shield Wall IV** - Supercedes Shiel Wall I, II and III if you are
-linked with an ally who also has Shield Wall IV and is equipped with a
-shield. Your Physical Armor increase is equal to your Power Level.
+Rating 60 - **Shield Wall IV** - Supercedes Shiel Wall I, II and III if
+you are linked with an ally who also has Shield Wall IV and is equipped
+with a shield. Your Physical Armor increase is equal to your Power
+Level.
 
 ### Siegebreaker
 
-#### Rating 1
+Rating 1 - **Siegebreaker I** - You can use five feet of your remaining
+horizontal movement upon entering a Rampart Aura. When starting your
+movement within a Rampart Aura and travelling entirely within the aura,
+you can move a maximum of ten feet.
 
-**Siegebreaker I** - You can use five feet of your remaining horizontal
-movement upon entering a Rampart Aura. When starting your movement
-within a Rampart Aura and travelling entirely within the aura, you can
-move a maximum of ten feet.
+Rating 20 - **Siegebreaker II** - Supercedes Siegebreaker I. You can use
+ten feet of your remaining horizontal movement upon entering a Rampart
+Aura. When starting your movement within a Rampart Aura and travelling
+entirely within the aura, you can move a maximum of fifteen feet.
 
-#### Rating 20
-
-**Siegebreaker II** - Supercedes Siegebreaker I. You can use ten feet of
-your remaining horizontal movement upon entering a Rampart Aura. When
-starting your movement within a Rampart Aura and travelling entirely
-within the aura, you can move a maximum of fifteen feet.
-
-#### Rating 40
-
-**Siegebreaker III** - Supercedes Siegebreaker I and II. You can use
-fifteen feet of your remaining horizontal movement upon entering a
-Rampart Aura. When starting your movement within a Rampart Aura and
+Rating 40 - **Siegebreaker III** - Supercedes Siegebreaker I and II. You
+can use fifteen feet of your remaining horizontal movement upon entering
+a Rampart Aura. When starting your movement within a Rampart Aura and
 travelling entirely within the aura, you can move a maximum of twenty
 feet.
 
-#### Rating 60
-
-**Siegebreaker IV** - Supercedes Siegebreaker I, II, and III. You can
-use twenty feet of your remaining horizontal movement upon entering a
-Rampart Aura. When starting your movement within a Rampart Aura and
-travelling entirely within the aura, you can move a maximum of twenty
-five feet.
+Rating 60 - **Siegebreaker IV** - Supercedes Siegebreaker I, II, and
+III. You can use twenty feet of your remaining horizontal movement upon
+entering a Rampart Aura. When starting your movement within a Rampart
+Aura and travelling entirely within the aura, you can move a maximum of
+twenty five feet.
 
 ### Spear Wall
 
-#### Rating 1
+Rating 1 - **Spear Wall I** - This technique is in effect when you are
+side-to-side with at least one other ally who also has Spear Wall I and
+is equipped with a reach weapon. You automatically attack enemies who
+move into the second 5-foot square to your front.
 
-**Spear Wall I** - This technique is in effect when you are side-to-side
-with at least one other ally who also has Spear Wall I and is equipped
-with a reach weapon. You automatically attack enemies who move into the
-second 5-foot square to your front.
-
-#### Rating 20
-
-**Spear Wall II** - Supercedes Spear Wall I if you are linked with an
-ally who also has Spear Wall II and is equipped with a reach weapon. You
-automatically attack enemies who move into both of the 5-foot squares to
-your front. Your Physical Evasion is increased by 1/4th of your Power
-Level against enemies in the two 5-foot squares to your front.
-
-#### Rating 40
-
-**Spear Wall III** - Supercedes Spear Wall I and II if you are linked
-with an ally who also has Spear Wall III and is equipped with a reach
-weapon. You automatically attack enemies who move into both of the
-5-foot squares to your front. Your Physical Evasion is increased by 1/2
-of your Power Level against enemies in the two 5-foot squares to your
-front.
-
-#### Rating 60
-
-**Spear Wall IV** - Supercedes Spear Wall I, II and III if you are
-linked with an ally who also has Spear Wall IV and is equipped with a
+Rating 20 - **Spear Wall II** - Supercedes Spear Wall I if you are
+linked with an ally who also has Spear Wall II and is equipped with a
 reach weapon. You automatically attack enemies who move into both of the
-5-foot squares to your front. Your Physical Evasion is increased by an
-amount equal to your Power Level against enemies in the two 5-foot
+5-foot squares to your front. Your Physical Evasion is increased by
+1/4th of your Power Level against enemies in the two 5-foot squares to
+your front.
+
+Rating 40 - **Spear Wall III** - Supercedes Spear Wall I and II if you
+are linked with an ally who also has Spear Wall III and is equipped with
+a reach weapon. You automatically attack enemies who move into both of
+the 5-foot squares to your front. Your Physical Evasion is increased by
+1/2 of your Power Level against enemies in the two 5-foot squares to
+your front.
+
+Rating 60 - **Spear Wall IV** - Supercedes Spear Wall I, II and III if
+you are linked with an ally who also has Spear Wall IV and is equipped
+with a reach weapon. You automatically attack enemies who move into both
+of the 5-foot squares to your front. Your Physical Evasion is increased
+by an amount equal to your Power Level against enemies in the two 5-foot
 squares to your front.
 
 ## Zone Tactics Group
 
 ### Animal Speaker Aura
 
-#### Rating 1
+Rating 1 - **Animal Speaker I** - All allied animals within a radius of
+5 feet gain a bonus to Physical Evasion, Physical Armor, Magic Evasion,
+and Magic Armor, equal to 1/4th of your Animal Speaker Aura skill
+rating, for a minimum of 1 point gained. Enemy animals within the same
+radius receive a penalty instead, due to the counteraction of
+brainwashing causing them to also forget the associated combat training.
 
-**Animal Speaker I** - All allied animals within a radius of 5 feet gain
-a bonus to Physical Evasion, Physical Armor, Magic Evasion, and Magic
-Armor, equal to 1/4th of your Animal Speaker Aura skill rating, for a
-minimum of 1 point gained. Enemy animals within the same radius receive
-a penalty instead, due to the counteraction of brainwashing causing them
-to also forget the associated combat training.
+Rating 20 - **Animal Speaker II** - Supercedes and replaces Animal
+Speaker I. The radius is now 10 feet. The stat mod is now equal to 1/2
+of your Animal Speaker Aura rating.
 
-#### Rating 20
+Rating 40 - **Animal Speaker III** - Supercedes and replaces Animal
+Speaker I and II. The radius is now 15 feet. The stat mod is now equal
+to 3/4 of your Animal Speaker Aura rating.
 
-**Animal Speaker II** - Supercedes and replaces Animal Speaker I. The
-radius is now 10 feet. The stat mod is now equal to 1/2 of your Animal
-Speaker Aura rating.
-
-#### Rating 40
-
-**Animal Speaker III** - Supercedes and replaces Animal Speaker I and
-II. The radius is now 15 feet. The stat mod is now equal to 3/4 of your
-Animal Speaker Aura rating.
-
-#### Rating 60
-
-**Animal Speaker IV** - Supercedes and replaces Animal Speaker I, II and
-III. The radius is now 20 feet. The stat mod is now equal to your Animal
-Speaker Aura rating.
+Rating 60 - **Animal Speaker IV** - Supercedes and replaces Animal
+Speaker I, II and III. The radius is now 20 feet. The stat mod is now
+equal to your Animal Speaker Aura rating.
 
 ### Barrier Aura
 
-#### Rating 1
+Rating 1 - **Barrier I** - Both yourself and all alies within a radius
+of 5 feet gain a bonus to Physical Evasion and Physical Armor, equal to
+1/4th of your Barrier Aura skill rating, for a minimum of 1 point
+gained.
 
-**Barrier I** - Both yourself and all alies within a radius of 5 feet
-gain a bonus to Physical Evasion and Physical Armor, equal to 1/4th of
-your Barrier Aura skill rating, for a minimum of 1 point gained.
+Rating 20 - **Barrier II** - Supercedes and replaces Barrier I. The
+radius is now 10 feet. The stat gain is now equal to 1/2 of your Barrier
+Aura skill rating.
 
-#### Rating 20
+Rating 40 - **Barrier III** - Supercedes and replaces Barrier I and II.
+The radius is now 15 feet. The stat gain is now equal to 3/4 of your
+Barrier Aura skill rating.
 
-**Barrier II** - Supercedes and replaces Barrier I. The radius is now 10
-feet. The stat gain is now equal to 1/2 of your Barrier Aura skill
-rating.
-
-#### Rating 40
-
-**Barrier III** - Supercedes and replaces Barrier I and II. The radius
-is now 15 feet. The stat gain is now equal to 3/4 of your Barrier Aura
-skill rating.
-
-#### Rating 60
-
-**Barrier IV** - Supercedes and replaces Barrier I, II and III. The
-radius is now 20 feet. The stat gain is now equal to your Barrier Aura
-skill rating.
+Rating 60 - **Barrier IV** - Supercedes and replaces Barrier I, II and
+III. The radius is now 20 feet. The stat gain is now equal to your
+Barrier Aura skill rating.
 
 ### Regeneration Aura
 
-#### Rating 1
+Rating 1 - **Regeneration I** - Both yourself and all allies within a
+radius of 5 feet regain 1 Health during the status phase.
 
-**Regeneration I** - Both yourself and all allies within a radius of 5
-feet regain 1 Health during the status phase.
+Rating 20 - **Regeneration II** - Supercedes and replaces Regeneration
+I. The radius is now 10 feet. The amount healed is now 5 Health.
 
-#### Rating 20
+Rating 40 - **Regeneration III** - Supercedes and replaces Regeneration
+I and II. The radius is now 15 feet. The amount healed is now 10 Health.
 
-**Regeneration II** - Supercedes and replaces Regeneration I. The radius
-is now 10 feet. The amount healed is now 5 Health.
-
-#### Rating 40
-
-**Regeneration III** - Supercedes and replaces Regeneration I and II.
-The radius is now 15 feet. The amount healed is now 10 Health.
-
-#### Rating 60
-
-**Regeneration IV** - Supercedes and replaces Regeneration I, II and
-III. The radius is now 20 feet. The amount healed is now 25 Health.
+Rating 60 - **Regeneration IV** - Supercedes and replaces Regeneration
+I, II and III. The radius is now 20 feet. The amount healed is now 25
+Health.
 
 ### Sanctuary Aura
 
-#### Rating 1
+Rating 1 - **Sanctuary I** - Within a radius of 5 feet, including the
+5-foot square you are in, you prevent Imperial Undeath Techniques from
+being performed and targeted.
 
-**Sanctuary I** - Within a radius of 5 feet, including the 5-foot square
-you are in, you prevent Imperial Undeath Techniques from being performed
-and targeted.
+Rating 20 - **Sanctuary II** - Supercedes and replaces Sanctuary I. The
+radius is now 10 feet.
 
-#### Rating 20
+Rating 40 - **Sanctuary III** - Supercedes and replaces Sanctuary I and
+II. The radius is now 15 feet.
 
-**Sanctuary II** - Supercedes and replaces Sanctuary I. The radius is
-now 10 feet.
-
-#### Rating 40
-
-**Sanctuary III** - Supercedes and replaces Sanctuary I and II. The
-radius is now 15 feet.
-
-#### Rating 60
-
-**Sanctuary IV** - Supercedes and replaces Sanctuary I, II and III. The
-radius is now 20 feet.
+Rating 60 - **Sanctuary IV** - Supercedes and replaces Sanctuary I, II
+and III. The radius is now 20 feet.
 
 ### Terror Aura
 
-#### Rating 1
+Rating 1 - **Terror I** - Within a radius of 5 feet, you cause enemy
+Physical Evasion and Physical Armor to be decreased by 1/4th your Terror
+Aura skill rating, for a minimum of 1 point of penalty.
 
-**Terror I** - Within a radius of 5 feet, you cause enemy Physical
-Evasion and Physical Armor to be decreased by 1/4th your Terror Aura
-skill rating, for a minimum of 1 point of penalty.
-
-#### Rating 20
-
-**Terror II** - Supercedes and replaces Terror I. The radius is now 10
-feet. The stat decrease is now equal to 1/2 your Terror Aura skill
-rating.
-
-#### Rating 40
-
-**Terror III** - Supercedes and replaces Terror I and II. The radius is
-now 15 feet. The stat decrease is now equal to 3/4ths your Terror Aura
+Rating 20 - **Terror II** - Supercedes and replaces Terror I. The radius
+is now 10 feet. The stat decrease is now equal to 1/2 your Terror Aura
 skill rating.
 
-#### Rating 60
+Rating 40 - **Terror III** - Supercedes and replaces Terror I and II.
+The radius is now 15 feet. The stat decrease is now equal to 3/4ths your
+Terror Aura skill rating.
 
-**Terror IV** - Supercedes and replaces Terror I, II and III. The radius
-is now 20 feet. The stat decrease is now equal to your Terror Aura skill
-rating.
+Rating 60 - **Terror IV** - Supercedes and replaces Terror I, II and
+III. The radius is now 20 feet. The stat decrease is now equal to your
+Terror Aura skill rating.
 
 # 5\. Dramatic Scenes
 
@@ -1977,32 +2361,42 @@ provide extra chances in specific situations. The players should also
 cooperate to ensure that a variety of angles of attack are used to gain
 extra chances.
 
-Example: - Jane wants to sneak into a mansion. - John points out that
-Jane’s skillset includes a lot of Wood-based magic. Therefore she should
-try making the mansion itself open up to her. - Jane checks to see if
-the mansion is actually made of wood, by knocking on it, examining it
-with her Wood Magic, and other such actions. - The Game Master confirms
-that they had previously written the mansion as made of wood, including
-the exterior, the frame, the floor, and the doorways. Therefore the
-strategy of making the mansion itself open up to her should give her
-extra chances when infiltrating the risky way.
+Example:
 
-Example: - John tries to light a lantern in a pitch-black environment. -
-The Game Master had written that the environment was pitch-black due to
-Dark Magic. Therefore the Game Master says that lighting a lantern does
-not work. - Jane points out that John has an artifact of Light Magic. -
-The Game Master confirms that the artifact would indeed help to push
-back the Dark Magic, and therefore, John could break the artifact open
-to gain extra chances doing things the risky way.
+  - Jane wants to sneak into a mansion.
+  - John points out that Jane’s skillset includes a lot of Wood-based
+    magic. Therefore she should try making the mansion itself open up to
+    her.
+  - Jane checks to see if the mansion is actually made of wood, by
+    knocking on it, examining it with her Wood Magic, and other such
+    actions.
+  - The Game Master confirms that they had previously written the
+    mansion as made of wood, including the exterior, the frame, the
+    floor, and the doorways. Therefore the strategy of making the
+    mansion itself open up to her should give her extra chances when
+    infiltrating the risky way.
+
+Example:
+
+  - John tries to light a lantern in a pitch-black environment.
+  - The Game Master had written that the environment was pitch-black due
+    to Dark Magic. Therefore the Game Master says that lighting a
+    lantern does not work.
+  - Jane points out that John has an artifact of Light Magic.
+  - The Game Master confirms that the artifact would indeed help to push
+    back the Dark Magic, and therefore, John could break the artifact
+    open to gain extra chances doing things the risky way.
 
 ### Skills Giving Extra Chances
 
 Every 10th rating achieved in a skill provides one additional Dramatic
 Chance when using that skill.
 
-Example: - Jack wants to unlock a door as quickly as possible. Jack also
-has a Locks skill rating of 25. Therefore, Jack gets two extra chances
-to unlock the door.
+Example:
+
+  - Jack wants to unlock a door as quickly as possible. Jack also has a
+    Locks skill rating of 25. Therefore, Jack gets two extra chances to
+    unlock the door.
 
 ### Increased Difficulty
 
@@ -2013,14 +2407,17 @@ down to just having as many chances as possible for exactly one type of
 situation - but rather, that characters are rewarded for covering a
 variety of situations.
 
-Example: - The Game Master writes a situation in which the
-player-characters are trying to sneak into a secure mansion, in order to
-rob the contents of a masterwork safe. - Jane must succeed in sneaking
-into the mansion. Perhaps the Movement skill, under the Adventuring
-Group, can help here. - John must succeed in finding and disabling the
-darkness traps. Perhaps the Traps skill, under the Adventuring Group,
-can help here. - Jack must succeed in unlocking the safe. Perhaps the
-Locks skill, under the Adventuring Group, can help here.
+Example:
+
+  - The Game Master writes a situation in which the player-characters
+    are trying to sneak into a secure mansion, in order to rob the
+    contents of a masterwork safe.
+  - Jane must succeed in sneaking into the mansion. Perhaps the Movement
+    skill, under the Adventuring Group, can help here.
+  - John must succeed in finding and disabling the darkness traps.
+    Perhaps the Traps skill, under the Adventuring Group, can help here.
+  - Jack must succeed in unlocking the safe. Perhaps the Locks skill,
+    under the Adventuring Group, can help here.
 
 # 6\. Island Rules
 
@@ -2184,46 +2581,76 @@ they start sending full Legions. Eventually you will have to face the
 Legions head-on in battle and kill their highest-ranked soldiers and
 generals.
 
-**Build Adtextus Banner** - -10 Island Health - An Imperial Senator
-conducts a ritual of life draining, then hammers an Adtextus Banner into
-the Island. Without sufficient Fortifications, no response is possible.
+**Build Adtextus Banner**:
 
-**Enslave People** - -5 Island Health - -10 People - -10 Knowledge
-Permanency - -10 Automation - Auxilia or Legion Scouts quickly surround
-and grab people at night. Without sufficient Fortifications, no response
-is possible.
+  - \-10 Island Health
+  - An Imperial Senator conducts a ritual of life draining, then hammers
+    an Adtextus Banner into the Island. Without sufficient
+    Fortifications, no response is possible.
 
-**Use Murder Squads** - -10 Island Health - -10 Animals - -10
-Tribespeople - -10 Knowledge Permanency - Auxilia with a reputation for
-murderousness are hired to land on the Island and do whatever they can.
-Without sufficient Fortifications, no response is possible.
+**Enslave People**:
 
-**Divert River** - -10 Island Health - -20 Water System - An Imperial
-Legion redirects a river so that it falls off the edge of the Island.
-This takes long enough that you can react to it, even without
-Fortifications. However, without sufficient Fortifications, you may not
-arrive until the Legion has started to pack up their digging tools.
+  - \-5 Island Health
+  - \-10 People
+  - \-10 Knowledge Permanency
+  - \-10 Automation
+  - Auxilia or Legion Scouts quickly surround and grab people at night.
+    Without sufficient Fortifications, no response is possible.
 
-**Salt the Earth** - -10 Island Health - -20 Food System - An Imperial
-Legion marches across gardens and farmland on the Island, sewing salt
-and poison. This takes long enough that you can react to it, even
-without Fortifications. However, without sufficient Fortifications, you
-may not arrive until the Legion has salted at least half of their
-planned area.
+**Use Murder Squads**:
 
-**Burn Village** - -10 Island Health - -5 Animals - -5 People - -10
-Shelter - -10 Materials System - -10 Knowledge Permanency - -10
-Automation - An Imperial Legion forms a complete cordon around a
-village, and uses a combination of torches and burning arrows to destroy
-it all. This takes long enough that you can react to it, even without
-Fortifications. However, without sufficient Fortifications, you may not
-arrive until the fires have been set.
+  - \-10 Island Health
+  - \-10 Animals
+  - \-10 Tribespeople
+  - \-10 Knowledge Permanency
+  - Auxilia with a reputation for murderousness are hired to land on the
+    Island and do whatever they can. Without sufficient Fortifications,
+    no response is possible.
 
-**Build Siege Engines** - -10 Island Health - -20 Fortifications - An
-Imperial Legion builds and employs siege engines in order to shoot at
-the Island from a distance. This action cannot be interrupted unless you
-have external sky patrols, but it does result in the Legion having to
-hold still long enough for you to sally-forth or counterattack.
+**Divert River**:
+
+  - \-10 Island Health
+  - \-20 Water System
+  - An Imperial Legion redirects a river so that it falls off the edge
+    of the Island. This takes long enough that you can react to it, even
+    without Fortifications. However, without sufficient Fortifications,
+    you may not arrive until the Legion has started to pack up their
+    digging tools.
+
+**Salt the Earth**:
+
+  - \-10 Island Health
+  - \-20 Food System
+  - An Imperial Legion marches across gardens and farmland on the
+    Island, sewing salt and poison. This takes long enough that you can
+    react to it, even without Fortifications. However, without
+    sufficient Fortifications, you may not arrive until the Legion has
+    salted at least half of their planned area.
+
+**Burn Village**:
+
+  - \-10 Island Health
+  - \-5 Animals
+  - \-5 People
+  - \-10 Shelter
+  - \-10 Materials System
+  - \-10 Knowledge Permanency
+  - \-10 Automation
+  - An Imperial Legion forms a complete cordon around a village, and
+    uses a combination of torches and burning arrows to destroy it all.
+    This takes long enough that you can react to it, even without
+    Fortifications. However, without sufficient Fortifications, you may
+    not arrive until the fires have been set.
+
+**Build Siege Engines**:
+
+  - \-10 Island Health
+  - \-20 Fortifications
+  - An Imperial Legion builds and employs siege engines in order to
+    shoot at the Island from a distance. This action cannot be
+    interrupted unless you have external sky patrols, but it does result
+    in the Legion having to hold still long enough for you to
+    sally-forth or counterattack.
 
 ### Island Actions Phase
 
@@ -2383,8 +2810,10 @@ Trade Anti-Imperial Tactics - +5 Fortifications to both islands
 
 # 7\. Combat
 
-Combat has no random elements except for: - Turn Order - Techniques that
-explicitly have a random component
+Combat has no random elements except for:
+
+  - Turn Order
+  - Techniques that explicitly have a random component
 
 So, once turn order is resolved, you should be able to calculate how the
 rest of the entire combat round could go.
@@ -2990,13 +3419,19 @@ the time?
 
 ## T2: Scout
 
-Imperial Scout: - Person - Maximum Health = 20 + (Power Level \* 2) -
-Maximum Energy = 20 + (Power Level \* 2) - Physical Accuracy = 20 +
-(Power Level \* 2) - Physical Evasion = 20 + (Power Level \* 2) -
-Physical Power = 10 + Power Level - Physical Armor = 10 + Power Level -
-Magical Accuracy = 10 + Power Level - Magical Evasion = 20 + (Power
-Level \* 2) - Magical Power = 10 + Power Level - Magical Armor = 10 +
-Power Level
+Imperial Scout:
+
+  - Person
+  - Maximum Health = 20 + (Power Level \* 2)
+  - Maximum Energy = 20 + (Power Level \* 2)
+  - Physical Accuracy = 20 + (Power Level \* 2)
+  - Physical Evasion = 20 + (Power Level \* 2)
+  - Physical Power = 10 + Power Level
+  - Physical Armor = 10 + Power Level
+  - Magical Accuracy = 10 + Power Level
+  - Magical Evasion = 20 + (Power Level \* 2)
+  - Magical Power = 10 + Power Level
+  - Magical Armor = 10 + Power Level
 
 ## T3: Auxilia
 
