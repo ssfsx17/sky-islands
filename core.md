@@ -1558,13 +1558,13 @@ Every Island should have at least a few. The process of writing them should be c
 
 #### 1. Island Health
 
-Sick Animals and Sick People above the Island Health number are killed.
+Sick Animals and Sick People above the Island Health rating are killed.
 
 Healthy Animals and Healthy People above the Island Health number are turned Sick.
 
 #### 2. Water System
 
-Sick Animals and Sick People above the Water System number are killed.
+Sick Animals and Sick People above the Water System rating are killed.
 
 Healthy Animals and Healthy People above the Water System rating are turned Sick.
 
@@ -1572,7 +1572,7 @@ Healthy Animals and Healthy People above the Water System rating are turned Sick
 
 Every 5 Healthy Animals provide 1 Food point during this phase.
 
-Sick Animals and Sick People above the Food System number are killed.
+Sick Animals and Sick People above the Food System rating are killed.
 
 Healthy Animals and Healthy People above the Food System number are turned Sick.
 
@@ -1600,7 +1600,7 @@ Record the number of Animals and People who are not covered by Fortification. Th
 
 ### Imperial Actions Phase
 
-Possible Imperial actions should make sense based on your island's starting situation, and everything you have done which the imperials were able to identify as coming from your island. If your island has sufficient Fortifications, then the effectiveness of Imperial Actions should be halved, or even cut to one-fifth. And of course, venturing forth to attack the Imperials directly will certainly reduce the number of actions they can do in a Strategic Turn.
+Possible Imperial actions should make sense based on your Island's starting situation, and everything you have done which the imperials were able to identify as coming from your island. If your island has sufficient Fortifications, then the effectiveness of Imperial Actions should be halved, or even cut to one-fifth. And of course, venturing forth to attack the Imperials directly will certainly reduce the number of actions they can do in a Strategic Turn.
 
 Generally, the Imperials start with 1 action per Strategic Turn, then escalate from there, with no limit to the maximum number of actions once they start sending full Legions. Eventually you will have to face the Legions head-on in battle and kill their highest-ranked soldiers and generals.
 
@@ -1799,47 +1799,57 @@ So, once turn order is resolved, you should be able to calculate how the rest of
 
 ## Battle Escalation and Energy
 
-Battle Escalation starts at 0. Then at the beginning of each combat round, it increases by 1.
+**Battle Escalation** starts at 1. Then at the beginning of each combat round, it increases by 1.
 
-Every combatant's Energy starts at 0. It can be recharged through the Charge Energy action, as well as through other specific means.
+Every combatant's **Energy** starts at 1. It can be recharged through the **Charge Energy** action, as well as through other specific means.
 
 ## Turn Order
 
 Each combatant rolls three ten-sided dice and orders them in hundreds place, then tens place, then ones place. If using an electronic system to do the dice, then use 1d1000. Then, each combatant adds their Level to the result. The turn order starts with the highest result, and goes down from there.
 
-In the case of a tie, the combatant with the higher Level goes first.
+In the case of a tie, the combatant with the higher **Power Level** goes first. If there is still a tie, then one of them calls heads-or-tails on a coin toss.
 
-This is one of the only times that dice are ever used in the game.
+This is one of the few times that dice are ever used in the game.
 
 ## Actions
 
-Each combatant gets four action points. The possible actions are:
+Each combatant gets four **action points**. The possible actions are:
 
-- Attack - 1 AP
-- Change Armor - 4 AP
-- Change Weapon - 2 AP
-- Charge Energy - 1 AP
-- Defend - 1 AP
-- Grapple - 2 AP
-- Move - 1 AP
-- Perform Technique - 1 AP (some techniques have different AP costs)
-- Use Item - 1 AP
+- **Attack** - 1 AP
+- **Change Armor** - 4 AP
+- **Change Weapon** - 2 AP
+- **Charge Energy** - 1 AP
+- **Defend** - 1 AP
+- **Face Forward** - 0 AP
+- **Grapple** - 2 AP
+- **Move** - 1 AP
+- **Perform Technique** - 1 AP (some techniques have different AP costs)
+- **Use Item** - 1 AP
 
 ### Attack
 
-If the attacker's accuracy is less than the target's evasion, then the target's armor is applied a second time.
+First, consider **Facing**. The side or diagonal corner that the attacker hits is determined by drawing a line from the center of the attacker's square to the center of the target's square.
 
-If the attacker's accuracy is less than half of the target's evasion, then the attack or technique misses.
+- If the attack is aimed at the target's **sides**, not including the diagonal corners, then the target's evasion is halved against the attack.
+- If the attack is aimed at the target's **back**, including the two diagonal corners, then the target's evasion is cut to 1/4th against the attack.
 
-If the attacker's accuracy is double or higher than the target's evasion, then the target's armor is not applied, and the target is knocked back by 5 feet.
+Then, compare the attacker's accuracy to the target's evasion:
+
+- If the attacker's accuracy is less than the target's evasion, then the target's armor is applied a second time.
+- If the attacker's accuracy is less than half of the target's evasion, then the attack or technique misses.
+- If the attacker's accuracy is double or higher than the target's evasion, then the target's armor is not applied, and the target is knocked back by 5 feet.
 
 ### Change Armor
 
 Changes which type of armor you are using.
 
+You can also roleplay that your armor or body transforms, but this must still take 4 APs.
+
 ### Change Weapon
 
 Changes what you have in your hands.
+
+You can also roleplay that your weapon can be used in different ways or has different forms, but this must still take 2 APs.
 
 ### Charge Energy
 
@@ -1850,6 +1860,12 @@ The Charge Energy action restores Energy to yourself, equal to the Battle Escala
 The Defend action keeps your Physical Evasion, Magical Evasion and Magical Armor up. Without at least one Defend action, these stats fall down to equalling your Power Level instead.
 
 Additional Defend actions in one round will each add an amount to your Physical Evasion, Physical Armor, Magical Evasion, and Magical Armor equal to half of their respective base ratings, until your next turn.
+
+### Face Forward
+
+This action makes you face one of the four directions. It costs 0 AP, but you cannot do it outside of your turn, so choose carefully.
+
+In theory, some combatants may twirl around a million times before ending their turn, although there is no practical purpose to doing so.
 
 ### Grapple
 
@@ -1871,45 +1887,37 @@ Most techniques only take 1 AP, and have other costs or limitations to compensat
 
 ### Use Item
 
-Item usage generally has a range of five feet.
+Item usage generally has a range of five feet, i.e. targeting someone in a side-adjacent square.
 
-## Movement Modifiers
+## Movement Types
 
-**Foot** - The base movement type. 20 feet of horizontal movement per Move Action. Maximum upwards jump is 2 feet. Maximum horizontal jump is 5 feet. Maximum downwards jump is 4 feet.
-
-**Hover I** - You are constantly floating up to 1 foot above the terrain. Falling damage is halved. Maximum horizontal jump is 10 feet. Maximum downwards jump is 8 feet.
-- **Hover II** - You are constantly floating up to 2 feet above the terrain. Falling damage is halved. Maximum horizontal jump is 15 feet. Maximum downwards jump is 16 feet.
-- **Hover III** - You are constantly floating up to 3 feet above the terrain. Falling damage is halved. Maximum horizontal jump is 20 feet. Maximum downwards jump is 24 feet.
-- **Hover IV** - You are constantly floating up to 4 feet above the terrain. Falling damage is halved. Maximum horizontal jump is 30 feet. Maximum downwards jump is 32 feet.
-
-**Jump I** - Maximum upwards jump is 4 feet. Maximum horizontal jump is 10 feet. Maximum downwards jump is 6 feet.
-- **Jump II** - Maximum upwards jump is 6 feet. Maximum horizontal jump is 15 feet. Maximum downwards jump is 8 feet.
-- **Jump III** - Maximum upwards jump is 8 feet. Maximum horizontal jump is 20 feet. Maximum downwards jump is 10 feet.
-- **Jump IV** - Maximum upwards jump is 10 feet. Maximum horizontal jump is 30 feet. Maximum downwards jump is 12 feet.
-
-**Mudwalking** - Move on top of mud, swamp, and mold as if it were normal. Not affected by swamp, mold, and other such terrain.
-
-**Swiftfoot I** - 25 feet of horizontal movement per Move Action.
-- **Swiftfoot II** - 30 feet of horizontal movement per Move Action.
-- **Swiftfoot III** - 35 feet of horizontal movement per Move Action.
-- **Swiftfoot IV** - 40 feet of horizontal movement per Move Action.
-
-**Swimming I** - Maximum of 10 feet of horizontal movement through water. Cannot be used at the same time as Waterwalking or Hover.
-- **Swimming II** - Maximum of 15 feet of horizontal movement through water. Cannot be used at the same time as Waterwalking or Hover.
-- **Swimming III** - Maximum of 20 feet of horizontal movement through water. Cannot be used at the same time as Waterwalking or Hover.
-- **Swimming IV** - No limit to horizontal movement through water. Cannot be used at the same time as Waterwalking or Hover.
-
-**Waterwalking** - Move and stand on top of water as if it were normal. Cannot be used at the same time as Swimming.
-
-**Winged I** - Falling damage is halved. Requires 2 Move Actions to move with this type, in which case you get 40 feet of horizontal movement, maximum upwards jump of 6 feet, maximum horizontal jump of 15 feet, and maximum downwards jump of 8 feet.
-- **Winged II** - Falling damage is halved. Requires 2 Move Actions to move with this type, in which case you get 50 feet of horizontal movement, maximum upwards jump of 10 feet, maximum horizontal jump of 20 feet, and maximum downwards jump of 12 feet.
-- **Winged III** - Falling damage is halved. Requires 2 Move Actions to move with this type, in which case you get 60 feet of horizontal movement, maximum upwards jump of 14 feet, maximum horizontal jump of 25 feet, and maximum downwards jump of 16 feet.
-- **Winged IV** - Falling damage is halved. Requires 2 Move Actions to move with this type, in which case you get 80 feet of horizontal movement, maximum upwards jump of 20 feet, maximum horizontal jump of 40 feet, and maximum downwards jump of 30 feet.
-
-**Teleport I** - Falling damage is halved. You can move to any position you see within 10 feet. Cannot be used at the same time as any other movement type.
-- **Teleport II** - Falling damage is halved. You can move to any position you see within 15 feet. Cannot be used at the same time as any other movement type.
-- **Teleport III** - Falling damage is halved. You can move to any position you see within 20 feet. Cannot be used at the same time as any other movement type.
-- **Teleport IV** - Falling damage is halved. You can move to any position you see within 30 feet. Cannot be used at the same time as any other movement type.
+- **Foot** - The base movement type. 20 feet of horizontal movement per Move Action. Maximum upwards jump is 2 feet. Maximum horizontal jump is 5 feet. Maximum downwards jump is 4 feet.
+- **Hover I** - You are constantly floating up to 1 foot above the terrain. Falling damage is halved. Maximum horizontal jump is 10 feet. Maximum downwards jump is 8 feet.
+  - **Hover II** - You are constantly floating up to 2 feet above the terrain. Falling damage is halved. Maximum horizontal jump is 15 feet. Maximum downwards jump is 16 feet.
+  - **Hover III** - You are constantly floating up to 3 feet above the terrain. Falling damage is halved. Maximum horizontal jump is 20 feet. Maximum downwards jump is 24 feet.
+  - **Hover IV** - You are constantly floating up to 4 feet above the terrain. Falling damage is halved. Maximum horizontal jump is 30 feet. Maximum downwards jump is 32 feet.
+- **Jump I** - Maximum upwards jump is 4 feet. Maximum horizontal jump is 10 feet. Maximum downwards jump is 6 feet.
+  - **Jump II** - Maximum upwards jump is 6 feet. Maximum horizontal jump is 15 feet. Maximum downwards jump is 8 feet.
+  - **Jump III** - Maximum upwards jump is 8 feet. Maximum horizontal jump is 20 feet. Maximum downwards jump is 10 feet.
+  - **Jump IV** - Maximum upwards jump is 10 feet. Maximum horizontal jump is 30 feet. Maximum downwards jump is 12 feet.
+- **Mudwalking** - Move on top of mud, swamp, and mold as if it were normal. Not affected by swamp, mold, and other such terrain.
+- **Swiftfoot I** - 25 feet of horizontal movement per Move Action.
+  - **Swiftfoot II** - 30 feet of horizontal movement per Move Action.
+  - **Swiftfoot III** - 35 feet of horizontal movement per Move Action.
+  - **Swiftfoot IV** - 40 feet of horizontal movement per Move Action.
+- **Swimming I** - Maximum of 10 feet of horizontal movement through water. Cannot be used at the same time as Waterwalking or Hover.
+  - **Swimming II** - Maximum of 15 feet of horizontal movement through water. Cannot be used at the same time as Waterwalking or Hover.
+  - **Swimming III** - Maximum of 20 feet of horizontal movement through water. Cannot be used at the same time as Waterwalking or Hover.
+  - **Swimming IV** - No limit to horizontal movement through water. Cannot be used at the same time as Waterwalking or Hover.
+- **Waterwalking** - Move and stand on top of water as if it were normal. Cannot be used at the same time as Swimming.
+- **Winged I** - Falling damage is halved. Requires 2 Move Actions to move with this type, in which case you get 40 feet of horizontal movement, maximum upwards jump of 6 feet, maximum horizontal jump of 15 feet, and maximum downwards jump of 8 feet.
+  - **Winged II** - Falling damage is halved. Requires 2 Move Actions to move with this type, in which case you get 50 feet of horizontal movement, maximum upwards jump of 10 feet, maximum horizontal jump of 20 feet, and maximum downwards jump of 12 feet.
+  - **Winged III** - Falling damage is halved. Requires 2 Move Actions to move with this type, in which case you get 60 feet of horizontal movement, maximum upwards jump of 14 feet, maximum horizontal jump of 25 feet, and maximum downwards jump of 16 feet.
+  - **Winged IV** - Falling damage is halved. Requires 2 Move Actions to move with this type, in which case you get 80 feet of horizontal movement, maximum upwards jump of 20 feet, maximum horizontal jump of 40 feet, and maximum downwards jump of 30 feet.
+- **Teleport I** - Falling damage is halved. You can move to any position you see within 10 feet. Cannot be used at the same time as any other movement type.
+  - **Teleport II** - Falling damage is halved. You can move to any position you see within 15 feet. Cannot be used at the same time as any other movement type.
+  - **Teleport III** - Falling damage is halved. You can move to any position you see within 20 feet. Cannot be used at the same time as any other movement type.
+  - **Teleport IV** - Falling damage is halved. You can move to any position you see within 30 feet. Cannot be used at the same time as any other movement type.
 
 ## Special Circumstances
 
@@ -1919,81 +1927,44 @@ Falling damage is equal to 2 points for each foot beyond your maximum downwards 
 
 ## Status Conditions
 
-**Airyspeedy** - Horizontal movement speed increased by 10 feet. Add half your Power Level to your Physical Evasion.
-
-**Babbling** - Unable to do actions that require speaking, or spending Energy. Removed whenever you take Dark elemental damage.
-
-**Bleeding** - Lose an amount of Health equal to 10% of your Maximum Health per status phase. Removed whenever you gain Health.
-
-**Blinded** - Physical Accuracy and Physical Evasion are halved. Cannot do anything requiring line-of-sight. Removed whenever you take Dark elemental damage. Can be removed by spending all action points to wipe your eyes.
-
-**Blood Poisoning** - Lose an amount of Health equal to 25% of your Maximum Health per status phase. Removed whenever you take Moon elemental damage.
-
-**Buried** - Physical Evasion and Physical Power are halved. Horizontal movement is halved. Removed whenever you take Air elemental damage. Can be removed by spending all action points to dig yourself out.
-
-**Burning** - Lose an amount of Health equal to 10% of your Maximum Health per status phase. Removed whenever you take Water elemental damage. Can be removed by spending all action points to stop, drop, and roll.
-
-**Chilled** - Physical Armor and Magical Armor are halved. Cannot jump. Removed whenever you take Fire elemental damage. Can be removed by spending all action points to jump up and down and warm yourself up.
-
-**Crystalbarrier** - All melee attacks aimed at you will cause the attacker to get the Bleeding status. Add your Level to your Physical Armor.
-
-**Dehydration** - Physical Power is zero. Removed whenever you take Water elemental damage.
-
-**Elemental Armor Coating: <Specific>** - Requires that you use armor and/or a shield. Incoming damage from the specified element is halved. The most recent application of this status removes all previous applications.
-
-**Elemental Armor Resin: <Specific>** - Requires that you use armor and/or a shield. Incoming damage from the specified element is nullified. If this occurs, then one stack of this status is also removed during the status phase. The most recent application of this status removes all previous applications.
-
-**Elemental Charge Feedback: <Specific>** - All element charges of the specified element instead cause you to lose health, then the charges disappear. The amount is 10% of your Maximum Health for each charge. This includes all charges you have when the status is first caused, and all charges you gain while having this status. The most recent application of this status removes all previous applications.
-
-**Elemental Resistance: <Specific>** - Incoming damage from the specified element is halved, after taking armor into account. For example, if you have the Elemental Resistance: Fire status, you take 30 physical Fire damage, and you have 20 Physical Armor, then you take 5 damage to your Health. The most recent application of this status removes all previous applications. Note that Elemental Armor Coating applies before subtracting armor from the damage, while Elemental Resistance applies after, so having both statuses at the same time is a good combination if the enemy is only capable of one type of elemental damage.
-
-**Elemental Sticky Bomb: <Specific>** - You take 1 elemental damage of the specific element, per status phase. Multiple sticky bombs can stack. Thankfully they have finite durations.
-
-**Elemental Weakness: <Specific>** - Incoming damage from the specified element bypasses your armor. The most recent application of this status removes all previous applications.
-
-**Elemental Weapon Coating: <Specific>** - All of your weapons have their damage type changed to be of the specified element. The most recent application of this status removes all previous applications.
-
-**Elemental Weapon Resin: <Specific>** - All of your weapons have their damage type changed to be of the specified element. They also your Power Level to the damage. If the damage boost occurs, then one stack of this status is removed during the status phase. The most recent application of this status removes all previous applications. If you have both Elemental Weapon Coating and Elemental Weapon Resin statuses, then the Resin effect supercedes the Coating effect until the Resin wears off, after which the Coating will take over.
-
-**Entombed** - Unable to move. Physical Evasion is zero. Removed whenever you take Air elemental damage.
-
-**Fireaura** - You cause fire damage to all adjacent enemies during the status phase, as if it had been done by the Burning status. Add your Power Level to your Magical Armor.
-
-**Fluidmotion** - You move through liquids as if it were normal ground. Maximum downwards jump distance is increased by 20 feet. You can move upwards through liquids, such as waterfalls, without using up any upwards jump.
-
-**Forgetfulness** - Lose an amount of Energy equal to 25% of your Maximum Energy per status phase. Removed whenever you take Light elemental damage.
-
-**Fragility** - Physical Armor is zero. Removed whenever you take magical damage. Can be removed by spending all action points to recollect yourself.
-
-**Melting** - Lose an amount of Health equal to 10% of your Maximum Health per status phase. Physical Armor and Magical Armor are halved. Removed whenever you take Water elemental damage.
-
-**Mindmaze** - Magical Accuracy and Magical Evasion are halved. Can be removed by spending all action points to clear your mind.
-
-**Moon Madness** - You are only able to do unarmed attacks and techniques. Removed whenever you take Wood elemental damage.
-
-**Overheat** - You take an amount of damage equal to 10% of your Maximum Health for each Action Point you use. When you do a Charge action, you furthermore take damage equal to double the amount of Energy you gained. One stack of Overheat is removed during the status phase.
-
-**Preserving Compress** - You do not take damage from status conditions.
-
-**Recharging** - Regain an amount of Energy equal to 10% of your Maximum Energy per status phase.
-
-**Resuscitate** - Remove one stack of Resuscitate during the status phase. When the final stack of the Resuscitate status is removed, you are revived with 1 Health.
-
-**Shadowconcealed** - Add your Level to your Physical Evasion and Magical Evasion.
-
-**Shattered** - All Armor is halved. Multiple stacks of Shattered do not cause additional effects. One stack of Shattered is removed during the status phase.
-
-**Shininghead** - Add your Power Level to your Evasion and Armor against all line-of-sight and ranged techniques.
-
-**Shocked** - Magical Power and Magical Armor are halved. Removed whenever you take Earth elemental damage. Can be removed by spending all action points to breathe and calm down from the shock.
-
-**Stunned** - All Accuracy and Evasion are halved. Multiple stacks of Stunned do not cause additional effects. One stack of Stunned is removed during the status phase.
-
-**Suffocation** - Lose an amount of Health equal to 10% of your Maximum Health per status phase. Horizontal movement is limited to 5 feet. Removed whenever you take Earth elemental damage.
-
-**Thorns** - Whenever you do damage, you lose an amount of Health equal to 10% of your Maximum Health. One stack of Thorns is removed during the status phase.
-
-**Venom** - Lose an amount of Health equal to 5% of your Maximum Health per status phase. Lose an amount of Energy equal to 5% of your Maximum Energy per status phase.
+- **Airyspeedy** - Horizontal movement speed increased by 10 feet. Add half your Power Level to your Physical Evasion.
+- **Babbling** - Unable to do actions that require speaking, or spending Energy. Removed whenever you take Dark elemental damage.
+- **Bleeding** - Lose an amount of Health equal to 10% of your Maximum Health per status phase. Removed whenever you gain Health.
+- **Blinded** - Physical Accuracy and Physical Evasion are halved. Cannot do anything requiring line-of-sight. Removed whenever you take Dark elemental damage. Can be removed by spending all action points to wipe your eyes.
+- **Blood Poisoning** - Lose an amount of Health equal to 25% of your Maximum Health per status phase. Removed whenever you take Moon elemental damage.
+- **Buried** - Physical Evasion and Physical Power are halved. Horizontal movement is halved. Removed whenever you take Air elemental damage. Can be removed by spending all action points to dig yourself out.
+- **Burning** - Lose an amount of Health equal to 10% of your Maximum Health per status phase. Removed whenever you take Water elemental damage. Can be removed by spending all action points to stop, drop, and roll.
+- **Chilled** - Physical Armor and Magical Armor are halved. Cannot jump. Removed whenever you take Fire elemental damage. Can be removed by spending all action points to jump up and down and warm yourself up.
+- **Crystalbarrier** - All melee attacks aimed at you will cause the attacker to get the Bleeding status. Add your Level to your Physical Armor.
+- **Dehydration** - Physical Power is zero. Removed whenever you take Water elemental damage.
+- **Elemental Armor Coating: <Specific>** - Requires that you use armor and/or a shield. Incoming damage from the specified element is halved. The most recent application of this status removes all previous applications.
+- **Elemental Armor Resin: <Specific>** - Requires that you use armor and/or a shield. Incoming damage from the specified element is nullified. If this occurs, then one stack of this status is also removed during the status phase. The most recent application of this status removes all previous applications.
+- **Elemental Charge Feedback: <Specific>** - All element charges of the specified element instead cause you to lose health, then the charges disappear. The amount is 10% of your Maximum Health for each charge. This includes all charges you have when the status is first caused, and all charges you gain while having this status. The most recent application of this status removes all previous applications.
+- **Elemental Resistance: <Specific>** - Incoming damage from the specified element is halved, after taking armor into account. For example, if you have the Elemental Resistance: Fire status, you take 30 physical Fire damage, and you have 20 Physical Armor, then you take 5 damage to your Health. The most recent application of this status removes all previous applications. Note that Elemental Armor Coating applies before subtracting armor from the damage, while Elemental Resistance applies after, so having both statuses at the same time is a good combination if the enemy is only capable of one type of elemental damage.
+- **Elemental Sticky Bomb: <Specific>** - You take 1 elemental damage of the specific element, per status phase. Multiple sticky bombs can stack. Thankfully they have finite durations.
+- **Elemental Weakness: <Specific>** - Incoming damage from the specified element bypasses your armor. The most recent application of this status removes all previous applications.
+- **Elemental Weapon Coating: <Specific>** - All of your weapons have their damage type changed to be of the specified element. The most recent application of this status removes all previous applications.
+- **Elemental Weapon Resin: <Specific>** - All of your weapons have their damage type changed to be of the specified element. They also your Power Level to the damage. If the damage boost occurs, then one stack of this status is removed during the status phase. The most recent application of this status removes all previous applications. If you have both Elemental Weapon Coating and Elemental Weapon Resin statuses, then the Resin effect supercedes the Coating effect until the Resin wears off, after which the Coating will take over.
+- **Entombed** - Unable to move. Physical Evasion is zero. Removed whenever you take Air elemental damage.
+- **Fireaura** - You cause fire damage to all adjacent enemies during the status phase, as if it had been done by the Burning status. Add your Power Level to your Magical Armor.
+- **Fluidmotion** - You move through liquids as if it were normal ground. Maximum downwards jump distance is increased by 20 feet. You can move upwards through liquids, such as waterfalls, without using up any upwards jump.
+- **Forgetfulness** - Lose an amount of Energy equal to 25% of your Maximum Energy per status phase. Removed whenever you take Light elemental damage.
+- **Fragility** - Physical Armor is zero. Removed whenever you take magical damage. Can be removed by spending all action points to recollect yourself.
+- **Melting** - Lose an amount of Health equal to 10% of your Maximum Health per status phase. Physical Armor and Magical Armor are halved. Removed whenever you take Water elemental damage.
+- **Mindmaze** - Magical Accuracy and Magical Evasion are halved. Can be removed by spending all action points to clear your mind.
+- **Moon Madness** - You are only able to do unarmed attacks and techniques. Removed whenever you take Wood elemental damage.
+- **Overheat** - You take an amount of damage equal to 10% of your Maximum Health for each Action Point you use. When you do a Charge action, you furthermore take damage equal to double the amount of Energy you gained. One stack of Overheat is removed during the status phase.
+- **Preserving Compress** - You do not take damage from status conditions.
+- **Recharging** - Regain an amount of Energy equal to 10% of your Maximum Energy per status phase.
+- **Resuscitate** - Remove one stack of Resuscitate during the status phase. When the final stack of the Resuscitate status is removed, you are revived with 1 Health.
+- **Shadowconcealed** - Add your Level to your Physical Evasion and Magical Evasion.
+- **Shattered** - All Armor is halved. Multiple stacks of Shattered do not cause additional effects. One stack of Shattered is removed during the status phase.
+- **Shininghead** - Add your Power Level to your Evasion and Armor against all line-of-sight and ranged techniques.
+- **Shocked** - Magical Power and Magical Armor are halved. Removed whenever you take Earth elemental damage. Can be removed by spending all action points to breathe and calm down from the shock.
+- **Stunned** - All Accuracy and Evasion are halved. Multiple stacks of Stunned do not cause additional effects. One stack of Stunned is removed during the status phase.
+- **Suffocation** - Lose an amount of Health equal to 10% of your Maximum Health per status phase. Horizontal movement is limited to 5 feet. Removed whenever you take Earth elemental damage.
+- **Thorns** - Whenever you do damage, you lose an amount of Health equal to 10% of your Maximum Health. One stack of Thorns is removed during the status phase.
+- **Venom** - Lose an amount of Health equal to 5% of your Maximum Health per status phase. Lose an amount of Energy equal to 5% of your Maximum Energy per status phase.
 
 # 8. World Details
 
