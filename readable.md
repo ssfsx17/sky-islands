@@ -69,17 +69,19 @@
               - [Rating 20](#rating-20-3)
           - [Musical Techs](#musical-techs)
               - [Rating 1](#rating-1-4)
+              - [Rating 5](#rating-5-4)
           - [Summoning Techs](#summoning-techs)
               - [Rating 1](#rating-1-5)
+              - [Rating 5](#rating-5-5)
           - [Weapon Melee Techs](#weapon-melee-techs)
               - [Rating 1](#rating-1-6)
-              - [Rating 5](#rating-5-4)
+              - [Rating 5](#rating-5-6)
               - [Rating 10](#rating-10-4)
               - [Rating 15](#rating-15-4)
               - [Rating 20](#rating-20-4)
           - [Weapon Ranged Techs](#weapon-ranged-techs)
               - [Rating 1](#rating-1-7)
-              - [Rating 5](#rating-5-5)
+              - [Rating 5](#rating-5-7)
               - [Rating 10](#rating-10-5)
               - [Rating 15](#rating-15-5)
       - [Linear Tactics Group](#linear-tactics-group)
@@ -117,6 +119,7 @@
           - [Island Events Phase](#island-events-phase)
           - [Imperial Actions Phase](#imperial-actions-phase)
           - [Island Actions Phase](#island-actions-phase)
+              - [Internal](#internal)
               - [External](#external)
               - [System Power Action](#system-power-action)
                   - [Materials Power Actions](#materials-power-actions)
@@ -1690,7 +1693,7 @@ added damage.
   - Roll a six-sided die (cube shape). On a roll of 1 or 2, you do an
     unarmed attack with half damage. On a roll of 3 or 4, you do a
     normal unarmed attack. On a roll of 5 or 6, you do double damage,
-    and the target’s physical armor is halved against the attack. The
+    and the target’s Physical Armor is halved against the attack. The
     damage type is set to the element used.
 
 **Shoulder Check**:
@@ -1827,6 +1830,61 @@ added damage.
     choice, as long as it is not one that blocks your ability to use
     this technique.
 
+**Ripple Breathing**
+
+  - 2 Action Points
+  - Target: Self
+  - You breathe (or whatever you need to function) in a manner that
+    causes powerful ripples throughout your body. The exact effect
+    depends on the element used:
+      - Air: You gain the Air Tornado Upper status condition.
+          - Air Tornado Upper - When you cause more than 1 damage with
+            an Unarmed attack or technique, and your Magical Accuracy is
+            greater than 1.5x the target’s Magical Evasion, you cause
+            the target to spin around and change facing to a direction
+            of your choice.
+      - Crystal: You gain the Crystal Diffusion Fists status condition.
+          - Crystal Diffusion Fists - When you cause at least 4 damage
+            with an Unarmed attack or technique, and your Magical
+            Accuracy is greater than 1.5x the target’s Magical Evasion,
+            1/4th of your damage is additionally dealt to the target’s
+            Energy.
+      - Dark: You gain the Dark Force Ark status condition.
+          - Dark Force Ark - When you cause more than 1 damage with an
+            Unarmed attack or technique, you and all
+            square-side-adjacent allies regain 1 Energy.
+      - Earth: You gain the Earth Stone Pillar Body status condition.
+          - Earth Stone Pillar Body - You cannot be moved or turned
+            around unwillingly. Your Physical Armor is increased by an
+            amount equal to half of your Power Level.
+      - Fire: You gain the Fire Wheel Sprinting status condition.
+          - Fire Wheel Sprinting - Your horizontal movement is increased
+            by 10 feet. Every enemy who you move past in square-side
+            contact receives an amount of Fire damage equal to 1/10th of
+            your Magical Power, ignoring Magical Armor and Magical
+            Evasion.
+      - Light: You gain the Light Shining Finger status condition.
+          - Light Shining Finger - 1/10th of all damage from your
+            Unarmed attacks and techniques is dealt to all enemies who
+            are square-side-adjacent to your target, ignoring Evasion
+            and Armor.
+      - Moon: You gain the Moon Night-Eye status condition.
+          - Moon Night-Eye - Your Physical Accuracy, Magical Accuracy
+            and Magical Evasion are increased by an amount equal to half
+            of your Power Level.
+      - Water: You gain the Water Flow Returning Force status condition.
+          - Water Flow Returning Force - Every time you take more than 1
+            damage from an enemy who is square-side-adjacent, and your
+            Magical Evasion is greater than 1.5x that enemy’s Magical
+            Accuracy, you immediately do an Unarmed attack against that
+            enemy. This does not use APs and occurs immediately after
+            you took the damage, thus possibly preventing the enemy from
+            using the rest of their APs depending on circumstances.
+      - Wood: You gain the Wood Tree Of Life status condition.
+          - Wood Tree Of Life - Every time you regain Health, 1/4th of
+            that regain is additionally done to all square-side-adjacent
+            allies.
+
 #### Rating 20
 
 ### Musical Techs
@@ -1837,7 +1895,8 @@ added damage.
 
   - Each song requires 1 AP at all times while it is active. You
     activate or deactivate songs at the beginning of your own turn. This
-    means you can maintain up to 4 songs at once.
+    means you can maintain up to 4 songs at once. Be aware that
+    maintaining 4 songs at once means you have no defenses up.
   - You can only activate at most one instance of each song. For
     example, if you activate Song of Energy, you cannot have a second
     Song of Energy active at the same time. If you want a lot of the
@@ -1883,6 +1942,8 @@ added damage.
   - Adds 1/4th of your Power Level to Magical Armor, for a minimum of 1
     point added.
 
+#### Rating 5
+
 ### Summoning Techs
 
 #### Rating 1
@@ -1910,6 +1971,8 @@ added damage.
     your effective Summoning Techs skill rating.
   - The Fundamental Elemental Form takes double damage from its opposite
     element, but half damage from its same element.
+
+#### Rating 5
 
 ### Weapon Melee Techs
 
@@ -2582,6 +2645,11 @@ they start sending full Legions. Eventually you will have to face the
 Legions head-on in battle and kill their highest-ranked soldiers and
 generals.
 
+Shifting the Island into the Blended Realm will prevent most Imperial
+Actions, but they will still be able to use special auxilia to follow
+you and attack you. It will also expose the Island to other conditions
+that will take quite a long time to adapt to.
+
 **Build Adtextus Banner**:
 
   - \-10 Island Health
@@ -2664,14 +2732,41 @@ One out of every 100 people also have enough free time to do one Island
 Development Action. The rest of the people are busy hunting, gathering,
 harvesting, cooking, weaving, sewing, crafting, etc.
 
+#### Internal
+
+“Internal” covers all actions including and not limited to:
+
+  - Journeying into a sealed part of the Island to help fight against
+    physical manifestations of trauma
+  - Receiving visitors from other Islands, and testing their strength
+  - Dealing with misanthropes who try to dominate others
+  - Learning something new from the Island, which requires a full
+    internal journey or a long travel through an unknown area in order
+    to comprehend
+  - Playing with a new and unique creature who was born out of the
+    Island
+  - Processes of self-discipline and change which requires separation
+    from the rest of the people of the Island
+
+If this action type is chosen, then all Player-Characters should stick
+together to do exactly one Internal action for the Strategic Turn.
+
 #### External
 
-“External” covers all actions such as visiting distant islands,
-infiltrating the Empire, doing battle against the Empire, doing anything
-the island would not approve of, seeking out lost knowledge and wisdom,
-shifting into the Blended Realm without the rest of the island, etc. If
-this action type is chosen, then all Player-Characters should stick
-together to do exactly one External action for the Strategic Turn.
+“External” covers all actions including and not limited to:
+
+  - Gathering lost fragments of the island which may contain important
+    memories
+  - Visiting other Islands, participating in their unique culture
+  - Infiltrating the Empire to prepare for future battles
+  - Doing battle against the Empire
+  - Doing anything the Island would not approve of
+  - Seeking out lost knowledge and wisdom
+  - Shifting into the Blended Realm without the rest of the island
+
+Just as with the “Internal” strategic action type, if this action type
+is chosen, then all Player-Characters should stick together to do
+exactly one External action for the Strategic Turn.
 
 Particularly-long quests will naturally take multiple Strategic Turns.
 For example, journeying across the world to request aid from a different

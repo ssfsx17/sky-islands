@@ -118,15 +118,17 @@
 <li><a href="#musical-techs">Musical Techs</a>
 <ul>
 <li><a href="#rating-1-4">Rating 1</a></li>
+<li><a href="#rating-5-4">Rating 5</a></li>
 </ul></li>
 <li><a href="#summoning-techs">Summoning Techs</a>
 <ul>
 <li><a href="#rating-1-5">Rating 1</a></li>
+<li><a href="#rating-5-5">Rating 5</a></li>
 </ul></li>
 <li><a href="#weapon-melee-techs">Weapon Melee Techs</a>
 <ul>
 <li><a href="#rating-1-6">Rating 1</a></li>
-<li><a href="#rating-5-4">Rating 5</a></li>
+<li><a href="#rating-5-6">Rating 5</a></li>
 <li><a href="#rating-10-4">Rating 10</a></li>
 <li><a href="#rating-15-4">Rating 15</a></li>
 <li><a href="#rating-20-4">Rating 20</a></li>
@@ -134,7 +136,7 @@
 <li><a href="#weapon-ranged-techs">Weapon Ranged Techs</a>
 <ul>
 <li><a href="#rating-1-7">Rating 1</a></li>
-<li><a href="#rating-5-5">Rating 5</a></li>
+<li><a href="#rating-5-7">Rating 5</a></li>
 <li><a href="#rating-10-5">Rating 10</a></li>
 <li><a href="#rating-15-5">Rating 15</a></li>
 </ul></li>
@@ -191,6 +193,7 @@
 <li><a href="#imperial-actions-phase">Imperial Actions Phase</a></li>
 <li><a href="#island-actions-phase">Island Actions Phase</a>
 <ul>
+<li><a href="#internal">Internal</a></li>
 <li><a href="#external">External</a></li>
 <li><a href="#system-power-action">System Power Action</a>
 <ul>
@@ -1168,7 +1171,7 @@
 <li>Type: Melee</li>
 <li>Range: 5 feet</li>
 <li>Target: Single</li>
-<li>Roll a six-sided die (cube shape). On a roll of 1 or 2, you do an unarmed attack with half damage. On a roll of 3 or 4, you do a normal unarmed attack. On a roll of 5 or 6, you do double damage, and the target’s physical armor is halved against the attack. The damage type is set to the element used.</li>
+<li>Roll a six-sided die (cube shape). On a roll of 1 or 2, you do an unarmed attack with half damage. On a roll of 3 or 4, you do a normal unarmed attack. On a roll of 5 or 6, you do double damage, and the target’s Physical Armor is halved against the attack. The damage type is set to the element used.</li>
 </ul>
 <p><strong>Shoulder Check</strong>:</p>
 <ul>
@@ -1276,12 +1279,56 @@
 <li>Target: Self</li>
 <li>You regain an amount of health equal to 1/4th of your Martial Techs skill rating, and remove one negative status condition of your choice, as long as it is not one that blocks your ability to use this technique.</li>
 </ul>
+<p><strong>Ripple Breathing</strong></p>
+<ul>
+<li>2 Action Points</li>
+<li>Target: Self</li>
+<li>You breathe (or whatever you need to function) in a manner that causes powerful ripples throughout your body. The exact effect depends on the element used:
+<ul>
+<li>Air: You gain the Air Tornado Upper status condition.
+<ul>
+<li>Air Tornado Upper - When you cause more than 1 damage with an Unarmed attack or technique, and your Magical Accuracy is greater than 1.5x the target’s Magical Evasion, you cause the target to spin around and change facing to a direction of your choice.</li>
+</ul></li>
+<li>Crystal: You gain the Crystal Diffusion Fists status condition.
+<ul>
+<li>Crystal Diffusion Fists - When you cause at least 4 damage with an Unarmed attack or technique, and your Magical Accuracy is greater than 1.5x the target’s Magical Evasion, 1/4th of your damage is additionally dealt to the target’s Energy.</li>
+</ul></li>
+<li>Dark: You gain the Dark Force Ark status condition.
+<ul>
+<li>Dark Force Ark - When you cause more than 1 damage with an Unarmed attack or technique, you and all square-side-adjacent allies regain 1 Energy.</li>
+</ul></li>
+<li>Earth: You gain the Earth Stone Pillar Body status condition.
+<ul>
+<li>Earth Stone Pillar Body - You cannot be moved or turned around unwillingly. Your Physical Armor is increased by an amount equal to half of your Power Level.</li>
+</ul></li>
+<li>Fire: You gain the Fire Wheel Sprinting status condition.
+<ul>
+<li>Fire Wheel Sprinting - Your horizontal movement is increased by 10 feet. Every enemy who you move past in square-side contact receives an amount of Fire damage equal to 1/10th of your Magical Power, ignoring Magical Armor and Magical Evasion.</li>
+</ul></li>
+<li>Light: You gain the Light Shining Finger status condition.
+<ul>
+<li>Light Shining Finger - 1/10th of all damage from your Unarmed attacks and techniques is dealt to all enemies who are square-side-adjacent to your target, ignoring Evasion and Armor.</li>
+</ul></li>
+<li>Moon: You gain the Moon Night-Eye status condition.
+<ul>
+<li>Moon Night-Eye - Your Physical Accuracy, Magical Accuracy and Magical Evasion are increased by an amount equal to half of your Power Level.</li>
+</ul></li>
+<li>Water: You gain the Water Flow Returning Force status condition.
+<ul>
+<li>Water Flow Returning Force - Every time you take more than 1 damage from an enemy who is square-side-adjacent, and your Magical Evasion is greater than 1.5x that enemy’s Magical Accuracy, you immediately do an Unarmed attack against that enemy. This does not use APs and occurs immediately after you took the damage, thus possibly preventing the enemy from using the rest of their APs depending on circumstances.</li>
+</ul></li>
+<li>Wood: You gain the Wood Tree Of Life status condition.
+<ul>
+<li>Wood Tree Of Life - Every time you regain Health, 1/4th of that regain is additionally done to all square-side-adjacent allies.</li>
+</ul></li>
+</ul></li>
+</ul>
 <h4 id="rating-20-3">Rating 20</h4>
 <h3 id="musical-techs">Musical Techs</h3>
 <h4 id="rating-1-4">Rating 1</h4>
 <p><strong>Music Maintenance</strong>:</p>
 <ul>
-<li>Each song requires 1 AP at all times while it is active. You activate or deactivate songs at the beginning of your own turn. This means you can maintain up to 4 songs at once.</li>
+<li>Each song requires 1 AP at all times while it is active. You activate or deactivate songs at the beginning of your own turn. This means you can maintain up to 4 songs at once. Be aware that maintaining 4 songs at once means you have no defenses up.</li>
 <li>You can only activate at most one instance of each song. For example, if you activate Song of Energy, you cannot have a second Song of Energy active at the same time. If you want a lot of the same Song active at once, you will need allies who also have the Musical Techs skill to cooperate. Then you and your allies together can really start stacking a lot of musical effects.</li>
 </ul>
 <p><strong>Song of Energy</strong>:</p>
@@ -1315,6 +1362,7 @@
 <li>Affects yourself and all allies.</li>
 <li>Adds 1/4th of your Power Level to Magical Armor, for a minimum of 1 point added.</li>
 </ul>
+<h4 id="rating-5-4">Rating 5</h4>
 <h3 id="summoning-techs">Summoning Techs</h3>
 <h4 id="rating-1-5">Rating 1</h4>
 <p><strong>Summon Elemental Form</strong>:</p>
@@ -1331,6 +1379,7 @@
 <li>All stats are equal to 10 + your effective Summoning Techs skill rating. Except for Maximum Health, which is equal to 20 + double your effective Summoning Techs skill rating.</li>
 <li>The Fundamental Elemental Form takes double damage from its opposite element, but half damage from its same element.</li>
 </ul>
+<h4 id="rating-5-5">Rating 5</h4>
 <h3 id="weapon-melee-techs">Weapon Melee Techs</h3>
 <h4 id="rating-1-6">Rating 1</h4>
 <p><strong>Elemental Melee Weapon Visual Effect</strong>:</p>
@@ -1365,7 +1414,7 @@
 <li>10 energy</li>
 <li>You attack, and add your Power Level to the damage.</li>
 </ul>
-<h4 id="rating-5-4">Rating 5</h4>
+<h4 id="rating-5-6">Rating 5</h4>
 <p><strong>Elemental Melee Force</strong>:</p>
 <ul>
 <li>3 energy</li>
@@ -1481,7 +1530,7 @@
 <li>13 energy</li>
 <li>You attack, and add your Power Level to the damage.</li>
 </ul>
-<h4 id="rating-5-5">Rating 5</h4>
+<h4 id="rating-5-7">Rating 5</h4>
 <p><strong>Bouncing Shot</strong>:</p>
 <ul>
 <li>5 energy</li>
@@ -1653,6 +1702,7 @@
 <h3 id="imperial-actions-phase">Imperial Actions Phase</h3>
 <p>Possible Imperial actions should make sense based on your Island’s starting situation, and everything you have done which the imperials were able to identify as coming from your island. If your island has sufficient Fortifications, then the effectiveness of Imperial Actions should be halved, or even cut to one-fifth. And of course, venturing forth to attack the Imperials directly will certainly reduce the number of actions they can do in a Strategic Turn.</p>
 <p>Generally, the Imperials start with 1 action per Strategic Turn, then escalate from there, with no limit to the maximum number of actions once they start sending full Legions. Eventually you will have to face the Legions head-on in battle and kill their highest-ranked soldiers and generals.</p>
+<p>Shifting the Island into the Blended Realm will prevent most Imperial Actions, but they will still be able to use special auxilia to follow you and attack you. It will also expose the Island to other conditions that will take quite a long time to adapt to.</p>
 <p><strong>Build Adtextus Banner</strong>:</p>
 <ul>
 <li>-10 Island Health</li>
@@ -1707,8 +1757,29 @@
 <p>Each Player-Character can do one strategic action, of any kind.</p>
 <p>There are also System Power Actions potentially obtained through the Calculation Phase.</p>
 <p>One out of every 100 people also have enough free time to do one Island Development Action. The rest of the people are busy hunting, gathering, harvesting, cooking, weaving, sewing, crafting, etc.</p>
+<h4 id="internal">Internal</h4>
+<p>“Internal” covers all actions including and not limited to:</p>
+<ul>
+<li>Journeying into a sealed part of the Island to help fight against physical manifestations of trauma</li>
+<li>Receiving visitors from other Islands, and testing their strength</li>
+<li>Dealing with misanthropes who try to dominate others</li>
+<li>Learning something new from the Island, which requires a full internal journey or a long travel through an unknown area in order to comprehend</li>
+<li>Playing with a new and unique creature who was born out of the Island</li>
+<li>Processes of self-discipline and change which requires separation from the rest of the people of the Island</li>
+</ul>
+<p>If this action type is chosen, then all Player-Characters should stick together to do exactly one Internal action for the Strategic Turn.</p>
 <h4 id="external">External</h4>
-<p>“External” covers all actions such as visiting distant islands, infiltrating the Empire, doing battle against the Empire, doing anything the island would not approve of, seeking out lost knowledge and wisdom, shifting into the Blended Realm without the rest of the island, etc. If this action type is chosen, then all Player-Characters should stick together to do exactly one External action for the Strategic Turn.</p>
+<p>“External” covers all actions including and not limited to:</p>
+<ul>
+<li>Gathering lost fragments of the island which may contain important memories</li>
+<li>Visiting other Islands, participating in their unique culture</li>
+<li>Infiltrating the Empire to prepare for future battles</li>
+<li>Doing battle against the Empire</li>
+<li>Doing anything the Island would not approve of</li>
+<li>Seeking out lost knowledge and wisdom</li>
+<li>Shifting into the Blended Realm without the rest of the island</li>
+</ul>
+<p>Just as with the “Internal” strategic action type, if this action type is chosen, then all Player-Characters should stick together to do exactly one External action for the Strategic Turn.</p>
 <p>Particularly-long quests will naturally take multiple Strategic Turns. For example, journeying across the world to request aid from a different island, or deliver an artifact.</p>
 <h4 id="system-power-action">System Power Action</h4>
 <h5 id="materials-power-actions">Materials Power Actions</h5>

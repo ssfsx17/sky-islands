@@ -1632,6 +1632,8 @@ Possible Imperial actions should make sense based on your Island's starting situ
 
 Generally, the Imperials start with 1 action per Strategic Turn, then escalate from there, with no limit to the maximum number of actions once they start sending full Legions. Eventually you will have to face the Legions head-on in battle and kill their highest-ranked soldiers and generals.
 
+Shifting the Island into the Blended Realm will prevent most Imperial Actions, but they will still be able to use special auxilia to follow you and attack you. It will also expose the Island to other conditions that will take quite a long time to adapt to.
+
 **Build Adtextus Banner**:
 
 - -10 Island Health
@@ -1690,9 +1692,32 @@ There are also System Power Actions potentially obtained through the Calculation
 
 One out of every 100 people also have enough free time to do one Island Development Action. The rest of the people are busy hunting, gathering, harvesting, cooking, weaving, sewing, crafting, etc.
 
+#### Internal
+
+"Internal" covers all actions including and not limited to:
+
+- Journeying into a sealed part of the Island to help fight against physical manifestations of trauma
+- Receiving visitors from other Islands, and testing their strength
+- Dealing with misanthropes who try to dominate others
+- Learning something new from the Island, which requires a full internal journey or a long travel through an unknown area in order to comprehend
+- Playing with a new and unique creature who was born out of the Island
+- Processes of self-discipline and change which requires separation from the rest of the people of the Island
+
+If this action type is chosen, then all Player-Characters should stick together to do exactly one Internal action for the Strategic Turn.
+
 #### External
 
-"External" covers all actions such as visiting distant islands, infiltrating the Empire, doing battle against the Empire, doing anything the island would not approve of, seeking out lost knowledge and wisdom, shifting into the Blended Realm without the rest of the island, etc. If this action type is chosen, then all Player-Characters should stick together to do exactly one External action for the Strategic Turn.
+"External" covers all actions including and not limited to:
+
+- Gathering lost fragments of the island which may contain important memories
+- Visiting other Islands, participating in their unique culture
+- Infiltrating the Empire to prepare for future battles
+- Doing battle against the Empire
+- Doing anything the Island would not approve of
+- Seeking out lost knowledge and wisdom
+- Shifting into the Blended Realm without the rest of the island
+
+Just as with the "Internal" strategic action type, if this action type is chosen, then all Player-Characters should stick together to do exactly one External action for the Strategic Turn.
 
 Particularly-long quests will naturally take multiple Strategic Turns. For example, journeying across the world to request aid from a different island, or deliver an artifact.
 
