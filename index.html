@@ -684,7 +684,10 @@
 </ul>
 <p><strong>Prepare Elemental Sticky Vial</strong>:</p>
 <ul>
-<li>An elemental sticky vial can be thrown up to 30 feet away to add 1 stack of Elemental Sticky Bomb status, ignoring Physical Evasion.</li>
+<li>An elemental sticky vial can be thrown up to 30 feet away to add 1 stack of Elemental Sticky Bomb status, ignoring Physical Evasion.
+<ul>
+<li><strong>Elemental Sticky Bomb: <Specific></strong> - You take 1 elemental damage of the specific element, per status phase. Multiple sticky bombs can stack. Thankfully they have finite durations.</li>
+</ul></li>
 </ul>
 <p><strong>Expert Packing of Elemental Sticky Vial</strong>:</p>
 <ul>
@@ -707,7 +710,10 @@
 <h4 id="rating-10">Rating 10</h4>
 <p><strong>Prepare Preserving Compress</strong>:</p>
 <ul>
-<li>A preserving compress adds the Preserving Compress status condition for 4 status phases.</li>
+<li>A preserving compress adds the Preserving Compress status condition for 4 status phases.
+<ul>
+<li><strong>Preserving Compress</strong> - You do not take damage from status conditions.</li>
+</ul></li>
 </ul>
 <p><strong>Expert Application of Preserving Compress</strong>:</p>
 <ul>
@@ -729,7 +735,10 @@
 </ul>
 <p><strong>Prepare Elemental Weapon Resin</strong>:</p>
 <ul>
-<li>A resin applies the Elemental Weapon Resin status condition for 4 status phases.</li>
+<li>A resin applies the Elemental Weapon Resin status condition for 4 status phases.
+<ul>
+<li><strong>Elemental Weapon Resin: <Specific></strong> - All of your weapons have their damage type changed to be of the specified element. They also add your Power Level to the damage. If the damage boost occurs, then one stack of this status is removed during the status phase. The most recent application of this status removes all previous applications. If you have both Elemental Weapon Coating and Elemental Weapon Resin statuses, then the Resin effect supercedes the Coating effect until the Resin wears off, after which the Coating will take over.</li>
+</ul></li>
 </ul>
 <p><strong>Expert Application of Elemental Weapon Resin</strong>:</p>
 <ul>
@@ -740,7 +749,10 @@
 </ul>
 <p><strong>Prepare Elemental Armor Resin</strong>:</p>
 <ul>
-<li>A resin applies the Elemental Armor Resin status condition for 4 status phases.</li>
+<li>A resin applies the Elemental Armor Resin status condition for 4 status phases.
+<ul>
+<li><strong>Elemental Armor Resin: <Specific></strong> - Requires that you use armor and/or a shield. Incoming damage from the specified element is nullified. If this occurs, then one stack of this status is also removed during the status phase. The most recent application of this status removes all previous applications.</li>
+</ul></li>
 </ul>
 <p><strong>Expert Application of Elemental Armor Resin</strong>:</p>
 <ul>
@@ -837,14 +849,35 @@
 <li>Target: Single</li>
 <li>Creates a projectile of elemental energy, then launches it at the target. Uses your magical stats and is opposed by magical stats. If your Magical Accuracy is more than 1.5x the target’s Magical Evasion, then you cause an additional effect based on the element used.
 <ul>
-<li>Air: Adds the Shocked status to the target.</li>
-<li>Crystal: Adds the Bleeding status to the target.</li>
-<li>Dark: Adds the Mindmaze status to the target.</li>
-<li>Earth: Adds the Buried status to the target.</li>
-<li>Fire: Adds the Burning status to the target.</li>
-<li>Light: Adds the Blinded status to the target.</li>
+<li>Air: Adds the Shocked status to the target.
+<ul>
+<li><strong>Shocked</strong> - Magical Power and Magical Armor are halved. Removed whenever you take Earth elemental damage. Can be removed by spending all action points to breathe and calm down from the shock.</li>
+</ul></li>
+<li>Crystal: Adds the Bleeding status to the target.
+<ul>
+<li><strong>Bleeding</strong> - Lose an amount of Health equal to 10% of your Maximum Health per status phase. Removed whenever you gain Health.</li>
+</ul></li>
+<li>Dark: Adds the Mindmaze status to the target.
+<ul>
+<li><strong>Mindmaze</strong> - Magical Accuracy and Magical Evasion are halved. Can be removed by spending all action points to clear your mind.</li>
+</ul></li>
+<li>Earth: Adds the Buried status to the target.
+<ul>
+<li><strong>Buried</strong> - Physical Evasion and Physical Power are halved. Horizontal movement is halved. Removed whenever you take Air elemental damage. Can be removed by spending all action points to dig yourself out.</li>
+</ul></li>
+<li>Fire: Adds the Burning status to the target.
+<ul>
+<li><strong>Burning</strong> - Lose an amount of Health equal to 10% of your Maximum Health per status phase. Removed whenever you take Water elemental damage. Can be removed by spending all action points to stop, drop, and roll.</li>
+</ul></li>
+<li>Light: Adds the Blinded status to the target.
+<ul>
+<li><strong>Blinded</strong> - Physical Accuracy and Physical Evasion are halved. Cannot do anything requiring line-of-sight. Removed whenever you take Dark elemental damage. Can be removed by spending all action points to wipe your eyes.</li>
+</ul></li>
 <li>Moon: The final damage is halved, and dealt to Energy rather than Health. You gain half that much damage (i.e. 1/4th of the initial) as Energy.</li>
-<li>Water: Adds the Chilled status to the target.</li>
+<li>Water: Adds the Chilled status to the target.
+<ul>
+<li><strong>Chilled</strong> - Physical Armor and Magical Armor are halved. Cannot jump. Removed whenever you take Fire elemental damage. Can be removed by spending all action points to jump up and down and warm yourself up.</li>
+</ul></li>
 <li>Wood: The final damage is halved. You gain that much damage as Health.</li>
 </ul></li>
 </ul>
@@ -895,7 +928,7 @@
 <li>Type: Straight Projectile</li>
 <li>Range: 30 feet</li>
 <li>Target: Single</li>
-<li>Converts your elemental charges into a single shot. Uses your magical stats and is opposed by magical stats. The shot’s damage is equal to Magical Power * 0.5 * the number of charges. If your Magical Accuracy is more than 1.5x the target’s Magical Evasion, then you cause additional effects based on the elements of the charges used. Refer to Elemental Shot for the additional effects.</li>
+<li>Converts your elemental charges into a single shot. Uses your magical stats and is opposed by magical stats. The shot’s damage is equal to Magical Power * 0.5 * the number of charges. If your Magical Accuracy is more than 1.5x the target’s Magical Evasion, then you cause additional effects based on the elements of the charges used. Refer to <em>Elemental Shot</em> for the additional effects.</li>
 </ul>
 <p><strong>Elemental Eyes</strong>:</p>
 <ul>
@@ -965,7 +998,7 @@
 <li>Type: Straight Projectile Explosive</li>
 <li>Range: 30 feet</li>
 <li>Target: One 5-foot square</li>
-<li>Creates a ball of elemental energy, then launches it at the destination. When the ball hits anything or arrives at its destination, whichever happens first, it explodes and targets the 5-foot square, as well as all side-adjacent and corner-adjacent 5-foot squares. Uses your magical stats and is opposed by magical stats. If your Magical Accuracy is more than 1.5x a target’s Magical Evasion, then you cause an additional effect based on the element used. Refer to Elemental Shot for the additional effect.</li>
+<li>Creates a ball of elemental energy, then launches it at the destination. When the ball hits anything or arrives at its destination, whichever happens first, it explodes and targets the 5-foot square, as well as all side-adjacent and corner-adjacent 5-foot squares. Uses your magical stats and is opposed by magical stats. If your Magical Accuracy is more than 1.5x a target’s Magical Evasion, then you cause an additional effect based on the element used. Refer to <em>Elemental Shot</em> for the additional effect.</li>
 </ul>
 <p><strong>Elemental Chain</strong>:</p>
 <ul>
@@ -1076,7 +1109,10 @@
 <li>Type: Line-of-sight</li>
 <li>Range: 30 feet</li>
 <li>Target: Single</li>
-<li>Add the Elemental Armor Coating status condition to the target. Crystal element cannot be used for this technique.</li>
+<li>Add the Elemental Armor Coating status condition to the target. Crystal element cannot be used for this technique.
+<ul>
+<li><strong>Elemental Armor Coating: <Specific></strong> - Requires that you use armor and/or a shield. Incoming damage from the specified element is halved. The most recent application of this status removes all previous applications.</li>
+</ul></li>
 </ul>
 <p><strong>Elemental Weapon Coating</strong>:</p>
 <ul>
@@ -1084,7 +1120,10 @@
 <li>Type: Line-of-sight</li>
 <li>Range: 30 feet</li>
 <li>Target: Single</li>
-<li>Add the Elemental Weapon Coating status condition to the target.</li>
+<li>Add the Elemental Weapon Coating status condition to the target.
+<ul>
+<li><strong>Elemental Weapon Coating: <Specific></strong> - All of your weapons have their damage type changed to be of the specified element. The most recent application of this status removes all previous applications.</li>
+</ul></li>
 </ul>
 <p><strong>Elemental Weakness</strong>:</p>
 <ul>
@@ -1092,7 +1131,10 @@
 <li>Type: Line-of-sight</li>
 <li>Range: 30 feet</li>
 <li>Target: Single</li>
-<li>If your Magic Accuracy is higher than the target’s Magic Evasion, then add the Elemental Weakness status condition to the target for the chosen element. Crystal element cannot be used for this technique.</li>
+<li>If your Magic Accuracy is higher than the target’s Magic Evasion, then add the Elemental Weakness status condition to the target for the chosen element. Crystal element cannot be used for this technique.
+<ul>
+<li><strong>Elemental Weakness: <Specific></strong> - Incoming damage from the specified element bypasses your armor. The most recent application of this status removes all previous applications.</li>
+</ul></li>
 </ul>
 <h4 id="rating-10-2">Rating 10</h4>
 <p><strong>Elemental Heresy</strong>:</p>
@@ -1109,7 +1151,10 @@
 <li>Type: Line-of-sight</li>
 <li>Range: 30 feet</li>
 <li>Target: Single</li>
-<li>If your Magic Accuracy is higher than the target’s Magic Evasion, then add the Elemental Charge Feedback status condition to the target for the chosen element. Crystal element cannot be used for this technique.</li>
+<li>If your Magic Accuracy is higher than the target’s Magic Evasion, then add the Elemental Charge Feedback status condition to the target for the chosen element. Crystal element cannot be used for this technique.
+<ul>
+<li><strong>Elemental Charge Feedback: <Specific></strong> - All element charges of the specified element instead cause you to lose health, then the charges disappear. The amount is 10% of your Maximum Health for each charge. This includes all charges you have when the status is first caused, and all charges you gain while having this status. The most recent application of this status removes all previous applications.</li>
+</ul></li>
 </ul>
 <p><strong>Elemental Resistance</strong>:</p>
 <ul>
@@ -1117,7 +1162,10 @@
 <li>Type: Line-of-sight</li>
 <li>Range: 30 feet</li>
 <li>Target: Single</li>
-<li>Add the Elemental Resistance status condition to the target.</li>
+<li>Add the Elemental Resistance status condition to the target.
+<ul>
+<li><strong>Elemental Resistance: <Specific></strong> - Incoming damage from the specified element is halved, after taking armor into account. For example, if you have the Elemental Resistance: Fire status, you take 30 physical Fire damage, and you have 20 Physical Armor, then you take 5 damage to your Health. The most recent application of this status removes all previous applications. Note that Elemental Armor Coating applies before subtracting armor from the damage, while Elemental Resistance applies after, so having both statuses at the same time is a good combination if the enemy is only capable of one type of elemental damage.</li>
+</ul></li>
 </ul>
 <h4 id="rating-15-2">Rating 15</h4>
 <p><strong>Heal Burst</strong>:</p>
@@ -1145,15 +1193,42 @@
 <li>Target: Single</li>
 <li>Magical projectile attack, whose damage is based on the element used. Furthermore, if your Magic Accuracy is higher than the target’s Magic Evasion, then add a status condition to the target, based on the element used.
 <ul>
-<li>Air: Suffocation</li>
-<li>Crystal: Fragility</li>
-<li>Dark: Forgetfulness</li>
-<li>Earth: Entombed</li>
-<li>Fire: Melting</li>
-<li>Light: Babbling</li>
-<li>Moon: Moon Madness</li>
-<li>Water: Dehydration</li>
-<li>Wood: Blood Poisoning</li>
+<li>Air: Suffocation
+<ul>
+<li><strong>Suffocation</strong> - Lose an amount of Health equal to 10% of your Maximum Health per status phase. Horizontal movement is limited to 5 feet. Removed whenever you take Earth elemental damage.</li>
+</ul></li>
+<li>Crystal: Fragility
+<ul>
+<li><strong>Fragility</strong> - Physical Armor is zero. Removed whenever you take magical damage. Can be removed by spending all action points to recollect yourself.</li>
+</ul></li>
+<li>Dark: Forgetfulness
+<ul>
+<li><strong>Forgetfulness</strong> - Lose an amount of Energy equal to 25% of your Maximum Energy per status phase. Removed whenever you take Light elemental damage.</li>
+</ul></li>
+<li>Earth: Entombed
+<ul>
+<li><strong>Entombed</strong> - Unable to move. Physical Evasion is zero. Removed whenever you take Air elemental damage.</li>
+</ul></li>
+<li>Fire: Melting
+<ul>
+<li><strong>Melting</strong> - Lose an amount of Health equal to 10% of your Maximum Health per status phase. Physical Armor and Magical Armor are halved. Removed whenever you take Water elemental damage.</li>
+</ul></li>
+<li>Light: Babbling
+<ul>
+<li><strong>Babbling</strong> - Unable to do actions that require speaking, or spending Energy. Removed whenever you take Dark elemental damage.</li>
+</ul></li>
+<li>Moon: Moon Madness
+<ul>
+<li><strong>Moon Madness</strong> - You are only able to do unarmed attacks and techniques. Removed whenever you take Wood elemental damage.</li>
+</ul></li>
+<li>Water: Dehydration
+<ul>
+<li><strong>Dehydration</strong> - Physical Power is zero. Removed whenever you take Water elemental damage.</li>
+</ul></li>
+<li>Wood: Blood Poisoning
+<ul>
+<li><strong>Blood Poisoning</strong> - Lose an amount of Health equal to 25% of your Maximum Health per status phase. Removed whenever you take Moon elemental damage.</li>
+</ul></li>
 </ul></li>
 </ul>
 <h3 id="martial-techs">Martial Techs</h3>
@@ -1287,39 +1362,39 @@
 <ul>
 <li>Air: You gain the Air Tornado Upper status condition.
 <ul>
-<li>Air Tornado Upper - When you cause more than 1 damage with an Unarmed attack or technique, and your Magical Accuracy is greater than 1.5x the target’s Magical Evasion, you cause the target to spin around and change facing to a direction of your choice.</li>
+<li><strong>Air Tornado Upper</strong> - When you cause more than 1 damage with an Unarmed attack or technique, and your Magical Accuracy is greater than 1.5x the target’s Magical Evasion, you cause the target to spin around and change facing to a direction of your choice.</li>
 </ul></li>
 <li>Crystal: You gain the Crystal Diffusion Fists status condition.
 <ul>
-<li>Crystal Diffusion Fists - When you cause at least 4 damage with an Unarmed attack or technique, and your Magical Accuracy is greater than 1.5x the target’s Magical Evasion, 1/4th of your damage is additionally dealt to the target’s Energy.</li>
+<li><strong>Crystal Diffusion Fists</strong> - When you cause at least 4 damage with an Unarmed attack or technique, and your Magical Accuracy is greater than 1.5x the target’s Magical Evasion, 1/4th of your damage is additionally dealt to the target’s Energy.</li>
 </ul></li>
 <li>Dark: You gain the Dark Force Ark status condition.
 <ul>
-<li>Dark Force Ark - When you cause more than 1 damage with an Unarmed attack or technique, you and all square-side-adjacent allies regain 1 Energy.</li>
+<li><strong>Dark Force Ark</strong> - When you cause more than 1 damage with an Unarmed attack or technique, you and all square-side-adjacent allies regain 1 Energy.</li>
 </ul></li>
 <li>Earth: You gain the Earth Stone Pillar Body status condition.
 <ul>
-<li>Earth Stone Pillar Body - You cannot be moved or turned around unwillingly. Your Physical Armor is increased by an amount equal to half of your Power Level.</li>
+<li><strong>Earth Stone Pillar Body</strong> - You cannot be moved or turned around unwillingly. Your Physical Armor is increased by an amount equal to half of your Power Level.</li>
 </ul></li>
 <li>Fire: You gain the Fire Wheel Sprinting status condition.
 <ul>
-<li>Fire Wheel Sprinting - Your horizontal movement is increased by 10 feet. Every enemy who you move past in square-side contact receives an amount of Fire damage equal to 1/10th of your Magical Power, ignoring Magical Armor and Magical Evasion.</li>
+<li><strong>Fire Wheel Sprinting</strong> - Your horizontal movement is increased by 10 feet. Every enemy who you move past in square-side contact receives an amount of Fire damage equal to 1/10th of your Magical Power, ignoring Magical Armor and Magical Evasion.</li>
 </ul></li>
 <li>Light: You gain the Light Shining Finger status condition.
 <ul>
-<li>Light Shining Finger - 1/10th of all damage from your Unarmed attacks and techniques is dealt to all enemies who are square-side-adjacent to your target, ignoring Evasion and Armor.</li>
+<li><strong>Light Shining Finger</strong> - 1/10th of all damage from your Unarmed attacks and techniques is dealt to all enemies who are square-side-adjacent to your target, ignoring Evasion and Armor.</li>
 </ul></li>
 <li>Moon: You gain the Moon Night-Eye status condition.
 <ul>
-<li>Moon Night-Eye - Your Physical Accuracy, Magical Accuracy and Magical Evasion are increased by an amount equal to half of your Power Level.</li>
+<li><strong>Moon Night-Eye</strong> - Your Physical Accuracy, Magical Accuracy and Magical Evasion are increased by an amount equal to half of your Power Level.</li>
 </ul></li>
 <li>Water: You gain the Water Flow Returning Force status condition.
 <ul>
-<li>Water Flow Returning Force - Every time you take more than 1 damage from an enemy who is square-side-adjacent, and your Magical Evasion is greater than 1.5x that enemy’s Magical Accuracy, you immediately do an Unarmed attack against that enemy. This does not use APs and occurs immediately after you took the damage, thus possibly preventing the enemy from using the rest of their APs depending on circumstances.</li>
+<li><strong>Water Flow Returning Force</strong> - Every time you take more than 1 damage from an enemy who is square-side-adjacent, and your Magical Evasion is greater than 1.5x that enemy’s Magical Accuracy, you immediately do an Unarmed attack against that enemy. This does not use APs and occurs immediately after you took the damage, thus possibly preventing the enemy from using the rest of their APs depending on circumstances.</li>
 </ul></li>
 <li>Wood: You gain the Wood Tree Of Life status condition.
 <ul>
-<li>Wood Tree Of Life - Every time you regain Health, 1/4th of that regain is additionally done to all square-side-adjacent allies.</li>
+<li><strong>Wood Tree Of Life</strong> - Every time you regain Health, 1/4th of that regain is additionally done to all square-side-adjacent allies.</li>
 </ul></li>
 </ul></li>
 </ul>
@@ -1450,20 +1525,47 @@
 <li>Target: Single</li>
 <li>Do a melee weapon attack against an enemy within the range.</li>
 </ul>
-<p><strong>Elemental Melee Guarding Strike</strong>:</p>
+<p><strong>Elemental Melee Guarding Stance</strong>:</p>
 <ul>
-<li>5 energy</li>
-<li>Do a melee weapon attack. Gain a status condition based on the element used.
+<li>10 energy</li>
+<li>Gain a status condition based on the element used.
 <ul>
-<li>Air: Gain the Airyspeedy status.</li>
-<li>Dark: Gain the Shadowconcealed status.</li>
-<li>Crystal: Gain the Crystalbarrier status.</li>
-<li>Earth: Gain the Stonehide status.</li>
-<li>Fire: Gain the Fireaura status.</li>
-<li>Light: Gain the Shininghead status.</li>
-<li>Moon: Gain the Recharging status.</li>
-<li>Water: Gain the Fluidmotion status.</li>
-<li>Wood: Gain the Regenerating status.</li>
+<li>Air: Gain the Airyspeedy status.
+<ul>
+<li><strong>Airyspeedy</strong> - Horizontal movement speed increased by 10 feet. Add half your Power Level to your Physical Evasion.</li>
+</ul></li>
+<li>Dark: Gain the Shadowconcealed status.
+<ul>
+<li><strong>Shadowconcealed</strong> - Add your Power Level to your Physical Evasion and Magical Evasion.</li>
+</ul></li>
+<li>Crystal: Gain the Crystalbarrier status.
+<ul>
+<li><strong>Crystalbarrier</strong> - All melee and reach attacks aimed at you will cause the attacker to get the Bleeding status. Add your Power Level to your Physical Armor.</li>
+</ul></li>
+<li>Earth: Gain the Stonehide status.
+<ul>
+<li><strong>Stonehide</strong> - Add your Power Level to your Physical Armor. For all melee and reach attacks against you, if your Magical Accuracy is higher than the attacker’s Magical Evasion, then the attacker gets the Repulsed Weapon status condition.</li>
+</ul></li>
+<li>Fire: Gain the Fireaura status.
+<ul>
+<li><strong>Fireaura</strong> - You cause fire damage to all adjacent enemies during the status phase, as if it had been done by the Burning status. Add your Power Level to your Magical Armor.</li>
+</ul></li>
+<li>Light: Gain the Shininghead status.
+<ul>
+<li><strong>Shininghead</strong> - Add your Power Level to your Evasion and Armor against all line-of-sight and ranged techniques.</li>
+</ul></li>
+<li>Moon: Gain the Recharging status.
+<ul>
+<li><strong>Recharging</strong> - Regain an amount of Energy equal to 10% of your Maximum Energy per status phase.</li>
+</ul></li>
+<li>Water: Gain the Fluidmotion status.
+<ul>
+<li><strong>Fluidmotion</strong> - You move through liquids as if it were normal ground. Maximum downwards jump distance is increased by 20 feet. You can move upwards through liquids, such as waterfalls, without using up any upwards jump.</li>
+</ul></li>
+<li>Wood: Gain the Regenerating status.
+<ul>
+<li><strong>Regenerating</strong> - Regain an amount of Health equal to 10% of your Maximum Health per status phase.</li>
+</ul></li>
 </ul></li>
 </ul>
 <h4 id="rating-15-4">Rating 15</h4>
@@ -1482,14 +1584,35 @@
 <li>8 energy</li>
 <li>Do a melee weapon attack. Its damage type is changed to be of the linked element. It also adds a status condition to the enemy based on the element used.
 <ul>
-<li>Air: Adds the Shocked status to the target.</li>
-<li>Crystal: Adds the Bleeding status to the target.</li>
-<li>Dark: Adds the Mindmaze status to the target.</li>
-<li>Earth: Adds the Buried status to the target.</li>
-<li>Fire: Adds the Burning status to the target.</li>
-<li>Light: Adds the Blinded status to the target.</li>
+<li>Air: Adds the Shocked status to the target.
+<ul>
+<li><strong>Shocked</strong> - Magical Power and Magical Armor are halved. Removed whenever you take Earth elemental damage. Can be removed by spending all action points to breathe and calm down from the shock.</li>
+</ul></li>
+<li>Crystal: Adds the Bleeding status to the target.
+<ul>
+<li><strong>Bleeding</strong> - Lose an amount of Health equal to 10% of your Maximum Health per status phase. Removed whenever you gain Health.</li>
+</ul></li>
+<li>Dark: Adds the Mindmaze status to the target.
+<ul>
+<li><strong>Mindmaze</strong> - Magical Accuracy and Magical Evasion are halved. Can be removed by spending all action points to clear your mind.</li>
+</ul></li>
+<li>Earth: Adds the Buried status to the target.
+<ul>
+<li><strong>Buried</strong> - Physical Evasion and Physical Power are halved. Horizontal movement is halved. Removed whenever you take Air elemental damage. Can be removed by spending all action points to dig yourself out.</li>
+</ul></li>
+<li>Fire: Adds the Burning status to the target.
+<ul>
+<li><strong>Burning</strong> - Lose an amount of Health equal to 10% of your Maximum Health per status phase. Removed whenever you take Water elemental damage. Can be removed by spending all action points to stop, drop, and roll.</li>
+</ul></li>
+<li>Light: Adds the Blinded status to the target.
+<ul>
+<li><strong>Blinded</strong> - Physical Accuracy and Physical Evasion are halved. Cannot do anything requiring line-of-sight. Removed whenever you take Dark elemental damage. Can be removed by spending all action points to wipe your eyes.</li>
+</ul></li>
 <li>Moon: The final damage is halved, and dealt to Energy rather than Health. You gain half that much damage (i.e. 1/4th of the initial) as Energy.</li>
-<li>Water: Adds the Chilled status to the target.</li>
+<li>Water: Adds the Chilled status to the target.
+<ul>
+<li><strong>Chilled</strong> - Physical Armor and Magical Armor are halved. Cannot jump. Removed whenever you take Fire elemental damage. Can be removed by spending all action points to jump up and down and warm yourself up.</li>
+</ul></li>
 <li>Wood: The final damage is halved. You gain that much damage as Health.</li>
 </ul></li>
 </ul>
@@ -1953,6 +2076,7 @@
 <p><strong>Example 1:</strong> A combatant is pushed by 5 feet, and ends up falling 20 feet. Their maximum downwards jump is 4 feet. So they take 16 * 2, or 32, points of falling damage. This is lethal to Power Level 1 combatants without some way to halve it, and still hurts quite a lot to more powerful combatants.</p>
 <h2 id="status-conditions">Status Conditions</h2>
 <ul>
+<li><strong>Air Tornado Upper</strong> - When you cause more than 1 damage with an Unarmed attack or technique, and your Magical Accuracy is greater than 1.5x the target’s Magical Evasion, you cause the target to spin around and change facing to a direction of your choice.</li>
 <li><strong>Airyspeedy</strong> - Horizontal movement speed increased by 10 feet. Add half your Power Level to your Physical Evasion.</li>
 <li><strong>Babbling</strong> - Unable to do actions that require speaking, or spending Energy. Removed whenever you take Dark elemental damage.</li>
 <li><strong>Bleeding</strong> - Lose an amount of Health equal to 10% of your Maximum Health per status phase. Removed whenever you gain Health.</li>
@@ -1961,8 +2085,11 @@
 <li><strong>Buried</strong> - Physical Evasion and Physical Power are halved. Horizontal movement is halved. Removed whenever you take Air elemental damage. Can be removed by spending all action points to dig yourself out.</li>
 <li><strong>Burning</strong> - Lose an amount of Health equal to 10% of your Maximum Health per status phase. Removed whenever you take Water elemental damage. Can be removed by spending all action points to stop, drop, and roll.</li>
 <li><strong>Chilled</strong> - Physical Armor and Magical Armor are halved. Cannot jump. Removed whenever you take Fire elemental damage. Can be removed by spending all action points to jump up and down and warm yourself up.</li>
-<li><strong>Crystalbarrier</strong> - All melee attacks aimed at you will cause the attacker to get the Bleeding status. Add your Level to your Physical Armor.</li>
+<li><strong>Crystal Diffusion Fists</strong> - When you cause at least 4 damage with an Unarmed attack or technique, and your Magical Accuracy is greater than 1.5x the target’s Magical Evasion, 1/4th of your damage is additionally dealt to the target’s Energy.</li>
+<li><strong>Crystalbarrier</strong> - All melee and reach attacks aimed at you will cause the attacker to get the Bleeding status. Add your Power Level to your Physical Armor.</li>
+<li><strong>Dark Force Ark</strong> - When you cause more than 1 damage with an Unarmed attack or technique, you and all square-side-adjacent allies regain 1 Energy.</li>
 <li><strong>Dehydration</strong> - Physical Power is zero. Removed whenever you take Water elemental damage.</li>
+<li><strong>Earth Stone Pillar Body</strong> - You cannot be moved or turned around unwillingly. Your Physical Armor is increased by an amount equal to half of your Power Level.</li>
 <li><strong>Elemental Armor Coating: <Specific></strong> - Requires that you use armor and/or a shield. Incoming damage from the specified element is halved. The most recent application of this status removes all previous applications.</li>
 <li><strong>Elemental Armor Resin: <Specific></strong> - Requires that you use armor and/or a shield. Incoming damage from the specified element is nullified. If this occurs, then one stack of this status is also removed during the status phase. The most recent application of this status removes all previous applications.</li>
 <li><strong>Elemental Charge Feedback: <Specific></strong> - All element charges of the specified element instead cause you to lose health, then the charges disappear. The amount is 10% of your Maximum Health for each charge. This includes all charges you have when the status is first caused, and all charges you gain while having this status. The most recent application of this status removes all previous applications.</li>
@@ -1970,27 +2097,38 @@
 <li><strong>Elemental Sticky Bomb: <Specific></strong> - You take 1 elemental damage of the specific element, per status phase. Multiple sticky bombs can stack. Thankfully they have finite durations.</li>
 <li><strong>Elemental Weakness: <Specific></strong> - Incoming damage from the specified element bypasses your armor. The most recent application of this status removes all previous applications.</li>
 <li><strong>Elemental Weapon Coating: <Specific></strong> - All of your weapons have their damage type changed to be of the specified element. The most recent application of this status removes all previous applications.</li>
-<li><strong>Elemental Weapon Resin: <Specific></strong> - All of your weapons have their damage type changed to be of the specified element. They also your Power Level to the damage. If the damage boost occurs, then one stack of this status is removed during the status phase. The most recent application of this status removes all previous applications. If you have both Elemental Weapon Coating and Elemental Weapon Resin statuses, then the Resin effect supercedes the Coating effect until the Resin wears off, after which the Coating will take over.</li>
+<li><strong>Elemental Weapon Resin: <Specific></strong> - All of your weapons have their damage type changed to be of the specified element. They also add your Power Level to the damage. If the damage boost occurs, then one stack of this status is removed during the status phase. The most recent application of this status removes all previous applications. If you have both Elemental Weapon Coating and Elemental Weapon Resin statuses, then the Resin effect supercedes the Coating effect until the Resin wears off, after which the Coating will take over.</li>
 <li><strong>Entombed</strong> - Unable to move. Physical Evasion is zero. Removed whenever you take Air elemental damage.</li>
+<li><strong>Fire Wheel Sprinting</strong> - Your horizontal movement is increased by 10 feet. Every enemy who you move past in square-side contact receives an amount of Fire damage equal to 1/10th of your Magical Power, ignoring Magical Armor and Magical Evasion.</li>
 <li><strong>Fireaura</strong> - You cause fire damage to all adjacent enemies during the status phase, as if it had been done by the Burning status. Add your Power Level to your Magical Armor.</li>
 <li><strong>Fluidmotion</strong> - You move through liquids as if it were normal ground. Maximum downwards jump distance is increased by 20 feet. You can move upwards through liquids, such as waterfalls, without using up any upwards jump.</li>
 <li><strong>Forgetfulness</strong> - Lose an amount of Energy equal to 25% of your Maximum Energy per status phase. Removed whenever you take Light elemental damage.</li>
 <li><strong>Fragility</strong> - Physical Armor is zero. Removed whenever you take magical damage. Can be removed by spending all action points to recollect yourself.</li>
+<li><strong>Light Shining Finger</strong> - 1/10th of all damage from your Unarmed attacks and techniques is dealt to all enemies who are square-side-adjacent to your target, ignoring Evasion and Armor.</li>
 <li><strong>Melting</strong> - Lose an amount of Health equal to 10% of your Maximum Health per status phase. Physical Armor and Magical Armor are halved. Removed whenever you take Water elemental damage.</li>
 <li><strong>Mindmaze</strong> - Magical Accuracy and Magical Evasion are halved. Can be removed by spending all action points to clear your mind.</li>
 <li><strong>Moon Madness</strong> - You are only able to do unarmed attacks and techniques. Removed whenever you take Wood elemental damage.</li>
+<li><strong>Moon Night-Eye</strong> - Your Physical Accuracy, Magical Accuracy and Magical Evasion are increased by an amount equal to half of your Power Level.
+<ul>
+<li>Water: You gain the Water Flow Returning Force status condition.</li>
+</ul></li>
 <li><strong>Overheat</strong> - You take an amount of damage equal to 10% of your Maximum Health for each Action Point you use. When you do a Charge action, you furthermore take damage equal to double the amount of Energy you gained. One stack of Overheat is removed during the status phase.</li>
 <li><strong>Preserving Compress</strong> - You do not take damage from status conditions.</li>
 <li><strong>Recharging</strong> - Regain an amount of Energy equal to 10% of your Maximum Energy per status phase.</li>
+<li><strong>Regenerating</strong> - Regain an amount of Health equal to 10% of your Maximum Health per status phase.</li>
+<li><strong>Repulsed Weapon</strong> - You cannot use your weapon. This status condition is always removed during the status phase.</li>
 <li><strong>Resuscitate</strong> - Remove one stack of Resuscitate during the status phase. When the final stack of the Resuscitate status is removed, you are revived with 1 Health.</li>
 <li><strong>Shadowconcealed</strong> - Add your Level to your Physical Evasion and Magical Evasion.</li>
 <li><strong>Shattered</strong> - All Armor is halved. Multiple stacks of Shattered do not cause additional effects. One stack of Shattered is removed during the status phase.</li>
 <li><strong>Shininghead</strong> - Add your Power Level to your Evasion and Armor against all line-of-sight and ranged techniques.</li>
 <li><strong>Shocked</strong> - Magical Power and Magical Armor are halved. Removed whenever you take Earth elemental damage. Can be removed by spending all action points to breathe and calm down from the shock.</li>
+<li><strong>Stonehide</strong> - Add your Power Level to your Physical Armor. For all melee and reach attacks against you, if your Magical Accuracy is higher than the attacker’s Magical Evasion, then the attacker gets the Repulsed Weapon status condition.</li>
 <li><strong>Stunned</strong> - All Accuracy and Evasion are halved. Multiple stacks of Stunned do not cause additional effects. One stack of Stunned is removed during the status phase.</li>
 <li><strong>Suffocation</strong> - Lose an amount of Health equal to 10% of your Maximum Health per status phase. Horizontal movement is limited to 5 feet. Removed whenever you take Earth elemental damage.</li>
 <li><strong>Thorns</strong> - Whenever you do damage, you lose an amount of Health equal to 10% of your Maximum Health. One stack of Thorns is removed during the status phase.</li>
 <li><strong>Venom</strong> - Lose an amount of Health equal to 5% of your Maximum Health per status phase. Lose an amount of Energy equal to 5% of your Maximum Energy per status phase.</li>
+<li><strong>Water Flow Returning Force</strong> - Every time you take more than 1 damage from an enemy who is square-side-adjacent, and your Magical Evasion is greater than 1.5x that enemy’s Magical Accuracy, you immediately do an Unarmed attack against that enemy. This does not use APs and occurs immediately after you took the damage, thus possibly preventing the enemy from using the rest of their APs depending on circumstances.</li>
+<li><strong>Wood Tree Of Life</strong> - Every time you regain Health, 1/4th of that regain is additionally done to all square-side-adjacent allies.</li>
 </ul>
 <h1 id="world-details">8. World Details</h1>
 <h2 id="temporary-allies">Temporary Allies</h2>
