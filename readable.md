@@ -164,7 +164,11 @@
       - [The Imperial Adtextus](#the-imperial-adtextus)
       - [Intentionally Unanswered
         Questions](#intentionally-unanswered-questions)
-  - [9. Pre-Made Enemies](#pre-made-enemies)
+  - [9. Pre-Made Allies](#pre-made-allies)
+      - [Animals](#animals)
+          - [Armored Dragon](#armored-dragon)
+          - [Birdhorse](#birdhorse)
+  - [10. Pre-Made Enemies](#pre-made-enemies)
       - [T1: Recruit](#t1-recruit)
           - [Gladiator Initiate](#gladiator-initiate)
           - [Misanthrope Initiate](#misanthrope-initiate)
@@ -3674,7 +3678,62 @@ special characteristics? Perhaps the dreaded Savage Wolf Tribe could be
 the one to overthrow the Empire, and replace it with raw violence all
 the time?
 
-# 9\. Pre-Made Enemies
+# 9\. Pre-Made Allies
+
+## Animals
+
+### Armored Dragon
+
+Armored Dragons started out as bioweapons from an ancient age. All
+surviving Armored Dragons have long since shaken off their programming,
+and now work for anyone who will feed them and care for them. They are
+angered by any mistreatment of animals, especially Imperial practices,
+and constantly regain 1 Energy per status phase while angry. They are
+large enough to be ridden.
+
+  - Animal
+  - Maximum Health = 20 + (Power Level \* 2)
+  - Maximum Energy = 20 + (Power Level \* 2)
+  - Physical Accuracy = 10 + Power Level
+  - Physical Evasion = 20 + (Power Level \* 2)
+  - Physical Power = 10 + Power Level
+  - Physical Armor = 10 + Power Level
+  - Magical Accuracy = 20 + (Power Level \* 2)
+  - Magical Evasion = 20 + (Power Level \* 2)
+  - Magical Power = 20 + (Power Level \* 2)
+  - Magical Armor = 10 + Power Level
+  - Flying IV
+  - Homing Lasers - 10 energy - Ranged magical technique with halved
+    Magical Power but doubled Magical Accuracy. This technique has 2
+    lasers, plus one laser for every 10th Power Level. For example, at
+    Power Level 25, this technique has 4 lasers. Each laser can be aimed
+    at a different target, or the same target, or any mixture. If lasers
+    are combined to aim at one target, then they become a single laser
+    with more Magical Power.
+
+### Birdhorse
+
+Strong emu-shaped birds who are large enough to be ridden. Their legs
+and necks are considerably thicker than most other emu-shaped birds.
+They like running and flying freely across open areas, and dislike
+cramped spaces.
+
+  - Animal
+  - Maximum Health = 30 + (Power Level \* 4)
+  - Maximum Energy = 10 + Power Level
+  - Physical Accuracy = 20 + (Power Level \* 2)
+  - Physical Evasion = 20 + (Power Level \* 2)
+  - Physical Power = 10 + Power Level
+  - Physical Armor = 10 + Power Level
+  - Magical Accuracy = 10 + Power Level
+  - Magical Evasion = 20 + (Power Level \* 2)
+  - Magical Power = 10 + Power Level
+  - Magical Armor = 10 + Power Level
+  - Flying IV
+  - Swiftfoot IV
+  - Power Peck - 10 energy - Melee attack that ignores Physical Armor.
+
+# 10\. Pre-Made Enemies
 
 ## T1: Recruit
 
