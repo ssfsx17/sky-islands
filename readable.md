@@ -2341,6 +2341,41 @@ added damage.
   - Do a ranged weapon attack, ignoring the target’s Physical Armor. Its
     damage type is changed to be of the linked element.
 
+**Elemental Discharging Ranged Ripple**
+
+  - Discharging: This technique does not require any corresponding
+    Magical Elements skills. Instead, it requires that you are holding
+    elemental charges.
+  - Effects immediately occur based on the elemental charges you were
+    holding.
+      - Air: You instantly move a square-side-adjacent enemy by 5 feet
+        for each Air Charge discharged. All of this movement must be
+        done to exactly one such enemy.
+      - Crystal: You instantly regain an amount of Health equal to 5% of
+        your Maximum Health for each Crystal Charge discharged.
+      - Dark: One 5-foot square within your weapon range suddenly sinks
+        lower. It moves 2 feet downward for each Dark Charge discharged.
+        All of this square height change must be done to exactly one
+        square. Whoever was standing on the square can potentially
+        suffer falling damage, depending on their movement type.
+      - Earth: A square-side-adjacent enemy instantly loses an amount of
+        Health equal to 5% of their Maximum Health for each Earth Charge
+        discharged. All of this damage must be done to exactly one such
+        enemy.
+      - Fire: You instantly set 5-foot squares on fire, within your
+        weapon range. The number of squares affected is equal to the
+        number of Fire Charges discharged.
+      - Light: You instantly move 5 feet for each Light Charge
+        discharged.
+      - Moon: You instantly move one ally within your weapon range to a
+        different square within your weapon range. The distance moved is
+        equal to 5 feet per Moon Charge discharged. All of this movement
+        must be done to exactly one ally.
+      - Water: You instantly regain an amount of Energy equal to 5% of
+        your Maximum Energy for each Water Charge discharged.
+      - Wood: The square you are in sprouts a thick tree trunk. It has 2
+        feet of height for each Wood Charge discharged.
+
 **High-Power Shot**:
 
   - 10 energy
