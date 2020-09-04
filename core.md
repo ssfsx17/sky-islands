@@ -22,11 +22,11 @@ There is always a risk of one or more **Players** telling others how to design a
 
 ## The World
 
-The World's name, in the language of your Island, is something you need to figure out. Its surface is full of turbulent oceans, jagged crags, opaque fogs, active volcanoes, and shifting deserts. The reasons why so much of the World is this way are deep in your Island's memory, and it teaches you and your people to never repeat the same mistakes that caused this situation.
+The World's name, in the language of your Island, is something you need to listen to the Island to find out. Its surface is full of turbulent oceans, jagged crags, opaque fogs, active volcanoes, and shifting deserts. The reasons why so much of the World is this way are deep in your Island's memory, and it teaches you and your people to never repeat the same mistakes that caused this situation.
 
 There are continents with powerful nations on them, but they sustain themselves through predation and exploitation. They could change their ways and restore the lush forests, swamps and jungles that they once had on their continents, but their destructive systems are too deeply entrenched in their politics. In short, they are perpetuating the mistakes that resulted in the ruined state of the rest of the World. They are exactly what your Island warned you about.
 
-It is up to the Sky Islands to practice the growth of life, and the expansion of life-bearing capacity. But they can only fly so quickly. Your Island is too close to the nation you call The Empire, and that Empire's military forces creep forward faster than your Island can escape.
+It is up to the Sky Islands to practice the growth of life, and the expansion of life-bearing capacity. But they can only fly so quickly. Your Island is too close to the nation you call The Empire, and that Empire's military forces creep forward faster than your Island can escape. Now it is time to stand and fight.
 
 ## The Empire
 
@@ -81,8 +81,8 @@ Systems:
 The best island governments have traits such as:
 
 - Inclusion of the Island's voice as being equal to or greater than the voices of those who live on it.
-- Understanding all life forms on the Island as being part of a holistic ecosystem, so that no species is ever allowed to control any other.
-- Caring for those who are unable to work, ensuring they have water, food, shelter, and companionship.
+- Understanding all life forms on the Island as being part of a holistic ecosystem, so that no species is ever allowed to control any other, nor be considered more deserving of resources than any other.
+- Caring for those who are unable to work, ensuring they have water, food, shelter, and communication.
 - Positive recognition and celebration of special mental traits.
 - Positive recognition and celebration of gender transition, for anyone who discovers that they need such transformation to become their true selves.
 - Recallable politicians, who will surely be recalled or even punished if they do something other than what they say. Better yet would be a system of recallable delegates who are sent to councils for the purpose of sharing information and connecting people together, and have no power to compel anyone else to do anything.
@@ -231,6 +231,8 @@ To repeat from the [Player Characters](#player-characters) chapter:
   - **Two-Handed Reach Weapons**
   - **One-Handed Ranged Weapons**
   - **Two-Handed Ranged Weapons**
+  - **One-Handed Magic Weapons**
+  - **Two-Handed Magic Weapons**
 - **Magical Elements Group** - Used in combination with skills of the Magical Techniques Group. Dark and Light have no relation to good and evil - except in the Imperial Adtextus. Some of the most trustworthy, honest, and generous people are specialists of the Dark. Some of the worst people are specialists of the Light. Creatures of opposite elements do not necessarily hate each other. In fact they sometimes form symbiotic relationships.
   - **Air** - opposite of Earth
   - **Crystal** - not opposite to any other element
@@ -356,7 +358,9 @@ For a minimum of 1 point gained to each stat.
 
 ### Barehanded
 
-Added to your Physical Accuracy when attacking without any gear held in your hands.
+Added to your Physical Accuracy when attacking without any gear held in your hands. That means no weapons and no shields.
+
+With this skill, Unarmed Damage is Physical Power + 0.5x Skill Rating, for a minimum of 1 added damage. Without this skill, Unarmed Damage is only equal to Physical Power.
 
 Barehanded rating 1 - **Ironfist I** - Add 2 to your unarmed damage.
 
@@ -388,19 +392,39 @@ Weapon Damage is Physical Power + 0.75x Skill Rating, for a minimum of 1 added d
 
 Added to your Physical Accuracy when attacking with a two-handed reach weapon. Such weapons can be used to attack enemies within a 10-foot radius.
 
-Weapon Damage is Physical Power + Skill Rating.
+Weapon Damage is Physical Power + 1.25x Skill Rating.
 
 ### One-Handed Ranged Weapons
 
 Added to your Physical Accuracy when attacking with a one-handed ranged weapon. Such weapons can be used to attack enemies within a 25-foot radius, half accuracy within a 35-foot radius, and 1/4th accuracy beyond that.
 
-Weapon Damage is Physical Power + Skill Rating, for a minimum of 1 added damage.
+Weapon Damage is Physical Power + 0.5x Skill Rating, for a minimum of 1 added damage.
 
 ### Two-Handed Ranged Weapons
 
 Added to your Physical Accuracy when attacking with a two-handed ranged weapon. Such weapons can be used to attack enemies within a 30-foot radius, half accuracy within a 45-foot radius, and 1/4th accuracy beyond that.
 
-Weapon Damage is Physical Power + 0.75x Skill Rating, for a minimum of 1 added damage.
+Weapon Damage is Physical Power + Skill Rating, for a minimum of 1 added damage.
+
+### One-Handed Magical Weapons
+
+Added to your Magic Accuracy when using a one-handed magical weapon. However, if you are holding two One-Handed Magical Weapons, then you must choose which one is active at the time of performing the technique, while the other Magical Weapon is inactive. Such weapons do different amounts of damage based on whether they are used to attack enemies within a 5-foot square that is side-adjacent to your current square, or further away than that.
+
+Added to your Magic Power when performing techniques that state that they do magical damage. However, if you are holding two One-Handed Magical Weapons, then you must choose which one is active at the time of performing the technique, while the other Magical Weapon is inactive.
+
+Weapon Damage is Magical Power + 0.75x Skill Rating, for a minimum of 1 added damage, when used to attack enemies  within a 5-foot square that is side-adjacent to your current square.
+
+Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added damage, when used to attack enemies further away up to a 30-foot radius.
+
+### Two-Handed Magical Weapons
+
+Added to your Magic Accuracy when using a two-handed magical weapon. Such weapons do different amounts of damage based on whether they are used to attack enemies within a 5-foot square that is side-adjacent to your current square, or further away than that.
+
+1.25x Skill Rating is added to your Magic Power when performing techniques that state that they do magical damage.
+
+Weapon Damage is Magical Power + Skill Rating, for a minimum of 1 added damage, when used to attack enemies  within a 5-foot square that is side-adjacent to your current square.
+
+Weapon Damage is Magical Power + 0.75x Skill Rating, for a minimum of 1 added damage, when used to attack enemies further away up to a 30-foot radius.
 
 ## Magical Techniques Group
 

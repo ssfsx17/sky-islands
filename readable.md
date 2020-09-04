@@ -36,6 +36,8 @@
           - [Two-Handed Reach Weapons](#two-handed-reach-weapons)
           - [One-Handed Ranged Weapons](#one-handed-ranged-weapons)
           - [Two-Handed Ranged Weapons](#two-handed-ranged-weapons)
+          - [One-Handed Magical Weapons](#one-handed-magical-weapons)
+          - [Two-Handed Magical Weapons](#two-handed-magical-weapons)
       - [Magical Techniques Group](#magical-techniques-group)
           - [Alchemy Techs](#alchemy-techs)
               - [Rating 1](#rating-1)
@@ -229,11 +231,11 @@ decisions, and practice a bit of creativity.
 ## The World
 
 The World’s name, in the language of your Island, is something you need
-to figure out. Its surface is full of turbulent oceans, jagged crags,
-opaque fogs, active volcanoes, and shifting deserts. The reasons why so
-much of the World is this way are deep in your Island’s memory, and it
-teaches you and your people to never repeat the same mistakes that
-caused this situation.
+to listen to the Island to find out. Its surface is full of turbulent
+oceans, jagged crags, opaque fogs, active volcanoes, and shifting
+deserts. The reasons why so much of the World is this way are deep in
+your Island’s memory, and it teaches you and your people to never repeat
+the same mistakes that caused this situation.
 
 There are continents with powerful nations on them, but they sustain
 themselves through predation and exploitation. They could change their
@@ -247,7 +249,7 @@ It is up to the Sky Islands to practice the growth of life, and the
 expansion of life-bearing capacity. But they can only fly so quickly.
 Your Island is too close to the nation you call The Empire, and that
 Empire’s military forces creep forward faster than your Island can
-escape.
+escape. Now it is time to stand and fight.
 
 ## The Empire
 
@@ -358,9 +360,10 @@ The best island governments have traits such as:
     the voices of those who live on it.
   - Understanding all life forms on the Island as being part of a
     holistic ecosystem, so that no species is ever allowed to control
-    any other.
+    any other, nor be considered more deserving of resources than any
+    other.
   - Caring for those who are unable to work, ensuring they have water,
-    food, shelter, and companionship.
+    food, shelter, and communication.
   - Positive recognition and celebration of special mental traits.
   - Positive recognition and celebration of gender transition, for
     anyone who discovers that they need such transformation to become
@@ -829,7 +832,11 @@ For a minimum of 1 point gained to each stat.
 ### Barehanded
 
 Added to your Physical Accuracy when attacking without any gear held in
-your hands.
+your hands. That means no weapons and no shields.
+
+With this skill, Unarmed Damage is Physical Power + 0.5x Skill Rating,
+for a minimum of 1 added damage. Without this skill, Unarmed Damage is
+only equal to Physical Power.
 
 Barehanded rating 1 - **Ironfist I** - Add 2 to your unarmed damage.
 
@@ -876,7 +883,7 @@ Added to your Physical Accuracy when attacking with a two-handed reach
 weapon. Such weapons can be used to attack enemies within a 10-foot
 radius.
 
-Weapon Damage is Physical Power + Skill Rating.
+Weapon Damage is Physical Power + 1.25x Skill Rating.
 
 ### One-Handed Ranged Weapons
 
@@ -885,8 +892,8 @@ weapon. Such weapons can be used to attack enemies within a 25-foot
 radius, half accuracy within a 35-foot radius, and 1/4th accuracy beyond
 that.
 
-Weapon Damage is Physical Power + Skill Rating, for a minimum of 1 added
-damage.
+Weapon Damage is Physical Power + 0.5x Skill Rating, for a minimum of 1
+added damage.
 
 ### Two-Handed Ranged Weapons
 
@@ -895,8 +902,49 @@ weapon. Such weapons can be used to attack enemies within a 30-foot
 radius, half accuracy within a 45-foot radius, and 1/4th accuracy beyond
 that.
 
-Weapon Damage is Physical Power + 0.75x Skill Rating, for a minimum of 1
-added damage.
+Weapon Damage is Physical Power + Skill Rating, for a minimum of 1 added
+damage.
+
+### One-Handed Magical Weapons
+
+Added to your Magic Accuracy when using a one-handed magical weapon.
+However, if you are holding two One-Handed Magical Weapons, then you
+must choose which one is active at the time of performing the technique,
+while the other Magical Weapon is inactive. Such weapons do different
+amounts of damage based on whether they are used to attack enemies
+within a 5-foot square that is side-adjacent to your current square, or
+further away than that.
+
+Added to your Magic Power when performing techniques that state that
+they do magical damage. However, if you are holding two One-Handed
+Magical Weapons, then you must choose which one is active at the time of
+performing the technique, while the other Magical Weapon is inactive.
+
+Weapon Damage is Magical Power + 0.75x Skill Rating, for a minimum of 1
+added damage, when used to attack enemies within a 5-foot square that is
+side-adjacent to your current square.
+
+Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1
+added damage, when used to attack enemies further away up to a 30-foot
+radius.
+
+### Two-Handed Magical Weapons
+
+Added to your Magic Accuracy when using a two-handed magical weapon.
+Such weapons do different amounts of damage based on whether they are
+used to attack enemies within a 5-foot square that is side-adjacent to
+your current square, or further away than that.
+
+1.25x Skill Rating is added to your Magic Power when performing
+techniques that state that they do magical damage.
+
+Weapon Damage is Magical Power + Skill Rating, for a minimum of 1 added
+damage, when used to attack enemies within a 5-foot square that is
+side-adjacent to your current square.
+
+Weapon Damage is Magical Power + 0.75x Skill Rating, for a minimum of 1
+added damage, when used to attack enemies further away up to a 30-foot
+radius.
 
 ## Magical Techniques Group
 
