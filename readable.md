@@ -175,6 +175,8 @@
           - [Gladiator Initiate](#gladiator-initiate)
           - [Misanthrope Initiate](#misanthrope-initiate)
           - [Recruit](#recruit)
+          - [Manipulated Corpse](#manipulated-corpse)
+          - [Starved Dog](#starved-dog)
           - [Starved Rooster](#starved-rooster)
       - [T2: Scout](#t2-scout)
       - [T3: Auxilia](#t3-auxilia)
@@ -426,7 +428,8 @@ choices for later.
     can spend 2 action points to do the Elemental Breath technique
     without an energy cost.
   - **Energy Being** - Your Charge actions restore double Energy to
-    yourself.
+    yourself. Half of all Health damage is additionally dealt to your
+    Energy.
   - **External Digestion** - Your Grapple actions do double damage.
   - **Fur / Scales / Thick Hide** - You have a natural body covering
     that insulates you from some types of environmental conditions. You
@@ -482,7 +485,13 @@ choices for later.
     person’s Health. Any effect done by someone other than you that
     would normally restore your Health instead causes damage to you,
     ignoring Armor. Thus you rely on yourself to keep your Health up.
-    When you die, you pop back up after 4 status phases at 1 Health.
+    When you die, you pop back up after 4 status phases at 1 Health. You
+    can freely give up undeath at any time to enter regular death.
+      - Enemy Undead who have been defeated, and are within the range of
+        a Sanctuary Aura, will be able to freely choose normal death at
+        that moment. Alternately, someone can spend 4 APs to remove
+        their control bolts and allow them to continue in undeath but
+        with free will.
   - **Venomous Claws / Fangs / Stinger** - Your unarmed attacks which do
     more than 1 damage also cause one stack of the Venom status
     condition.
@@ -652,6 +661,8 @@ To repeat from the [Player Characters](#player-characters) chapter:
       - **Two-Handed Reach Weapons**
       - **One-Handed Ranged Weapons**
       - **Two-Handed Ranged Weapons**
+      - **One-Handed Magic Weapons**
+      - **Two-Handed Magic Weapons**
   - **Magical Elements Group** - Used in combination with skills of the
     Magical Techniques Group. Dark and Light have no relation to good
     and evil - except in the Imperial Adtextus. Some of the most
@@ -2611,7 +2622,8 @@ Health.
 
 Rating 1 - **Sanctuary I** - Within a radius of 5 feet, including the
 5-foot square you are in, you prevent Imperial Undeath Techniques from
-being performed and targeted.
+being performed and targeted. This also has effects on enemy undead
+within range who have been defeated.
 
 Rating 20 - **Sanctuary II** - Supercedes and replaces Sanctuary I. The
 radius is now 10 feet.
@@ -2785,6 +2797,9 @@ character of the Island.
 
 #### Example Special Constructs
 
+  - **Circle of Rain Drums** - +20 Water System. To commence the rainy
+    season, a circle of people gather together and start drumming in
+    order to welcome the storms.
   - **Cycle of Fire** - +20 Shelter. Every 10 years, a village must
     spend one year living completely without heating, and learn how to
     endure the cold. After this year of cold, an enemy person or
@@ -3832,8 +3847,43 @@ cramped spaces.
   - Magical Evasion = 10 + Power Level
   - Magical Power = 10 + Power Level
   - Magical Armor = 10 + Power Level
-  - Shield Wall I
+  - Shield Wall II
   - Slingshot - 2 energy - Ranged attack with double Physical Accuracy
+
+### Manipulated Corpse
+
+Slaves who were starved to death in a mass murder ritual, but denied
+death. They can still feel echoes of their life. The Empire screws
+magical bolts into their skulls to prevent them from realizing what
+their condition truly is.
+
+  - Undead
+  - Maximum Health = 40 + (Power Level \* 4)
+  - Maximum Energy = 10 + Power Level
+  - Physical Accuracy = 10 + Power Level
+  - Physical Evasion = 10 + Power Level
+  - Physical Power = 20 + (Power Level \* 2)
+  - Physical Armor = 10 + Power Level
+  - Magical Accuracy = 10 + Power Level
+  - Magical Evasion = 10 + Power Level
+  - Magical Power = 10 + Power Level
+  - Magical Armor = 10 + Power Level
+
+### Starved Dog
+
+  - Animal
+  - Maximum Health = 40 + (Power Level \* 4)
+  - Maximum Energy = 10 + Power Level
+  - Physical Accuracy = 20 + (Power Level \* 2)
+  - Physical Evasion = 20 + (Power Level \* 2)
+  - Physical Power = 20 + (Power Level \* 2)
+  - Physical Armor = 10 + Power Level
+  - Magical Accuracy = 10 + Power Level
+  - Magical Evasion = 10 + Power Level
+  - Magical Power = 10 + Power Level
+  - Magical Armor = 10 + Power Level
+  - Swiftfoot IV
+  - Maul - 5 energy - Grapple, then melee attack
 
 ### Starved Rooster
 

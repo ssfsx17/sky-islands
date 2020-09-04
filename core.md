@@ -110,7 +110,7 @@ You can also save trait choices for later. In fact, if this is your first time c
 - **Constrictor** - Your accuracy for grapples is increased by an amount equal to half your Power Level.
 - **Echolocation** - Status conditions that decrease accuracy, do not alter your accuracy.
 - **Elemental Breath: Specific Element** - You must choose one element for this physical feature. That element is locked-in for life. You can spend 2 action points to do the Elemental Breath technique without an energy cost.
-- **Energy Being** - Your Charge actions restore double Energy to yourself.
+- **Energy Being** - Your Charge actions restore double Energy to yourself. Half of all Health damage is additionally dealt to your Energy.
 - **External Digestion** - Your Grapple actions do double damage.
 - **Fur / Scales / Thick Hide** - You have a natural body covering that insulates you from some types of environmental conditions. You gain two extra chances for Dramatic Chances that involve spending long periods of time in hot or cold environments.
 - **Gills** - You are able to breathe while submerged.
@@ -128,7 +128,8 @@ You can also save trait choices for later. In fact, if this is your first time c
 - **Reincarnation** - You remember past lives. You gain 5 extra skill points every Power Level, as well as at character creation, for skills in the Artistic, Physicality, Science and Tradeskills groups. You must still follow the limit of skill ratings being capped by your Power Level.
 - **Shifter** - You can spend 4 AP to shift into the Blended Realm. Getting back is rather difficult, especially without others from your Island to help connect you and guide you back home. The amount of time it takes to shift back alone is most likely an entire Strategic Turn.
 - **Symbiote** - You have another organism inside of you, who can keep you alive and revive you. This process takes a whole day, and can be interrupted by additional damage to your body, e.g. enemy soldiers stabbing corpses to make sure they stay down.
-- **Undead** - Any effect that would drain your Health and give it to someone else is reversed, so that instead, you drain that other person's Health. Any effect done by someone other than you that would normally restore your Health instead causes damage to you, ignoring Armor. Thus you rely on yourself to keep your Health up. When you die, you pop back up after 4 status phases at 1 Health.
+- **Undead** - Any effect that would drain your Health and give it to someone else is reversed, so that instead, you drain that other person's Health. Any effect done by someone other than you that would normally restore your Health instead causes damage to you, ignoring Armor. Thus you rely on yourself to keep your Health up. When you die, you pop back up after 4 status phases at 1 Health. You can freely give up undeath at any time to enter regular death.
+  - Enemy Undead who have been defeated, and are within the range of a Sanctuary Aura, will be able to freely choose normal death at that moment. Alternately, someone can spend 4 APs to remove their control bolts and allow them to continue in undeath but with free will.
 - **Venomous Claws / Fangs / Stinger** - Your unarmed attacks which do more than 1 damage also cause one stack of the Venom status condition.
 - **Venomous Skin / Spines** - Anyone who does an unarmed attack to you, or attempts to grapple you, immediately receives one stack of the Venom status condition.
 - **Venomous Spit / Eye Blood** - You can do a ranged attack that does exactly 2 points of damage, ignoring Physical Armor, which adds one stack of the Venom status condition to the target.
@@ -1550,7 +1551,7 @@ Rating 60 - **Regeneration IV** - Supercedes and replaces Regeneration I, II and
 
 ### Sanctuary Aura
 
-Rating 1 - **Sanctuary I** - Within a radius of 5 feet, including the 5-foot square you are in, you prevent Imperial Undeath Techniques from being performed and targeted.
+Rating 1 - **Sanctuary I** - Within a radius of 5 feet, including the 5-foot square you are in, you prevent Imperial Undeath Techniques from being performed and targeted. This also has effects on enemy undead within range who have been defeated.
 
 Rating 20 - **Sanctuary II** - Supercedes and replaces Sanctuary I. The radius is now 10 feet.
 
@@ -1649,6 +1650,7 @@ Every Island should have at least a few. The process of writing them should be c
 
 #### Example Special Constructs
 
+- **Circle of Rain Drums** - +20 Water System. To commence the rainy season, a circle of people gather together and start drumming in order to welcome the storms.
 - **Cycle of Fire** - +20 Shelter. Every 10 years, a village must spend one year living completely without heating, and learn how to endure the cold. After this year of cold, an enemy person or building is set on fire to renew the cycle.
 - **Legend of the Peacemaker** - +20 Knowledge Permanency. The People of the Island were unified by someone who pacified and organized the tribal warlords, replacing their hatred and feuds with constructive social mechanisms.
 - **The Dangerous Dress Time** - +20 Fortifications. All People must spend some portion of their childhood guarding the edges of the Island, keeping watch for danger. During this time, they must also try out a variety of dresses, wigs, and other stylings which are normally associated with specific genders. The People undergoing this process are considered to be more powerful, due to being on-edge and forgoing the comforts of even their own genders.
@@ -2257,8 +2259,40 @@ Strong emu-shaped birds who are large enough to be ridden. Their legs and necks 
 - Magical Evasion = 10 + Power Level
 - Magical Power = 10 + Power Level
 - Magical Armor = 10 + Power Level
-- Shield Wall I
+- Shield Wall II
 - Slingshot - 2 energy - Ranged attack with double Physical Accuracy
+
+### Manipulated Corpse
+
+Slaves who were starved to death in a mass murder ritual, but denied death. They can still feel echoes of their life. The Empire screws magical bolts into their skulls to prevent them from realizing what their condition truly is.
+
+- Undead
+- Maximum Health = 40 + (Power Level * 4)
+- Maximum Energy = 10 + Power Level
+- Physical Accuracy = 10 + Power Level
+- Physical Evasion = 10 + Power Level
+- Physical Power = 20 + (Power Level * 2)
+- Physical Armor = 10 + Power Level
+- Magical Accuracy = 10 + Power Level
+- Magical Evasion = 10 + Power Level
+- Magical Power = 10 + Power Level
+- Magical Armor = 10 + Power Level
+
+### Starved Dog
+
+- Animal
+- Maximum Health = 40 + (Power Level * 4)
+- Maximum Energy = 10 + Power Level
+- Physical Accuracy = 20 + (Power Level * 2)
+- Physical Evasion = 20 + (Power Level * 2)
+- Physical Power = 20 + (Power Level * 2)
+- Physical Armor = 10 + Power Level
+- Magical Accuracy = 10 + Power Level
+- Magical Evasion = 10 + Power Level
+- Magical Power = 10 + Power Level
+- Magical Armor = 10 + Power Level
+- Swiftfoot IV
+- Maul - 5 energy - Grapple, then melee attack
 
 ### Starved Rooster
 

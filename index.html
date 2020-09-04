@@ -267,6 +267,8 @@
 <li><a href="#gladiator-initiate">Gladiator Initiate</a></li>
 <li><a href="#misanthrope-initiate">Misanthrope Initiate</a></li>
 <li><a href="#recruit">Recruit</a></li>
+<li><a href="#manipulated-corpse">Manipulated Corpse</a></li>
+<li><a href="#starved-dog">Starved Dog</a></li>
 <li><a href="#starved-rooster">Starved Rooster</a></li>
 </ul></li>
 <li><a href="#t2-scout">T2: Scout</a></li>
@@ -349,7 +351,7 @@
 <li><strong>Constrictor</strong> - Your accuracy for grapples is increased by an amount equal to half your Power Level.</li>
 <li><strong>Echolocation</strong> - Status conditions that decrease accuracy, do not alter your accuracy.</li>
 <li><strong>Elemental Breath: Specific Element</strong> - You must choose one element for this physical feature. That element is locked-in for life. You can spend 2 action points to do the Elemental Breath technique without an energy cost.</li>
-<li><strong>Energy Being</strong> - Your Charge actions restore double Energy to yourself.</li>
+<li><strong>Energy Being</strong> - Your Charge actions restore double Energy to yourself. Half of all Health damage is additionally dealt to your Energy.</li>
 <li><strong>External Digestion</strong> - Your Grapple actions do double damage.</li>
 <li><strong>Fur / Scales / Thick Hide</strong> - You have a natural body covering that insulates you from some types of environmental conditions. You gain two extra chances for Dramatic Chances that involve spending long periods of time in hot or cold environments.</li>
 <li><strong>Gills</strong> - You are able to breathe while submerged.</li>
@@ -367,7 +369,10 @@
 <li><strong>Reincarnation</strong> - You remember past lives. You gain 5 extra skill points every Power Level, as well as at character creation, for skills in the Artistic, Physicality, Science and Tradeskills groups. You must still follow the limit of skill ratings being capped by your Power Level.</li>
 <li><strong>Shifter</strong> - You can spend 4 AP to shift into the Blended Realm. Getting back is rather difficult, especially without others from your Island to help connect you and guide you back home. The amount of time it takes to shift back alone is most likely an entire Strategic Turn.</li>
 <li><strong>Symbiote</strong> - You have another organism inside of you, who can keep you alive and revive you. This process takes a whole day, and can be interrupted by additional damage to your body, e.g. enemy soldiers stabbing corpses to make sure they stay down.</li>
-<li><strong>Undead</strong> - Any effect that would drain your Health and give it to someone else is reversed, so that instead, you drain that other person’s Health. Any effect done by someone other than you that would normally restore your Health instead causes damage to you, ignoring Armor. Thus you rely on yourself to keep your Health up. When you die, you pop back up after 4 status phases at 1 Health.</li>
+<li><strong>Undead</strong> - Any effect that would drain your Health and give it to someone else is reversed, so that instead, you drain that other person’s Health. Any effect done by someone other than you that would normally restore your Health instead causes damage to you, ignoring Armor. Thus you rely on yourself to keep your Health up. When you die, you pop back up after 4 status phases at 1 Health. You can freely give up undeath at any time to enter regular death.
+<ul>
+<li>Enemy Undead who have been defeated, and are within the range of a Sanctuary Aura, will be able to freely choose normal death at that moment. Alternately, someone can spend 4 APs to remove their control bolts and allow them to continue in undeath but with free will.</li>
+</ul></li>
 <li><strong>Venomous Claws / Fangs / Stinger</strong> - Your unarmed attacks which do more than 1 damage also cause one stack of the Venom status condition.</li>
 <li><strong>Venomous Skin / Spines</strong> - Anyone who does an unarmed attack to you, or attempts to grapple you, immediately receives one stack of the Venom status condition.</li>
 <li><strong>Venomous Spit / Eye Blood</strong> - You can do a ranged attack that does exactly 2 points of damage, ignoring Physical Armor, which adds one stack of the Venom status condition to the target.</li>
@@ -456,6 +461,8 @@
 <li><strong>Two-Handed Reach Weapons</strong></li>
 <li><strong>One-Handed Ranged Weapons</strong></li>
 <li><strong>Two-Handed Ranged Weapons</strong></li>
+<li><strong>One-Handed Magic Weapons</strong></li>
+<li><strong>Two-Handed Magic Weapons</strong></li>
 </ul></li>
 <li><strong>Magical Elements Group</strong> - Used in combination with skills of the Magical Techniques Group. Dark and Light have no relation to good and evil - except in the Imperial Adtextus. Some of the most trustworthy, honest, and generous people are specialists of the Dark. Some of the worst people are specialists of the Light. Creatures of opposite elements do not necessarily hate each other. In fact they sometimes form symbiotic relationships.
 <ul>
@@ -1762,7 +1769,7 @@
 <p>Rating 40 - <strong>Regeneration III</strong> - Supercedes and replaces Regeneration I and II. The radius is now 15 feet. The amount healed is now 10 Health.</p>
 <p>Rating 60 - <strong>Regeneration IV</strong> - Supercedes and replaces Regeneration I, II and III. The radius is now 20 feet. The amount healed is now 25 Health.</p>
 <h3 id="sanctuary-aura">Sanctuary Aura</h3>
-<p>Rating 1 - <strong>Sanctuary I</strong> - Within a radius of 5 feet, including the 5-foot square you are in, you prevent Imperial Undeath Techniques from being performed and targeted.</p>
+<p>Rating 1 - <strong>Sanctuary I</strong> - Within a radius of 5 feet, including the 5-foot square you are in, you prevent Imperial Undeath Techniques from being performed and targeted. This also has effects on enemy undead within range who have been defeated.</p>
 <p>Rating 20 - <strong>Sanctuary II</strong> - Supercedes and replaces Sanctuary I. The radius is now 10 feet.</p>
 <p>Rating 40 - <strong>Sanctuary III</strong> - Supercedes and replaces Sanctuary I and II. The radius is now 15 feet.</p>
 <p>Rating 60 - <strong>Sanctuary IV</strong> - Supercedes and replaces Sanctuary I, II and III. The radius is now 20 feet.</p>
@@ -1825,6 +1832,7 @@
 <p>Every Island should have at least a few. The process of writing them should be considered part of the development of the culture and character of the Island.</p>
 <h4 id="example-special-constructs">Example Special Constructs</h4>
 <ul>
+<li><strong>Circle of Rain Drums</strong> - +20 Water System. To commence the rainy season, a circle of people gather together and start drumming in order to welcome the storms.</li>
 <li><strong>Cycle of Fire</strong> - +20 Shelter. Every 10 years, a village must spend one year living completely without heating, and learn how to endure the cold. After this year of cold, an enemy person or building is set on fire to renew the cycle.</li>
 <li><strong>Legend of the Peacemaker</strong> - +20 Knowledge Permanency. The People of the Island were unified by someone who pacified and organized the tribal warlords, replacing their hatred and feuds with constructive social mechanisms.</li>
 <li><strong>The Dangerous Dress Time</strong> - +20 Fortifications. All People must spend some portion of their childhood guarding the edges of the Island, keeping watch for danger. During this time, they must also try out a variety of dresses, wigs, and other stylings which are normally associated with specific genders. The People undergoing this process are considered to be more powerful, due to being on-edge and forgoing the comforts of even their own genders.</li>
@@ -2288,8 +2296,39 @@
 <li>Magical Evasion = 10 + Power Level</li>
 <li>Magical Power = 10 + Power Level</li>
 <li>Magical Armor = 10 + Power Level</li>
-<li>Shield Wall I</li>
+<li>Shield Wall II</li>
 <li>Slingshot - 2 energy - Ranged attack with double Physical Accuracy</li>
+</ul>
+<h3 id="manipulated-corpse">Manipulated Corpse</h3>
+<p>Slaves who were starved to death in a mass murder ritual, but denied death. They can still feel echoes of their life. The Empire screws magical bolts into their skulls to prevent them from realizing what their condition truly is.</p>
+<ul>
+<li>Undead</li>
+<li>Maximum Health = 40 + (Power Level * 4)</li>
+<li>Maximum Energy = 10 + Power Level</li>
+<li>Physical Accuracy = 10 + Power Level</li>
+<li>Physical Evasion = 10 + Power Level</li>
+<li>Physical Power = 20 + (Power Level * 2)</li>
+<li>Physical Armor = 10 + Power Level</li>
+<li>Magical Accuracy = 10 + Power Level</li>
+<li>Magical Evasion = 10 + Power Level</li>
+<li>Magical Power = 10 + Power Level</li>
+<li>Magical Armor = 10 + Power Level</li>
+</ul>
+<h3 id="starved-dog">Starved Dog</h3>
+<ul>
+<li>Animal</li>
+<li>Maximum Health = 40 + (Power Level * 4)</li>
+<li>Maximum Energy = 10 + Power Level</li>
+<li>Physical Accuracy = 20 + (Power Level * 2)</li>
+<li>Physical Evasion = 20 + (Power Level * 2)</li>
+<li>Physical Power = 20 + (Power Level * 2)</li>
+<li>Physical Armor = 10 + Power Level</li>
+<li>Magical Accuracy = 10 + Power Level</li>
+<li>Magical Evasion = 10 + Power Level</li>
+<li>Magical Power = 10 + Power Level</li>
+<li>Magical Armor = 10 + Power Level</li>
+<li>Swiftfoot IV</li>
+<li>Maul - 5 energy - Grapple, then melee attack</li>
 </ul>
 <h3 id="starved-rooster">Starved Rooster</h3>
 <ul>
