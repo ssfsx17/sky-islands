@@ -17,6 +17,7 @@
           - [Where are Strength, Intelligence,
             etc?](#where-are-strength-intelligence-etc)
       - [Skills](#skills)
+      - [Personal Items](#personal-items)
       - [Combat Gear](#combat-gear)
       - [Power Levels](#power-levels)
   - [4. Character Skills](#character-skills)
@@ -170,18 +171,21 @@
       - [Animals](#animals)
           - [Armored Dragon](#armored-dragon)
           - [Birdhorse](#birdhorse)
-  - [10. Pre-Made Enemies](#pre-made-enemies)
-      - [T1: Recruit](#t1-recruit)
+  - [10. Pre-Made Blended Realm
+    Creatures](#pre-made-blended-realm-creatures)
+  - [11. Pre-Made Enemies](#pre-made-enemies)
+      - [T1 Recruit](#t1-recruit)
+          - [Bandager Slave](#bandager-slave)
           - [Gladiator Initiate](#gladiator-initiate)
           - [Misanthrope Initiate](#misanthrope-initiate)
-          - [Recruit](#recruit)
+          - [Legion Recruit](#legion-recruit)
           - [Manipulated Corpse](#manipulated-corpse)
           - [Starved Dog](#starved-dog)
           - [Starved Rooster](#starved-rooster)
-      - [T2: Scout](#t2-scout)
-      - [T3: Auxilia](#t3-auxilia)
-      - [T4: Equestrian](#t4-equestrian)
-      - [T5: Legion](#t5-legion)
+      - [T2 Scout](#t2-scout)
+      - [T3 Auxilia](#t3-auxilia)
+      - [T4 Equestrian](#t4-equestrian)
+      - [T5 Legion](#t5-legion)
 
 # 1\. Introduction
 
@@ -604,6 +608,12 @@ other skills. These twenty skills all start with a rating of 1.
 The **Skills** and **Skill Groups** themselves are described in much
 more detail in [Chapter 4: Character Skills](#character-skills).
 
+## Personal Items
+
+You start with any personal items which help explain all of the above.
+They do not enhance stats or skills, they merely serve as possible ways
+in which you express those.
+
 ## Combat Gear
 
 You start with **Item Level** 1 combat gear for all of your starting
@@ -661,8 +671,8 @@ To repeat from the [Player Characters](#player-characters) chapter:
       - **Two-Handed Reach Weapons**
       - **One-Handed Ranged Weapons**
       - **Two-Handed Ranged Weapons**
-      - **One-Handed Magic Weapons**
-      - **Two-Handed Magic Weapons**
+      - **One-Handed Magical Weapons**
+      - **Two-Handed Magical Weapons**
   - **Magical Elements Group** - Used in combination with skills of the
     Magical Techniques Group. Dark and Light have no relation to good
     and evil - except in the Imperial Adtextus. Some of the most
@@ -766,7 +776,8 @@ To repeat from the [Player Characters](#player-characters) chapter:
     with the **Linear Tactics Group**, and can in fact go well together,
     especially at higher skill ratings.
       - **Animal Speaker Aura** - Communicate defensive maneuvers to
-        allied animals.
+        allied animals, and stifle Imperial mind control on enemy
+        animals.
       - **Barrier Aura** - Project a constant barrier to block physical
         attacks.
       - **Regeneration Aura** - Constantly regenerate health.
@@ -804,9 +815,7 @@ two-handed weapons.
 Shields provide the following:
 
   - Half Skill Rating gained as Physical Evasion
-  - Half Skill Rating gained as Physical Armor
   - Half Skill Rating gained as Magical Evasion
-  - Half Skill Rating gained as Magical Armor
 
 For a minimum of 1 point gained to each stat.
 
@@ -931,11 +940,11 @@ they do magical damage. However, if you are holding two One-Handed
 Magical Weapons, then you must choose which one is active at the time of
 performing the technique, while the other Magical Weapon is inactive.
 
-Weapon Damage is Magical Power + 0.75x Skill Rating, for a minimum of 1
+Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1
 added damage, when used to attack enemies within a 5-foot square that is
 side-adjacent to your current square.
 
-Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1
+Weapon Damage is Magical Power + 0.25x Skill Rating, for a minimum of 1
 added damage, when used to attack enemies further away up to a 30-foot
 radius.
 
@@ -949,11 +958,11 @@ your current square, or further away than that.
 1.25x Skill Rating is added to your Magic Power when performing
 techniques that state that they do magical damage.
 
-Weapon Damage is Magical Power + Skill Rating, for a minimum of 1 added
-damage, when used to attack enemies within a 5-foot square that is
+Weapon Damage is Magical Power + 0.75x Skill Rating, for a minimum of 1
+added damage, when used to attack enemies within a 5-foot square that is
 side-adjacent to your current square.
 
-Weapon Damage is Magical Power + 0.75x Skill Rating, for a minimum of 1
+Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1
 added damage, when used to attack enemies further away up to a 30-foot
 radius.
 
@@ -2571,6 +2580,9 @@ and Magic Armor, equal to 1/4th of your Animal Speaker Aura skill
 rating, for a minimum of 1 point gained. Enemy animals within the same
 radius receive a penalty instead, due to the counteraction of
 brainwashing causing them to also forget the associated combat training.
+Defeated enemy animals within the radius can choose to run away, thus
+exiting combat instantly, or someone can spend 4 APs to convince the
+animal to switch sides.
 
 Rating 20 - **Animal Speaker II** - Supercedes and replaces Animal
 Speaker I. The radius is now 10 feet. The stat mod is now equal to 1/2
@@ -3758,13 +3770,20 @@ large enough to be ridden.
   - Maximum Health = 20 + (Power Level \* 2)
   - Maximum Energy = 20 + (Power Level \* 2)
   - Physical Accuracy = 10 + Power Level
+      - Barehanded = 10 + (Power Level \* 2)
   - Physical Evasion = 20 + (Power Level \* 2)
+      - Unarmored = 20 + (Power Level \* 3)
   - Physical Power = 10 + Power Level
-  - Physical Armor = 10 + Power Level
+      - Barehanded = 10 + (Power Level \* 1.5)
+  - Physical Armor = 15 + (Power Level \* 1.5)
   - Magical Accuracy = 20 + (Power Level \* 2)
-  - Magical Evasion = 20 + (Power Level \* 2)
+  - Magical Evasion = 10 + Power Level
   - Magical Power = 20 + (Power Level \* 2)
   - Magical Armor = 10 + Power Level
+  - Gear:
+      - Barehanded
+      - Unarmored (natural armor is already factored into Physical Armor
+        stat)
   - Flying IV
   - Homing Lasers - 10 energy - Ranged magical technique with halved
     Magical Power but doubled Magical Accuracy. This technique has 2
@@ -3785,34 +3804,84 @@ cramped spaces.
   - Maximum Health = 30 + (Power Level \* 4)
   - Maximum Energy = 10 + Power Level
   - Physical Accuracy = 20 + (Power Level \* 2)
+      - Barehanded = 20 + (Power Level \* 3)
   - Physical Evasion = 20 + (Power Level \* 2)
+      - Unarmored = 20 + (Power Level \* 3)
   - Physical Power = 10 + Power Level
+      - Barehanded = 10 + (Power Level \* 1.5)
   - Physical Armor = 10 + Power Level
   - Magical Accuracy = 10 + Power Level
   - Magical Evasion = 20 + (Power Level \* 2)
   - Magical Power = 10 + Power Level
   - Magical Armor = 10 + Power Level
+  - Gear:
+      - Barehanded
+      - Unarmored
   - Flying IV
   - Swiftfoot IV
-  - Power Peck - 10 energy - Melee attack that ignores Physical Armor.
+  - Power Peck - 10 energy - Barehanded attack that ignores Physical
+    Armor.
 
-# 10\. Pre-Made Enemies
+# 10\. Pre-Made Blended Realm Creatures
 
-## T1: Recruit
+# 11\. Pre-Made Enemies
+
+## T1 Recruit
+
+### Bandager Slave
+
+Bandagers are trained to heal the battle wounds of other Imperials, and
+to respect authority. They are selected from slaves who appear to be the
+most susceptible to brainwashing. They must also follow up each healing
+action by licking the boots of their masters.
+
+  - Person
+  - Maximum Health = 30 + (Power Level \* 4)
+  - Maximum Energy = 10 + Power Level
+  - Physical Accuracy = 10 + Power Level
+      - Weapon = 10 + (Power Level \* 2)
+  - Physical Evasion = 20 + (Power Level \* 2)
+      - Light Armor = 20 + (Power Level \* 2.5)
+  - Physical Power = 10 + Power Level
+      - Melee = 10 + (Power Level \* 2)
+      - Ranged = 10 + (Power Level \* 1.5)
+  - Physical Armor = 10 + Power Level
+      - Light Armor = 10 + (Power Level \* 1.5)
+  - Magical Accuracy = 10 + Power Level
+  - Magical Evasion = 10 + Power Level
+      - Light Armor = 10 + (Power Level \* 1.5)
+  - Magical Power = 20 + (Power Level \* 2)
+  - Magical Armor = 20 + (Power Level \* 2)
+  - Gear:
+      - 1-Handed Melee Weapon
+      - 1-Handed Ranged Weapon
+      - Light Armor
+  - Bandaging - 3 energy - Restores Health to a square-side-adjacent
+    target, equal to half of the Bandager Slave’s Magical Power.
 
 ### Gladiator Initiate
+
+New Gladiators who exhibit the strongest desire to kill are taken from
+the Coliseum and sent as expendable soldiers to attack Sky Islands.
 
   - Person
   - Maximum Health = 30 + (Power Level \* 4)
   - Maximum Energy = 10 + Power Level
   - Physical Accuracy = 20 + (Power Level \* 2)
   - Physical Evasion = 20 + (Power Level \* 2)
+      - Light Armor = 20 + (Power Level \* 2.5)
   - Physical Power = 20 + (Power Level \* 2)
+      - Weapon = 20 + (Power Level \* 3.5)
   - Physical Armor = 10 + Power Level
+      - Light Armor = 10 + (Power level \* 1.5)
   - Magical Accuracy = 10 + Power Level
   - Magical Evasion = 10 + Power Level
+      - Light Armor = 10 + (Power Level \* 1.5)
   - Magical Power = 10 + Power Level
   - Magical Armor = 10 + Power Level
+  - Gear:
+      - 2-Handed Melee Weapon
+      - Light Armor
   - Flashy Strike - 4 energy - Melee attack with half Physical Accuracy
     but double damage.
   - Shoulder Check - 4 energy - Melee attack with double Physical
@@ -3820,35 +3889,63 @@ cramped spaces.
 
 ### Misanthrope Initiate
 
+Adherents of Misanthropy volunteer to help invade Sky Islands and plant
+banners of the Imperial Adtextus.
+
   - Person
   - Maximum Health = 20 + (Power Level \* 2)
   - Maximum Energy = 20 + (Power Level \* 2)
   - Physical Accuracy = 10 + Power Level
+      - Weapon = 10 + (Power Level \* 2)
   - Physical Evasion = 10 + Power Level
   - Physical Power = 10 + Power Level
   - Physical Armor = 10 + Power Level
   - Magical Accuracy = 20 + (Power Level \* 2)
   - Magical Evasion = 20 + (Power Level \* 2)
+      - Magic Armor = 20 + (Power Level \* 3)
   - Magical Power = 20 + (Power Level \* 2)
+      - Technique = 20 + (Power Level \* 3.25)
+      - Melee = 10 + (Power Level \* 2.75)
+      - Ranged = 10 + (Power Level \* 2.5)
   - Magical Armor = 10 + Power Level
+      - Magic Armor = 10 + (Power Level \* 2)
+  - Gear:
+      - 2-Handed Magic Weapon
+      - Magic Armor
   - Random Element Specialization
   - Elemental Techs
 
-### Recruit
+### Legion Recruit
+
+These soldiers join with the promise of receiving land, salt, and wives
+after twenty years of service. They are drilled to be willing to kill,
+told all sorts of horrible things about Sky Islanders, and shipped off.
 
   - Person
   - Maximum Health = 20 + (Power Level \* 2)
   - Maximum Energy = 10 + Power Level
   - Physical Accuracy = 10 + Power Level
+      - Weapon = 10 + (Power Level \* 2)
   - Physical Evasion = 10 + Power Level
+      - Shield = 10 + (Power Level \* 1.5)
   - Physical Power = 10 + Power Level
+      - Weapon = 10 + (Power Level \* 1.5)
   - Physical Armor = 10 + Power Level
+      - Heavy Armor = 10 + (Power Level \* 2)
   - Magical Accuracy = 10 + Power Level
   - Magical Evasion = 10 + Power Level
+      - Shield = 10 + (Power Level \* 1.5)
   - Magical Power = 10 + Power Level
   - Magical Armor = 10 + Power Level
+      - Heavy Armor = 10 + (Power Level \* 1.5)
+  - Gear:
+      - 1-Handed Reach Weapon
+      - Shield
+      - Heavy Armor
   - Shield Wall II
-  - Slingshot - 2 energy - Ranged attack with double Physical Accuracy
+  - Spear Wall II
+  - Pilum - 2 energy - Throw weapon up to 30 feet away, with double
+    Physical Accuracy
 
 ### Manipulated Corpse
 
@@ -3861,13 +3958,21 @@ their condition truly is.
   - Maximum Health = 40 + (Power Level \* 4)
   - Maximum Energy = 10 + Power Level
   - Physical Accuracy = 10 + Power Level
+      - Weapon = 10 + (Power Level \* 2)
   - Physical Evasion = 10 + Power Level
+      - Unarmored = 10 + (Power Level \* 2)
   - Physical Power = 20 + (Power Level \* 2)
+      - Weapon = 20 + (Power Level \* 3)
   - Physical Armor = 10 + Power Level
   - Magical Accuracy = 10 + Power Level
   - Magical Evasion = 10 + Power Level
   - Magical Power = 10 + Power Level
   - Magical Armor = 10 + Power Level
+  - Gear:
+      - 1-Handed Melee Weapon
+      - Unarmored
+  - Venomous Attacks - All attacks that do more than 1 damage also add a
+    stack of the Venom status condition.
 
 ### Starved Dog
 
@@ -3875,15 +3980,21 @@ their condition truly is.
   - Maximum Health = 40 + (Power Level \* 4)
   - Maximum Energy = 10 + Power Level
   - Physical Accuracy = 20 + (Power Level \* 2)
+      - Barehanded = 20 + (Power Level \* 3)
   - Physical Evasion = 20 + (Power Level \* 2)
+      - Unarmored = 20 + (Power Level \* 3)
   - Physical Power = 20 + (Power Level \* 2)
+      - Barehanded = 20 + (Power Level \* 2.5)
   - Physical Armor = 10 + Power Level
   - Magical Accuracy = 10 + Power Level
   - Magical Evasion = 10 + Power Level
   - Magical Power = 10 + Power Level
   - Magical Armor = 10 + Power Level
   - Swiftfoot IV
-  - Maul - 5 energy - Grapple, then melee attack
+  - Gear:
+      - Barehanded
+      - Unarmored
+  - Maul - 5 energy - Grapple, then barehanded attack
 
 ### Starved Rooster
 
@@ -3891,18 +4002,24 @@ their condition truly is.
   - Maximum Health = 20 + (Power Level \* 2)
   - Maximum Energy = 10 + Power Level
   - Physical Accuracy = 20 + (Power Level \* 2)
+      - Barehanded = 20 + (Power Level \* 3)
   - Physical Evasion = 20 + (Power Level \* 2)
+      - Unarmored = 20 + (Power Level \* 3)
   - Physical Power = 10 + Power Level
+      - Barehanded = 10 + (Power Level \* 1.5)
   - Physical Armor = 10 + Power Level
   - Magical Accuracy = 10 + Power Level
   - Magical Evasion = 20 + (Power Level \* 2)
   - Magical Power = 10 + Power Level
   - Magical Armor = 10 + Power Level
+  - Gear:
+      - Barehanded
+      - Unarmored
   - Swiftfoot I
   - Winged I
-  - Chicken Scratch - 5 energy - Melee attack two times
+  - Chicken Scratch - 5 energy - Barehanded attack two times
 
-## T2: Scout
+## T2 Scout
 
 Imperial Scout:
 
@@ -3910,16 +4027,24 @@ Imperial Scout:
   - Maximum Health = 20 + (Power Level \* 2)
   - Maximum Energy = 20 + (Power Level \* 2)
   - Physical Accuracy = 20 + (Power Level \* 2)
+      - Weapon = 10 + (Power Level \* 3)
   - Physical Evasion = 20 + (Power Level \* 2)
+      - Light Armor = 20 + (Power Level \* 2.5)
   - Physical Power = 10 + Power Level
+      - Weapon = 10 + (Power Level \* 2)
   - Physical Armor = 10 + Power Level
+      - Light Armor = 10 + (Power Level \* 1.5)
   - Magical Accuracy = 10 + Power Level
   - Magical Evasion = 20 + (Power Level \* 2)
+      - Light Armor = 20 + (Power Level \* 2.5)
   - Magical Power = 10 + Power Level
   - Magical Armor = 10 + Power Level
+  - Gear:
+      - 2-Handed Ranged Weapon
+      - Light Armor
 
-## T3: Auxilia
+## T3 Auxilia
 
-## T4: Equestrian
+## T4 Equestrian
 
-## T5: Legion
+## T5 Legion
