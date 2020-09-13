@@ -446,30 +446,37 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 
 **Prepare Alchemical Hormone Suppressant Fluid**:
 
+- Alchemical Preparation
 - A unit of alchemical hormone suppressant fluid can be injected for effects that last up to one week.
 
 **Prepare Alchemical Hormone Suppressant Tablets**:
 
+- Alchemical Preparation
 - A unit of alchemical hormone suppressant tablets will stay good for up to six months, and when taken, cause effects that last for one day.
 
 **Prepare Alchemical Hormone Fluid**:
 
+- Alchemical Preparation
 - A unit of alchemical hormone fluid can be injected for effects that last up to one week.
 
 **Prepare Alchemical Hormone Tablets**:
 
+- Alchemical Preparation
 - A unit of alchemical hormone tablets will stay good for up to six months, and when taken, cause effects that last for one day.
 
 **Prepare Mental Focus Fluid**:
 
+- Alchemical Preparation
 - A unit of mental focus fluid can be injected to alleviate focus and reading problems in the subject. The effects of the injection last for up to one week.
 
 **Prepare Mental Focus Tablets**:
 
+- Alchemical Preparation
 - A unit of mental focus tablets will stay good for up to six months, and when taken, cause effects that last for one day.
 
 **Prepare Healing Leaf**:
 
+- Alchemical Preparation
 - A healing leaf restores 10 Health to the target.
 
 **Expert Application of Healing Leaf**:
@@ -481,6 +488,7 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 
 **Prepare Energy Twig**:
 
+- Alchemical Preparation
 - An energy twig restores 3 energy to the target.
 
 **Expert Application of Energy Twig**:
@@ -492,6 +500,7 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 
 **Prepare Elemental Firecracker**:
 
+- Alchemical Preparation
 - An elemental firecracker can be thrown up to 30 feet away to cause 1 point of elemental damage, ignoring both Physical Evasion and Physical Armor.
 
 **Expert Packing of Elemental Firecracker**:
@@ -505,18 +514,23 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 
 **Prepare Detox Solution**:
 
+- Alchemical Preparation
 - A detox solution purges a person of all unwanted alcohol and other long-term poisonous substances.
 
 **Prepare Detox Tablets**:
 
+- Alchemical Preparation
 - A unit of detox tablets will stay good for up to six months, and when taken, will cause the body to slowly expel unwanted alcohol and other long-term poisonous substances over one week.
 
 **Prepare Curing Bandage**:
 
+- Alchemical Preparation
 - A curing bandage removes 1 harmful status condition of your choice from the target.
 
 **Expert Application of Curing Bandage**:
 
+- Technique
+- 1 AP
 - Type: Throw Object
 - Range: 30 feet
 - Target: Single
@@ -524,11 +538,14 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 
 **Prepare Elemental Sticky Vial**:
 
+- Alchemical Preparation
 - An elemental sticky vial can be thrown up to 30 feet away to add 1 stack of Elemental Sticky Bomb status, ignoring Physical Evasion.
   - **Elemental Sticky Bomb: <Specific>** - You take 1 elemental damage of the specific element, per status phase. Multiple sticky bombs can stack. Thankfully they have finite durations.
 
 **Expert Packing of Elemental Sticky Vial**:
 
+- Technique
+- 1 AP
 - Type: Throw Object
 - Range: 30 feet
 - Target: Single
@@ -536,10 +553,13 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 
 **Prepare Elemental Landmine**:
 
+- Alchemical Preparation
 - An elemental landmine can be placed on the ground, in the same 5-foot square as the placer. The landmine remains active for up to an hour after placement. The landmine triggers when someone is touching its 5-foot square during the status phase. It does an amount of elemental damage to whoever is in the trigger area equal to the preparer's Magic Damage + Alchemy Techs rating.
 
 **Expert Placement of Elemental Landmine**:
 
+- Technique
+- 1 AP
 - Type: Throw Object
 - Range: 30 feet
 - Target: One 5-foot square
@@ -549,11 +569,14 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 
 **Prepare Preserving Compress**:
 
+- Alchemical Preparation
 - A preserving compress adds the Preserving Compress status condition for 4 status phases.
   - **Preserving Compress** - You do not take damage from status conditions.
 
 **Expert Application of Preserving Compress**:
 
+- Technique
+- 1 AP
 - Type: Throw Object
 - Range: 30 feet
 - Target: Single
@@ -561,10 +584,13 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 
 **Prepare Poisongas Neutralizer**:
 
+- Alchemical Preparation
 - A Poisongas Neutralizer removes Imperial Poison Gas from the 5-foot square that the user is standing in.
 
 **Expert Dispersal of Poisongas Neutralizer**:
 
+- Technique
+- 1 AP
 - Type: Throw Object
 - Range: 30 feet
 - Target: One 5-foot square
@@ -572,11 +598,14 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 
 **Prepare Elemental Weapon Resin**:
 
+- Alchemical Preparation
 - A resin applies the Elemental Weapon Resin status condition for 4 status phases.
   - **Elemental Weapon Resin: <Specific>** - All of your weapons have their damage type changed to be of the specified element. They also add your Power Level to the damage. If the damage boost occurs, then one stack of this status is removed during the status phase. The most recent application of this status removes all previous applications. If you have both Elemental Weapon Coating and Elemental Weapon Resin statuses, then the Resin effect supercedes the Coating effect until the Resin wears off, after which the Coating will take over.
 
 **Expert Application of Elemental Weapon Resin**:
 
+- Technique
+- 1 AP
 - Type: Throw Object
 - Range: 30 feet
 - Target: Single
@@ -584,11 +613,14 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 
 **Prepare Elemental Armor Resin**:
 
+- Alchemical Preparation
 - A resin applies the Elemental Armor Resin status condition for 4 status phases.
   - **Elemental Armor Resin: <Specific>** - Requires that you use armor and/or a shield. Incoming damage from the specified element is nullified. If this occurs, then one stack of this status is also removed during the status phase. The most recent application of this status removes all previous applications.
 
 **Expert Application of Elemental Armor Resin**:
 
+- Technique
+- 1 AP
 - Type: Throw Object
 - Range: 30 feet
 - Target: Single
@@ -596,12 +628,21 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 
 #### Rating 15
 
+**Auto Item**:
+
+- Reaction
+- Reserves 1 AP
+- Upon taking more than 1 damage, you perform one Use Item action of choice on yourself.
+
 **Prepare Healing Fruit**:
 
+- Alchemical Preparation
 - A healing fruit restores 20 Health to the target.
 
 **Expert Usage of Healing Fruit**:
 
+- Technique
+- 1 AP
 - Type: Throw Object
 - Range: 30 feet
 - Target: Single
@@ -609,10 +650,13 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 
 **Prepare Energy Berry**:
 
+- Alchemical Preparation
 - An energy berry restores 8 Energy to the target.
 
 **Expert Usage of Energy Berry**:
 
+- Technique
+- 1 AP
 - Type: Throw Object
 - Range: 30 feet
 - Target: Single
@@ -620,10 +664,13 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 
 **Prepare Elemental Explosive Trap**:
 
+- Alchemical Preparation
 - An elemental explosive trap can be placed on the ground, in the same 5-foot square as the placer. The trap remains active for up to an hour after placement. The trap triggers when anyone is touching its 5-foot square, or any side-adjacent 5-foot-square, during the status phase. It does an amount of elemental damage to everyone in the trigger area equal to the preparer's Magic Damage + Alchemy Techs rating.
 
 **Expert Placement of Elemental Explosive Trap**:
 
+- Technique
+- 1 AP
 - Type: Throw Object
 - Range: 30 feet
 - Target: One 5-foot square
@@ -633,10 +680,13 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 
 **Prepare Reviving Needle**:
 
+- Alchemical Preparation
 - A reviving needle can be used on a combatant at 0 or less Health to revive at 1 Health.
 
 **Expert Usage of Reviving Needle**:
 
+- Technique
+- 1 AP
 - Type: Throw Object
 - Range: 30 feet
 - Target: Single
@@ -646,21 +696,41 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 
 **Prepare Healing Salve**
 
+- Alchemical Preparation
+
 **Expert Usage of Healing Salve** - Restores 75 Health to the target.
+
+- Technique
+- 1 AP
 
 **Prepare Energy Brew**
 
+- Alchemical Preparation
+
 **Expert Usage of Energy Brew** - Restores 30 Energy to the target.
+
+- Technique
+- 1 AP
 
 #### Rating 35
 
 **Prepare Healing Serum**
 
+- Alchemical Preparation
+
 **Expert Usage of Healing Serum** - Restores 150 Health to the target.
+
+- Technique
+- 1 AP
 
 **Prepare Energy Potion**
 
+- Alchemical Preparation
+
 **Expert Usage of Energy Potion** - Restores 60 Energy to the target.
+
+- Technique
+- 1 AP
 
 ### Cooking Techs
 
@@ -670,6 +740,8 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 
 **Elemental Hand Trick**:
 
+- Technique
+- 1 AP
 - 1 energy
 - Pulls a small amount of pure elemental power into your hand for a whole day. It is sufficient for one small action that does at most 1 point of damage, or any other effect of equivalent power. Here are some examples depending on the element used.
   - Air: Blow a marble away.
@@ -684,11 +756,15 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 
 **Elemental Food Flavoring**:
 
+- Technique
+- 1 AP
 - 1 energy
 - Creates a handful of elemental edible substances that will strongly affect the flavor of whatever they are mixed into.
 
 **Elemental Shot**:
 
+- Technique
+- 1 AP
 - 2 energy
 - Type: Straight Projectile
 - Range: 30 feet
@@ -713,6 +789,8 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 
 **Elemental Charge**:
 
+- Technique
+- 1 AP
 - 2 energy
 - Type: Line-of-sight
 - Range: 30 feet
@@ -721,6 +799,8 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 
 **Transfer Charges**:
 
+- Technique
+- 1 AP
 - Discharging: This technique does not require any corresponding Magical Elements skills. Instead, it requires that you are holding elemental charges.
 - 2 energy
 - Type: Line-of-sight
@@ -732,6 +812,8 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 
 **Elemental Breath**:
 
+- Technique
+- 1 AP
 - 5 energy
 - 2 Action Points
 - Type: Magic Breath
@@ -741,6 +823,8 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 
 **Elemental Spark**:
 
+- Technique
+- 1 AP
 - 3 energy
 - Type: Line-of-Sight
 - Range: 30 feet
@@ -749,11 +833,15 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 
 **Charging Elemental Shot**:
 
+- Technique
+- 1 AP
 - 4 energy
 - As Elemental Shot, except as noted here. You also gain an Elemental Charge based on the element used.
 
 **Discharging Elemental Shot**:
 
+- Technique
+- 1 AP
 - Discharging: This technique does not require any corresponding Magical Elements skills. Instead, it requires that you are holding elemental charges.
 - 3 energy
 - Type: Straight Projectile
@@ -763,6 +851,8 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 
 **Elemental Eyes**:
 
+- Technique
+- 1 AP
 - 4 energy
 - 2 Action Points
 - Target: Self
@@ -772,13 +862,16 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 
 **Elemental Charge Absorption**:
 
+- Technique
+- 1 AP
 - Discharging: This technique does not require any corresponding Magical Elements skills. Instead, it requires that you are holding elemental charges.
 - Converts all elemental charges on you into Energy for yourself. You gain 2 Energy per charge on you converted.
 
 **Elemental Force Object**:
 
+- Technique
+- 2 AP
 - 4 energy
-- 2 Action Points
 - Duration: Elemental Techs Rating in Minutes
 - Pulls an elemental object from the Blended Realm into the same 5-foot square that you are standing in. The object hovers in air and can bear some weight on top of it, equal to your Elemental Techs rating * 10 kilograms. The object follows you around within the limitations of having the Hover IV movement type. If it cannot follow you then it will get stuck, then stay in place until you give it a better route. You can maintain at most one Elemental Force Object of each element.
   - Air: An ally can jump onto the object and get launched 20 feet upwards, then fall back down without taking damage. This allows them to make movements that would otherwise not be possible with their movement type.
@@ -793,8 +886,9 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 
 **Elemental Ground**:
 
+- Technique
+- 2 AP
 - 3 energy
-- 2 Action Points
 - Type: Area
 - Range: Line-of-Sight
 - Target: 5-foot-diameter ground area
@@ -811,8 +905,9 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 
 **Elemental Lance**:
 
+- Technique
+- 2 AP
 - 6 energy
-- 2 Action Points
 - Type: Line
 - Range: 30 feet
 - Target: All in the 30-foot line
@@ -820,10 +915,17 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 
 #### Rating 15
 
+**Counterspell**:
+
+- Reaction
+- Reserves 1 AP
+- When you take more than 1 elemental damage, you perform an Elemental Techs technique at the enemy who caused the damage, spending double the Energy but also adding your Power Level to the damage.
+
 **Elemental Ball**:
 
+- Technique
+- 2 AP
 - 8 energy
-- 2 Action Points
 - Type: Straight Projectile Explosive
 - Range: 30 feet
 - Target: One 5-foot square
@@ -831,8 +933,9 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 
 **Elemental Chain**:
 
+- Technique
+- 2 AP
 - 8 energy
-- 2 Action Points
 - Type: Line-of-Sight
 - Range: 30 feet
 - Target: Single
@@ -840,8 +943,9 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 
 **Great Elemental Charge**:
 
+- Technique
+- 2 AP
 - 8 energy
-- 2 Action Points
 - Type: Line-of-sight
 - Range: 30 feet
 - Target: Self or Single
@@ -851,8 +955,9 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 
 **Elemental Storm**:
 
+- Technique
+- 2 AP
 - 10 energy
-- 2 Action Points
 - Type: Auto-targeting Storm
 - Range: 15 feet
 - Target: All enemies within the 15-foot radius
@@ -862,24 +967,33 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 
 **Great Elemental Ground**:
 
+- Technique
+- 2 AP
 - 8 energy
-- 2 Action Points
 - Type: 5 side-connected pieces of 5-foot-square ground areas
-- As Elemental Ground, except as noted here. If the first piece of elemental ground is in thin air attached to ground, then the other four pieces can extend therefrom.
+- As *Elemental Ground*, except as noted here. If the first piece of elemental ground is in thin air attached to ground, then the other four pieces can extend therefrom.
 
 **Discharging Elemental Rapid-Fire**
+
+- Technique
+- 2 AP
+- Discharging
 
 #### Rating 30
 
 **Great Elemental Ball**
 
+- Technique
+- 2 AP
+
 #### Rating 35
 
 **Charged Elemental Storm**:
 
+- Technique
+- 2 AP
 - 15 energy
-- 2 Action Points
-- As Elemental Storm, except as noted here. You gain an elemental charge for each enemy whom you caused more than 1 damage to.
+- As *Elemental Storm*, except as noted here. You gain an elemental charge for each enemy whom you caused more than 1 damage to.
 
 ### Hexenkraft Techs
 
@@ -887,21 +1001,29 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 
 **Elemental Soup**:
 
+- Technique
+- 1 AP
 - 1 energy
 - You infuse a cauldron-volume amount of soup with magical elemental taste. This may also result in elemental ingredients visibly entering the soup.
 
 **Magic Contraceptive**:
 
+- Technique
+- 1 AP
 - 1 energy
 - You infuse a bottle-volume amount of liquid with the magical property of suppressing fertility for one week. The liquid has a magical elemental taste.
 
 **Magic Hormone Replacement**:
 
+- Technique
+- 1 AP
 - 1 energy
 - You infuse a shotglass-volume amount of liquid with the magical property of replacing or enhancing hormones for one whole day, to the type that is most strongly aligned with the drinker's true nature. The liquid has a magical emental taste.
 
 **Heal Touch**:
 
+- Technique
+- 1 AP
 - 1 energy
 - Type: Touch
 - Range: 5 feet
@@ -910,6 +1032,8 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 
 **Heal Ray**:
 
+- Technique
+- 1 AP
 - 5 energy
 - Type: Line-of-sight
 - Range: 30 feet
@@ -918,6 +1042,8 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 
 **Resuscitate**:
 
+- Technique
+- 1 AP
 - 10 energy
 - Type: Touch
 - Range: 5 feet
@@ -926,6 +1052,8 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 
 **Elemental Hex Needle**:
 
+- Technique
+- 1 AP
 - 1 energy
 - Type: Line-of-sight
 - Range: 30 feet
@@ -936,6 +1064,8 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 
 **Elemental Brain Swap**:
 
+- Technique
+- 1 AP
 - 5 energy
 - Type: Touch
 - Target: Single
@@ -943,6 +1073,8 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 
 **Elemental Armor Coating**:
 
+- Technique
+- 1 AP
 - 2 energy
 - Type: Line-of-sight
 - Range: 30 feet
@@ -952,6 +1084,8 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 
 **Elemental Weapon Coating**:
 
+- Technique
+- 1 AP
 - 2 energy
 - Type: Line-of-sight
 - Range: 30 feet
@@ -961,6 +1095,8 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 
 **Elemental Weakness**:
 
+- Technique
+- 1 AP
 - 2 energy
 - Type: Line-of-sight
 - Range: 30 feet
@@ -972,6 +1108,8 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 
 **Elemental Heresy**:
 
+- Technique
+- 1 AP
 - 5 energy
 - Type: Line-of-sight
 - Range: 30 feet
@@ -980,6 +1118,8 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 
 **Elemental Hexing**:
 
+- Technique
+- 1 AP
 - 5 energy
 - Type: Line-of-sight
 - Range: 30 feet
@@ -989,6 +1129,8 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 
 **Elemental Resistance**:
 
+- Technique
+- 1 AP
 - 5 energy
 - Type: Line-of-sight
 - Range: 30 feet
@@ -998,8 +1140,16 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 
 #### Rating 15
 
+**Energy Armor**:
+
+- Reaction
+- Reserves 1 AP
+- If you are going to take more than 1 damage to your Health, then you cut that Health damage in half and apply it to both your Health and Energy.
+
 **Heal Burst**:
 
+- Technique
+- 1 AP
 - 10 energy
 - Type: Sphere centered on self
 - Range: 10 feet
@@ -1008,6 +1158,8 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 
 **Revive**:
 
+- Technique
+- 1 AP
 - 15 energy
 - Type: Line-of-sight
 - Range: 30 feet
@@ -1018,6 +1170,8 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 
 **Elemental Dooming**:
 
+- Technique
+- 1 AP
 - 20 energy
 - Type: Straight-line projectile
 - Range: 30 feet
@@ -1048,6 +1202,7 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 
 **Flying Jump Kick**:
 
+- Technique
 - 2 Action Points
 - Type: Move & Melee
 - Target: Single
@@ -1055,6 +1210,7 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 
 **Random Punches**:
 
+- Technique
 - 2 Action Points
 - Type: Melee
 - Range: 5 feet
@@ -1063,6 +1219,7 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 
 **Shoulder Check**:
 
+- Technique
 - 2 Action Points
 - Type: Melee
 - Range: 5 feet
@@ -1071,6 +1228,7 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 
 **Spinning Clothesline**:
 
+- Technique
 - 2 Action Points
 - Type: Melee
 - Range: 5 feet
@@ -1079,6 +1237,7 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 
 **Trip And Punch**:
 
+- Technique
 - 3 Action Points
 - Type: Melee
 - Range: 5 feet
@@ -1089,14 +1248,22 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 
 **Candle Extinguishing Fist**:
 
+- Technique
 - 2 Action Points
 - Type: Line-of-sight
 - Range: 30 feet
 - Target: Single
 - You do an unarmed attack against one target within range. The damage type is set to the element used.
 
+**Counterpunch**:
+
+- Reaction
+- Reserves 1 AP
+- When you are attacked by a square-side-adjacent enemy, you perform an unarmed attack against that enemy afterwards.
+
 **Ground Shockwave Smash**:
 
+- Technique
 - 2 Action Points
 - Type: Ground Line
 - Range: 15 feet
@@ -1105,6 +1272,7 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 
 **Sharp Knuckle Punch**:
 
+- Technique
 - 2 Action Points
 - Type: Melee
 - Range: 5 feet
@@ -1113,6 +1281,7 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 
 **Suplex**:
 
+- Technique
 - 3 Action Points
 - Type: Grapple
 - Range: 5 feet
@@ -1123,6 +1292,7 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 
 **Aura Imbued Fist**:
 
+- Technique
 - 2 Action Points
 - Type: Melee
 - Range: 5 feet
@@ -1131,6 +1301,7 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 
 **Pressure Point Strike**:
 
+- Technique
 - 2 Action Points
 - Type: Melee
 - Range: 5 feet
@@ -1148,6 +1319,7 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 
 **Self Pressure Point Cleansing**:
 
+- Technique
 - 2 Action Points
 - Target: Self only
 - Remove 4 status conditions of your choice.
@@ -1156,6 +1328,7 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 
 **Heart Resonance Press**:
 
+- Technique
 - 2 Action Points
 - Type: Touch
 - Range: 5 feet
@@ -1164,12 +1337,14 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 
 **Life Energy Resonance**:
 
+- Technique
 - 2 Action Points
 - Target: Self
 - You regain an amount of health equal to 1/4th of your Martial Techs skill rating, and remove one negative status condition of your choice, as long as it is not one that blocks your ability to use this technique.
 
 **Ripple Breathing**
 
+- Technique
 - 2 Action Points
 - Target: Self
 - You breathe (or whatever you need to function) in a manner that causes powerful ripples throughout your body. The exact effect depends on the element used:
@@ -1242,7 +1417,8 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 
 **Summon Elemental Form**:
 
-- 4 Action Points
+- Technique
+- 3 AP
 - Type: Summon
 - Range: 5 feet
 - Target: Unoccupied 5-foot square
@@ -1251,6 +1427,7 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 
 **Fundamental Elemental Form**:
 
+- Elemental Form
 - All stats are equal to 10 + your effective Summoning Techs skill rating. Except for Maximum Health, which is equal to 20 + double your effective Summoning Techs skill rating.
 - The Fundamental Elemental Form takes double damage from its opposite element, but half damage from its same element.
 
@@ -1262,76 +1439,100 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 
 **Elemental Melee Weapon Visual Effect**:
 
+- Technique
+- 0 AP
 - 0 energy
-- You charge your melee weapon with visible elemental energy for as long as you stay awake.
+- You charge your melee or reach weapon with visible elemental energy for as long as you stay awake.
 
 **Elemental Melee Strike**:
 
+- Technique
+- 1 AP
 - 1 energy
-- Do a melee weapon attack. Its damage type is changed to be of the linked element.
+- Do a melee or reach weapon attack. Its damage type is changed to be of the linked element.
 
 **Charging Melee Strike**:
 
+- Technique
+- 1 AP
 - 3 energy
-- Do a melee weapon attack. If you do more than 1 damage, then you also gain an elemental charge.
+- Do a melee or reach weapon attack. If you do more than 1 damage, then you also gain an elemental charge.
 
 **Cross Strike**:
 
+- Technique
+- 1 AP
 - 8 energy
 - Requires: Two One-Handed Melee or Reach Weapons
 - You attack with both weapons.
 
 **Discharging Melee Strike**:
 
+- Technique
+- 1 AP
 - Discharging: This technique does not require any corresponding Magical Elements skills. Instead, it requires that you are holding elemental charges.
 - 1 energy
-- Do a melee weapon attack. It additionally does physical elemental damage for each elemental charge, equal to Physical Power * 0.25 per charge. This extra damage ignores armor.
+- Do a melee or reach weapon attack. It additionally does physical elemental damage for each elemental charge, equal to Physical Power * 0.25 per charge. This extra damage ignores armor.
 
 **Power Strike**:
 
+- Technique
+- 1 AP
 - 10 energy
-- You attack, and add your Power Level to the damage.
+- Do a melee or reach weapon attack, and add your Power Level to the damage.
 
 #### Rating 5
 
 **Elemental Melee Force**:
 
+- Technique
+- 1 AP
 - 3 energy
-- Do a melee weapon attack. If it does more than 1 damage, then it also pushes the target back by 5 feet.
+- Do a melee or reach weapon attack. If it does more than 1 damage, then it also pushes the target back by 5 feet.
 
 **Elemental Melee Spike**:
 
+- Technique
+- 1 AP
 - 3 energy
 - Type: Line
 - Range: 15 feet
-- Do a melee weapon attack in a 15-foot straight line, using yourself as the origin point. The attack targets all enemies in that line. The attack's damage type is changed to be of the linked element.
+- Do a melee or reach weapon attack in a 15-foot straight line, using yourself as the origin point. The attack targets all enemies in that line. The attack's damage type is changed to be of the linked element.
 
 **Elemental Melee Wide Strike**:
 
+- Technique
+- 1 AP
+- 3 energy
 - Type: Wide Swing
 - Range: Weapon
-- 3 energy
-- Do a melee weapon attack against the first enemy in front of you, as well as two enemies standing to the sides of the first one who are also within weapon range of you. The attack's damage type is changed to be of the linked element.
+- Do a melee or reach weapon attack against the first enemy in front of you, as well as two enemies standing to the sides of the first one who are also within weapon range of you. The attack's damage type is changed to be of the linked element.
 
 #### Rating 10
 
 **Elemental Melee Blasting Strike**:
 
+- Technique
+- 1 AP
 - 5 energy
 - Type: Blast
 - Range: Weapon
-- Do a melee weapon attack at the ground within your weapon's range. It must be possible for you to stand on or inside the targeted spot, for it to be valid for this technique. The attack targets all enemies within a 5-foot radius of that spot. The attack's damage type is changed to be of the linked element.
+- Do a melee or reach weapon attack at the ground within your weapon's range. It must be possible for you to stand on or inside the targeted spot, for it to be valid for this technique. The attack targets all enemies within a 5-foot radius of that spot. The attack's damage type is changed to be of the linked element.
 
 **Elemental Melee Wave Slash**:
 
+- Technique
+- 1 AP
 - 5 energy
 - Type: Line-of-sight
 - Range: 30 feet
 - Target: Single
-- Do a melee weapon attack against an enemy within the range.
+- Do a melee or reach weapon attack against an enemy within the range.
 
 **Elemental Melee Guarding Stance**:
 
+- Technique
+- 1 AP
 - 10 energy
 - Gain a status condition based on the element used.
   - Air: Gain the Airyspeedy status.
@@ -1355,20 +1556,32 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 
 #### Rating 15
 
+**Charge Absorption**:
+
+- Reaction
+- Reserves 1 AP
+- When you take more than 1 elemental damage, you gain one elemental charge per 20 damage whose element type is the same as the damage, for a minimum of 1 charge gained. Afterwards, you then add half your Power Level to your Armor against that instance of damage.
+
 **Charging Melee Dual Strike**:
 
+- Technique
+- 1 AP
 - 8 energy
-- Do two melee weapon attacks against one target. For each attack, if you do more than 1 damage, then you also gain an elemental charge.
+- Do two melee or reach weapon attacks against one target. For each attack, if you do more than 1 damage, then you also gain an elemental charge.
 
 **Elemental Melee Pillar Strike**:
 
+- Technique
+- 1 AP
 - 8 energy
-- Do a melee weapon attack at all enemies within an adjacent 3-foot-radius area, reaching up to 30,000 feet upwards and downwards until hitting terrain or clouds. Its damage type is changed to be of the linked element. Note that attacking something like a dragon or airship from 30,000 feet away could be quite difficult due to the required horizontal positioning, but still has a non-zero chance of success.
+- Do a melee or reach weapon attack at all enemies within an adjacent 3-foot-radius area, reaching up to 30,000 feet upwards and downwards until hitting terrain or clouds. Its damage type is changed to be of the linked element. Note that attacking something like a dragon or airship from 30,000 feet away could be quite difficult due to the required horizontal positioning, but still has a non-zero chance of success.
 
 **Crippling Melee Strike**:
 
+- Technique
+- 1 AP
 - 8 energy
-- Do a melee weapon attack. Its damage type is changed to be of the linked element. It also adds a status condition to the enemy based on the element used.
+- Do a melee or reach weapon attack. Its damage type is changed to be of the linked element. It also adds a status condition to the enemy based on the element used.
   - Air: Adds the Shocked status to the target.
     - **Shocked** - Magical Power and Magical Armor are halved. Removed whenever you take Earth elemental damage. Can be removed by spending all action points to breathe and calm down from the shock.
   - Crystal: Adds the Bleeding status to the target.
@@ -1390,14 +1603,18 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 
 **Spinning Melee Strike**:
 
+- Technique
+- 1 AP
 - 10 energy
-- Do a melee weapon attack at all enemies within weapon range. Its damage type is changed to be of the linked element.
+- Do a melee or reach weapon attack at all enemies within weapon range. Its damage type is changed to be of the linked element.
 
 **Discharging Melee Blast**:
 
+- Technique
+- 1 AP
 - Discharging: This technique does not require any corresponding Magical Elements skills. Instead, it requires that you are holding elemental charges.
 - 10 energy
-- Do a melee weapon attack against three different enemies in weapon range. It additionally does physical elemental damage for each elemental charge, equal to Physical Power * 0.50 per charge. This extra damage ignores armor.
+- Do a melee or reach weapon attack against three different enemies in weapon range. It additionally does physical elemental damage for each elemental charge, equal to Physical Power * 0.50 per charge. This extra damage ignores armor.
 
 ### Weapon Ranged Techs
 
@@ -1405,16 +1622,22 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 
 **Elemental Shot**:
 
+- Technique
+- 1 AP
 - 2 energy
 - Do a ranged weapon attack. Its damage type is changed to be of the linked element.
 
 **Charging Shot**:
 
+- Technique
+- 1 AP
 - 5 energy
 - Do a ranged weapon attack. If you do more than 1 damage, then you also gain an elemental charge.
 
 **Falling Shot**:
 
+- Technique
+- 1 AP
 - 2 energy
 - Type: Line-of-sight
 - Range: 60 feet
@@ -1423,6 +1646,8 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 
 **Power Shot**:
 
+- Technique
+- 1 AP
 - 13 energy
 - You attack, and add your Power Level to the damage.
 
@@ -1430,23 +1655,31 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 
 **Bouncing Shot**:
 
+- Technique
+- 1 AP
 - 5 energy
 - Do a ranged weapon attack against two targets who are within 5 feet of each other. Its damage type is changed to be of the linked element.
 
 **Guided Shot**:
 
+- Technique
+- 1 AP
 - 5 energy
-- Do a ranged weapon attack, adding your Weapon Ranged Techs rating to your Physical Accuracy. Its damage type is changed to be of the linked element.
+- Do a ranged weapon attack, adding your Weapon Ranged Techs skill rating to your Physical Accuracy. Its damage type is changed to be of the linked element.
 
 #### Rating 10
 
 **Armor-Piercing Shot**:
 
+- Technique
+- 1 AP
 - 10 energy
 - Do a ranged weapon attack, ignoring the target's Physical Armor. Its damage type is changed to be of the linked element.
 
 **Elemental Discharging Ranged Ripple**
 
+- Technique
+- 1 AP
 - Discharging: This technique does not require any corresponding Magical Elements skills. Instead, it requires that you are holding elemental charges.
 - Effects immediately occur based on the elemental charges you were holding.
   - Air: You instantly move a square-side-adjacent enemy by 5 feet for each Air Charge discharged. All of this movement must be done to exactly one such enemy.
@@ -1461,21 +1694,33 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 
 **High-Power Shot**:
 
+- Technique
+- 1 AP
 - 10 energy
-- Do a ranged weapon attack, adding your Weapon Ranged Techs rating to your Physical Power. Its damage type is changed to be of the linked element.
+- Do a ranged weapon attack, adding your Weapon Ranged Techs skill rating to your Physical Power. Its damage type is changed to be of the linked element.
 
 #### Rating 15
 
 **Beam Shot**:
 
+- Technique
+- 1 AP
 - 15 energy
 - Do a ranged weapon attack against all enemies in a line, up to the maximum range of your weapon. Its damage type is changed to be of the linked element.
 
 **Discharging Exploding Shot**:
 
+- Technique
+- 1 AP
 - Discharging: This technique does not require any corresponding Magical Elements skills. Instead, it requires that you are holding elemental charges.
 - 5 energy
-- Do a ranged weapon attack against one target, as well as all enemies within 5 feet of that target. The attack additionally does physical elemental damage for each elemental charge, equal to Physical Power * 0.5 per charge. This extra damage ignores armor.
+- Do a ranged weapon attack against one target, as well as all enemies who are square-side-adjacent to that target. The attack additionally does physical elemental damage for each elemental charge, equal to Physical Power * 0.5 per charge. This extra damage ignores armor.
+
+**Link Attack**:
+
+- Reaction
+- Reserves 1 AP
+- When an ally does more than 1 damage to an enemy who is within your attack range, and the ally gains an elemental charge, you add your attack damage to that ally's action and gain the same type of elemental charge.
 
 ## Linear Tactics Group
 
@@ -1523,7 +1768,7 @@ Rating 60 - **Spear Wall IV** - Supercedes Spear Wall I, II and III if you are l
 
 ### Animal Speaker Aura
 
-Rating 1 - **Animal Speaker I** - All allied animals within a radius of 5 feet gain a bonus to Physical Evasion, Physical Armor, Magic Evasion, and Magic Armor, equal to 1/4th of your Animal Speaker Aura skill rating, for a minimum of 1 point gained. Enemy animals within the same radius receive a penalty instead, due to the counteraction of brainwashing causing them to also forget the associated combat training. Defeated enemy animals within the radius can choose to run away, thus exiting combat instantly, or someone can spend 4 APs to convince the animal to switch sides.
+Rating 1 - **Animal Speaker I** - All allied animals within a radius of 5 feet gain a bonus to Physical Evasion, Physical Armor, Magic Evasion, and Magic Armor, equal to 1/4th of your Animal Speaker Aura skill rating, for a minimum of 1 point gained. Allied animals who start their turns within range of the aura also have the ability to pick up, receive, and use items during that turn. Enemy animals within the same radius receive a penalty to their stats instead, due to the counteraction of brainwashing causing them to also forget the associated combat training. Defeated enemy animals within the radius can choose to run away, thus exiting combat instantly, or someone can spend 4 APs to convince the animal to switch sides.
 
 Rating 20 - **Animal Speaker II** - Supercedes and replaces Animal Speaker I. The radius is now 10 feet. The stat mod is now equal to 1/2 of your Animal Speaker Aura rating.
 
@@ -2021,6 +2266,8 @@ Vertical jumps do not count against horizontal movement. For example, moving int
 
 Most techniques only take 1 AP, and have other costs or limitations to compensate. Some techniques, however, explicitly state that they take 2 or more AP, or otherwise reserve AP.
 
+Reactions reserve AP, but can only be triggered once until your next turn. However, you can reserve multiple of the same reaction.
+
 ### Use Item
 
 Item usage generally has a range of five feet, i.e. targeting someone in a side-adjacent square.
@@ -2177,7 +2424,7 @@ Is the Empire actually close to division and collapse? If so, then are the other
 
 ### Armored Dragon
 
-Armored Dragons started out as bioweapons from an ancient age. All surviving Armored Dragons have long since shaken off their programming, and now work for anyone who will feed them and care for them. They are angered by any mistreatment of animals, especially Imperial practices, and constantly regain 1 Energy per status phase while angry. They are large enough to be ridden.
+Armored Dragons started out as bioweapons from an ancient age. All surviving Armored Dragons have long since shaken off their programming, and now work for anyone who demonstrates kindness towards Island creatures. They are angered by any mistreatment of animals, especially Imperial practices, and constantly regain 1 Energy per status phase while angry. They are large enough to be ridden and still fly. According to the Islands, the Armored Dragons know things that even the Islands do not, but they can only interface with ancient technology that predates the devastation of the continents, so they take their secrets to their graves.
 
 - Animal
 - Maximum Health = 20 + (Power Level * 2)
@@ -2198,10 +2445,36 @@ Armored Dragons started out as bioweapons from an ancient age. All surviving Arm
   - Unarmored (natural armor is already factored into Physical Armor stat)
 - Flying IV
 - Homing Lasers - 10 energy - Ranged magical technique with halved Magical Power but doubled Magical Accuracy. This technique has 2 lasers, plus one laser for every 10th Power Level. For example, at Power Level 25, this technique has 4 lasers. Each laser can be aimed at a different target, or the same target, or any mixture. If lasers are combined to aim at one target, then they become a single laser with more Magical Power.
+- Berserk Lasers - 60 energy - Magical technique that targets all enemies in the current battle. This includes large-scale battles with thousands of combatants on each side. Uses magical stats and is opposed by magical stats.
+
+### Bear
+
+Species of bears who were, for whatever reason, not granted the ability to speak by your Island.
+
+- Animal
+- Maximum Health = 30 + (Power Level * 4)
+- Maximum Energy = 10 + Power Level
+- Physical Accuracy = 20 + (Power Level * 2)
+  - Barehanded = 20 + (Power Level * 3)
+- Physical Evasion = 10 + Power Level
+  - Unarmored = 10 + (Power Level * 2)
+- Physical Power = 20 + (Power Level * 2)
+  - Barehanded = 20 + (Power Level * 3.5)
+- Physical Armor = 20 + (Power Level * 2)
+- Magical Accuracy = 10 + Power Level
+- Magical Evasion = 10 + Power Level
+- Magical Power = 10 + Power Level
+- Magical Armor = 20 + (Power Level * 2)
+- Gear:
+  - Barehanded
+  - Unarmored
+- Iron Fist IV
+- Swimming I
+- Bear Maul - 10 energy - Grapple action that is immediately followed up by a barehanded attack.
 
 ### Birdhorse
 
-Strong emu-shaped birds who are large enough to be ridden. Their legs and necks are considerably thicker than most other emu-shaped birds. They like running and flying freely across open areas, and dislike cramped spaces.
+Birdhorses are emu-shaped birds who are large and strong enough to be ridden while still being able to run and fly. Their legs and necks are considerably thicker than most other emu-shaped birds. They like running and flying freely across open areas, and dislike cramped spaces. They are colored according to their elemental specializations, which are fully random and seem to have no influence from their parents.
 
 - Animal
 - Maximum Health = 30 + (Power Level * 4)
@@ -2222,7 +2495,63 @@ Strong emu-shaped birds who are large enough to be ridden. Their legs and necks 
   - Unarmored
 - Flying IV
 - Swiftfoot IV
-- Power Peck - 10 energy - Barehanded attack that ignores Physical Armor.
+- Random Elemental Specialization
+- Birdhorse Cure - 5 energy - Restores Health to a square-side-adjacent ally or to their allied rider, equal to half of their Magical Power.
+- Power Peck - 10 energy - Barehanded attack that ignores Physical Armor. The damage is set to be of the same element as the Birdhorse's specialization.
+
+### Salt Mouse
+
+Although they cannot send their thoughts towards the Island, they can still receive thoughts back from the Island. They watch and guard all salty marshes and swamps at night.
+
+- Animal
+- Maximum Health = 20 + (Power Level * 2)
+- Maximum Energy = 10 + Power Level
+- Physical Accuracy = 20 + (Power Level * 2)
+  - Barehanded = 20 + (Power Level * 3)
+- Physical Evasion = 20 + (Power Level * 2)
+  - Unarmored = 20 + (Power Level * 3)
+- Physical Power = 10 + Power Level
+  - Barehanded = 10 + (Power Level * 1.5)
+- Physical Armor = 10 + Power Level
+- Magical Accuracy = 20 + (Power Level * 2)
+- Magical Evasion = 20 + (Power Level * 2)
+- Magical Power = 10 + Power Level
+- Magical Armor = 10 + Power Level
+- Gear:
+  - Barehanded
+  - Unarmored
+- Swiftfoot IV
+- Swimming IV
+- Sensitive Ears - Salt Mice are under the effect of Animal Speaker Auras from double the aura radius. For example, they are affected by Animal Speaker I from 10 feet away (2 squares away).
+
+### Sky Jellyfish
+
+It is believed that they do not have a nervous system. Despite this, they still somehow seem to have an affinity for those who are in harmony with their Islands, and attack any who would try to harm the Islands.
+
+- Animal
+- Maximum Health = 20 + (Power Level * 2)
+- Maximum Energy = 20 + (Power Level * 2)
+- Physical Accuracy = 10 + Power Level
+- Physical Evasion = 10 + Power Level
+- Physical Power = 10 + Power Level
+- Physical Armor = 10 + Power Level
+- Magical Accuracy = 20 + (Power Level * 2)
+  - Magical Weapon = 20 + (Power Level * 3)
+- Magical Evasion = 20 + (Power Level * 2)
+  - Magic Armor = 20 + (Power Level * 3)
+- Magical Power = 20 + (Power Level * 2)
+  - Technique = 20 + (Power Level * 3.25)
+  - Melee = 20 + (Power Level * 2.75)
+  - Ranged = 20 + (Power Level * 2.5)
+- Magical Armor = 20 + (Power Level * 2)
+  - Magic Armor = 20 + (Power Level * 3)
+- Gear:
+  - 2-Handed Magical Weapon
+  - Magic Armor
+- Hover IV
+- Random Elemental Specialization
+- Energy Sting - 5 energy - Whips out a tentacle at a square-side-adjacent enemy, zapping them for 1.5x elemental damage. Uses magical stats and is opposed by magical stats.
+- Energy Zap - 5 energy - Shoots an elemental beam out up to 15 feet away in a straight line, targeting all enemies in the line. Uses magical stats and is opposed by magical stats.
 
 # 10. Pre-Made Blended Realm Creatures
 
