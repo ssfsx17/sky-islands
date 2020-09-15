@@ -2194,17 +2194,17 @@ This is one of the few times that dice are ever used in the game.
 
 ## Actions
 
-Each combatant gets four **action points**. The possible actions are:
+Each combatant gets four **Action Points**, or APs for short. The possible actions are:
 
 - **Attack** - 1 AP
 - **Change Armor** - 4 AP
 - **Change Weapon** - 2 AP
 - **Charge Energy** - 1 AP
-- **Defend** - 1 AP
+- **Defend** - Reserves 1 AP
 - **Face Forward** - 0 AP
 - **Grapple** - 2 AP
 - **Move** - 1 AP
-- **Perform Technique** - 1 AP (some techniques have different AP costs)
+- **Perform Technique** - 1 AP (some techniques have different AP costs or reserve APs)
 - **Use Item** - 1 AP
 
 ### Attack
@@ -2238,9 +2238,9 @@ The Charge Energy action restores Energy to yourself, equal to the Battle Escala
 
 ### Defend
 
-The Defend action keeps your Physical Evasion, Magical Evasion and Magical Armor up. Without at least one Defend action, these stats fall down to equalling your Power Level instead.
+The Defend action reserves 1 AP in order to keep your Physical Evasion, Magical Evasion and Magical Armor up. Without reserving at least one Defend, these stats fall down to equalling your Power Level instead.
 
-Additional Defend actions in one round will each add an amount to your Physical Evasion, Physical Armor, Magical Evasion, and Magical Armor equal to half of their respective base ratings, until your next turn.
+Additional APs reserved for Defend will each add an amount to your Physical Evasion, Physical Armor, Magical Evasion, and Magical Armor equal to half of their respective base ratings.
 
 ### Face Forward
 
