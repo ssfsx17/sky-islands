@@ -164,14 +164,16 @@
           - [Unpaid Legions](#unpaid-legions)
           - [Exoticist Senators](#exoticist-senators)
           - [Other Superpowers](#other-superpowers)
-      - [The Imperial Adtextus](#the-imperial-adtextus)
+      - [The Empire](#the-empire-1)
+          - [The Imperial Adtextus](#the-imperial-adtextus)
+          - [The Emperor](#the-emperor)
       - [Intentionally Unanswered
         Questions](#intentionally-unanswered-questions)
   - [9. Pre-Made Allies](#pre-made-allies)
       - [Animals](#animals)
-          - [Armored Dragon](#armored-dragon)
           - [Bear](#bear)
           - [Birdhorse](#birdhorse)
+          - [Heresy Dragon](#heresy-dragon)
           - [Salt Mouse](#salt-mouse)
           - [Sky Jellyfish](#sky-jellyfish)
   - [10. Pre-Made Blended Realm
@@ -186,9 +188,20 @@
           - [Starved Dog](#starved-dog)
           - [Starved Rooster](#starved-rooster)
       - [T2 Scout](#t2-scout)
+          - [Gladiator Blooded](#gladiator-blooded)
+          - [Imperial Scout](#imperial-scout)
+          - [Watcher Controller](#watcher-controller)
+          - [Possessed Watcher](#possessed-watcher)
+          - [Starved Bloodhound](#starved-bloodhound)
       - [T3 Auxilia](#t3-auxilia)
+          - [Auxilia Archer](#auxilia-archer)
+          - [Auxilia Swordsman](#auxilia-swordsman)
       - [T4 Equestrian](#t4-equestrian)
+          - [Auxilia Cataphract](#auxilia-cataphract)
+          - [Auxilia War Elephant](#auxilia-war-elephant)
+          - [Imperial Equestrian](#imperial-equestrian)
       - [T5 Legion](#t5-legion)
+          - [Pact Dragon](#pact-dragon)
 
 # 1\. Introduction
 
@@ -213,10 +226,9 @@ for long periods of time, it is practical for the **Game Master** to
 introduce deeper mysteries and more complex plots as the campaign goes
 on. Otherwise, if a group typically has difficulty having a consistent
 **Game Master**, then it should stick to the war against the Empire, and
-keep all the larger plot elements to their own characters. The core book
-intentionally has little lore on anything other than the Empire, to
-ensure that the entire rest of the world can be mysterious to everyone
-involved.
+keep all the larger plot elements to their own characters. Most of the
+lore is implicit rather than explicit - the rest must be extrapolated
+and grown based on events that occur throughout game.
 
 A group with no **Game Master** is possible, if there is work put into
 making the antagonists act and strategize autonomously. This is the
@@ -268,6 +280,13 @@ compress everything down into mere resources for Imperial utilization.
 Any living being who is subjected to it is inevitably drained to death
 so that the system can exercise its power against others.
 
+Everything is transformed for the sake of the hungry and violent system.
+It burns through life so frequently that it must enslave bodies after
+death to extract more labor and toil. Magical arts that were originally
+for listening to and celebrating the dead have been twisted to oppress
+them instead. Animals, too, are starved and harmed into frenzy so that
+they will be useful for murder squads.
+
 The Adtextus can be considered a mere formalization and systemization of
 many things the Empire had done prior to its codification. The Empire
 itself was founded by the act of draining a Sky-Island of its life force
@@ -308,27 +327,29 @@ specific amount of time.
 The Realm is easily accessible to those outside of the influence of the
 Imperial Adtextus. Yet it is also quite dangerous, for it morphs and
 shifts in ways that are not amenable to any way of life that was learned
-in the solid world. Some sky islands have given up existence in the
+in the solid world. Some Sky Islands have given up existence in the
 solid world to land on the Blended Realm, but they are still not immune
 to the Empire, they merely have gained some terrain advantages. The
 Empire has specialized auxilia - slave soldiers captured from other
 islands - who are able to invade the Blended Realm.
 
 The Realm reacts to the health of the solid world. The worse the
-condition of the islands in the solid world, the more the Blended Realm
+condition of the Islands in the solid world, the more the Blended Realm
 retreats from it, and the more difficult it is for mortals to shift
 themselves into the Realm. It is feared that if the Empire were to take
 over the world, then the Blended Realm would leave forever.
 
-All magical powers available to your tribe and your characters are
+All magical powers available to your Island and your characters are
 merely temporary contracts with the natives of the Blended Realm. For
 example, a fireball spell merely takes a chunk from a fire region,
 flings it until it hits something, then returns it to where it was. The
-energy spent to invoke the spell is the payment to the creatures and
+Energy spent to invoke the spell is the payment to the creatures and
 spirits who are bound to it.
 
 The Blended Realm also connects to other planes of existence, which have
-their own challenges.
+their own challenges. These other planes range from utopian paradises to
+states worse than the Empire, and so they are generally left alone, lest
+one accidentally find a potential ally of the Empire.
 
 # 2\. Your Island
 
@@ -342,8 +363,8 @@ players must still become a part of it somehow.
 ### Island Statistics
 
 For each of the following, roll 10 dice and multiply by 10. This is a
-total of 10 times that you roll the dice. This will result in excesses
-or deficits that you must deal with the consequences of.
+total of 10 times that you roll the dice. This will result in deficits
+that you must deal with the consequences of.
 
 Inhabitants:
 
@@ -409,10 +430,10 @@ choices for later.
     damage dealt. You can also use your blood to melt through solid
     objects given enough time and enough blood to spare.
   - **Amorphous** - Your natural form is a something like gelatin, ooze,
-    slime, or good-quality refrigerated broth. You can use this form to
-    slide down slopes, down drains, into pipes, etc. However, this
-    causes all of your combat gear to fall off, and you also cannot
-    perform combat actions in that form.
+    slime, or good-quality chilled broth. You can use this form to slide
+    down slopes, down drains, into pipes, etc. However, this causes all
+    of your combat gear to fall off, and you also cannot perform combat
+    actions in that form.
   - **Antigrav** - You always have Hover I. This improves to Hover II at
     Power Level 20, Hover III at Power Level 40, and Hover IV at Power
     Level 60.
@@ -428,8 +449,8 @@ choices for later.
   - **Cold Blooded** - Health loss during the status phase is halved.
   - **Constrictor** - Your accuracy for grapples is increased by an
     amount equal to half your Power Level.
-  - **Echolocation** - Status conditions that decrease accuracy, do not
-    alter your accuracy.
+  - **Echolocation** - Your Physical Accuracy is not affected by status
+    conditions.
   - **Elemental Breath: Specific Element** - You must choose one element
     for this physical feature. That element is locked-in for life. You
     can spend 2 action points to do the Elemental Breath technique
@@ -460,6 +481,14 @@ choices for later.
     as well as at character creation, which can be spent on skills in
     the Magical Elements group. You must still follow the limit of skill
     ratings being capped by your Power Level.
+  - **Multi Mind** - You have more than one complete mind existing
+    within you at once. Each mind has its own complete set of skills and
+    stats. You must spend 4 APs to change your active mind in the middle
+    of battle, and this could potentially leave you holding the wrong
+    equipment for a bit longer than that. This also results in losing
+    all of your current Energy. In the middle of dramatic situations,
+    you cannot change your active mind except in response to specific
+    conditions that trigger different minds.
   - **Necropower** - When you do a killing attack or technique, you get
     one free Charge action.
   - **Phasing** - You always have Teleport I. This improves to Teleport
@@ -487,6 +516,11 @@ choices for later.
     you alive and revive you. This process takes a whole day, and can be
     interrupted by additional damage to your body, e.g. enemy soldiers
     stabbing corpses to make sure they stay down.
+  - **Temporal Anomaly** - You are actually from a different position in
+    Space-Time, or even a different dimension. At the beginning of the
+    Status Phase, you remove one status condition of your choice.
+    Unfortunately, if you only have beneficial status conditions, you
+    must still remove one.
   - **Undead** - Any effect that would drain your Health and give it to
     someone else is reversed, so that instead, you drain that other
     person’s Health. Any effect done by someone other than you that
@@ -2301,6 +2335,14 @@ radius.
 
 #### Rating 5
 
+**Song of Bloodlust**:
+
+  - Increases Battle Escalation by 1 during the Status Phase.
+
+**Song of Pacifism**:
+
+  - Decreases Battle Escalation by 1 during the Status Phase.
+
 ### Summoning Techs
 
 #### Rating 1
@@ -3811,6 +3853,8 @@ powerful combatants.
   - **Resuscitate** - Remove one stack of Resuscitate during the status
     phase. When the final stack of the Resuscitate status is removed,
     you are revived with 1 Health.
+  - **Scent Tracked** - Enemies gain a bonus of half their Power Level
+    to Physical Accuracy against you.
   - **Shadowconcealed** - Add your Level to your Physical Evasion and
     Magical Evasion.
   - **Shattered** - All Armor is halved. Multiple stacks of Shattered do
@@ -3895,7 +3939,9 @@ might allow Islands to retain their culture, but the Islands are
 obligated to give their most strong and beautiful people to suffer
 indignities until they die of pain and despair.
 
-## The Imperial Adtextus
+## The Empire
+
+### The Imperial Adtextus
 
 The Imperial Adtextus has been engineered over time to maintain a strict
 and inflexible hierarchical structure. Its driving principles are
@@ -3994,6 +4040,79 @@ Examples of the Adtextus:
     his scholars publicly-executed for their failure, because the
     Adtextus only allows punishment to flow downwards.
 
+### The Emperor
+
+If the **Game Master** does not have enough time to write out who the
+Emperor is - or if the **Game Master** position is rotating - then roll
+a cubic die for a quick idea:
+
+1.  The Emperor is bedridden and underweight, with biomechanical
+    machinery and tubes sticking into him. A large biomechanical heart
+    is behind him in his throne room, constantly beating with unnatural
+    sounds, to keep the Emperor alive. The doors of the Imperial Palace
+    are more like ventricles. Stretchy pulsing tubes of dark-red fluid
+    are strewn across the walls and ceilings. As the Sky Islands bring
+    the war to the Imperial Palace, the Emperor futilely whimpers, “How
+    dare you harm me\! A god\!” and activates the self-destruct sequence
+    of the entire continent. Now the Sky Islands and their inhabitants
+    must use everything they have learned from the war to fly away and
+    escape the explosion. Every sacrifice, every loss, every fallen
+    comrade, every hard lesson, everything is put to use.
+2.  The Emperor is impossibly young, having extended his life by
+    hundreds of years through draining the life force of his greatest
+    servants. He leads his Legions in the final battle, sallying forth
+    from the Imperial Palace. He moves with impossible grace and cleaves
+    multiple foes with one swordstroke. He is so powerful that he kills
+    at least one Player Character. When the remaining Player Characters
+    finally manage to inflict damage to him, his face is irreparably
+    scarred, and he goes berserk. Once defeated, the souls of those
+    drained explode out of his body and return to their original
+    destinations. He rapidly decays into skin and bones, croaking “This
+    is impossible\!” As he falls, the rest of the Empire realizes that
+    it too will suffer this fate if it continues to stand and fight.
+3.  There is no current Emperor. All previous public appearances of the
+    alleged current Emperor were actually a magical illusion. In
+    reality, the decisions have been made by the preserved brains of all
+    previous Emperors, stuck in a gigantic machine that speaks with a
+    booming voice. The machine’s casing is made of the original steles,
+    tablets and monuments upon which the first Adtextus was inscribed.
+    The machine has enough magical power to be threatening to anyone who
+    tries to get close enough to attack it. Once it is finally
+    destroyed, all Imperials around the World are suddenly stricken with
+    the guilt of all they have done and what they have supported. Some
+    Imperials would rather kill themselves than have to live as equals
+    with Islanders, let alone face any justice.
+4.  The Emperor and his Guard are cowardly mortals who flee to another
+    continent before the Sky Islands begin to threaten the Imperial
+    Palace. In the other superficial nations, they serve as advisors in
+    the establishment of exploitative systems, especially military ones.
+    So the fight must continue, but at least next time, the Sky Islands
+    know how to break an Empire, and how to root out exploiters.
+5.  The Emperor and Senate see that they are losing the conventional
+    war. They decide to undo the ancient magical seals that keep the
+    Destroyers of the Ancients at bay. The Destroyers are hungry, and
+    start their unsealing by devouring the Emperor and the Senate. Once
+    they emerge from the Imperial Palace, chewing on any Guards who
+    tried to fight them, the Sky Islands quake with rage and sorrow at
+    seeing these horrific bio-engineered beasts who ruined the World
+    long ago. The Destroyers demonstrate their power to a new generation
+    by turning parts of the Imperial Continent into burning wasteland,
+    while severing other parts and casting them off into the ocean. This
+    time, though, the Player Characters can fight the Destroyers and
+    kill them for good.
+6.  The Emperor makes his final declaration: “Our supremacy shall never
+    be challenged\!” Then he unleashes the final power of the Adtextus,
+    which was previously a secret held by him and the Senate. All
+    Imperials who honestly believe in their supremacy, who refuse to
+    change their ways, who sought out power over others using the
+    Adtextus, are melted into flesh blobs and sucked towards the
+    Imperial Palace, where they merge with the Emperor to form a
+    gigantic angel-winged creature. The remaining Imperials see that the
+    Sky Islands were right the whole time - this grotesque creature is
+    the natural conclusion of an exploitative system. The creature must
+    be fought at different locations on its body, until it finally
+    falls.
+
 ## Intentionally Unanswered Questions
 
 Who is the current Emperor? Is this person putting any effort whatsoever
@@ -4025,50 +4144,6 @@ the time?
 # 9\. Pre-Made Allies
 
 ## Animals
-
-### Armored Dragon
-
-Armored Dragons started out as bioweapons from an ancient age. All
-surviving Armored Dragons have long since shaken off their programming,
-and now work for anyone who demonstrates kindness towards Island
-creatures. They are angered by any mistreatment of animals, especially
-Imperial practices, and constantly regain 1 Energy per status phase
-while angry. They are large enough to be ridden and still fly. According
-to the Islands, the Armored Dragons know things that even the Islands do
-not, but they can only interface with ancient technology that predates
-the devastation of the continents, so they take their secrets to their
-graves.
-
-  - Animal
-  - Maximum Health = 20 + (Power Level \* 2)
-  - Maximum Energy = 20 + (Power Level \* 2)
-  - Physical Accuracy = 10 + Power Level
-      - Barehanded = 10 + (Power Level \* 2)
-  - Physical Evasion = 20 + (Power Level \* 2)
-      - Unarmored = 20 + (Power Level \* 3)
-  - Physical Power = 10 + Power Level
-      - Barehanded = 10 + (Power Level \* 1.5)
-  - Physical Armor = 15 + (Power Level \* 1.5)
-  - Magical Accuracy = 20 + (Power Level \* 2)
-  - Magical Evasion = 10 + Power Level
-  - Magical Power = 20 + (Power Level \* 2)
-  - Magical Armor = 10 + Power Level
-  - Gear:
-      - Barehanded
-      - Unarmored (natural armor is already factored into Physical Armor
-        stat)
-  - Flying IV
-  - Homing Lasers - 10 energy - Ranged magical technique with halved
-    Magical Power but doubled Magical Accuracy. This technique has 2
-    lasers, plus one laser for every 10th Power Level. For example, at
-    Power Level 25, this technique has 4 lasers. Each laser can be aimed
-    at a different target, or the same target, or any mixture. If lasers
-    are combined to aim at one target, then they become a single laser
-    with more Magical Power.
-  - Berserk Lasers - 60 energy - Magical technique that targets all
-    enemies in the current battle. This includes large-scale battles
-    with thousands of combatants on each side. Uses magical stats and is
-    opposed by magical stats.
 
 ### Bear
 
@@ -4132,6 +4207,50 @@ fully random and seem to have no influence from their parents.
   - Power Peck - 10 energy - Barehanded attack that ignores Physical
     Armor. The damage is set to be of the same element as the
     Birdhorse’s specialization.
+
+### Heresy Dragon
+
+Heresy Dragons started out as bioweapons from an ancient age. All
+surviving Heresy Dragons have long since shaken off their programming,
+and now work for anyone who demonstrates kindness towards Island
+creatures. They are angered by any mistreatment of animals, especially
+Imperial practices, and constantly regain 1 Energy per status phase
+while angry. They are large enough to be ridden and still fly. According
+to the Islands, the Heresy Dragons know things that even the Islands do
+not, but they can only interface with ancient technology that predates
+the devastation of the continents, so they take their secrets to their
+graves.
+
+  - Animal
+  - Maximum Health = 20 + (Power Level \* 2)
+  - Maximum Energy = 20 + (Power Level \* 2)
+  - Physical Accuracy = 10 + Power Level
+      - Barehanded = 10 + (Power Level \* 2)
+  - Physical Evasion = 20 + (Power Level \* 2)
+      - Unarmored = 20 + (Power Level \* 3)
+  - Physical Power = 10 + Power Level
+      - Barehanded = 10 + (Power Level \* 1.5)
+  - Physical Armor = 15 + (Power Level \* 1.5)
+  - Magical Accuracy = 20 + (Power Level \* 2)
+  - Magical Evasion = 10 + Power Level
+  - Magical Power = 20 + (Power Level \* 2)
+  - Magical Armor = 10 + Power Level
+  - Gear:
+      - Barehanded
+      - Unarmored (natural armor is already factored into Physical Armor
+        stat)
+  - Flying IV
+  - Homing Lasers - 10 energy - Ranged magical technique with halved
+    Magical Power but doubled Magical Accuracy. This technique has 2
+    lasers, plus one laser for every 10th Power Level. For example, at
+    Power Level 25, this technique has 4 lasers. Each laser can be aimed
+    at a different target, or the same target, or any mixture. If lasers
+    are combined to aim at one target, then they become a single laser
+    with more Magical Power.
+  - Berserk Lasers - 60 energy - Magical technique that targets all
+    enemies in the current battle. This includes large-scale battles
+    with thousands of combatants on each side. Uses magical stats and is
+    opposed by magical stats.
 
 ### Salt Mouse
 
@@ -4325,9 +4444,9 @@ told all sorts of horrible things about Sky Islanders, and shipped off.
 ### Manipulated Corpse
 
 Slaves who were starved to death in a mass murder ritual, but denied
-death. They can still feel echoes of their life. The Empire screws
-magical bolts into their skulls to prevent them from realizing what
-their condition truly is.
+eternal rest. They can still feel echoes of their life. The Empire
+screws magical bolts into their skulls to prevent them from realizing
+what their condition truly is.
 
   - Undead
   - Maximum Health = 40 + (Power Level \* 4)
@@ -4365,7 +4484,7 @@ their condition truly is.
   - Magical Evasion = 10 + Power Level
   - Magical Power = 10 + Power Level
   - Magical Armor = 10 + Power Level
-  - Swiftfoot IV
+  - Swiftfoot II
   - Gear:
       - Barehanded
       - Unarmored
@@ -4396,7 +4515,42 @@ their condition truly is.
 
 ## T2 Scout
 
-Imperial Scout:
+### Gladiator Blooded
+
+Gladiators with at least one confirmed one-on-one kill, and declared
+that they liked it. They are given further mental reinforcement that
+they should want to kill Sky Islanders.
+
+  - Person
+  - Maximum Health = 30 + (Power Level \* 4)
+  - Maximum Energy = 10 + Power Level
+  - Physical Accuracy = 20 + (Power Level \* 2)
+  - Physical Evasion = 20 + (Power Level \* 2)
+      - Light Armor = 20 + (Power Level \* 2.5)
+  - Physical Power = 20 + (Power Level \* 2)
+      - Weapon = 20 + (Power Level \* 3.5)
+  - Physical Armor = 10 + Power Level
+      - Light Armor = 10 + (Power level \* 1.5)
+  - Magical Accuracy = 10 + Power Level
+  - Magical Evasion = 10 + Power Level
+      - Light Armor = 10 + (Power Level \* 1.5)
+  - Magical Power = 10 + Power Level
+  - Magical Armor = 10 + Power Level
+  - Gear:
+      - 2-Handed Melee Weapon
+      - Light Armor
+  - Knockback Strike - 3 energy - Melee attack that also knocks back the
+    target by 5 feet.
+  - Flashy Strike - 4 energy - Melee attack with half Physical Accuracy
+    but double damage.
+  - Shoulder Check - 4 energy - Melee attack with double Physical
+    Accuracy but half damage.
+  - Gladiator Backstab - 5 energy - Melee attack that does double damage
+    if it hits the back.
+  - Plunging Attack - 6 energy - Melee attack that ignores Physical
+    Armor. Requires that the target is at least 4 feet below.
+
+### Imperial Scout
 
   - Person
   - Maximum Health = 20 + (Power Level \* 2)
@@ -4417,9 +4571,119 @@ Imperial Scout:
   - Gear:
       - 2-Handed Ranged Weapon
       - Light Armor
+  - Random Element Specialization
+  - Ranged Weapon Techs
+
+### Watcher Controller
+
+Watcher Controllers host Imperial Watcher spirits inside of their own
+bodies, linking them to Possessed Watchers.
+
+  - Person
+  - Maximum Health = 20 + (Power Level \* 2)
+  - Maximum Energy = 20 + (Power Level \* 2)
+  - Physical Accuracy = 10 + Power Level
+      - Weapon = 10 + (Power Level \* 2)
+  - Physical Evasion = 10 + Power Level
+  - Physical Power = 10 + Power Level
+  - Physical Armor = 10 + Power Level
+  - Magical Accuracy = 20 + (Power Level \* 2)
+  - Magical Evasion = 20 + (Power Level \* 2)
+      - Magic Armor = 20 + (Power Level \* 3)
+  - Magical Power = 20 + (Power Level \* 2)
+      - Technique = 20 + (Power Level \* 3.25)
+      - Melee = 10 + (Power Level \* 2.75)
+      - Ranged = 10 + (Power Level \* 2.5)
+  - Magical Armor = 10 + Power Level
+      - Magic Armor = 10 + (Power Level \* 2)
+  - Gear:
+      - 2-Handed Magic Weapon
+      - Magic Armor
+  - Able to use magical techniques as if their physical position had
+    originated from a Possessed Watcher
+  - Temporary Watcher - 10 Energy - Attaches a watcher to an Imperial
+    Person within range. This then allows the Watcher Controller to use
+    magical techniques as if their physical position had originated from
+    that Imperial Person.
+  - Random Element Specialization
+  - Elemental Techs
+
+### Possessed Watcher
+
+Ritually murdered in the most psychologically-horrifying way possible,
+so that they would be vulnerable to possession by Watcher spirits
+crafted by the Empire. Their control bolts are also inscribed with the
+parts of the Adtextus that define what Watcher spirits are.
+
+  - Undead
+  - Maximum Health = 40 + (Power Level \* 4)
+  - Maximum Energy = 10 + Power Level
+  - Physical Accuracy = 15 + (Power Level \* 1.5)
+      - Weapon = 15 + (Power Level \* 2.5)
+  - Physical Evasion = 10 + Power Level
+      - Unarmored = 10 + (Power Level \* 2)
+  - Physical Power = 20 + (Power Level \* 2)
+      - Weapon = 20 + (Power Level \* 3)
+  - Physical Armor = 10 + Power Level
+  - Magical Accuracy = 10 + Power Level
+  - Magical Evasion = 10 + Power Level
+  - Magical Power = 10 + Power Level
+  - Magical Armor = 20 + (Power Level \* 2)
+  - Jumping II
+  - Teleport II
+  - Gear:
+      - 1-Handed Melee Weapon
+      - Unarmored
+
+### Starved Bloodhound
+
+  - Animal
+  - Maximum Health = 40 + (Power Level \* 4)
+  - Maximum Energy = 10 + Power Level
+  - Physical Accuracy = 20 + (Power Level \* 2)
+      - Barehanded = 20 + (Power Level \* 3)
+  - Physical Evasion = 20 + (Power Level \* 2)
+      - Unarmored = 20 + (Power Level \* 3)
+  - Physical Power = 20 + (Power Level \* 2)
+      - Barehanded = 20 + (Power Level \* 2.5)
+  - Physical Armor = 10 + Power Level
+  - Magical Accuracy = 10 + Power Level
+  - Magical Evasion = 10 + Power Level
+  - Magical Power = 10 + Power Level
+  - Magical Armor = 10 + Power Level
+  - Swiftfoot IV
+  - Gear:
+      - Barehanded
+      - Unarmored
+  - Dashing Bite - 3 energy - Move 20 feet, then barehanded attack.
+  - Scent Tracking - 3 energy - Adds the Scent Tracked status condition
+    to a target within smelling range.
+  - Maul - 5 energy - Grapple, then barehanded attack.
 
 ## T3 Auxilia
 
+### Auxilia Archer
+
+### Auxilia Swordsman
+
 ## T4 Equestrian
 
+### Auxilia Cataphract
+
+### Auxilia War Elephant
+
+### Imperial Equestrian
+
 ## T5 Legion
+
+### Pact Dragon
+
+This political party of dragons wants to exterminate whole species
+according to the prophecies of their religion. They have made pacts with
+various continental powers, including the Empire, binding their lives
+and minds together in exchange for special abilities. They have common
+ground with the Empire in that they want to kill specific Sky Islands,
+including the ones that the Player-Characters live on. Dragon parents in
+this political party tend to eat their own children, as the logical
+conclusion of their regressive beliefs, although a few have escaped to
+become other types of dragons.
