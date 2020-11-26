@@ -78,20 +78,22 @@ Systems:
 - Shelter
 - Water System
 
-### Island Government
+### Island Governance
 
-The best island governments have traits such as:
+The best island governance systems have traits such as:
 
 - Inclusion of the Island's voice as being equal to or greater than the voices of those who live on it.
-- Understanding all life forms on the Island as being part of a holistic ecosystem, so that no species is ever allowed to control any other, nor be considered more deserving of resources than any other.
-- Caring for those who are unable to work, ensuring they have water, food, shelter, and communication.
+- Caring for those who are unable to work, ensuring they have water, food, shelter, and communication. In general, anyone can grab food as long as they eat it fully in the presence of the community, wasting nothing.
 - Positive recognition and celebration of special mental traits.
 - Positive recognition and celebration of gender transition, for anyone who discovers that they need such transformation to become their true selves.
-- Recallable politicians, who will surely be recalled or even punished if they do something other than what they say. Better yet would be a system of recallable delegates who are sent to councils for the purpose of sharing information and connecting people together, and have no power to compel anyone else to do anything.
+- Understanding all life forms on the Island as being part of a holistic ecosystem, so that no species is ever allowed to control any other, nor be considered more deserving of resources than any other.
+- No ownership of anything you cannot carry or use yourself. No inheritance. No debt.
+- No hierarchical government. No separate roles of violence, everyone who is "of age" must share that burden equally.
+- Representatives must come from the workers, and must return to the workers. They are only convened for special purposes, such as war against the Empire, or focusing on a specific crisis.
 
-Island governments that do not have such traits are likely to be making evil deals with the Empire, or may even be occupied by the Empire, with the life-draining power of the Imperial Adtextus planted on it.
+Island governance systems that do not have such traits are likely to be making evil deals with the Empire, or may even be occupied by the Empire, with the life-draining power of the Imperial Adtextus planted on it.
 
-Whatever form the government begins in, the Player-Characters definitely do not start out in charge of it.
+Whatever form the system begins in, the Player-Characters definitely do not start out in charge of it. And ideally no person or faction can ever be in charge of it.
 
 # 3. Player Characters
 
@@ -103,28 +105,32 @@ You can also save trait choices for later. In fact, if this is your first time c
 
 - **Abiotic** - You do not need water, food, or sleep. You only need maintenance and recharging, both of which can be done while you are awake.
 - **Acid Blood** - Whenever you take more than 1 damage, you cause 1/4th of the damage to all enemies within 5 feet, for a minimum of 1 damage dealt. You can also use your blood to melt through solid objects given enough time and enough blood to spare.
+  - *Mapless* - The damage is dealt to three enemies in the front row.
 - **Amorphous** - Your natural form is a something like gelatin, ooze, slime, or good-quality chilled broth. You can use this form to slide down slopes, down drains, into pipes, etc. However, this causes all of your combat gear to fall off, and you also cannot perform combat actions in that form.
 - **Antigrav** - You always have Hover I. This improves to Hover II at Power Level 20, Hover III at Power Level 40, and Hover IV at Power Level 60.
 - **Aquatic** - You always have Swimming I. This improves to Swimming II at Power Level 20, Swimming III at Power Level 40, and Swimming IV at Power Level 60. You can also hold your breath for long periods of time underwater.
-- **Bouncy Body** - Your Grapple actions move enemies by 10 feet rather than 5 feet.
+- **Bouncy Body** - Your Grapple actions move enemies by 5 additional feet.
+  - *Mapless* - Your Grapple actions remove 1 additional Maneuver from enemies.
 - **Claws / Fangs / Horns / Spikes** - You always have Ironfist I. This improves to Ironfist II at Power Level 20, Ironfist III at Power Level 40, and Ironfist IV at Power Level 60.
 - **Cold Blooded** - Health loss during the status phase is halved.
 - **Constrictor** - Your accuracy for grapples is increased by an amount equal to half your Power Level.
 - **Echolocation** - Your Physical Accuracy is not affected by status conditions.
 - **Elemental Breath: Specific Element** - You must choose one element for this physical feature. That element is locked-in for life. You can spend 2 action points to do the Elemental Breath technique without an energy cost.
-- **Energy Being** - Your Charge actions restore double Energy to yourself. Half of all Health damage is additionally dealt to your Energy.
+- **Energy Being** - Your Charge actions restore double Energy to yourself. Half of all Health damage that you take is additionally dealt to your Energy.
 - **External Digestion** - Your Grapple actions do double damage.
 - **Fur / Scales / Thick Hide** - You have a natural body covering that insulates you from some types of environmental conditions. You gain two extra chances for Dramatic Chances that involve spending long periods of time in hot or cold environments.
 - **Gills** - You are able to breathe while submerged.
 - **Heavy Body** - Grapple actions against you do not move you.
 - **Hermaphrodite** - You can morph your sexual characteristics by concentrating on them for several minutes in a safe area.
 - **Imperial Body Shape** - If you wrap yourself in heavy clothing, then you look like an Imperial from a distance, thus avoiding immediate attack if you are travelling by yourself.
+- **Integrated Weapons** - You gain 2 extra skill points every Power Level, as well as at character creation, which can be spent on skills in the Weapon Training group. You must still follow the limit of skill ratings being capped by your Power Level. Furthermore, it only costs 1 AP to change what is in your hands rather than 2 AP.
 - **Long Lived** - You are able to stay young for thousands of years. You gain 5 extra skill points every Power Level, as well as at character creation, for skills in the Artistic, Physicality, Science and Tradeskills groups. You must still follow the limit of skill ratings being capped by your Power Level.
 - **Multi Armed** - You are able to use a two-handed weapon and one shield, at the same time.
 - **Multi Colored** - You gain 2 extra skill points every Power Level, as well as at character creation, which can be spent on skills in the Magical Elements group. You must still follow the limit of skill ratings being capped by your Power Level.
 - **Multi Mind** - You have more than one complete mind existing within you at once. Each mind has its own complete set of skills and stats. You must spend 4 APs to change your active mind in the middle of battle, and this could potentially leave you holding the wrong equipment for a bit longer than that. This also results in losing all of your current Energy. In the middle of dramatic situations, you cannot change your active mind except in response to specific conditions that trigger different minds.
 - **Necropower** - When you do a killing attack or technique, you get one free Charge action.
 - **Phasing** - You always have Teleport I. This improves to Teleport II at Power Level 20, Teleport III at Power Level 40, and Teleport IV at Power Level 60.
+- **Photosynthetic** - When you take Light or Water damage, you can consider it to be Wood damage instead.
 - **Power-Jumping** - You always have Jump I. This improves to Jump II at Power Level 20, Jump III at Power Level 40, and Jump IV at Power Level 60.
 - **Quadruped** - You always have Swiftfoot I. This improves to Swiftfoot II at Power Level 20, Swiftfoot III at Power Level 40, and Swiftfoot IV at Power Level 60.
 - **Regeneration** - You heal 1 Health in each Status Phase. You always fully-heal outside of combat.
@@ -137,7 +143,6 @@ You can also save trait choices for later. In fact, if this is your first time c
 - **Venomous Claws / Fangs / Stinger** - Your unarmed attacks which do more than 1 damage also cause one stack of the Venom status condition.
 - **Venomous Skin / Spines** - Anyone who does an unarmed attack to you, or attempts to grapple you, immediately receives one stack of the Venom status condition.
 - **Venomous Spit / Eye Blood** - You can do a ranged attack that does exactly 2 points of damage, ignoring Physical Armor, which adds one stack of the Venom status condition to the target.
-- **Weaponmaster** - You gain 2 extra skill points every Power Level, as well as at character creation, which can be spent on skills in the Weapon Training group. You must still follow the limit of skill ratings being capped by your Power Level.
 - **Wings** - You always have Winged I. This improves to Winged II at Power Level 20, Winged III at Power Level 40, and Winged IV at Power Level 60.
 
 ## Defining Yourself In Terms Of Your Island
@@ -252,10 +257,10 @@ To repeat from the [Player Characters](#player-characters) chapter:
   - **Moon** - opposite of Wood
   - **Water** - opposite of Fire
   - **Wood** - opposite of Moon
-- **Magical Techniques Group** - Used in combination with skills of the Magical Elements Groups. All magical techniques must be used in association with one specific element. Available techniques are determined by the lowest of the element and technique skill. For example, one of the techniques from Elemental Techs rating 5 is Elemental Spark. Elemental Spark can only be used with elements if your skill in those elements is also at rating 5.
+- **Magical Techniques Group** - Used in combination with skills of the Magical Elements Groups. All magical techniques must be used in association with one specific element. Available techniques are determined by the lowest of the element and technique skill. For example, one of the techniques from Elemental Energy Techs rating 5 is Elemental Spark. Elemental Spark can only be used with elements if your skill in those elements is also at rating 5.
   - **Alchemy Techs** - Preparation and expert usage of items. However, you can only have a certain number of items prepared at a time, and when they all get used up, you must spend a **Strategic Turn** to prepare more.
-  - **Cooking Techs** - Keeping people well-fed and giving them constant bonuses as a result of their diet. However, this set of techniques is not as interesting as the other technique skills during combat, instead being more of a source of passive bonuses.
-  - **Elemental Techs** - Pure elemental power from the Blended Realm. These techniques can be energy and time intensive, but they also build up to great power.
+  - **Blended Mind Techs** - Directly connecting your mind with whole elemental regions of the Blended Realm. This allows you to project your mind back out into the material plane of existence in new ways.
+  - **Elemental Energy Techs** - Pure elemental power from the Blended Realm. These techniques can be energy and time intensive, but they also build up to great power.
   - **Hexenkraft Techs** - Magic pulled directly into people's bodies, weapons, and armor. This is most often associated with immediate healing, but also has deeper intricacies and complexities.
   - **Martial Techs** - Channeling magic through one's own body to create powerful fighting techniques. If you are both unarmed and unarmored, you will likely rely on Martial Techs heavily in combat.
   - **Musical Techs** - Reserves action points in order to create constant effects around yourself.
@@ -383,11 +388,15 @@ Added to your Physical Accuracy when attacking with a one-handed melee weapon. S
 
 Weapon Damage is Physical Power + Skill Rating.
 
+Mapless: Front Row to Front Row only
+
 ### Two-Handed Melee Weapons
 
 Added to your Physical Accuracy when attacking with a two-handed melee weapon. Such weapons can be used to attack enemies within a 5-foot square that is side-adjacent to your current square.
 
 Weapon Damage is Physical Power + 1.5x Skill Rating, for a minimum of 2 added damage.
+
+Mapless: Front Row to Front Row only
 
 ### One-Handed Reach Weapons
 
@@ -395,11 +404,15 @@ Added to your Physical Accuracy when attacking with a one-handed reach weapon. S
 
 Weapon Damage is Physical Power + 0.75x Skill Rating, for a minimum of 1 added damage.
 
+Mapless: Can reach from your team's Front Row to the enemy team's Second Row, or from your team's Second Row to the enemy team's Front Row.
+
 ### Two-Handed Reach Weapons
 
 Added to your Physical Accuracy when attacking with a two-handed reach weapon. Such weapons can be used to attack enemies within a 10-foot radius.
 
 Weapon Damage is Physical Power + 1.25x Skill Rating.
+
+Mapless: Can reach from your team's Front Row to the enemy team's Second Row, or from your team's Second Row to the enemy team's Front Row.
 
 ### One-Handed Ranged Weapons
 
@@ -407,11 +420,15 @@ Added to your Physical Accuracy when attacking with a one-handed ranged weapon. 
 
 Weapon Damage is Physical Power + 0.5x Skill Rating, for a minimum of 1 added damage.
 
+Mapless: Can reach from your team's Front Row to the enemy team's Third Row, or from your team's Third Row to the enemy team's Front Row.
+
 ### Two-Handed Ranged Weapons
 
 Added to your Physical Accuracy when attacking with a two-handed ranged weapon. Such weapons can be used to attack enemies within a 30-foot radius, half accuracy within a 45-foot radius, and 1/4th accuracy beyond that.
 
 Weapon Damage is Physical Power + Skill Rating, for a minimum of 1 added damage.
+
+Mapless: Can reach from your team's Front Row to the enemy team's Third Row, or from your team's Third Row to the enemy team's Front Row.
 
 ### One-Handed Magical Weapons
 
@@ -423,6 +440,8 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 
 Weapon Damage is Magical Power + 0.25x Skill Rating, for a minimum of 1 added damage, when used to attack enemies further away up to a 30-foot radius.
 
+Mapless: Melee mode can reach from Front Row to Front Row only. Ranged mode can reach from your team's Front Row to the enemy team's Third Row, or from your team's Third Row to the enemy team's Front Row.
+
 ### Two-Handed Magical Weapons
 
 Added to your Magic Accuracy when using a two-handed magical weapon. Such weapons do different amounts of damage based on whether they are used to attack enemies within a 5-foot square that is side-adjacent to your current square, or further away than that.
@@ -432,6 +451,8 @@ Added to your Magic Accuracy when using a two-handed magical weapon. Such weapon
 Weapon Damage is Magical Power + 0.75x Skill Rating, for a minimum of 1 added damage, when used to attack enemies  within a 5-foot square that is side-adjacent to your current square.
 
 Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added damage, when used to attack enemies further away up to a 30-foot radius.
+
+Mapless: Melee mode can reach from Front Row to Front Row only. Ranged mode can reach from your team's Front Row to the enemy team's Third Row, or from your team's Third Row to the enemy team's Front Row.
 
 ## Magical Techniques Group
 
@@ -488,6 +509,7 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 - Type: Throw Object
 - Range: 30 feet
 - Target: Single
+- Mapless: Any One Ally
 - Restores 25 Health to the target.
 
 **Prepare Energy Twig**:
@@ -500,11 +522,13 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 - Type: Throw Object
 - Range: 30 feet
 - Target: Single
+- Mapless: Any One Ally
 - Restores 10 Energy to the target.
 
 **Prepare Elemental Firecracker**:
 
 - Alchemical Preparation
+- Mapless: Any One Enemy
 - An elemental firecracker can be thrown up to 30 feet away to cause 1 point of elemental damage, ignoring both Physical Evasion and Physical Armor.
 
 **Expert Packing of Elemental Firecracker**:
@@ -512,6 +536,7 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 - Type: Throw Object
 - Range: 30 feet
 - Target: Single
+- Mapless: Any One Enemy
 - Causes an amount of elemental damage equal to one-fourth of your Alchemy Techs skill rating, for a minimum of 1 damage. Ignores both Physical Evasion and Physical Armor.
 
 #### Rating 5
@@ -538,11 +563,13 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 - Type: Throw Object
 - Range: 30 feet
 - Target: Single
+- Mapless: Any One Ally
 - Removes 2 harmful status conditions of your choice from the target.
 
 **Prepare Elemental Sticky Vial**:
 
 - Alchemical Preparation
+- Mapless: Any One Enemy
 - An elemental sticky vial can be thrown up to 30 feet away to add 1 stack of Elemental Sticky Bomb status, ignoring Physical Evasion.
   - **Elemental Sticky Bomb: <Specific>** - You take 1 elemental damage of the specific element, per status phase. Multiple sticky bombs can stack. Thankfully they have finite durations.
 
@@ -553,11 +580,13 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 - Type: Throw Object
 - Range: 30 feet
 - Target: Single
+- Mapless: Any One Enemy
 - Adds two stacks of Elemental Sticky Bomb status, ignoring Physical Evasion.
 
 **Prepare Elemental Landmine**:
 
 - Alchemical Preparation
+- Mapless: Targets the front enemy row, and is triggered when an enemy uses at least 2 Maneuver.
 - An elemental landmine can be placed on the ground, in the same 5-foot square as the placer. The landmine remains active for up to an hour after placement. The landmine triggers when someone is touching its 5-foot square during the status phase. It does an amount of elemental damage to whoever is in the trigger area equal to the preparer's Magic Damage + Alchemy Techs rating.
 
 **Expert Placement of Elemental Landmine**:
@@ -567,6 +596,7 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 - Type: Throw Object
 - Range: 30 feet
 - Target: One 5-foot square
+- Mapless: Targets any enemy row.
 - Places the elemental landmine in the targeted square.
 
 #### Rating 10
@@ -584,11 +614,13 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 - Type: Throw Object
 - Range: 30 feet
 - Target: Single
+- Mapless: Any One Ally
 - Applies the Preserving Compress status condition for 8 status phases.
 
 **Prepare Poisongas Neutralizer**:
 
 - Alchemical Preparation
+- Mapless: Yourself
 - A Poisongas Neutralizer removes Imperial Poison Gas from the 5-foot square that the user is standing in.
 
 **Expert Dispersal of Poisongas Neutralizer**:
@@ -598,6 +630,7 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 - Type: Throw Object
 - Range: 30 feet
 - Target: One 5-foot square
+- Mapless: Any Ally Row
 - Removes Imperial Poison Gas from the targeted 5-foot square, as well as all side-adjacent and corner-adjacent 5-foot squares.
 
 **Prepare Elemental Weapon Resin**:
@@ -613,6 +646,7 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 - Type: Throw Object
 - Range: 30 feet
 - Target: Single
+- Mapless: Any One Ally
 - Applies the Elemental Weapon Resin status condition for 8 status phases.
 
 **Prepare Elemental Armor Resin**:
@@ -628,6 +662,7 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 - Type: Throw Object
 - Range: 30 feet
 - Target: Single
+- Mapless: Any One Ally
 - Applies the Elemental Armor Resin status condition for 8 status phases.
 
 #### Rating 15
@@ -650,6 +685,7 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 - Type: Throw Object
 - Range: 30 feet
 - Target: Single
+- Mapless: Any One Ally
 - Restores 50 Health to the target.
 
 **Prepare Energy Berry**:
@@ -664,11 +700,13 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 - Type: Throw Object
 - Range: 30 feet
 - Target: Single
+- Mapless: Any One Ally
 - Restores 20 Energy to the target.
 
 **Prepare Elemental Explosive Trap**:
 
 - Alchemical Preparation
+- Mapless: Targets the front Enemy Row, activates when an enemy in that row uses at least 2 Maneuver
 - An elemental explosive trap can be placed on the ground, in the same 5-foot square as the placer. The trap remains active for up to an hour after placement. The trap triggers when anyone is touching its 5-foot square, or any side-adjacent 5-foot-square, during the status phase. It does an amount of elemental damage to everyone in the trigger area equal to the preparer's Magic Damage + Alchemy Techs rating.
 
 **Expert Placement of Elemental Explosive Trap**:
@@ -678,6 +716,7 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 - Type: Throw Object
 - Range: 30 feet
 - Target: One 5-foot square
+- Mapless: Any Enemy Row
 - Places the elemental explosive trap in the targeted square.
 
 #### Rating 20
@@ -694,6 +733,7 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 - Type: Throw Object
 - Range: 30 feet
 - Target: Single
+- Mapless: Any One Ally
 - Revives the target at an amount of Health equal to 1/4th of their Maximum Health.
 
 #### Rating 25
@@ -736,9 +776,18 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 - Technique
 - 1 AP
 
-### Cooking Techs
+### Blended Mind Techs
 
-### Elemental Techs
+#### Rating 1
+
+**Conscious Thought Sending**
+
+- Technique
+- 1 AP
+- 1 energy
+- Sends one conscious thought into an elemental region of the Blended Realm, then back out into the mind of someone who has a skill rating of at least 1 in that element. This can communicate some quick information, but is no more distracting than most other things.
+
+### Elemental Energy Techs
 
 #### Rating 1
 
@@ -773,6 +822,7 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 - Type: Straight Projectile
 - Range: 30 feet
 - Target: Single
+- Mapless: Any One Enemy
 - Creates a projectile of elemental energy, then launches it at the target. Uses your magical stats and is opposed by magical stats. If your Magical Accuracy is more than 1.5x the target's Magical Evasion, then you cause an additional effect based on the element used.
   - Air: Adds the Shocked status to the target.
     - **Shocked** - Magical Power and Magical Armor are halved. Removed whenever you take Earth elemental damage. Can be removed by spending all action points to breathe and calm down from the shock.
@@ -799,6 +849,7 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 - Type: Line-of-sight
 - Range: 30 feet
 - Target: Self or Single
+- Mapless: Any One Ally
 - Gives one elemental charge to the target.
 
 **Transfer Charges**:
@@ -810,6 +861,7 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 - Type: Line-of-sight
 - Range: 30 feet
 - Target: Single
+- Mapless: Any One Ally
 - Transfers all elemental charges on yourself to the target.
 
 #### Rating 5
@@ -823,6 +875,7 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 - Type: Magic Breath
 - Range: 5 feet
 - Target: All in the area
+- Mapless: One enemy in the front row, then three enemies in the second row
 - Launches a large burst of elemental energy in front of you, which then expands outwards. It targets the 5-foot square in front of you, then the side-adjacent and two corner-adjacent 5-foot squares further away from you. Uses your magical stats and is opposed by magical stats. If your Magical Accuracy is more than 1.5x a target's Magical Evasion, then you cause an additional effect based on the element used. Refer to *Elemental Shot* for the additional effect.
 
 **Elemental Spark**:
@@ -833,6 +886,7 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 - Type: Line-of-Sight
 - Range: 30 feet
 - Target: Single
+- Mapless: Any One Enemy
 - Creates a spark of elemental energy directly in the face of the target. Uses your magical stats and is opposed by magical stats. If your Magical Accuracy is more than 1.5x the target's Magical Evasion, then you cause an additional effect based on the element used. Refer to *Elemental Shot* for the additional effect.
 
 **Charging Elemental Shot**:
@@ -851,6 +905,7 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 - Type: Straight Projectile
 - Range: 30 feet
 - Target: Single
+- Mapless: Any One Enemy
 - Converts your elemental charges into a single shot. Uses your magical stats and is opposed by magical stats. The shot's damage is equal to Magical Power * 0.5 * the number of charges. If your Magical Accuracy is more than 1.5x the target's Magical Evasion, then you cause additional effects based on the elements of the charges used. Refer to *Elemental Shot* for the additional effects.
 
 **Elemental Eyes**:
@@ -860,7 +915,7 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 - 4 energy
 - 2 Action Points
 - Target: Self
-- Transforms your eyes so that you perceive the linked element, even being able to see it through other solid objects and through the ground. The visual range for this effect is a maximum of Elemental Techs Rating * 50 meters.
+- Transforms your eyes so that you perceive the linked element, even being able to see it through other solid objects and through the ground. The visual range for this effect is a maximum of Elemental Energy Techs Rating * 50 meters.
 
 #### Rating 10
 
@@ -876,17 +931,22 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 - Technique
 - 2 AP
 - 4 energy
-- Duration: Elemental Techs Rating in Minutes
-- Pulls an elemental object from the Blended Realm into the same 5-foot square that you are standing in. The object hovers in air and can bear some weight on top of it, equal to your Elemental Techs rating * 10 kilograms. The object follows you around within the limitations of having the Hover IV movement type. If it cannot follow you then it will get stuck, then stay in place until you give it a better route. You can maintain at most one Elemental Force Object of each element.
+- Duration: Elemental Energy Techs Rating in Minutes
+- Mapless: The object is in the same row as yourself
+- Pulls an elemental object from the Blended Realm into the same 5-foot square that you are standing in. The object hovers in air and can bear some weight on top of it, equal to your Elemental Energy Techs rating * 10 kilograms. The object follows you around within the limitations of having the Hover IV movement type. If it cannot follow you then it will get stuck, then stay in place until you give it a better route. You can maintain at most one Elemental Force Object of each element.
   - Air: An ally can jump onto the object and get launched 20 feet upwards, then fall back down without taking damage. This allows them to make movements that would otherwise not be possible with their movement type.
+    - Mapless: Allies in the same row with Jump I or better gain 1 Maneuver.
   - Crystal: The next weapon attack against you will hit the Crystal Force Object instead, destroying it.
   - Dark: You can spend 1 Action Point to teleport an object on the Dark Force Object to a different Elemental Force Object that you or an ally controls.
   - Earth: The Earth Force Object can be directed to roll down a slope until it hits a level surface, knocking into all enemies in the path. This acts as if targeting the enemies with *Elemental Shot*.
+    - Mapless: Targets one enemy in each row.
   - Fire: Can be used for cooking and boiling, with different temperatures on the same object. The level of precision for the temperature is 0.1 degrees celsius, and the level of precision for different temperatures per area is 1 micron.
   - Light: Can be used to view from any angle extending from the Light Force Object, as well as any other Elemental Force Objects controlled by yourself or any ally.
   - Moon: During the status phase, the Moon Force Object restores 1 Energy to yourself and all allies within 5 feet of the object.
-  - Water: People and objects can hide inside the Water Force Object to the point of complete submergence and avoidance from line-of-sight. The Water Force Object can also be turned sideways to pour water, at a rate of a number of cubic meters per turn equal to your Elemental Techs Rating.
-  - Wood: You can spend 1 Action Point to permanently affix the Wood Force Object to the ground. This will transplant a whole tree from the Blended Realm. The tree's trunk is thick enough to completely block movement and visibility through a 5-foot square, and has a height equal to Elemental Techs Rating * 20 meters.
+    - Mapless: Affects all allies in the same row.
+  - Water: People and objects can hide inside the Water Force Object to the point of complete submergence and avoidance from line-of-sight. The Water Force Object can also be turned sideways to pour water, at a rate of a number of cubic meters per turn equal to your Elemental Energy Techs Rating.
+  - Wood: You can spend 1 Action Point to permanently affix the Wood Force Object to the ground. This will transplant a whole tree from the Blended Realm. The tree's trunk is thick enough to completely block movement and visibility through a 5-foot square, and has a height equal to Elemental Energy Techs Rating * 20 meters.
+    - Mapless: Usable as Cover by those in rows behind you.
 
 **Elemental Ground**:
 
@@ -896,16 +956,22 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 - Type: Area
 - Range: Line-of-Sight
 - Target: 5-foot-diameter ground area
+  - Mapless: Targets either one ally or one enemy.
 - Transforms part of the terrain - or part of thin air that is connected to the terrain - into a magical elemental form, depending on the element used. The magical terrain has a depth of 2 feet.
   - Air: Turns the terrain (or terrain-connected air) into a cloud. You and your team can walk on top of the cloud. If there was nothing under the terrain, then enemies will fall through if they try to walk on it.
+    - Mapless: One ally with at least Swiftfoot I gains 1 Maneuver.
   - Crystal: Turns the terrain (or terrain-connected air) into transparent crystal.
   - Dark: Turns the terrain (or terrain-connected air) into opaque obsidian. It also projects a 10-foot-tall field that blocks all light and sound, thus blocking vision and echolocation.
+    - Mapless: One ally can use it as Cover.
   - Earth: Turns the terrain (or terrain-connected air) into solid rock.
   - Fire: Turns the terrain (or terrain-connected air) into hot molten stone. Anyone who steps on the terrain takes 1 damage, and if their Magical Evasion is less than your Magical Accuracy, then they also get the Burning status condition.
+    - Mapless: Targets one enemy.
   - Light: Turns the terrain (or terrain-connected air) into a shiny reflective metal. During the status phase, whoever is standing on the terrain regains 1 energy.
+    - Mapless: Targets one ally.
   - Moon: Turns the terrain (or terrain-connected air) into barren lunar rock.
   - Water: Turns the terrain (or terrain-connected air) into a pool of water. If it was already water then it becomes 2 feet deeper.
   - Wood: Turns the terrain (or terrain-connected air) into wood and vines that you and your team can walk through normally. Enemies must spend 10 feet of horizontal movement to traverse the 5 feet of wooden ground.
+    - Mapless: Targets one enemy, and causes that enemy to lose 1 Maneuver.
 
 **Elemental Lance**:
 
@@ -915,6 +981,7 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 - Type: Line
 - Range: 30 feet
 - Target: All in the 30-foot line
+- Mapless: One enemy in each row.
 - Creates a spike of elemental energy in a straight line. Uses your magical stats and is opposed by magical stats. If your Magical Accuracy is more than 1.5x a target's Magical Evasion, then you cause an additional effect based on the element used. Refer to *Elemental Shot* for the additional effect.
 
 #### Rating 15
@@ -923,7 +990,7 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 
 - Reaction
 - Reserves 1 AP
-- When you take more than 1 elemental damage, you perform an Elemental Techs technique at the enemy who caused the damage, spending double the Energy but also adding your Power Level to the damage.
+- When you take more than 1 elemental damage, you perform an Elemental Energy Techs technique at the enemy who caused the damage, spending double the Energy but also adding your Power Level to the damage.
 
 **Elemental Ball**:
 
@@ -933,6 +1000,7 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 - Type: Straight Projectile Explosive
 - Range: 30 feet
 - Target: One 5-foot square
+- Mapless: One row of enemies
 - Creates a ball of elemental energy, then launches it at the destination. When the ball hits anything or arrives at its destination, whichever happens first, it explodes and targets the 5-foot square, as well as all side-adjacent and corner-adjacent 5-foot squares. Uses your magical stats and is opposed by magical stats. If your Magical Accuracy is more than 1.5x a target's Magical Evasion, then you cause an additional effect based on the element used. Refer to *Elemental Shot* for the additional effect.
 
 **Elemental Chain**:
@@ -943,6 +1011,7 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 - Type: Line-of-Sight
 - Range: 30 feet
 - Target: Single
+- Mapless: Exactly 5 enemies
 - As *Elemental Shot*, except as noted here. If this technique causes more than 1 damage to the target, then it chains to another target within line-of-sight of the first one and within 30 feet. The chains continue until this technique either does 1 or less damage, or has hit 5 targets, whichever comes first.
 
 **Great Elemental Charge**:
@@ -953,6 +1022,7 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 - Type: Line-of-sight
 - Range: 30 feet
 - Target: Self or Single
+- Mapless: Any One Ally
 - Gives three elemental charges to the target.
 
 #### Rating 20
@@ -965,6 +1035,7 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 - Type: Auto-targeting Storm
 - Range: 15 feet
 - Target: All enemies within the 15-foot radius
+- Mapless: Front row of enemies
 - Calls down elemental energy to strike all enemies within range. Uses your magical stats and is opposed by magical stats. If your Magical Accuracy is more than 1.5x a target's Magical Evasion, then you cause an additional effect based on the element used. Refer to *Elemental Shot* for the additional effect.
 
 #### Rating 25
@@ -975,6 +1046,7 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 - 2 AP
 - 8 energy
 - Type: 5 side-connected pieces of 5-foot-square ground areas
+- Mapless: Targets five allies or enemies
 - As *Elemental Ground*, except as noted here. If the first piece of elemental ground is in thin air attached to ground, then the other four pieces can extend therefrom.
 
 **Discharging Elemental Rapid-Fire**
@@ -1032,6 +1104,7 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 - Type: Touch
 - Range: 5 feet
 - Target: Single
+- Mapless: One ally in the same row
 - Restore an amount of health to the target equal to your Hexenkraft Techs skill rating. The visual effect is derived from the element used.
 
 **Heal Ray**:
@@ -1042,6 +1115,7 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 - Type: Line-of-sight
 - Range: 30 feet
 - Target: Single
+- Mapless: Any One Ally
 - Restore an amount of health to the target equal to your Hexenkraft Techs skill rating. The visual effect is derived from the element used.
 
 **Resuscitate**:
@@ -1052,6 +1126,7 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 - Type: Touch
 - Range: 5 feet
 - Target: Single
+- Mapless: One ally in the same row
 - Add three stacks of the Resuscitate status to the target. This applies even if the target is dead.
 
 **Elemental Hex Needle**:
@@ -1062,6 +1137,7 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 - Type: Line-of-sight
 - Range: 30 feet
 - Target: Single
+- Mapless: Any One Enemy
 - Produces a needle that then launches at the target instantly. Uses your magical stats and is opposed by magical stats.
 
 #### Rating 5
@@ -1073,6 +1149,7 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 - 5 energy
 - Type: Touch
 - Target: Single
+- Mapless: One ally in the same row
 - If the target is willing, then half of their brain is swapped with that of a pure-elemental creature for a whole day. This experience wildly varies. Some report that they gain a greater understanding of the universe and their place in it. Others get the most negative parts of their personalities infused with elemental beastiality.
 
 **Elemental Armor Coating**:
@@ -1083,6 +1160,7 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 - Type: Line-of-sight
 - Range: 30 feet
 - Target: Single
+- Mapless: Any One Ally
 - Add the Elemental Armor Coating status condition to the target. Crystal element cannot be used for this technique.
   - **Elemental Armor Coating: <Specific>** - Requires that you use armor and/or a shield. Incoming damage from the specified element is halved. The most recent application of this status removes all previous applications.
 
@@ -1094,6 +1172,7 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 - Type: Line-of-sight
 - Range: 30 feet
 - Target: Single
+- Mapless: Any One Ally
 - Add the Elemental Weapon Coating status condition to the target.
   - **Elemental Weapon Coating: <Specific>** - All of your weapons have their damage type changed to be of the specified element. The most recent application of this status removes all previous applications.
 
@@ -1105,6 +1184,7 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 - Type: Line-of-sight
 - Range: 30 feet
 - Target: Single
+- Mapless: Any One Enemy
 - If your Magic Accuracy is higher than the target's Magic Evasion, then add the Elemental Weakness status condition to the target for the chosen element. Crystal element cannot be used for this technique.
   - **Elemental Weakness: <Specific>** - Incoming damage from the specified element bypasses your armor. The most recent application of this status removes all previous applications.
 
@@ -1118,6 +1198,7 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 - Type: Line-of-sight
 - Range: 30 feet
 - Target: Single
+- Mapless: Any One Target
 - Remove all status conditions of your choice from the target that are associated with the chosen element.
 
 **Elemental Hexing**:
@@ -1128,6 +1209,7 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 - Type: Line-of-sight
 - Range: 30 feet
 - Target: Single
+- Mapless: Any One Enemy
 - If your Magic Accuracy is higher than the target's Magic Evasion, then add the Elemental Charge Feedback status condition to the target for the chosen element. Crystal element cannot be used for this technique.
   - **Elemental Charge Feedback: <Specific>** - All element charges of the specified element instead cause you to lose health, then the charges disappear. The amount is 10% of your Maximum Health for each charge. This includes all charges you have when the status is first caused, and all charges you gain while having this status. The most recent application of this status removes all previous applications.
 
@@ -1139,6 +1221,7 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 - Type: Line-of-sight
 - Range: 30 feet
 - Target: Single
+- Mapless: Any One Ally
 - Add the Elemental Resistance status condition to the target.
   - **Elemental Resistance: <Specific>** - Incoming damage from the specified element is halved, after taking armor into account. For example, if you have the Elemental Resistance: Fire status, you take 30 physical Fire damage, and you have 20 Physical Armor, then you take 5 damage to your Health. The most recent application of this status removes all previous applications. Note that Elemental Armor Coating applies before subtracting armor from the damage, while Elemental Resistance applies after, so having both statuses at the same time is a good combination if the enemy is only capable of one type of elemental damage.
 
@@ -1158,6 +1241,7 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 - Type: Sphere centered on self
 - Range: 10 feet
 - Target: Self and all allies in range
+- Mapless: All allies in the same row
 - Restore an amount of health to the targets equal to your Hexenkraft Techs skill rating. The visual effect is derived from the element used.
 
 **Revive**:
@@ -1168,6 +1252,7 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 - Type: Line-of-sight
 - Range: 30 feet
 - Target: One target at 0 Health
+- Mapless: Any One Ally
 - Revive the target at 1 Health.
 
 #### Rating 20
@@ -1180,6 +1265,7 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 - Type: Straight-line projectile
 - Range: 30 feet
 - Target: Single
+- Mapless: Any One Enemy
 - Magical projectile attack, whose damage is based on the element used. Furthermore, if your Magic Accuracy is higher than the target's Magic Evasion, then add a status condition to the target, based on the element used.
   - Air: Suffocation
     - **Suffocation** - Lose an amount of Health equal to 10% of your Maximum Health per status phase. Horizontal movement is limited to 5 feet. Removed whenever you take Earth elemental damage.
@@ -1210,6 +1296,7 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 - 2 Action Points
 - Type: Move & Melee
 - Target: Single
+- Mapless: Moves you to the front row, targets enemy in the front row.
 - Perform a move action ending in at least 10 feet of straight line, then do a melee attack against one target at the end of the movement. The attack's Physical Accuracy is doubled.
 
 **Random Punches**:
@@ -1219,6 +1306,7 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 - Type: Melee
 - Range: 5 feet
 - Target: Single
+- Mapless: One enemy in the front row
 - Roll a six-sided die (cube shape). On a roll of 1 or 2, you do an unarmed attack with half damage. On a roll of 3 or 4, you do a normal unarmed attack. On a roll of 5 or 6, you do double damage, and the target's Physical Armor is halved against the attack. The damage type is set to the element used.
 
 **Shoulder Check**:
@@ -1228,6 +1316,7 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 - Type: Melee
 - Range: 5 feet
 - Target: Single
+- Mapless: One enemy in the front row, knocks the target back by one row
 - Perform an unarmed attack, and knock the target back by 5 feet.
 
 **Spinning Clothesline**:
@@ -1237,6 +1326,7 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 - Type: Melee
 - Range: 5 feet
 - Target: Everyone in range
+- Mapless: Three enemies in the front row
 - You spin around and perform an unarmed attack against everyone in range, both friend and foe. Your physical accuracy is halved for this attack. The damage type is set to the element used.
 
 **Trip And Punch**:
@@ -1246,6 +1336,7 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 - Type: Melee
 - Range: 5 feet
 - Target: Single
+- Mapless: One enemy in the front row
 - Perform a grapple action, which is then followed up with an unarmed attack that adds your Power Level to the damage.
 
 #### Rating 5
@@ -1257,12 +1348,14 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 - Type: Line-of-sight
 - Range: 30 feet
 - Target: Single
+- Mapless: Any One Enemy
 - You do an unarmed attack against one target within range. The damage type is set to the element used.
 
 **Counterpunch**:
 
 - Reaction
 - Reserves 1 AP
+- Mapless: From enemy in the front row
 - When you are attacked by a square-side-adjacent enemy, you perform an unarmed attack against that enemy afterwards.
 
 **Ground Shockwave Smash**:
@@ -1270,8 +1363,9 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 - Technique
 - 2 Action Points
 - Type: Ground Line
-- Range: 15 feet
+- Range: 30 feet
 - Target: All in the ground line
+- Mapless: One enemy in each row
 - You do an unarmed attack against all targets who are touching the ground within the line.
 
 **Sharp Knuckle Punch**:
@@ -1281,6 +1375,7 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 - Type: Melee
 - Range: 5 feet
 - Target: Single
+- Mapless: One enemy in the front row
 - Perform an unarmed attack. The target's Physical Armor is cut to 1/4th against the attack, but the final damage the target takes is also halved.
 
 **Suplex**:
@@ -1290,6 +1385,7 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 - Type: Grapple
 - Range: 5 feet
 - Target: Single
+- Mapless: One enemy in the front row, target loses all Maneuver
 - Perform a grapple. The target is moved to the 5-foot square behind you.
 
 #### Rating 10
@@ -1301,6 +1397,7 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 - Type: Melee
 - Range: 5 feet
 - Target: Single
+- Mapless: One enemy in the front row
 - You do an unarmed attack, except the stats used are Magical rather than Physical. You also gain an amount of Magical Accuracy equal to your Power Level for this technique.
 
 **Pressure Point Strike**:
@@ -1310,6 +1407,7 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 - Type: Melee
 - Range: 5 feet
 - Target: Single
+- Mapless: One enemy in the front row
 - You do an unarmed attack. The damage type is set to the element used. If your magical accuracy is 1.5x the target's magical evasion, then you also cause an additional effect based on the element used.
   - Air: The target flies 50 feet straight up into the air. If the target has no means of mitigating the fall, then their armor is halved against the attack.
   - Crystal: The target gets two stacks of the Shattered status condition.
@@ -1337,6 +1435,7 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 - Type: Touch
 - Range: 5 feet
 - Target: Single
+- Mapless: One ally in the same row
 - Revive one ally at 1 Health.
 
 **Life Energy Resonance**:
@@ -1391,6 +1490,7 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 **Song of Marching**:
 
 - Affects yourself and all allies.
+- Mapless: Gain 1 additional Maneuver per Move Action.
 - Affected people under the effect of Shield Wall or Spear Wall gain 5 additional feet of horizontal movement per Move Action.
 
 **Song of Perception**:
@@ -1434,6 +1534,7 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 - Type: Summon
 - Range: 5 feet
 - Target: Unoccupied 5-foot square
+- Mapless: Summon starts in the same row as yourself
 - You form a contract with an Elemental Form from the Blended Realm. It then appears in the targeted 5-foot square, and fights for you and your allies until the end of combat. Even if you are killed, as long as your allies continue to honor the contract, the Elemental Form will continue to help them. You can maintain a maximum of one Elemental Form at a time.
 - The stats of the Elemental Form depend on the specific form you choose, which are shown as different techniques of the Summoning Techs skill.
 
@@ -1509,6 +1610,7 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 - 3 energy
 - Type: Line
 - Range: 15 feet
+- Mapless: One enemy in each row
 - Do a melee or reach weapon attack in a 15-foot straight line, using yourself as the origin point. The attack targets all enemies in that line. The attack's damage type is changed to be of the linked element.
 
 **Elemental Melee Wide Strike**:
@@ -1518,6 +1620,7 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 - 3 energy
 - Type: Wide Swing
 - Range: Weapon
+- Mapless: Three enemies in the front row
 - Do a melee or reach weapon attack against the first enemy in front of you, as well as two enemies standing to the sides of the first one who are also within weapon range of you. The attack's damage type is changed to be of the linked element.
 
 #### Rating 10
@@ -1529,6 +1632,7 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 - 5 energy
 - Type: Blast
 - Range: Weapon
+- Mapless: One enemy in the front row and two enemies in the second row
 - Do a melee or reach weapon attack at the ground within your weapon's range. It must be possible for you to stand on or inside the targeted spot, for it to be valid for this technique. The attack targets all enemies within a 5-foot radius of that spot. The attack's damage type is changed to be of the linked element.
 
 **Elemental Melee Wave Slash**:
@@ -1539,6 +1643,7 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 - Type: Line-of-sight
 - Range: 30 feet
 - Target: Single
+- Mapless: Any One Enemy
 - Do a melee or reach weapon attack against an enemy within the range.
 
 **Elemental Melee Guarding Stance**:
@@ -1586,7 +1691,8 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 - Technique
 - 1 AP
 - 8 energy
-- Do a melee or reach weapon attack at all enemies within an adjacent 3-foot-radius area, reaching up to 30,000 feet upwards and downwards until hitting terrain or clouds. Its damage type is changed to be of the linked element. Note that attacking something like a dragon or airship from 30,000 feet away could be quite difficult due to the required horizontal positioning, but still has a non-zero chance of success.
+- Mapless: Five enemies in the front row
+- Do a melee or reach weapon attack at all enemies within an adjacent 5-foot-radius area, reaching up to 30,000 feet upwards and downwards until hitting terrain or clouds. Its damage type is changed to be of the linked element. Note that attacking something like a dragon or airship from 30,000 feet away could be quite difficult due to the required horizontal positioning, but still has a non-zero chance of success.
 
 **Crippling Melee Strike**:
 
@@ -1618,6 +1724,7 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 - Technique
 - 1 AP
 - 10 energy
+- Mapless: All enemies in the front row
 - Do a melee or reach weapon attack at all enemies within weapon range. Its damage type is changed to be of the linked element.
 
 **Discharging Melee Blast**:
@@ -1626,6 +1733,7 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 - 1 AP
 - Discharging: This technique does not require any corresponding Magical Elements skills. Instead, it requires that you are holding elemental charges.
 - 10 energy
+- Mapless: Three enemies in the front row
 - Do a melee or reach weapon attack against three different enemies in weapon range. It additionally does physical elemental damage for each elemental charge, equal to Physical Power * 0.50 per charge. This extra damage ignores armor.
 
 ### Weapon Ranged Techs
@@ -1652,8 +1760,9 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 - 1 AP
 - 2 energy
 - Type: Line-of-sight
-- Range: 60 feet
+- Range: 120 feet
 - Target: Single
+- Mapless: Any One Enemy
 - Do a ranged weapon attack. Its damage type is changed to be of the linked element.
 
 **Power Shot**:
@@ -1695,14 +1804,21 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 - Discharging: This technique does not require any corresponding Magical Elements skills. Instead, it requires that you are holding elemental charges.
 - Effects immediately occur based on the elemental charges you were holding.
   - Air: You instantly move a square-side-adjacent enemy by 5 feet for each Air Charge discharged. All of this movement must be done to exactly one such enemy.
+    - Mapless: Takes away 2 Maneuver from the target for each Air Charge discharged.
   - Crystal: You instantly regain an amount of Health equal to 5% of your Maximum Health for each Crystal Charge discharged.
   - Dark: One 5-foot square within your weapon range suddenly sinks lower. It moves 2 feet downward for each Dark Charge discharged. All of this square height change must be done to exactly one square. Whoever was standing on the square can potentially suffer falling damage, depending on their movement type.
+    - Mapless: Targets the enemy
   - Earth: A square-side-adjacent enemy instantly loses an amount of Health equal to 5% of their Maximum Health for each Earth Charge discharged. All of this damage must be done to exactly one such enemy.
+    - Mapless: One enemy in the front row.
   - Fire: You instantly set 5-foot squares on fire, within your weapon range. The number of squares affected is equal to the number of Fire Charges discharged.
+    - Mapless: Targets a number of enemies equal to the number of Fire Charges discharged.
   - Light: You instantly move 5 feet for each Light Charge discharged.
+    - Mapless: Gives you 2 Maneuver for each Light Charge discharged.
   - Moon: You instantly move one ally within your weapon range to a different square within your weapon range. The distance moved is equal to 5 feet per Moon Charge discharged. All of this movement must be done to exactly one ally.
+    - Mapless: Gives 2 Maneuver to the ally for each Moon Charge discharged.
   - Water: You instantly regain an amount of Energy equal to 5% of your Maximum Energy for each Water Charge discharged.
   - Wood: The square you are in sprouts a thick tree trunk. It has 2 feet of height for each Wood Charge discharged.
+    - Mapless: The tree trunk can be used by yourself as Cover.
 
 **High-Power Shot**:
 
@@ -1718,6 +1834,7 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 - Technique
 - 1 AP
 - 15 energy
+- Mapless: Targets one enemy in each row
 - Do a ranged weapon attack against all enemies in a line, up to the maximum range of your weapon. Its damage type is changed to be of the linked element.
 
 **Discharging Exploding Shot**:
@@ -1726,12 +1843,14 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 - 1 AP
 - Discharging: This technique does not require any corresponding Magical Elements skills. Instead, it requires that you are holding elemental charges.
 - 5 energy
+- Mapless: Targets any four enemies.
 - Do a ranged weapon attack against one target, as well as all enemies who are square-side-adjacent to that target. The attack additionally does physical elemental damage for each elemental charge, equal to Physical Power * 0.5 per charge. This extra damage ignores armor.
 
 **Link Attack**:
 
 - Reaction
 - Reserves 1 AP
+- Mapless: Can be triggered by any one ally
 - When an ally does more than 1 damage to an enemy who is within your attack range, and the ally gains an elemental charge, you add your attack damage to that ally's action and gain the same type of elemental charge.
 
 ## Linear Tactics Group
@@ -1740,15 +1859,25 @@ Weapon Damage is Magical Power + 0.5x Skill Rating, for a minimum of 1 added dam
 
 Rating 1 - **Rampart Aura I** - You project a Rampart Aura five feet to your sides. When an enemy enters a Rampart Aura, they must stop horizontal movement. When an enemy moves entirely within the Rampart Aura, their horizontal movement is limited to 5 feet. When an enemy exits a Rampart Aura, they can move normally.
 
+- Mapless: Increases enemy Maneuver costs against your row by 1.
+
 Rating 20 - **Rampart Aura II** - Supercedes Rampart Aura I. You project a Rampart Aura ten feet to your sides.
+
+- Mapless: Increases enemy Maneuver costs against your row, and the row behind you, by 1.
 
 Rating 40 - **Rampart Aura III** - Supercedes Rampart Aura I and II. You project a Rampart Aura ten feet to your sides, and five feet to your front and back.
 
+- Mapless: Increases enemy Maneuver costs against your row, and the row behind you, by 2.
+
 Rating 60 - **Rampart Aura IV** - Supercedes Rampart Aura I, II, and III. You project a Rampart Aura fifteen feet to your sides, ten feet to your front and back, and five feet in diagonal directions.
+
+- Mapless: Increases enemy Maneuver costs against your row, and all rows behind you, by 2.
 
 ### Shield Wall
 
 Rating 1 - **Shield Wall I** - This technique is in effect when you are side-to-side with at least one other ally who also has Shield Wall I and is equipped with a shield. Your Physical Armor is increased by 1/4th of your Power Level, for a minimum of 1 point increase, against all damage coming from your front. This protection extends to any ally who is in the 5-foot square behind you.
+
+- Mapless: Can Cover for one Ally behind you.
 
 Rating 20 - **Shield Wall II** - Supercedes Shield Wall I if you are linked with an ally who also has Shield Wall II and is equipped with a shield. Your Physical Armor increase is 1/2 of your Power Level.
 
@@ -1760,17 +1889,29 @@ Rating 60 - **Shield Wall IV** - Supercedes Shiel Wall I, II and III if you are 
 
 Rating 1 - **Siegebreaker I** - You can use five feet of your remaining horizontal movement upon entering a Rampart Aura. When starting your movement within a Rampart Aura and travelling entirely within the aura, you can move a maximum of ten feet.
 
+- Mapless: Negates Rampart Aura I for yourself.
+
 Rating 20 - **Siegebreaker II** - Supercedes Siegebreaker I. You can use ten feet of your remaining horizontal movement upon entering a Rampart Aura. When starting your movement within a Rampart Aura and travelling entirely within the aura, you can move a maximum of fifteen feet.
+
+- Mapless: Negates Rampart Aura II for yourself.
 
 Rating 40 - **Siegebreaker III** - Supercedes Siegebreaker I and II. You can use fifteen feet of your remaining horizontal movement upon entering a Rampart Aura. When starting your movement within a Rampart Aura and travelling entirely within the aura, you can move a maximum of twenty feet.
 
+- Mapless: Negates Rampart Aura III for yourself.
+
 Rating 60 - **Siegebreaker IV** - Supercedes Siegebreaker I, II, and III. You can use twenty feet of your remaining horizontal movement upon entering a Rampart Aura. When starting your movement within a Rampart Aura and travelling entirely within the aura, you can move a maximum of twenty five feet.
+
+- Mapless: Negates Rampart Aura IV for yourself.
 
 ### Spear Wall
 
 Rating 1 - **Spear Wall I** - This technique is in effect when you are side-to-side with at least one other ally who also has Spear Wall I and is equipped with a reach weapon. You automatically attack enemies who move into the second 5-foot square to your front.
 
+- Mapless: Can trigger against one enemy moving into the front row, per round.
+
 Rating 20 - **Spear Wall II** - Supercedes Spear Wall I if you are linked with an ally who also has Spear Wall II and is equipped with a reach weapon. You automatically attack enemies who move into both of the 5-foot squares to your front. Your Physical Evasion is increased by 1/4th of your Power Level against enemies in the two 5-foot squares to your front.
+
+- Mapless: Can trigger against one enemy moving into the front row, or second row, per round.
 
 Rating 40 - **Spear Wall III** - Supercedes Spear Wall I and II if you are linked with an ally who also has Spear Wall III and is equipped with a reach weapon. You automatically attack enemies who move into both of the 5-foot squares to your front. Your Physical Evasion is increased by 1/2 of your Power Level against enemies in the two 5-foot squares to your front.
 
@@ -1782,51 +1923,91 @@ Rating 60 - **Spear Wall IV** - Supercedes Spear Wall I, II and III if you are l
 
 Rating 1 - **Animal Speaker I** - All allied animals within a radius of 5 feet gain a bonus to Physical Evasion, Physical Armor, Magic Evasion, and Magic Armor, equal to 1/4th of your Animal Speaker Aura skill rating, for a minimum of 1 point gained. Allied animals who start their turns within range of the aura also have the ability to pick up, receive, and use items during that turn. Enemy animals within the same radius receive a penalty to their stats instead, due to the counteraction of brainwashing causing them to also forget the associated combat training. Defeated enemy animals within the radius can choose to run away, thus exiting combat instantly, or someone can spend 4 APs to convince the animal to switch sides.
 
+- Mapless: Targets one Animal in each Front Row.
+
 Rating 20 - **Animal Speaker II** - Supercedes and replaces Animal Speaker I. The radius is now 10 feet. The stat mod is now equal to 1/2 of your Animal Speaker Aura rating.
+
+- Mapless: Targets two Animals in each Front Row.
 
 Rating 40 - **Animal Speaker III** - Supercedes and replaces Animal Speaker I and II. The radius is now 15 feet. The stat mod is now equal to 3/4 of your Animal Speaker Aura rating.
 
+- Mapless: Targets five Animals in each Front Row.
+
 Rating 60 - **Animal Speaker IV** - Supercedes and replaces Animal Speaker I, II and III. The radius is now 20 feet. The stat mod is now equal to your Animal Speaker Aura rating.
+
+- Mapless: Targets all Animals.
 
 ### Barrier Aura
 
 Rating 1 - **Barrier I** - Both yourself and all alies within a radius of 5 feet gain a bonus to Physical Evasion and Physical Armor, equal to 1/4th of your Barrier Aura skill rating, for a minimum of 1 point gained.
 
+- Mapless: Targets one ally in the same row.
+
 Rating 20 - **Barrier II** - Supercedes and replaces Barrier I. The radius is now 10 feet. The stat gain is now equal to 1/2 of your Barrier Aura skill rating.
+
+- Mapless: Targets two allies in the same row.
 
 Rating 40 - **Barrier III** - Supercedes and replaces Barrier I and II. The radius is now 15 feet. The stat gain is now equal to 3/4 of your Barrier Aura skill rating.
 
+- Mapless: Targets five allies in the same row.
+
 Rating 60 - **Barrier IV** - Supercedes and replaces Barrier I, II and III. The radius is now 20 feet. The stat gain is now equal to your Barrier Aura skill rating.
+
+- Mapless: Targets all allies.
 
 ### Regeneration Aura
 
 Rating 1 - **Regeneration I** - Both yourself and all allies within a radius of 5 feet regain 1 Health during the status phase.
 
+- Mapless: Targets one ally in the same row.
+
 Rating 20 - **Regeneration II** - Supercedes and replaces Regeneration I. The radius is now 10 feet. The amount healed is now 5 Health.
+
+- Mapless: Targets two allies in the same row.
 
 Rating 40 - **Regeneration III** - Supercedes and replaces Regeneration I and II. The radius is now 15 feet. The amount healed is now 10 Health.
 
+- Mapless: Targets five allies in the same row.
+
 Rating 60 - **Regeneration IV** - Supercedes and replaces Regeneration I, II and III. The radius is now 20 feet. The amount healed is now 25 Health.
+
+- Mapless: Targets all allies.
 
 ### Sanctuary Aura
 
 Rating 1 - **Sanctuary I** - Within a radius of 5 feet, including the 5-foot square you are in, you prevent Imperial Undeath Techniques from being performed and targeted. This also has effects on enemy undead within range who have been defeated.
 
+- Mapless: Targets one target from both front rows.
+
 Rating 20 - **Sanctuary II** - Supercedes and replaces Sanctuary I. The radius is now 10 feet.
+
+- Mapless: Targets two targets from both front rows.
 
 Rating 40 - **Sanctuary III** - Supercedes and replaces Sanctuary I and II. The radius is now 15 feet.
 
+- Mapless: Targets five targets from both front rows.
+
 Rating 60 - **Sanctuary IV** - Supercedes and replaces Sanctuary I, II and III. The radius is now 20 feet.
+
+- Mapless: Targets the whole battlefield.
 
 ### Terror Aura
 
 Rating 1 - **Terror I** - Within a radius of 5 feet, you cause enemy Physical Evasion and Physical Armor to be decreased by 1/4th your Terror Aura skill rating, for a minimum of 1 point of penalty.
 
+- Mapless: Targets one enemy in the front row.
+
 Rating 20 - **Terror II** - Supercedes and replaces Terror I. The radius is now 10 feet. The stat decrease is now equal to 1/2 your Terror Aura skill rating.
+
+- Mapless: Targets two enemies in the front row.
 
 Rating 40 - **Terror III** - Supercedes and replaces Terror I and II. The radius is now 15 feet. The stat decrease is now equal to 3/4ths your Terror Aura skill rating.
 
+- Mapless: Targets five enemies in the front row.
+
 Rating 60 - **Terror IV** - Supercedes and replaces Terror I, II and III. The radius is now 20 feet. The stat decrease is now equal to your Terror Aura skill rating.
+
+- Mapless: Targets all enemies.
 
 # 5. Dramatic Scenes
 
@@ -2204,6 +2385,12 @@ In the case of a tie, the combatant with the higher **Power Level** goes first. 
 
 This is one of the few times that dice are ever used in the game.
 
+## Mapless Rows
+
+In mapless combat, all combatants are in a specific **row** for their team. Furthermore, the **front row** must have at least three combatants. If a team's **front row** somehow has fewer than three combatants, then someone from another row is automatically pushed to the front.
+
+Furthermore, there cannot be any empty rows. Whichever row is not the **front row** must at least start as the second row immediately behind the front, then the third, and so on.
+
 ## Actions
 
 Each combatant gets four **Action Points**, or APs for short. The possible actions are:
@@ -2231,6 +2418,12 @@ Then, compare the attacker's accuracy to the target's evasion:
 - If the attacker's accuracy is less than the target's evasion, then the target's armor is applied a second time.
 - If the attacker's accuracy is less than half of the target's evasion, then the attack or technique misses.
 - If the attacker's accuracy is double or higher than the target's evasion, then the target's armor is not applied, and the target is knocked back by 5 feet.
+
+#### Mapless
+
+You may spend **Maneuver** to target a **side** or **back**. The cost is equal to 2 Maneuver to target a **side** or 4 maneuver to target the **back**, plus 2 additional Maneuver for each row away from the Front Row from both yourself and the enemy. For example, if you are in the second row, and the enemy is also in the second row, then the total cost is 6 Maneuver to target the side and 8 Maneuver to target the back.
+
+The target can spend **Maneuver** to cancel out your own **Maneuver** spending.
 
 ### Change Armor
 
@@ -2266,6 +2459,10 @@ Similar to Attack, except the range is always 5 feet, the amount of damage is al
 
 Consequently, even the most well-armored soldiers must beware grapplers.
 
+#### Mapless
+
+This removes 2 Maneuver from the target.
+
 ### Move
 
 The standard movement type is Foot, providing 20 feet of horizontal movement per Move Action. Maximum upwards jump is 2 feet. Maximum horizontal jump is 5 feet. Maximum downwards jump is 4 feet. There are other movement types, traits, statuses, etc. that can change this.
@@ -2273,6 +2470,10 @@ The standard movement type is Foot, providing 20 feet of horizontal movement per
 Horizontal jumps count against your horizontal movement. For example, jumping across a 5-foot gap counts as using 5 feet of horizontal movement.
 
 Vertical jumps do not count against horizontal movement. For example, moving into a 5-foot-square that is 5 feet lower in elevation is only considered to be 5 feet of horizontal movement.
+
+#### Mapless
+
+This allows you to change rows within your team, and also generates Maneuver for the current round. The amount of Maneuver gained is usually 4, but is then further modified by your movement type.
 
 ### Perform Technique
 
@@ -2286,33 +2487,33 @@ Item usage generally has a range of five feet, i.e. targeting someone in a side-
 
 ## Movement Types
 
-- **Foot** - The base movement type. 20 feet of horizontal movement per Move Action. Maximum upwards jump is 2 feet. Maximum horizontal jump is 5 feet. Maximum downwards jump is 4 feet.
+- **Foot** - The base movement type. 20 feet of horizontal movement per Move Action. Maximum upwards jump is 2 feet. Maximum horizontal jump is 5 feet. Maximum downwards jump is 4 feet. *Mapless: Generates 4 Maneuver*
 - **Hover I** - You are constantly floating up to 1 foot above the terrain. Falling damage is halved. Maximum horizontal jump is 10 feet. Maximum downwards jump is 8 feet.
   - **Hover II** - You are constantly floating up to 2 feet above the terrain. Falling damage is halved. Maximum horizontal jump is 15 feet. Maximum downwards jump is 16 feet.
   - **Hover III** - You are constantly floating up to 3 feet above the terrain. Falling damage is halved. Maximum horizontal jump is 20 feet. Maximum downwards jump is 24 feet.
   - **Hover IV** - You are constantly floating up to 4 feet above the terrain. Falling damage is halved. Maximum horizontal jump is 30 feet. Maximum downwards jump is 32 feet.
-- **Jump I** - Maximum upwards jump is 4 feet. Maximum horizontal jump is 10 feet. Maximum downwards jump is 6 feet.
-  - **Jump II** - Maximum upwards jump is 6 feet. Maximum horizontal jump is 15 feet. Maximum downwards jump is 8 feet.
-  - **Jump III** - Maximum upwards jump is 8 feet. Maximum horizontal jump is 20 feet. Maximum downwards jump is 10 feet.
-  - **Jump IV** - Maximum upwards jump is 10 feet. Maximum horizontal jump is 30 feet. Maximum downwards jump is 12 feet.
+- **Jump I** - Maximum upwards jump is 4 feet. Maximum horizontal jump is 10 feet. Maximum downwards jump is 6 feet. *Mapless: Generates 1 additional Maneuver*
+  - **Jump II** - Maximum upwards jump is 6 feet. Maximum horizontal jump is 15 feet. Maximum downwards jump is 8 feet. *Mapless: Generates 2 additional Maneuver*
+  - **Jump III** - Maximum upwards jump is 8 feet. Maximum horizontal jump is 20 feet. Maximum downwards jump is 10 feet. *Mapless: Generates 3 additional Maneuver*
+  - **Jump IV** - Maximum upwards jump is 10 feet. Maximum horizontal jump is 30 feet. Maximum downwards jump is 12 feet. *Mapless: Generates 4 additional Maneuver*
 - **Mudwalking** - Move on top of mud, swamp, and mold as if it were normal. Not affected by swamp, mold, and other such terrain.
-- **Swiftfoot I** - 25 feet of horizontal movement per Move Action.
-  - **Swiftfoot II** - 30 feet of horizontal movement per Move Action.
-  - **Swiftfoot III** - 35 feet of horizontal movement per Move Action.
-  - **Swiftfoot IV** - 40 feet of horizontal movement per Move Action.
+- **Swiftfoot I** - 25 feet of horizontal movement per Move Action. *Mapless: Generates 1 additional Maneuver*
+  - **Swiftfoot II** - 30 feet of horizontal movement per Move Action. *Mapless: Generates 2 additional Maneuver*
+  - **Swiftfoot III** - 35 feet of horizontal movement per Move Action. *Mapless: Generates 3 additional Maneuver*
+  - **Swiftfoot IV** - 40 feet of horizontal movement per Move Action. *Mapless: Generates 4 additional Maneuver*
 - **Swimming I** - Maximum of 10 feet of horizontal movement through water. Cannot be used at the same time as Waterwalking or Hover.
   - **Swimming II** - Maximum of 15 feet of horizontal movement through water. Cannot be used at the same time as Waterwalking or Hover.
   - **Swimming III** - Maximum of 20 feet of horizontal movement through water. Cannot be used at the same time as Waterwalking or Hover.
   - **Swimming IV** - No limit to horizontal movement through water. Cannot be used at the same time as Waterwalking or Hover.
 - **Waterwalking** - Move and stand on top of water as if it were normal. Cannot be used at the same time as Swimming.
-- **Winged I** - Falling damage is halved. Requires 2 Move Actions to move with this type, in which case you get 40 feet of horizontal movement, maximum upwards jump of 6 feet, maximum horizontal jump of 15 feet, and maximum downwards jump of 8 feet.
-  - **Winged II** - Falling damage is halved. Requires 2 Move Actions to move with this type, in which case you get 50 feet of horizontal movement, maximum upwards jump of 10 feet, maximum horizontal jump of 20 feet, and maximum downwards jump of 12 feet.
-  - **Winged III** - Falling damage is halved. Requires 2 Move Actions to move with this type, in which case you get 60 feet of horizontal movement, maximum upwards jump of 14 feet, maximum horizontal jump of 25 feet, and maximum downwards jump of 16 feet.
-  - **Winged IV** - Falling damage is halved. Requires 2 Move Actions to move with this type, in which case you get 80 feet of horizontal movement, maximum upwards jump of 20 feet, maximum horizontal jump of 40 feet, and maximum downwards jump of 30 feet.
-- **Teleport I** - Falling damage is halved. You can move to any position you see within 10 feet. Cannot be used at the same time as any other movement type.
-  - **Teleport II** - Falling damage is halved. You can move to any position you see within 15 feet. Cannot be used at the same time as any other movement type.
-  - **Teleport III** - Falling damage is halved. You can move to any position you see within 20 feet. Cannot be used at the same time as any other movement type.
-  - **Teleport IV** - Falling damage is halved. You can move to any position you see within 30 feet. Cannot be used at the same time as any other movement type.
+- **Winged I** - Falling damage is halved. Requires 2 Move Actions to move with this type, in which case you get 40 feet of horizontal movement, maximum upwards jump of 6 feet, maximum horizontal jump of 15 feet, and maximum downwards jump of 8 feet. *Mapless: Generates 9 Maneuver*
+  - **Winged II** - Falling damage is halved. Requires 2 Move Actions to move with this type, in which case you get 50 feet of horizontal movement, maximum upwards jump of 10 feet, maximum horizontal jump of 20 feet, and maximum downwards jump of 12 feet. *Mapless: Generates 12 Maneuver*
+  - **Winged III** - Falling damage is halved. Requires 2 Move Actions to move with this type, in which case you get 60 feet of horizontal movement, maximum upwards jump of 14 feet, maximum horizontal jump of 25 feet, and maximum downwards jump of 16 feet. *Mapless: Generates 15 Maneuver*
+  - **Winged IV** - Falling damage is halved. Requires 2 Move Actions to move with this type, in which case you get 80 feet of horizontal movement, maximum upwards jump of 20 feet, maximum horizontal jump of 40 feet, and maximum downwards jump of 30 feet. *Mapless: Generates 18 Maneuver*
+- **Teleport I** - Falling damage is halved. You can move to any position you see within 10 feet. Cannot be used at the same time as any other movement type. *Mapless: Generates 4 Maneuver*
+  - **Teleport II** - Falling damage is halved. You can move to any position you see within 15 feet. Cannot be used at the same time as any other movement type. *Mapless: Generates 5 Maneuver*
+  - **Teleport III** - Falling damage is halved. You can move to any position you see within 20 feet. Cannot be used at the same time as any other movement type. *Mapless: Generates 6 Maneuver*
+  - **Teleport IV** - Falling damage is halved. You can move to any position you see within 30 feet. Cannot be used at the same time as any other movement type. *Mapless: Generates 8 Maneuver*
 
 ## Special Circumstances
 
@@ -2324,6 +2525,7 @@ Falling damage is equal to 2 points for each foot beyond your maximum downwards 
 
 - **Air Tornado Upper** - When you cause more than 1 damage with an Unarmed attack or technique, and your Magical Accuracy is greater than 1.5x the target's Magical Evasion, you cause the target to spin around and change facing to a direction of your choice.
 - **Airyspeedy** - Horizontal movement speed increased by 10 feet. Add half your Power Level to your Physical Evasion.
+  - Mapless: You gain 2 additional Maneuver per Move action.
 - **Babbling** - Unable to do actions that require speaking, or spending Energy. Removed whenever you take Dark elemental damage.
 - **Bleeding** - Lose an amount of Health equal to 10% of your Maximum Health per status phase. Removed whenever you gain Health.
 - **Blinded** - Physical Accuracy and Physical Evasion are halved. Cannot do anything requiring line-of-sight. Removed whenever you take Dark elemental damage. Can be removed by spending all action points to wipe your eyes.
@@ -2662,7 +2864,7 @@ Adherents of Misanthropy volunteer to help invade Sky Islands and plant banners 
   - 2-Handed Magic Weapon
   - Magic Armor
 - Random Element Specialization
-- Elemental Techs
+- Elemental Energy Techs
 
 ### Legion Recruit
 
@@ -2842,7 +3044,7 @@ Watcher Controllers host Imperial Watcher spirits inside of their own bodies, li
 - Able to use magical techniques as if their physical position had originated from a Possessed Watcher
 - Temporary Watcher - 10 Energy - Attaches a watcher to an Imperial Person within range. This then allows the Watcher Controller to use magical techniques as if their physical position had originated from that Imperial Person.
 - Random Element Specialization
-- Elemental Techs
+- Elemental Energy Techs
 
 ### Possessed Watcher
 
