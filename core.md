@@ -122,7 +122,7 @@ You can also save trait choices for later. In fact, if this is your first time c
 - **Gills** - You are able to breathe while submerged.
 - **Heavy Body** - Grapple actions against you do not move you.
 - **Hermaphrodite** - You can morph your sexual characteristics by concentrating on them for several minutes in a safe area.
-- **Imperial Body Shape** - If you wrap yourself in heavy clothing, then you look like an Imperial from a distance, thus avoiding immediate attack if you are travelling by yourself.
+- **Imperial Body Shape** - If you wrap yourself in heavy clothing, then you look like an Imperial from a distance, thus avoiding immediate attack if you are travelling by yourself. It is also possible that you are an ex-Imperial, but due to being free of the Adtextus, your body is quite visibly healthy and non-Imperial.
 - **Integrated Weapons** - You gain 2 extra skill points every Power Level, as well as at character creation, which can be spent on skills in the Weapon Training group. You must still follow the limit of skill ratings being capped by your Power Level. Furthermore, it only costs 1 AP to change what is in your hands rather than 2 AP.
 - **Long Lived** - You are able to stay young for thousands of years. You gain 5 extra skill points every Power Level, as well as at character creation, for skills in the Artistic, Physicality, Science and Tradeskills groups. You must still follow the limit of skill ratings being capped by your Power Level.
 - **Multi Armed** - You are able to use a two-handed weapon and one shield, at the same time.
@@ -135,11 +135,11 @@ You can also save trait choices for later. In fact, if this is your first time c
 - **Quadruped** - You always have Swiftfoot I. This improves to Swiftfoot II at Power Level 20, Swiftfoot III at Power Level 40, and Swiftfoot IV at Power Level 60.
 - **Regeneration** - You heal 1 Health in each Status Phase. You always fully-heal outside of combat.
 - **Reincarnation** - You remember past lives. You gain 5 extra skill points every Power Level, as well as at character creation, for skills in the Artistic, Physicality, Science and Tradeskills groups. You must still follow the limit of skill ratings being capped by your Power Level.
-- **Shifter** - You can spend 4 AP to shift into the Blended Realm. Getting back is rather difficult, especially without others from your Island to help connect you and guide you back home. The amount of time it takes to shift back alone is most likely an entire Strategic Turn.
+- **Shifter** - You can spend 4 AP to shift into the Blended Realm. Getting back is rather difficult, especially without others from your Island to help connect you and guide you back home. The amount of time it takes to shift back alone unassisted is most likely an entire Strategic Turn.
 - **Symbiote** - You have another organism inside of you, who can keep you alive and revive you. This process takes a whole day, and can be interrupted by additional damage to your body, e.g. enemy soldiers stabbing corpses to make sure they stay down.
 - **Temporal Anomaly** - You are actually from a different position in Space-Time, or even a different dimension. At the beginning of the Status Phase, you remove one status condition of your choice. Unfortunately, if you only have beneficial status conditions, you must still remove one.
-- **Undead** - Any effect that would drain your Health and give it to someone else is reversed, so that instead, you drain that other person's Health. Any effect done by someone other than you that would normally restore your Health instead causes damage to you, ignoring Armor. Thus you rely on yourself to keep your Health up. When you die, you pop back up after 4 status phases at 1 Health. You can freely give up undeath at any time to enter regular death.
-  - Enemy Undead who have been defeated, and are within the range of a Sanctuary Aura, will be able to freely choose normal death at that moment. Alternately, someone can spend 4 APs to remove their control bolts and allow them to continue in undeath but with free will.
+- **Undead** - Any effect that would drain your Health and give it to someone else is reversed, so that instead, you drain that other person's Health. Any effect done by a non-undead that would normally restore your Health instead causes damage to you, ignoring Armor. Thus you rely on yourself to keep your Health up. When you die, you pop back up after 4 status phases at 1 Health. You can freely give up undeath at any time to enter regular death.
+  - Enemy Undead who have been defeated, and are within the range of a Sanctuary Aura, will be able to freely choose normal death at that moment. Alternately, someone can spend 4 APs to remove the undead's control bolts and allow them to continue in undeath but with free will.
 - **Venomous Claws / Fangs / Stinger** - Your unarmed attacks which do more than 1 damage also cause one stack of the Venom status condition.
 - **Venomous Skin / Spines** - Anyone who does an unarmed attack to you, or attempts to grapple you, immediately receives one stack of the Venom status condition.
 - **Venomous Spit / Eye Blood** - You can do a ranged attack that does exactly 2 points of damage, ignoring Physical Armor, which adds one stack of the Venom status condition to the target.
@@ -164,7 +164,7 @@ Choose one or more of the following ways in which the Imperial Adtextus rejects 
 
 - **Disabled** - Your tools and work methods are not allowed by the Imperial Adtextus. Consequently, it claims that it is actually you who are unable to do anything useful. This is despite the fact that you get more stuff done than the average Imperial.
 - **Disloyal** - You have worked more than one job in your life, or have tried more than one way of doing things. You think about different ways to solve a problem. The Adtextus defines such a life as a "disloyal" one.
-- **Misgendered** - The Imperial Adtextus' strict binary system cannot possibly encompass you. Or, perhaps you have committed the anti-Imperial crime of not wanting to get pregnant at age 12.
+- **Misgendered** - The Imperial Adtextus' strict binary gender system cannot possibly encompass you. Or, perhaps you have committed the anti-Imperial crime of not wanting to get pregnant at age 12.
 - **Nonlinear** - You do not speak in the manner of Imperial philosophers or senators. You could actually be more logical, systematic, and thorough than any of them, but because the Adtextus does not say to talk like that, they call you "Nonlinear".
 - **Primitive** - Your food, water, and shelter systems do not look like the approved patterns of the Adtextus.
 - **Savage** - Imperials cannot comprehend your practices or traditions, nor does the Adtextus explain them, so they call you "Savage".
@@ -195,7 +195,7 @@ There is intentionally no relationship between stats, and traits which may be de
 
 For example, an incorporeal being inhabiting a suit of armor can represent "Physical Power" as their ability to put fighting intent into their techniques, as they have no muscles or bones whatsoever.
 
-Another example is a bodybuilder who chooses to start with a Physical Power of 10 rather than 20. This person may have a fear of hitting things hard, or may just lack explosiveness due to hating plyometric training.
+Another example is a bodybuilder who chooses to start with a Physical Power of 10 rather than 20. This person may have a fear of hitting things hard, or may just lack explosiveness due to performing weight training rather than plyometric training.
 
 ## Skills
 
@@ -206,10 +206,6 @@ The **Skills** and **Skill Groups** themselves are described in much more detail
 ## Personal Items
 
 You start with any personal items which help explain all of the above. They do not enhance stats or skills, they merely serve as possible ways in which you express those.
-
-## Combat Gear
-
-You start with **Item Level** 1 combat gear for all of your starting skills. For example, if you chose both One-Handed Melee Weapons and One-Handed Ranged Weapons as starting skills, then you will start with one of each of those types of weapons at Item Level 1.
 
 ## Power Levels
 
@@ -325,7 +321,7 @@ Rating 20 - **Ironbody II** - Supercedes and replaces Ironbody I. Add 1/4th of y
 
 Rating 40 - **Ironbody III** - Supercedes and replaces Ironbody I and II. Add half of your Power Level to your physical evasion and physical armor ratings while not wearing any armor or shields.
 
-Rating 60 - **Ironbody IV** - Supercedes and replaces Ironbody I, II, and III. Add your Power Level to your physical evasion and physical armor armor ratings while not wearing any armor or shields.
+Rating 60 - **Ironbody IV** - Supercedes and replaces Ironbody I, II, and III. Add your Power Level to your physical evasion and physical armor ratings while not wearing any armor or shields.
 
 ### Shields
 
@@ -1453,22 +1449,29 @@ Mapless: Melee mode can reach from Front Row to Front Row only. Ranged mode can 
 - You breathe (or whatever you need to function) in a manner that causes powerful ripples throughout your body. The exact effect depends on the element used:
   - Air: You gain the Air Tornado Upper status condition.
     - **Air Tornado Upper** - When you cause more than 1 damage with an Unarmed attack or technique, and your Magical Accuracy is greater than 1.5x the target's Magical Evasion, you cause the target to spin around and change facing to a direction of your choice.
+      - Mapless: The target loses 2 Maneuver.
   - Crystal: You gain the Crystal Diffusion Fists status condition.
     - **Crystal Diffusion Fists** - When you cause at least 4 damage with an Unarmed attack or technique, and your Magical Accuracy is greater than 1.5x the target's Magical Evasion, 1/4th of your damage is additionally dealt to the target's Energy.
   - Dark: You gain the Dark Force Ark status condition.
     - **Dark Force Ark** - When you cause more than 1 damage with an Unarmed attack or technique, you and all square-side-adjacent allies regain 1 Energy.
+      - Mapless: Your current row
   - Earth: You gain the Earth Stone Pillar Body status condition.
     - **Earth Stone Pillar Body** - You cannot be moved or turned around unwillingly. Your Physical Armor is increased by an amount equal to half of your Power Level.
+      - Mapless: Enemies cannot make you lose Maneuver.
   - Fire: You gain the Fire Wheel Sprinting status condition.
     - **Fire Wheel Sprinting** - Your horizontal movement is increased by 10 feet. Every enemy who you move past in square-side contact receives an amount of Fire damage equal to 1/10th of your Magical Power, ignoring Magical Armor and Magical Evasion.
+      - Mapless: You gain 2 Maneuver. For every 2 Maneuver that you use to target an enemy's flank or rear, you cause the fire damage to one enemy.
   - Light: You gain the Light Shining Finger status condition.
     - **Light Shining Finger** - 1/10th of all damage from your Unarmed attacks and techniques is dealt to all enemies who are square-side-adjacent to your target, ignoring Evasion and Armor.
+      - Mapless: The enemy row that contains the enemy you are targeting.
   - Moon: You gain the Moon Night-Eye status condition.
     - **Moon Night-Eye** - Your Physical Accuracy, Magical Accuracy and Magical Evasion are increased by an amount equal to half of your Power Level.
   - Water: You gain the Water Flow Returning Force status condition.
     - **Water Flow Returning Force** - Every time you take more than 1 damage from an enemy who is square-side-adjacent, and your Magical Evasion is greater than 1.5x that enemy's Magical Accuracy, you immediately do an Unarmed attack against that enemy. This does not use APs and occurs immediately after you took the damage, thus possibly preventing the enemy from using the rest of their APs depending on circumstances.
+      - Mapless: Front row to front row fighting.
   - Wood: You gain the Wood Tree Of Life status condition.
     - **Wood Tree Of Life** - Every time you regain Health, 1/4th of that regain is additionally done to all square-side-adjacent allies.
+      - Mapless: Your current row.
 
 #### Rating 20
 
@@ -1490,7 +1493,7 @@ Mapless: Melee mode can reach from Front Row to Front Row only. Ranged mode can 
 **Song of Marching**:
 
 - Affects yourself and all allies.
-- Mapless: Gain 1 additional Maneuver per Move Action.
+- Mapless: The targeted people gain 1 additional Maneuver per Move Action.
 - Affected people under the effect of Shield Wall or Spear Wall gain 5 additional feet of horizontal movement per Move Action.
 
 **Song of Perception**:
@@ -2524,6 +2527,7 @@ Falling damage is equal to 2 points for each foot beyond your maximum downwards 
 ## Status Conditions
 
 - **Air Tornado Upper** - When you cause more than 1 damage with an Unarmed attack or technique, and your Magical Accuracy is greater than 1.5x the target's Magical Evasion, you cause the target to spin around and change facing to a direction of your choice.
+  - Mapless: You cause the target to lose 2 Maneuver.
 - **Airyspeedy** - Horizontal movement speed increased by 10 feet. Add half your Power Level to your Physical Evasion.
   - Mapless: You gain 2 additional Maneuver per Move action.
 - **Babbling** - Unable to do actions that require speaking, or spending Energy. Removed whenever you take Dark elemental damage.
@@ -2531,13 +2535,16 @@ Falling damage is equal to 2 points for each foot beyond your maximum downwards 
 - **Blinded** - Physical Accuracy and Physical Evasion are halved. Cannot do anything requiring line-of-sight. Removed whenever you take Dark elemental damage. Can be removed by spending all action points to wipe your eyes.
 - **Blood Poisoning** - Lose an amount of Health equal to 25% of your Maximum Health per status phase. Removed whenever you take Moon elemental damage.
 - **Buried** - Physical Evasion and Physical Power are halved. Horizontal movement is halved. Removed whenever you take Air elemental damage. Can be removed by spending all action points to dig yourself out.
+  - Mapless: The amount of Maneuver you gain from Move actions is halved.
 - **Burning** - Lose an amount of Health equal to 10% of your Maximum Health per status phase. Removed whenever you take Water elemental damage. Can be removed by spending all action points to stop, drop, and roll.
 - **Chilled** - Physical Armor and Magical Armor are halved. Cannot jump. Removed whenever you take Fire elemental damage. Can be removed by spending all action points to jump up and down and warm yourself up.
 - **Crystal Diffusion Fists** - When you cause at least 4 damage with an Unarmed attack or technique, and your Magical Accuracy is greater than 1.5x the target's Magical Evasion, 1/4th of your damage is additionally dealt to the target's Energy.
 - **Crystalbarrier** - All melee and reach attacks aimed at you will cause the attacker to get the Bleeding status. Add your Power Level to your Physical Armor.
 - **Dark Force Ark** - When you cause more than 1 damage with an Unarmed attack or technique, you and all square-side-adjacent allies regain 1 Energy.
+  - Mapless: All allies in your row
 - **Dehydration** - Physical Power is zero. Removed whenever you take Water elemental damage.
 - **Earth Stone Pillar Body** - You cannot be moved or turned around unwillingly. Your Physical Armor is increased by an amount equal to half of your Power Level.
+  - Mapless: You cannot lose Maneuver from enemy actions.
 - **Elemental Armor Coating: <Specific>** - Requires that you use armor and/or a shield. Incoming damage from the specified element is halved. The most recent application of this status removes all previous applications.
 - **Elemental Armor Resin: <Specific>** - Requires that you use armor and/or a shield. Incoming damage from the specified element is nullified. If this occurs, then one stack of this status is also removed during the status phase. The most recent application of this status removes all previous applications.
 - **Elemental Charge Feedback: <Specific>** - All element charges of the specified element instead cause you to lose health, then the charges disappear. The amount is 10% of your Maximum Health for each charge. This includes all charges you have when the status is first caused, and all charges you gain while having this status. The most recent application of this status removes all previous applications.
@@ -2548,16 +2555,18 @@ Falling damage is equal to 2 points for each foot beyond your maximum downwards 
 - **Elemental Weapon Resin: <Specific>** - All of your weapons have their damage type changed to be of the specified element. They also add your Power Level to the damage. If the damage boost occurs, then one stack of this status is removed during the status phase. The most recent application of this status removes all previous applications. If you have both Elemental Weapon Coating and Elemental Weapon Resin statuses, then the Resin effect supercedes the Coating effect until the Resin wears off, after which the Coating will take over.
 - **Entombed** - Unable to move. Physical Evasion is zero. Removed whenever you take Air elemental damage.
 - **Fire Wheel Sprinting** - Your horizontal movement is increased by 10 feet. Every enemy who you move past in square-side contact receives an amount of Fire damage equal to 1/10th of your Magical Power, ignoring Magical Armor and Magical Evasion.
+  - Mapless: You gain 2 additional Maneuver from Move actions. You cause damage to one enemy per 2 Maneuver spent to target an enemy's flank or rear.
 - **Fireaura** - You cause fire damage to all adjacent enemies during the status phase, as if it had been done by the Burning status. Add your Power Level to your Magical Armor.
+  - Mapless: Front Row of enemies.
 - **Fluidmotion** - You move through liquids as if it were normal ground. Maximum downwards jump distance is increased by 20 feet. You can move upwards through liquids, such as waterfalls, without using up any upwards jump.
 - **Forgetfulness** - Lose an amount of Energy equal to 25% of your Maximum Energy per status phase. Removed whenever you take Light elemental damage.
 - **Fragility** - Physical Armor is zero. Removed whenever you take magical damage. Can be removed by spending all action points to recollect yourself.
 - **Light Shining Finger** - 1/10th of all damage from your Unarmed attacks and techniques is dealt to all enemies who are square-side-adjacent to your target, ignoring Evasion and Armor.
+  - Mapless: Front Row of enemies.
 - **Melting** - Lose an amount of Health equal to 10% of your Maximum Health per status phase. Physical Armor and Magical Armor are halved. Removed whenever you take Water elemental damage.
 - **Mindmaze** - Magical Accuracy and Magical Evasion are halved. Can be removed by spending all action points to clear your mind.
 - **Moon Madness** - You are only able to do unarmed attacks and techniques. Removed whenever you take Wood elemental damage.
 - **Moon Night-Eye** - Your Physical Accuracy, Magical Accuracy and Magical Evasion are increased by an amount equal to half of your Power Level.
-  - Water: You gain the Water Flow Returning Force status condition.
 - **Overheat** - You take an amount of damage equal to 10% of your Maximum Health for each Action Point you use. When you do a Charge action, you furthermore take damage equal to double the amount of Energy you gained. One stack of Overheat is removed during the status phase.
 - **Preserving Compress** - You do not take damage from status conditions.
 - **Recharging** - Regain an amount of Energy equal to 10% of your Maximum Energy per status phase.
@@ -2575,9 +2584,29 @@ Falling damage is equal to 2 points for each foot beyond your maximum downwards 
 - **Thorns** - Whenever you do damage, you lose an amount of Health equal to 10% of your Maximum Health. One stack of Thorns is removed during the status phase.
 - **Venom** - Lose an amount of Health equal to 5% of your Maximum Health per status phase. Lose an amount of Energy equal to 5% of your Maximum Energy per status phase.
 - **Water Flow Returning Force** - Every time you take more than 1 damage from an enemy who is square-side-adjacent, and your Magical Evasion is greater than 1.5x that enemy's Magical Accuracy, you immediately do an Unarmed attack against that enemy. This does not use APs and occurs immediately after you took the damage, thus possibly preventing the enemy from using the rest of their APs depending on circumstances.
+  - Mapless: Against an enemy in the Front Row.
 - **Wood Tree Of Life** - Every time you regain Health, 1/4th of that regain is additionally done to all square-side-adjacent allies.
+  - Mapless: Allies in the same row.
 
 # 8. World Details
+
+## True Allies
+
+Eventually, the Empire will commit more and more forces to destroying your Island, until you are overwhelmed. Perhaps you can bet on the Empire overcommitting and collapsing, but that would not happen until many more such battles, and it would leave a continental state that still has the Imperial Adtextus, as well as your own Island ravaged beyond repair. Therefore, you can expect to be spending a considerable amount of time gathering allies to stretch the Empire thinner, and ultimately, take the fight back to the continent.
+
+### Other Sky Islands
+
+Other Sky Islands have very different customs, traditions, languages, people, plants, and possibly even land types. Despite these differences, they will ally with any who consistently oppose the Empire.
+
+They may even have a better understanding of how to take care of certain types of people and animals than you do. They will recognize if you stop and listen, or if you merely impose your own ways.
+
+### Ocean Islands
+
+Most Ocean Islands have been thoroughly depleted by the Empire, and have been reduced to naval and airship bases. But if someone were to defeat the Imperial presence on these islands, then they would be open to new ideas that could sustain life. The people tend to need extra education on how to live without hierarchy or money, but the results speak for themselves.
+
+### Slave Camps
+
+Slave Camps are mostly populated by kidnapped Islanders, although they also have Imperials who failed all other "correctional" processes. The Empire relies so much on slave labor that if a sufficient number of camps rebelled at the same time, the war machine could be damaged or even forced to retreat. The camps will need weapons, armor, supplies and other assistance in order to overthrow their masters. Furthermore, if they are not taught how to live without money or hierarchy, then they may fall under the sway of other Senators rather than actually being freed.
 
 ## Temporary Allies
 
