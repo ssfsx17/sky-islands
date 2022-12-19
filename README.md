@@ -2,7 +2,7 @@
 
 [Game Rules here](/readable.md)
 
-[Chat on Discord](https://discord.gg/CG8HwGv)
+[Official Discord space](https://discord.gg/vESjVeSTsw)
 
 ## Progress
 

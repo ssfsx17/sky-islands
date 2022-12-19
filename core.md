@@ -1,6 +1,6 @@
 % Sky Islands
 % by XcessiveNinja17
-% [Official Discord space](https://discord.gg/CG8HwGv)
+% [Official Discord space](https://discord.gg/vESjVeSTsw)
 
 # 1. Introduction
 
